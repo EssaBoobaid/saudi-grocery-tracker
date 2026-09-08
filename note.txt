@@ -1,0 +1,974 @@
+KNOWN_BRANDS = [
+    # English
+    "Florida's Natural", "The Ginger People", "Al Qasim Produce",
+    "Philippine Brand", "La Vache Qui Rit", "Solan de Cabras",
+    "The Three Cows", "Orient Gardens", "Cathedral City", "Philadelphia",
+    "Mountain Dew", "S.Pellegrino", "Vitamin Well", "Power Horse",
+    "Rude Health", "Driscoll's", "Martinelli", "Natureland", "Capri-Sun",
+    "Dr.Pepper", "Coca Cola", "Starbucks", "President", "Schweppes",
+    "Sun Blast", "Barbican", "Sunbulah", "Vitamizu", "Cofrutos",
+    "Heineken", "Code Red", "Cacaolat", "Victoria", "Al Rabie",
+    "Valbreso", "Rubicon", "Landana", "Actimel", "Belvoir", "Halwani",
+    "Danette", "Forsana", "Perrier", "Mirinda", "Activia", "Babybel",
+    "Beltion", "Mishkat", "Violife", "Almarai", "Al Safi", "Juhayna",
+    "Caesar", "Suntop", "Balade", "Puvana", "Saudia", "Twisst", "Berain",
+    "Lurpak", "Sprite", "Rockit", "Moussy", "Klasse", "Scotti", "Lipton",
+    "Rauch", "Nerve", "Sante", "Vimto", "Milaf", "Nadec", "Ultra",
+    "Pepsi", "Kraft", "Pinar", "Kinza", "Frico", "Yopro", "Safio",
+    "Fanta", "Koita", "Akoya", "Vinut", "Twist", "Hotly", "Orasi",
+    "Bonny", "Queen", "Monin", "Oatly", "Prime", "Pride", "Alpro",
+    "Spada", "Evian", "Regal", "Danao", "Luna", "Nova", "Dari", "RARE",
+    "Arwa", "Oska", "Rita", "Safa", "Kiri", "Puck", "Fifa", "Alsi",
+    "Goro", "Noug", "Arla", "Nada", "7 Up", "Rani", "Zoi", "OKF", "May",
+    "KDD", "Danube", "Original", "Rockstar", "Juicy", "Danya", "Shani",
+    "Legero", "Senac", "Disfruta", "Canada", "Anchor", "Aquafina", "Ava",
+    "Tania", "Nestlé", "Nescafe", "Fakieh", "Entaj", "Volvic", "Voss",
+    "Zamzam", "Red Bull",
+
+    # Arabic
+    "فلوريدا ناتشورال", "ذا جينجر بيبول", "القصيم بروديوس",
+    "فيليبيني براند", "لافاش كيري", "سولان دي كابراس",
+    "ذا ثري كاوز", "أورينت جاردنز", "كاتدرال سيتي", "فيلادلفيا",
+    "ماونتن ديو", "سان بيليغرينو", "فيتامين ويل", "باور هورس",
+    "رود هيلث", "دريسكولز", "مارتينيلي", "نيتشرلاند", "كابري صن",
+    "دكتور بيبر", "كوكا كولا", "ستاربكس", "بريزيدنت", "شويبس",
+    "صن بلاست", "باربيكان", "سنبل", "فيتاميزو", "كوفروتوس",
+    "هاينكن", "كود ريد", "كاكاولات", "فيكتوريا", "الربيع",
+    "فالبريزو", "روبيكون", "لاندانا", "أكتيميل", "بلفوار", "حلواني",
+    "دانونيت", "فورسانا", "بيرييه", "ميرندا", "أكتيفيا", "بيبيبل",
+    "بيلتيون", "مشكات", "فايلف", "المراعي", "الصافي", "جهينة",
+    "سيزر", "سنتوب", "بالاد", "بوفانا", "سعوديا", "تويست", "بيرين",
+    "لورباك", "سبرايت", "روكيت", "موسي", "كلاسي", "سكوتي", "ليبتون",
+    "راوخ", "نيرف", "سانتي", "فيمتو", "ميلاف", "نادك", "ألترا",
+    "بيبسي", "كرافت", "بينار", "كينزا", "فريكو", "يوبرو", "صافيو",
+    "فانتا", "كويتا", "أكويا", "فينوت", "تويست", "هوتلي", "أوراسي",
+    "بوني", "كوين", "مونين", "أوتلي", "برايم", "برايد", "ألبرو",
+    "سبادا", "إيفيان", "ريغال", "داناو", "لونا", "نوفا", "داري", "رير",
+    "أروى", "أوسكا", "ريتا", "صفا", "كيري", "بوك", "فيفا", "ألسي",
+    "جورو", "نوغ", "أرلا", "ندى", "7 أب", "راني", "زوي", "أوكاي إف",
+    "ماي", "كي دي دي", "دانوب", "أوريجينال", "روكستار", "جوسي", "دانية",
+    "شاني", "ليغيرو", "سيناك", "ديسفروتا", "كانادا", "أنكور", "أكوافينا",
+    "آفا", "تانيا", "نستله", "نسكافيه", "فقيه", "إنتاج", "فولفيك", "فوس",
+    "زمزم", "ريد بول"
+]
+
+
+
+
+الان كود التنظيف silver الي ابيه يكون نظيف يعني لكل ماركت يمر على الثلاث كاتاقوريات وينظفها + معلومه التميمي الاسم بس انجليزي ف العربي يخليه null عادي + الاسامي يتم تنظفيها البراندات كل واحد مكانه 
+
+ذي اهم شي ركز فيها 
+
+وسائل تساعدك 
+
+KNOWN_BRANDS = [
+    # English
+    "Florida's Natural", "The Ginger People", "Al Qasim Produce",
+    "Philippine Brand", "La Vache Qui Rit", "Solan de Cabras",
+    "The Three Cows", "Orient Gardens", "Cathedral City", "Philadelphia",
+    "Mountain Dew", "S.Pellegrino", "Vitamin Well", "Power Horse",
+    "Rude Health", "Driscoll's", "Martinelli", "Natureland", "Capri-Sun",
+    "Dr.Pepper", "Coca Cola", "Starbucks", "President", "Schweppes",
+    "Sun Blast", "Barbican", "Sunbulah", "Vitamizu", "Cofrutos",
+    "Heineken", "Code Red", "Cacaolat", "Victoria", "Al Rabie",
+    "Valbreso", "Rubicon", "Landana", "Actimel", "Belvoir", "Halwani",
+    "Danette", "Forsana", "Perrier", "Mirinda", "Activia", "Babybel",
+    "Beltion", "Mishkat", "Violife", "Almarai", "Al Safi", "Juhayna",
+    "Caesar", "Suntop", "Balade", "Puvana", "Saudia", "Twisst", "Berain",
+    "Lurpak", "Sprite", "Rockit", "Moussy", "Klasse", "Scotti", "Lipton",
+    "Rauch", "Nerve", "Sante", "Vimto", "Milaf", "Nadec", "Ultra",
+    "Pepsi", "Kraft", "Pinar", "Kinza", "Frico", "Yopro", "Safio",
+    "Fanta", "Koita", "Akoya", "Vinut", "Twist", "Hotly", "Orasi",
+    "Bonny", "Queen", "Monin", "Oatly", "Prime", "Pride", "Alpro",
+    "Spada", "Evian", "Regal", "Danao", "Luna", "Nova", "Dari", "RARE",
+    "Arwa", "Oska", "Rita", "Safa", "Kiri", "Puck", "Fifa", "Alsi",
+    "Goro", "Noug", "Arla", "Nada", "7 Up", "Rani", "Zoi", "OKF", "May",
+    "KDD", "Danube", "Original", "Rockstar", "Juicy", "Danya", "Shani",
+    "Legero", "Senac", "Disfruta", "Canada", "Anchor", "Aquafina", "Ava",
+    "Tania", "Nestlé", "Nescafe", "Fakieh", "Entaj", "Volvic", "Voss",
+    "Zamzam", "Red Bull",
+
+    # Arabic
+    "فلوريدا ناتشورال", "ذا جينجر بيبول", "القصيم بروديوس",
+    "فيليبيني براند", "لافاش كيري", "سولان دي كابراس",
+    "ذا ثري كاوز", "أورينت جاردنز", "كاتدرال سيتي", "فيلادلفيا",
+    "ماونتن ديو", "سان بيليغرينو", "فيتامين ويل", "باور هورس",
+    "رود هيلث", "دريسكولز", "مارتينيلي", "نيتشرلاند", "كابري صن",
+    "دكتور بيبر", "كوكا كولا", "ستاربكس", "بريزيدنت", "شويبس",
+    "صن بلاست", "باربيكان", "سنبل", "فيتاميزو", "كوفروتوس",
+    "هاينكن", "كود ريد", "كاكاولات", "فيكتوريا", "الربيع",
+    "فالبريزو", "روبيكون", "لاندانا", "أكتيميل", "بلفوار", "حلواني",
+    "دانونيت", "فورسانا", "بيرييه", "ميرندا", "أكتيفيا", "بيبيبل",
+    "بيلتيون", "مشكات", "فايلف", "المراعي", "الصافي", "جهينة",
+    "سيزر", "سنتوب", "بالاد", "بوفانا", "سعوديا", "تويست", "بيرين",
+    "لورباك", "سبرايت", "روكيت", "موسي", "كلاسي", "سكوتي", "ليبتون",
+    "راوخ", "نيرف", "سانتي", "فيمتو", "ميلاف", "نادك", "ألترا",
+    "بيبسي", "كرافت", "بينار", "كينزا", "فريكو", "يوبرو", "صافيو",
+    "فانتا", "كويتا", "أكويا", "فينوت", "تويست", "هوتلي", "أوراسي",
+    "بوني", "كوين", "مونين", "أوتلي", "برايم", "برايد", "ألبرو",
+    "سبادا", "إيفيان", "ريغال", "داناو", "لونا", "نوفا", "داري", "رير",
+    "أروى", "أوسكا", "ريتا", "صفا", "كيري", "بوك", "فيفا", "ألسي",
+    "جورو", "نوغ", "أرلا", "ندى", "7 أب", "راني", "زوي", "أوكاي إف",
+    "ماي", "كي دي دي", "دانوب", "أوريجينال", "روكستار", "جوسي", "دانية",
+    "شاني", "ليغيرو", "سيناك", "ديسفروتا", "كانادا", "أنكور", "أكوافينا",
+    "آفا", "تانيا", "نستله", "نسكافيه", "فقيه", "إنتاج", "فولفيك", "فوس",
+    "زمزم", "ريد بول"
+]
+
+
+        cleaned = re.sub(rf"\b{re.escape(ar_alias)}\b", " ", cleaned, flags=re.IGNORECASE)
+
+    size_pack_patterns = [
+        r"\b\d+\s*[\*xX×]\s*\d+(?:\.\d+)?\s*(?:ml|l|ltr|kg|g|مل|لتر|ل|غم|جم|غرام|جرام|كغم|كيلو)?\b",
+        r"\b\d+(?:\.\d+)?\s*(?:ml|milliliter|liter|litre|ltr|l|kg|g|gram|grams|مل|ملل|لتر|ل|غم|جم|غرام|جرام|كغم|كيلو)\b",
+        r"\b\d+\s*(?:حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|قارورة|قوارير|كيس|صحن)\b",
+    ]
+
+
+ patterns = [
+        (r"(\d+(?:\.\d+)?)\s*(?:liter|litre|ltr|l|لتر|ل)", 1000.0, "ml"),
+        (r"(\d+(?:\.\d+)?)\s*(?:ml|milliliter|مل|ملل)", 1.0, "ml"),
+        (r"(\d+(?:\.\d+)?)\s*(?:kg|kilo|kilogram|كيلو|كجم|كغ)", 1000.0, "g"),
+        (r"(\d+(?:\.\d+)?)\s*(?:g|gram|grams|غرام|جرام|غم|جم)", 1.0, "g"),
+
+
+نبذه عن البيانات من كل متجر 
+
+بن داوود 
+
+{
+    "master_id": 45259,
+    "tenant_id": 2,
+    "tenant_key": "BIN",
+    "name_en": "Loumi Soft Drink Citrus Flavour",
+    "name_ar": "لومي مشروب غازي بنكهة الحمضيات",
+    "full_name_en": "Milaf Loumi Soft Drink Citrus Flavour 24*240ml",
+    "full_name_ar": "ميلاف لومي مشروب غازي بنكهة الحمضيات ٢٤*٢٤٠مل",
+    "cashback_text": null,
+    "cashback_text_ar": null,
+    "validity_tag_en": null,
+    "validity_tag_ar": null,
+    "url_en": "/en/products/milaf-loumi-soft-drink-citrus-flavour-24-star-240-ml",
+    "url_ar": "/products/milaf-loumi-soft-drink-citrus-flavour-24-star-240-ml",
+    "price": 48.0,
+    "on_sale": false,
+    "original_price": 48.0,
+    "image": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/084/427/product/628800400318.jpg",
+    "weighted": false,
+    "weight_increment": 0,
+    "max_weight_per_order": 5000,
+    "min_weight_per_order": null,
+    "default_weight_count": 1,
+    "meta_keywords": [
+      "citrus",
+      "soda",
+      "carbonated",
+      "drink",
+      "lemon",
+      "lime",
+      "حمضيات",
+      "صودا",
+      "ميلاف",
+      "الليمون",
+      "ليمون"
+    ],
+    "product_properties": {
+      "en": {},
+      "ar": {}
+    },
+    "complete_order_count": null,
+    "taxons_en": {
+      "lvl0": [
+        "Departments"
+      ],
+      "lvl1": [
+        "Departments > Beverages & Water",
+        "Departments > Weekly Offers"
+      ],
+      "lvl2": [
+        "Departments > Weekly Offers > Snacks  & Beverages",
+        "Departments > Beverages & Water > Carbonated & Sparkling Drinks"
+      ],
+      "lvl3": [
+        "Departments > Beverages & Water > Carbonated & Sparkling Drinks > Citrus Carbonated Drinks"
+      ]
+    },
+    "position": 68094,
+    "taxons_ar": {
+      "lvl0": [
+        "الأقسام"
+      ],
+      "lvl1": [
+        "الأقسام > العروض الأسبوعية",
+        "الأقسام > الماء و المشروبات"
+      ],
+      "lvl2": [
+        "الأقسام > العروض الأسبوعية >  وجبات خفيفة ومشروبات",
+        "الأقسام > الماء و المشروبات > مشروبات غازية و فوارة"
+      ],
+      "lvl3": [
+        "الأقسام > الماء و المشروبات > مشروبات غازية و فوارة > مشروبات غازية بالحمضيات"
+      ]
+    },
+    "taxon_ids": {
+      "lvl1": [
+        313,
+        1799
+      ],
+      "lvl2": [
+        901,
+        1801
+      ],
+      "lvl3": [
+        3721
+      ],
+      "lvl0": [
+        1
+      ]
+    },
+    "inventory_modifiers": {
+      "137_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "101_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "102_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "103_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "99_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "156_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "20_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "155_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "104_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "23_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "17_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "18_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "201_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "204_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "206_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "16_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "24_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "161_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "100_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "207_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "14_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "59_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "221_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "203_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "205_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "202_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "208_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "210_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "209_": {
+        "price": "48.0",
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
+      "2_": {
+        "price": "24.99",
+        "original_price": "48.0",
+        "on_sale": true,
+        "available": true,
+        "in_stock": true,
+        "savings_tag": "47%",
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      }
+    },
+    "in_stock": true,
+    "ramadan_box": false,
+    "is_electronic_item": false,
+    "preferred_cuts": {},
+    "marketing_tag_details": null,
+    "brand_en": "Milaf",
+    "brand_ar": "ميلاف",
+    "express": false,
+    "availability_type": "regular",
+    "subscription_only": false,
+    "depend_only_inventory_details": true,
+    "perform_liquid_weight_check": false,
+    "loyalty_point": "1.0",
+    "buy_x_product": false,
+    "weight": "0.0",
+    "moq_limit": 0,
+    "user_moq_limit_per_day": 0,
+    "has_campaign_per_person_limit": false,
+    "purchases_last_7_days": 0,
+    "purchases_last_7_days_updated_at": null,
+    "variants": [],
+    "objectID": "45257",
+    "_highlightResult": {
+      "name_en": {
+        "value": "Loumi Soft Drink Citrus Flavour",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "name_ar": {
+        "value": "لومي مشروب غازي بنكهة الحمضيات",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "full_name_en": {
+        "value": "Milaf Loumi Soft Drink Citrus Flavour 24*240ml",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "full_name_ar": {
+        "value": "ميلاف لومي مشروب غازي بنكهة الحمضيات ٢٤*٢٤٠مل",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "meta_keywords": [
+        {
+          "value": "citrus",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "soda",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "carbonated",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "drink",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "lemon",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "lime",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "حمضيات",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "صودا",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "ميلاف",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "الليمون",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        {
+          "value": "ليمون",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      ],
+      "brand_en": {
+        "value": "Milaf",
+        "matchLevel": "none",
+        "matchedWords": []
+      },
+      "brand_ar": {
+        "value": "ميلاف",
+        "matchLevel": "none",
+        "matchedWords": []
+      }
+    },
+    "_category_name": "Beverages & Water"
+  },
+  {
+
+
+لولو
+{
+    "pk": 86567,
+    "name": "جبنة رومي مصرية قديمة 300 جم تقريبا",
+    "sku": "998758_EA",
+    "base_code": "998758",
+    "attributes": {
+      "ean": "2200007369041,6294019411122,2733080000001",
+      "brand": "Fresh",
+      "vegan": false,
+      "is_mto": true,
+      "ArtType": "00",
+      "BaseUoM": "KGM",
+      "level_1": "Fresh Food",
+      "level_2": "Dairy , Eggs & Cheese",
+      "organic": false,
+      "MultiUOM": "9",
+      "lulu_ean": "6294019411122",
+      "boost_text": "roumy cheese,old roumy cheese,egyptian cheese,cheese,fresh cheese",
+      "convtobuom": "300",
+      "sugar_free": false,
+      "Description": "Egyptian Old  Roumy Cheese",
+      "SubCategory": "009001001",
+      "gluten_free": false,
+      "lactose_free": false,
+      "product_name": "Egyptian Old Roumy Cheese 300 g",
+      "search_category": "fresh",
+      "lulu_product_type": "Speciality Cheese",
+      "pack_variant_type": "Single Material",
+      "shipment_type_ksa": "Quick",
+      "shipment_type_kwt": "Quick",
+      "shipment_type_qtr": "Quick",
+      "shipment_type_uae": "Quick",
+      "kafka_product_type": "Pack Variant",
+      "shipment_type_oman": "Quick",
+      "shipping_attribute": "Scheduled delivery",
+      "shipment_type_bahrain": "Quick",
+      "shipping_attribute_ksa": "Scheduled delivery",
+      "shipping_attribute_kwt": "Scheduled delivery",
+      "shipping_attribute_qtr": "Scheduled delivery",
+      "shipping_attribute_oman": "Scheduled delivery",
+      "maximum_order_quantity_ksa": "2",
+      "shipping_attribute_bahrain": "Scheduled delivery",
+      "width": "0",
+      "length": "0",
+      "volume": "0",
+      "content": "300 g",
+      "keywords": "roumy cheese,old roumy cheese,egyptian cheese,cheese,fresh cheese",
+      "main_ean": "2200007369041",
+      "store_id": "3220",
+      "warranty": "0",
+      "bullet_point_1": "النكهة القوية للجبنة الرومي لا تتغلب على المكونات الأخرى",
+      "bullet_point_2": "تتميز باللون الأصفر وقوام رائع",
+      "bullet_point_3": "معروفه بكونها مصدر غني بالبروتين",
+      "bullet_point_4": "تأتي مقطعة مسبقًا لتوفير الوقت والجهد الكافيين",
+      "bullet_point_5": "مثالية لعمل الساندويتش أو التقديم مع الزيتون الأسود والمخللات",
+      "product_description": "<p>احصل على التوازن المثالي من التغذية والذوق مع جبنة رومية المصرية القديمة الطازجة. إنها مصنوعة من مكونات طازجة ومن مصادر صحية لمنحك مزيج مثالي من النكهة والجودة. الجبنة رومية تذوب بسهولة وتعتبر اختيار مثالي لإعداد وعاء من المعكرونة والجبنة وتعلوه كمية كبيرة من الخضار. يمكنك أيضاً استخدامها مع الجبنة المخفوقة والبيض المخبوز وغير ذلك الكثير. هذه الجبنة المصرية أيضاً تُعرف باسم جبنة رومية أو جبنة تركي. يختلف مذاقها وقوامها باختلاف فترة تقدمه في السن ويتم تناوله مع خبز القمح الكامل أو الخبز التقليدي. <br><br>الفوائد <br>جبنة رومية توفر مصدر غني للبروتينات والدهون والكربوهيدرات والعناصر الغذائية الأساسية الأخرى لتجعلك تشعر بالشبع لفترة أطول. إنها مثالية للاستهلاك من قبل الناس من جميع الأعمار. <br><br>التخزين <br>يمكنك تخزين جبنة رومية في حاوية جافة محكمة الإغلاق للحفاظ على نضارتها لفترة أطول. احتفظ بها في الثلاجة لضمان تخزين ممتد.</p>",
+      "l_name": "جبنة رومي مصرية قديمة 300 جم تقريبا",
+      "bullet_point_6": "عنصر أساسي في الإفطار المصري",
+      "is_main_stock": true
+    },
+    "attribute_set": 332,
+    "attributes_kwargs": {
+      "brand": {
+        "label": "فريش",
+        "value": "Fresh"
+      },
+      "level_1": {
+        "label": "Fresh Food",
+        "value": "Fresh Food",
+        "data_type": "dropdown"
+      },
+      "level_2": {
+        "label": "Dairy , Eggs & Cheese",
+        "value": "Dairy , Eggs & Cheese",
+        "data_type": "dropdown"
+      },
+      "convtobuom": {
+        "label": "300 g",
+        "value": "300",
+        "data_type": "dropdown"
+      },
+      "lulu_product_type": {
+        "label": "Speciality Cheese",
+        "value": "Speciality Cheese",
+        "data_type": "dropdown"
+      },
+      "shipment_type_ksa": {
+        "label": "Quick",
+        "value": "Quick",
+        "data_type": "dropdown"
+      },
+      "shipment_type_kwt": {
+        "label": "Quick",
+        "value": "Quick",
+        "data_type": "dropdown"
+      },
+      "shipment_type_qtr": {
+        "label": "Quick",
+        "value": "Quick",
+        "data_type": "dropdown"
+      },
+      "shipment_type_uae": {
+        "label": "Quick",
+        "value": "Quick",
+        "data_type": "dropdown"
+      },
+      "shipment_type_oman": {
+        "label": "Quick",
+        "value": "Quick",
+        "data_type": "dropdown"
+      },
+      "shipping_attribute": {
+        "label": "Scheduled delivery",
+        "value": "Scheduled delivery",
+        "data_type": "dropdown"
+      },
+      "shipment_type_bahrain": {
+        "label": "Quick",
+        "value": "Quick",
+        "data_type": "dropdown"
+      },
+      "shipping_attribute_ksa": {
+        "label": "Scheduled delivery",
+        "value": "Scheduled delivery",
+        "data_type": "dropdown"
+      },
+      "shipping_attribute_kwt": {
+        "label": "Scheduled delivery",
+        "value": "Scheduled delivery",
+        "data_type": "dropdown"
+      },
+      "shipping_attribute_qtr": {
+        "label": "Scheduled delivery",
+        "value": "Scheduled delivery",
+        "data_type": "dropdown"
+      },
+      "shipping_attribute_oman": {
+        "label": "Scheduled delivery",
+        "value": "Scheduled delivery",
+        "data_type": "dropdown"
+      },
+      "shipping_attribute_bahrain": {
+        "label": "Scheduled delivery",
+        "value": "Scheduled delivery",
+        "data_type": "dropdown"
+      }
+    },
+    "extra_attributes": {},
+    "productimage_set": [
+      {
+        "pk": 358772,
+        "status": "active",
+        "image": "https://bf1af2.akinoncloudcdn.com/products/2024/12/20/149311/d681d423-13ab-4856-8f9f-382a1f9803d6.jpg",
+        "order": 1,
+        "created_date": "2024-12-20T18:15:16.190321Z",
+        "specialimage_set": []
+      }
+    ],
+    "price": "9.850",
+    "in_stock": true,
+    "currency_type": "sar",
+    "retail_price": "15.000",
+    "unit_type": "qty",
+    "tax_rate": "5.00",
+    "absolute_url": "/p/998758-ea/",
+    "productvideo_set": [],
+    "product_type": "0",
+    "price_type": "default",
+    "form_schema": null,
+    "is_ready_to_basket": false,
+    "stock": 330,
+    "data_source": null,
+    "basket_offers": [],
+    "data_source_offers": [],
+    "extra_data": {
+      "variants": [
+        {
+          "options": [
+            {
+              "label": "300 g",
+              "product": {
+                "pk": 86567,
+                "sku": "998758_EA",
+                "name": "جبنة رومي مصرية قديمة 300 جم تقريبا",
+                "price": "9.850",
+                "attributes": {
+                  "convtobuom": "300"
+                },
+                "absolute_url": "/p/998758-ea/",
+                "retail_price": "15.000",
+                "productimage_set": [
+                  {
+                    "pk": 358772,
+                    "image": "https://bf1af2.akinoncloudcdn.com/products/2024/12/20/149311/d681d423-13ab-4856-8f9f-382a1f9803d6.jpg",
+                    "order": 1,
+                    "status": "active",
+                    "created_date": "2024-12-20T18:15:16.190321Z",
+                    "specialimage_set": []
+                  }
+                ]
+              },
+              "in_stock": true,
+              "is_selectable": true
+            }
+          ],
+          "attribute_key": "convtobuom"
+        }
+      ]
+    },
+    "is_listable": true,
+    "listing_code": null,
+    "discount_amount": 5.15,
+    "discount_ratio": 34.33
+  },
+
+
+
+التميمي 
+
+{
+    "averageRating": 0,
+    "barcodes": null,
+    "brand": {
+      "id": 4922,
+      "image": null,
+      "logo": null,
+      "name": "Al Gharbia",
+      "productsCount": 1,
+      "slug": "al-gharbia"
+    },
+    "clientItemId": "369531_1",
+    "createdAt": "2020-06-24T00:32:21Z",
+    "description": "",
+    "handlingDays": 0,
+    "hasVariants": 1,
+    "id": 137805,
+    "images": null,
+    "imagesExtra": null,
+    "isCustomerNotified": false,
+    "metaData": {
+      "merchandise": "369531_1"
+    },
+    "name": "Large White Eggs Plastic Packaging",
+    "offers": [],
+    "primaryCategory": {
+      "id": 37,
+      "image": "",
+      "name": "EGGS",
+      "parentCategory": {
+        "id": 36,
+        "image": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250313/15307-20250313-074312.webp",
+        "name": "DAIRY",
+        "parentCategory": {
+          "id": 2,
+          "image": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20231130/1-01-20231130-074417.png",
+          "name": "FRESH",
+          "parentCategory": null,
+          "slug": "fresh"
+        },
+        "slug": "dairy"
+      },
+      "slug": "eggs"
+    },
+    "primaryCategoryId": 37,
+    "restrictions": null,
+    "slug": "large-white-eggs-2",
+    "soldByWeight": 0,
+    "stockOverride": {
+      "enableMultiple": false,
+      "maxPurchasableStock": null,
+      "minPurchasableStock": null
+    },
+    "storeSpecificData": null,
+    "tagLine": null,
+    "totalReviews": 0,
+    "type": "PRODUCT",
+    "variants": [
+      {
+        "barcodes": [
+          "6287011950041"
+        ],
+        "clientItemId": "369531_EA",
+        "fullName": "Large White Eggs Plastic Packaging-30 count",
+        "id": 218524,
+        "images": [
+          "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250326/3695311-20250326-120924.webp"
+        ],
+        "imagesExtra": {
+          "s320": [
+            "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250326/3695311-20250326-120924.webp"
+          ]
+        },
+        "isCustomerNotified": false,
+        "metaData": null,
+        "name": "30 count",
+        "offers": [],
+        "productId": 137805,
+        "properties": null,
+        "restrictions": null,
+        "stockOverride": {
+          "enableMultiple": false,
+          "maxPurchasableStock": null,
+          "minPurchasableStock": null
+        },
+        "storeSpecificData": [
+          {
+            "discount": "7.96",
+            "mrp": "22.95",
+            "stock": 187,
+            "storeId": 4,
+            "tax": {
+              "VAT": 15
+            },
+            "unit": 1,
+            "unlimitedStock": false
+          }
+        ]
+      }
+    ],
+    "_category_key": "dairy_and_eggs"
+  },
+
+
+
+
+
+
