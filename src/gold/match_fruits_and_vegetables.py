@@ -169,8 +169,13 @@ def load_existing_history(file_path: Path) -> dict[str, list[dict[str, Any]]]:
     return history_map
 
 
+PREMIUM_DISCRIMINATORS = {
+    "organic", "عضوي", "عضوية", "hydroponic", "مائي", "هيدروبونيك", "baby", "شيري", "صغير"
+}
+
+
 def score_produce_match(prod: dict[str, Any], anchor: dict[str, Any]) -> float:
-    """تقييم مدى ملاءمة المنتج لسلعة GASTAT مع إعطاء أولوية للجذر."""
+    """تقييم مدى ملاءمة المنتج لسلعة GASTAT مع استبعاد العضوي والشاذ."""
     full_text = normalize_text(f"{prod.get('name_en') or ''} {prod.get('name_ar') or ''}")
 
     # 1. مطابقة الجذر الأساسي شرط إلزامي (طماطم مع طماطم)
@@ -178,7 +183,15 @@ def score_produce_match(prod: dict[str, Any], anchor: dict[str, Any]) -> float:
     if prod_root != anchor["root"]:
         return 0.0
 
-    # 2. فحص نوع العبوة (حزمة vs كيلو)
+    # 2. استبعاد السلع العضوية والمائية إذا لم تكن مذكورة في GASTAT
+    anchor_text = f"{anchor['name_ar']} {anchor['name_en']}".lower()
+    is_anchor_organic = any(w in anchor_text for w in PREMIUM_DISCRIMINATORS)
+    is_prod_organic = any(w in full_text for w in PREMIUM_DISCRIMINATORS)
+
+    if is_prod_organic and not is_anchor_organic:
+        return 0.0  # استبعاد تام للمنتج العضوي
+
+    # 3. فحص نوع العبوة والتوافق في الحجم (950g تعتبر 1kg)
     prod_unit = str(prod.get("size_unit") or "").lower()
     is_bundle_prod = any(u in prod_unit for u in ["bundle", "حزمة", "ربطة"]) or any(
         w in full_text for w in ["حزمة", "ربطة", "bundle"]
@@ -190,7 +203,7 @@ def score_produce_match(prod: dict[str, Any], anchor: dict[str, Any]) -> float:
 
     score = 1.0
 
-    # 3. ترجيح المنشأ (محلي vs مستورد)
+    # 4. ترجيح المنشأ (محلي vs مستورد)
     is_prod_local = "محلي" in full_text or "وطني" in full_text or "local" in full_text
     is_prod_imported = "مستورد" in full_text or "imported" in full_text
 
@@ -199,10 +212,16 @@ def score_produce_match(prod: dict[str, Any], anchor: dict[str, Any]) -> float:
     elif anchor["is_imported"] and is_prod_imported:
         score += 0.5
 
-    # ترجيح إضافي عند تطابق أجزاء من الاسم (مثل: مصري، باكستاني، أحمر، أصفر)
-    for word in normalize_text(anchor["name_ar"]).split():
-        if len(word) >= 3 and word in full_text:
-            score += 0.2
+    # 5. ترجيح السعر الواقعي الأقرب لـ GASTAT لمنع اختيار الأسعار الشاذة
+    prod_price = prod.get("price")
+    benchmark = anchor.get("benchmark_price")
+    if prod_price and benchmark and benchmark > 0:
+        # كلما كان السعر قريباً من المؤشر الحكومي زادت نقاط الترجيح
+        price_diff_ratio = abs(prod_price - benchmark) / benchmark
+        if price_diff_ratio <= 1.0:  # السعر لا يتعدى ضعف المؤشر
+            score += max(0.0, 1.0 - price_diff_ratio)
+        else:
+            score -= 0.5  # معاقبة السعر البعيد جداً مثل الـ 18 ريال
 
     return score
 
