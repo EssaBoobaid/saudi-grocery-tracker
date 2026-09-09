@@ -1,11 +1,27 @@
 pandas>=2.2,<3
-requests>=2.31,<3
 rapidfuzz>=3.6,<4
 httpx>=0.27,<1
 loguru>=0.7,<1
-beautifulsoup4
 curl_cffi
-
-
+psycopg2-binary>=2.9.9
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+python-dateutil>=2.8.2
+psycopg2-binary
 
 # pip install -r requirements.txt
+
+# 1. حذف الحاويات والمساحة القديمة لقاعدة البيانات لتطبيق التحديث الجذري
+#docker compose down -v
+
+# 1. بناء البيئة وتشغيل قاعدة البيانات في الخلفية:
+#docker compose up -d --build
+
+
+#2. تشغيل الـ Pipeline بالكامل من الـ Terminal:
+# docker compose run --rm app python main.py
+
+
+
+
+#

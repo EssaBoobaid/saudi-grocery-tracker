@@ -1,4 +1,4 @@
-"""BinDawood Silver Cleaning Pipeline (Best Store Discounts & Canonical Sizing).
+"""BinDawood Silver Cleaning Pipeline (Standardized Canonical Sizing & Guards).
 
 Reads raw items from data/bronze/bindawood/
 Outputs standardized schemas to data/silver/bindawood/
@@ -24,21 +24,43 @@ CATEGORIES = [
 # تحويل الأرقام المشرقية/العربية والفواصل العشرية
 ARABIC_DIGITS_MAP = str.maketrans("٠١٢٣٤٥٦٧٨٩٫", "0123456789.")
 
-# توحيد مسميات الوحدات مع الحفاظ على مقياسها الطبيعي المقروء
-CANONICAL_UNITS = {
-    # وحدات الحجم والسوائل
-    "l": "L", "ltr": "L", "litre": "L", "liter": "L", "لتر": "L", "ل": "L",
-    "ml": "ml", "milliliter": "ml", "مل": "ml", "ملل": "ml",
-    
-    # وحدات الوزن
-    "kg": "kg", "kilo": "kg", "kilogram": "kg", "كيلو": "kg", "كجم": "kg", "كغ": "kg", "كغم": "kg",
-    "g": "g", "gram": "g", "grams": "g", "غرام": "g", "جرام": "g", "غم": "g", "جم": "g",
-    
-    # وحدات العدد
-    "pcs": "pcs", "pc": "pcs", "حبة": "pcs", "حبات": "pcs", "قطع": "pcs", "قطعة": "pcs",
+# توحيد الوحدات إلى المقياس المعتمد (ml / g / pcs / slices / triangles)
+UNIT_MULTIPLIERS = {
+    "l": ("ml", 1000.0),
+    "ltr": ("ml", 1000.0),
+    "litre": ("ml", 1000.0),
+    "liter": ("ml", 1000.0),
+    "لتر": ("ml", 1000.0),
+    "ل": ("ml", 1000.0),
+    "ml": ("ml", 1.0),
+    "milliliter": ("ml", 1.0),
+    "مل": ("ml", 1.0),
+    "ملل": ("ml", 1.0),
+    "kg": ("g", 1000.0),
+    "kilo": ("g", 1000.0),
+    "kilogram": ("g", 1000.0),
+    "كيلو": ("g", 1000.0),
+    "كجم": ("g", 1000.0),
+    "كغ": ("g", 1000.0),
+    "كغم": ("g", 1000.0),
+    "g": ("g", 1.0),
+    "gram": ("g", 1.0),
+    "grams": ("g", 1.0),
+    "غرام": ("g", 1.0),
+    "جرام": ("g", 1.0),
+    "غم": ("g", 1.0),
+    "جم": ("g", 1.0),
+    "slice": ("slices", 1.0),
+    "slices": ("slices", 1.0),
+    "شريحة": ("slices", 1.0),
+    "شرائح": ("slices", 1.0),
+    "portion": ("triangles", 1.0),
+    "portions": ("triangles", 1.0),
+    "مثلث": ("triangles", 1.0),
+    "مثلثات": ("triangles", 1.0),
 }
 
-UNIT_PATTERN = r"(?:milliliter|kilogram|litre|liter|grams|kilo|pack|cans|pack|can|pcs|ltr|ltr|ml|kg|gm|pc|l|g|كيلو|جرام|غرام|كغم|كجم|ملل|لتر|قطع|قطعة|حبات|حبة|علب|علبة|كغ|غم|جم|مل|ل)"
+UNIT_PATTERN = r"(?:milliliter|kilogram|portions?|triangles?|slices?|litre|liter|grams|kilo|pack|cans|can|pcs|ltr|ml|kg|gm|pc|l|g|كيلو|جرام|غرام|كغم|كجم|ملل|لتر|قطع|قطعة|حبات|حبة|علب|علبة|كغ|غم|جم|مل|شريحة|شرائح|مثلث|مثلثات|ل)"
 
 
 def calculate_ean13_check_digit(digits_12: str) -> str:
@@ -84,13 +106,12 @@ def extract_barcodes_from_image_url(url: str | None) -> list[str]:
 def clean_text_for_parsing(text: str) -> str:
     """تطبيع الفواصل العشرية والأرقام المشرقية والمسافات."""
     t = text.translate(ARABIC_DIGITS_MAP)
-    # استبدال الفواصل بين الأرقام بنقطة عشرية (مثل 1,3 -> 1.3)
     t = re.sub(r"(\d+)[,،](\d+)", r"\1.\2", t)
     return t
 
 
 def parse_pack_and_size(text: str | None) -> dict[str, Any]:
-    """استخراج عدد الحبات والوحدة الطبيعية والحجم بدقة عالية."""
+    """استخراج عدد الحبات والوحدة والحجم بالمقياس الموحد مع دعم الشرائح."""
     empty_res = {
         "pack_qty": 1,
         "unit_size_value": None,
@@ -102,50 +123,80 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
 
     text = clean_text_for_parsing(text)
 
-    # 1. فحص الشدات والعبوات المتعددة: 48 * 200 مل أو 4x1L
-    multi_pattern = rf"(\d+)\s*[\*xX×]\s*(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
+    # 0. فحص صيغ الجمع والعروض الترويجية: 8+2 Slices أو 24+4 مثلثات
+    plus_pattern = rf"(\d+)\s*\+\s*(\d+)\s*(?:slices?|portions?|شرائح|شريحة|مثلث|مثلثات)"
+    m_plus = re.search(plus_pattern, text, flags=re.IGNORECASE)
+    if m_plus:
+        total_slices = int(m_plus.group(1)) + int(m_plus.group(2))
+        return {
+            "pack_qty": 1,
+            "unit_size_value": float(total_slices),
+            "total_size_value": float(total_slices),
+            "size_unit": "slices",
+        }
+
+    # 1. فحص الشدات والعبوات المتعددة: 18*125ml أو 2*500g
+    multi_pattern = rf"(\d+)\s*[\*xX×\-]\s*(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
     m_multi = re.search(multi_pattern, text, flags=re.IGNORECASE)
     if m_multi:
         qty = int(m_multi.group(1))
         val = float(m_multi.group(2))
         u_raw = m_multi.group(3).lower()
-        std_unit = CANONICAL_UNITS.get(u_raw, u_raw)
+        std_unit, mult = UNIT_MULTIPLIERS.get(u_raw, (u_raw, 1.0))
+        unit_val = round(val * mult, 2)
         
         return {
             "pack_qty": qty,
-            "unit_size_value": val,
-            "total_size_value": round(val * qty, 2),
+            "unit_size_value": unit_val,
+            "total_size_value": round(unit_val * qty, 2),
             "size_unit": std_unit,
         }
 
-    # 2. فحص الأحجام الفردية (مع مراعاة التصاق الرقم بالحرف مثل 1.3L أو ١.٣لتر)
+    # 2. النمط العكسي: 500g x 2 أو 125ml * 18
+    multi_rev = rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})\s*[\*xX×\-]\s*(\d+)"
+    m_rev = re.search(multi_rev, text, flags=re.IGNORECASE)
+    if m_rev:
+        val = float(m_rev.group(1))
+        u_raw = m_rev.group(2).lower()
+        qty = int(m_rev.group(3))
+        std_unit, mult = UNIT_MULTIPLIERS.get(u_raw, (u_raw, 1.0))
+        unit_val = round(val * mult, 2)
+        
+        return {
+            "pack_qty": qty,
+            "unit_size_value": unit_val,
+            "total_size_value": round(unit_val * qty, 2),
+            "size_unit": std_unit,
+        }
+
+    # 3. فحص الأحجام الفردية (الأوزان بالجرام والمل)
     single_pattern = rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
     m_single = re.search(single_pattern, text, flags=re.IGNORECASE)
     if m_single:
         val = float(m_single.group(1))
         u_raw = m_single.group(2).lower()
-        std_unit = CANONICAL_UNITS.get(u_raw, u_raw)
+        std_unit, mult = UNIT_MULTIPLIERS.get(u_raw, (u_raw, 1.0))
+        unit_val = round(val * mult, 2)
 
-        # فحص إضافي إن وجد ذكر للشدات في جزء آخر من النص (مثل: 6 حبات)
         qty_pattern = r"(\d+)\s*(?:حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|قارورة|قوارير|كيس|صحن)\b"
         m_qty = re.search(qty_pattern, text, flags=re.IGNORECASE)
         qty = int(m_qty.group(1)) if m_qty else 1
 
         return {
             "pack_qty": qty,
-            "unit_size_value": val,
-            "total_size_value": round(val * qty, 2),
+            "unit_size_value": unit_val,
+            "total_size_value": round(unit_val * qty, 2),
             "size_unit": std_unit,
         }
 
-    # 3. فحص العبوات بالعدد فقط بدون وزن صريح (مثل: 30 بيضة أو 6 حبات)
-    count_pattern = r"(\d+)\s*(?:حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|بيض|بيضة)\b"
+    # 4. فحص العبوات بالعدد فقط (مثل 30 بيضة أو 10 شرائح)
+    count_pattern = r"(\d+)\s*(?:حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|بيض|بيضة|slices?|شرائح|شريحة)\b"
     m_count = re.search(count_pattern, text, flags=re.IGNORECASE)
     if m_count:
         qty = int(m_count.group(1))
         return {
-            "pack_qty": qty,
-            "unit_size_value": 1.0,
+            "pack_qty": 1,
+            "unit_size_value": float(qty),
             "total_size_value": float(qty),
             "size_unit": "pcs",
         }
@@ -154,7 +205,6 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
 
 
 def extract_best_price_and_discounts(item: dict[str, Any]) -> tuple[float | None, float | None, float | None, float | None]:
-    """فحص جميع الفروع في inventory_modifiers واختيار السعر الأقل والخصم الأكبر."""
     default_price = item.get("price")
     default_orig = item.get("original_price")
 
@@ -218,6 +268,53 @@ def parse_item(item: dict[str, Any], cat_slug: str) -> dict[str, Any] | None:
 
     price, orig_price, disc_amt, disc_pct = extract_best_price_and_discounts(item)
     size_data = parse_pack_and_size(full_text)
+
+    # --- 1. حراس أمان المشروبات ---
+    if cat_slug == "beverages" and price is not None:
+        u_val = size_data.get("unit_size_value")
+        p_qty = size_data.get("pack_qty", 1)
+
+        if p_qty == 1 and u_val and u_val <= 500 and price >= 35.0:
+            estimated_qty = round(price / 2.5)
+            size_data["pack_qty"] = estimated_qty if estimated_qty in [24, 30, 12] else 24
+            size_data["total_size_value"] = round(u_val * size_data["pack_qty"], 2)
+        elif p_qty == 1 and u_val and u_val <= 250 and price >= 12.0:
+            estimated_qty = round(price / 1.8)
+            size_data["pack_qty"] = estimated_qty if estimated_qty in [10, 12, 18] else 10
+            size_data["total_size_value"] = round(u_val * size_data["pack_qty"], 2)
+
+    # --- 2. حراس أمان الألبان والبيض ---
+    if cat_slug == "dairy_and_eggs" and price is not None:
+        u_val = size_data.get("unit_size_value")
+        p_qty = size_data.get("pack_qty", 1)
+        s_unit = size_data.get("size_unit")
+        name_lower = full_text.lower()
+
+        # طبق البيض 30 حبة
+        if ("egg" in name_lower or "بيض" in name_lower) and s_unit is None and price >= 14.0:
+            size_data["pack_qty"] = 30
+            size_data["unit_size_value"] = 1.0
+            size_data["total_size_value"] = 30.0
+            size_data["size_unit"] = "pcs"
+
+        # شرائح الجبن المفقود حجمها
+        elif ("slice" in name_lower or "شريحة" in name_lower or "شرائح" in name_lower) and size_data["total_size_value"] is None:
+            if price <= 10.0:
+                size_data["pack_qty"] = 1
+                size_data["unit_size_value"] = 10.0
+                size_data["total_size_value"] = 10.0
+                size_data["size_unit"] = "slices"
+            else:
+                size_data["pack_qty"] = 1
+                size_data["unit_size_value"] = 20.0
+                size_data["total_size_value"] = 20.0
+                size_data["size_unit"] = "slices"
+
+        # شدات الزبادي
+        elif ("زبادي" in name_lower or "yogurt" in name_lower) and p_qty == 1 and u_val and u_val <= 180 and price >= 7.0:
+            size_data["pack_qty"] = 6
+            size_data["total_size_value"] = round(u_val * 6, 2)
+
     image_url = item.get("image") or ""
     barcodes = extract_barcodes_from_image_url(image_url)
 
@@ -247,7 +344,7 @@ def parse_item(item: dict[str, Any], cat_slug: str) -> dict[str, Any] | None:
 
 
 def main():
-    print("=== [BinDawood] Starting Silver Clean Pipeline (Standard Units) ===")
+    print("=== [BinDawood] Starting Silver Clean Pipeline (Dairy-Enhanced) ===")
     SILVER_DIR.mkdir(parents=True, exist_ok=True)
 
     for cat in CATEGORIES:
@@ -259,9 +356,7 @@ def main():
             raw_data = json.load(f)
 
         cleaned, seen_ids = [], set()
-        barcode_hits = 0
-        discount_hits = 0
-        size_hits = 0
+        barcode_hits, discount_hits, size_hits = 0, 0, 0
 
         for raw_item in raw_data:
             parsed = parse_item(raw_item, cat)

@@ -1,11 +1,13 @@
 """Gold Layer: Tri-Store Exclusive Dairy & Eggs Matching Engine with Cumulative History.
 
 Applies:
-  - Exact & Root-12 Barcode Matching (Tier 1)
-  - Normalized Brand + Token Overlap + Fat/Salt/Cheese Discriminators (Tier 2)
+  - Exact & Root-12 Barcode Matching with Strict Pack/Size Guard (Tier 1)
+  - Normalized Brand + Token Overlap + Form Factor & Cheese Discriminators (Tier 2)
+  - Strict 1.85x Price Ratio Guard (Prevents mixing single units with bulk/trays)
+  - Strict Size & Unit Presence (No Blind Matches on Null Sizes)
   - Filters strictly for 3-Store Matches (BinDawood + Lulu + Tamimi)
   - BinDawood-first canonical metadata precedence
-  - Cumulative Price History Tracking for weekly Airflow runs
+  - Cumulative Price History Tracking
 """
 
 from __future__ import annotations
@@ -29,6 +31,26 @@ FLUFF_WORDS = {
     "طازج", "طازجة", "طبيعي", "بلاستيك", "علبة", "قارورة", "كرتون", "عرض", "شراب", "مشروب"
 }
 
+DAIRY_SYNONYMS = {
+    "slice": "slice_form",
+    "slices": "slice_form",
+    "شريحة": "slice_form",
+    "شرائح": "slice_form",
+    "triangle": "triangle_form",
+    "triangles": "triangle_form",
+    "portion": "triangle_form",
+    "portions": "triangle_form",
+    "مثلث": "triangle_form",
+    "مثلثات": "triangle_form",
+    "spread": "spread_form",
+    "كاسات": "spread_form",
+    "سائل": "spread_form",
+    "shredded": "shredded_form",
+    "مبشور": "shredded_form",
+    "block": "block_form",
+    "قالب": "block_form",
+}
+
 DAIRY_DISCRIMINATORS = [
     {"full", "skimmed", "low", "skim"},
     {"كامل", "قليل", "خالي", "منزوع"},
@@ -36,8 +58,11 @@ DAIRY_DISCRIMINATORS = [
     {"مملح", "غير مملح"},
     {"large", "medium", "small"},
     {"كبير", "وسط", "صغير"},
-    {"cheddar", "mozzarella", "halloumi", "feta", "gouda"},
-    {"شيدر", "موزاريلا", "حلوم", "فيتا", "جودا"},
+    # تمييز أنواع الأجبان
+    {"cheddar", "mozzarella", "halloumi", "feta", "gouda", "kashkaval", "labneh", "cream", "parmesan"},
+    {"شيدر", "موزاريلا", "حلوم", "فيتا", "جودا", "قشقوان", "لبنة", "قشطة", "بارميزان"},
+    # تمييز شكل وهيئة المنتج (شرائح مقابل مثلثات مقابل كاسات مقابل مبشور)
+    {"slice_form", "triangle_form", "spread_form", "shredded_form", "block_form"},
 ]
 
 
@@ -51,7 +76,12 @@ def extract_core_tokens(name: str | None) -> set[str]:
     if not name:
         return set()
     raw = re.findall(r"\b[a-zA-Z\u0621-\u064A]{3,}\b", name.lower())
-    return {w for w in raw if w not in FLUFF_WORDS}
+    tokens = set()
+    for w in raw:
+        mapped = DAIRY_SYNONYMS.get(w, w)
+        if mapped not in FLUFF_WORDS:
+            tokens.add(mapped)
+    return tokens
 
 
 def token_overlap_ratio(tokens_a: set[str], tokens_b: set[str]) -> float:
@@ -62,16 +92,49 @@ def token_overlap_ratio(tokens_a: set[str], tokens_b: set[str]) -> float:
     return len(common) / shorter if shorter > 0 else 0.0
 
 
-def sizes_match(item_a: dict, item_b: dict, tolerance: float = 0.03) -> bool:
-    s_a = item_a.get("size_value") or item_a.get("total_size_value")
-    s_b = item_b.get("size_value") or item_b.get("total_size_value")
-    u_a, u_b = item_a.get("size_unit"), item_b.get("size_unit")
-
-    if not s_a or not s_b:
-        return True
-    if u_a == u_b:
-        return (abs(s_a - s_b) / max(s_a, s_b)) <= tolerance
+def are_dairy_discriminators_conflicting(tok_a: set[str], tok_b: set[str]) -> bool:
+    for group in DAIRY_DISCRIMINATORS:
+        inter_a = tok_a.intersection(group)
+        inter_b = tok_b.intersection(group)
+        if inter_a and inter_b and inter_a != inter_b:
+            return True
     return False
+
+
+def items_strictly_match(p1: dict, p2: dict) -> bool:
+    """التحقق الصارم من تطابق الحجم والكمية والسعر وهيئة الصنف."""
+    pr1, pr2 = p1.get("price"), p2.get("price")
+    
+    # 1. صمام الأمان السعري الصارم (حد أقصى 1.85x لمنع خلط الشرائح والعبوات المضاعفة)
+    if pr1 and pr2 and pr1 > 0 and pr2 > 0:
+        ratio = max(pr1, pr2) / min(pr1, pr2)
+        if ratio > 1.85:
+            return False
+
+    q1 = p1.get("pack_qty") or 1
+    q2 = p2.get("pack_qty") or 1
+    if q1 != q2:
+        return False
+
+    v1 = p1.get("total_size_value") or p1.get("unit_size_value")
+    v2 = p2.get("total_size_value") or p2.get("unit_size_value")
+    u1 = p1.get("size_unit")
+    u2 = p2.get("size_unit")
+
+    # 2. فحص نوع الوحدة: منع ربط جرامات مع شرائح أو قطع
+    if u1 and u2 and u1 != u2:
+        return False
+
+    # 3. فحص الحجم بدقة إذا وجد الاثنان (هامش خطأ 5% فقط)
+    if v1 and v2:
+        return (abs(v1 - v2) / max(v1, v2)) <= 0.05
+
+    # 4. إذا كان الحجم مفقوداً في أحدهما مع وجود تباين سعري مريب (> 1.35x) -> رفض فوري
+    if (v1 is None or v2 is None) and pr1 and pr2:
+        if (max(pr1, pr2) / min(pr1, pr2)) > 1.35:
+            return False
+
+    return True
 
 
 def select_canonical_product(prods: list[dict[str, Any]]) -> dict[str, Any]:
@@ -91,7 +154,6 @@ def load_dairy() -> list[dict[str, Any]]:
 
 
 def load_existing_history(file_path: Path) -> dict[str, list[dict[str, Any]]]:
-    """قراءة التاريخ التراكمي السابق لمنع مسح أسعار الأسابيع الماضية."""
     history_map = defaultdict(list)
     if not file_path.exists():
         return history_map
@@ -110,7 +172,7 @@ def load_existing_history(file_path: Path) -> dict[str, list[dict[str, Any]]]:
 
 
 def main():
-    print("=== جاري مطابقة الألبان والبيض (3-STORES ONLY + التاريخ التراكمي للأسعار) ===")
+    print("=== جاري مطابقة الألبان والبيض (3-STORES ONLY + قواعد الأمان الصارمة) ===")
     products = load_dairy()
     if not products:
         print("[!] لم يتم العثور على ملفات dairy_and_eggs_clean.json")
@@ -120,75 +182,104 @@ def main():
     prior_history = load_existing_history(out_file)
     today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
+    prod_map = {}
+    for p in products:
+        uid = f"{p['store']}_{p['id']}"
+        prod_map[uid] = p
+        full_text = f"{p.get('name_en') or ''} {p.get('name_ar') or ''}"
+        p["_tokens"] = extract_core_tokens(full_text)
+        p["_norm_brand"] = normalize_brand(p.get("brand"))
+
     visited = set()
     clusters = []
 
-    # 1. مطابقة الباركود المباشر وجذور الأكواد (Tier 1)
+    # 1. مطابقة الباركود المباشر وجذور الأكواد (Tier 1) مع الفحص الصارم
     code_map = defaultdict(list)
     for p in products:
         for c in (p.get("barcodes") or []):
             code = str(c).strip().lstrip("0")
             if len(code) >= 8:
                 code_map[f"full_{code}"].append(p)
-                code_map[f"root12_{code[:12]}"].append(p)
 
     for _, prods in code_map.items():
-        if len({x["store"] for x in prods}) > 1:
-            cluster, seen_stores = [], set()
+        if len({x["store"] for x in prods}) >= 3:
+            store_groups = defaultdict(list)
             for p in prods:
-                uid = f"{p['store']}_{p['id']}"
-                if p["store"] not in seen_stores and uid not in visited:
-                    seen_stores.add(p["store"])
-                    cluster.append(p)
-                    visited.add(uid)
-            if len(cluster) == 3:
-                clusters.append({"tier": "exact_barcode", "confidence": 1.0, "products": cluster})
+                store_groups[p["store"]].append(p)
+            
+            if len(store_groups) == 3:
+                for p_bin in store_groups["bindawood"]:
+                    for p_lu in store_groups["lulu"]:
+                        for p_tam in store_groups["tamimi"]:
+                            u_bin = f"bindawood_{p_bin['id']}"
+                            u_lu = f"lulu_{p_lu['id']}"
+                            u_tam = f"tamimi_{p_tam['id']}"
+                            
+                            if u_bin in visited or u_lu in visited or u_tam in visited:
+                                continue
 
-    # 2. مطابقة البراند والكلمات (Tier 2)
+                            # فحص تعارض هيئة الصنف (شرائح vs مثلثات vs قوالب)
+                            if are_dairy_discriminators_conflicting(p_bin["_tokens"], p_lu["_tokens"]) or \
+                               are_dairy_discriminators_conflicting(p_bin["_tokens"], p_tam["_tokens"]):
+                                continue
+
+                            if items_strictly_match(p_bin, p_lu) and items_strictly_match(p_bin, p_tam) and items_strictly_match(p_lu, p_tam):
+                                visited.update([u_bin, u_lu, u_tam])
+                                clusters.append({
+                                    "tier": "exact_barcode",
+                                    "confidence": 1.0,
+                                    "products": [p_bin, p_lu, p_tam]
+                                })
+                                break
+
+    # 2. مطابقة البراند والمحددات الصارمة (Tier 2)
     remaining = [p for p in products if f"{p['store']}_{p['id']}" not in visited]
     brand_groups = defaultdict(list)
     for p in remaining:
-        b = normalize_brand(p.get("brand"))
+        b = p["_norm_brand"]
         if b != "unbranded":
             brand_groups[b].append(p)
 
     for _, items in brand_groups.items():
-        for i, item_a in enumerate(items):
+        n = len(items)
+        for i in range(n):
+            item_a = items[i]
             uid_a = f"{item_a['store']}_{item_a['id']}"
             if uid_a in visited:
                 continue
-            cluster = [item_a]
-            visited.add(uid_a)
-            tok_a = extract_core_tokens(item_a.get("name_en"))
 
-            for j in range(i + 1, len(items)):
+            cluster = [item_a]
+            tok_a = item_a["_tokens"]
+
+            for j in range(i + 1, n):
                 item_b = items[j]
                 uid_b = f"{item_b['store']}_{item_b['id']}"
                 if uid_b in visited or any(x["store"] == item_b["store"] for x in cluster):
                     continue
 
-                if not sizes_match(item_a, item_b, tolerance=0.03):
+                if not items_strictly_match(item_a, item_b):
                     continue
 
-                tok_b = extract_core_tokens(item_b.get("name_en"))
-
-                conflict = False
-                for group in DAIRY_DISCRIMINATORS:
-                    if tok_a.intersection(group) and tok_b.intersection(group):
-                        if tok_a.intersection(group) != tok_b.intersection(group):
-                            conflict = True
-                            break
-                if conflict:
+                tok_b = item_b["_tokens"]
+                if are_dairy_discriminators_conflicting(tok_a, tok_b):
                     continue
 
-                if token_overlap_ratio(tok_a, tok_b) >= 0.75:
+                if token_overlap_ratio(tok_a, tok_b) >= 0.70:
                     cluster.append(item_b)
-                    visited.add(uid_b)
 
-            if len(cluster) == 3:
-                clusters.append({"tier": "dairy_brand_token", "confidence": 0.90, "products": cluster})
+            if len(cluster) == 3 and len({x["store"] for x in cluster}) == 3:
+                # تحقق إضافي من التباين السعري للعنقود الثلاثي كاملاً
+                c_prices = [x["price"] for x in cluster if x.get("price") and x["price"] > 0]
+                if c_prices and (max(c_prices) / min(c_prices)) <= 1.85:
+                    for c_item in cluster:
+                        visited.add(f"{c_item['store']}_{c_item['id']}")
+                    clusters.append({
+                        "tier": "dairy_brand_token",
+                        "confidence": 0.90,
+                        "products": cluster
+                    })
 
-    # 3. تشكيل ملف الذهب مع التاريخ التراكمي
+    # 3. تشكيل ملف الذهب وتوحيد المفاتيح مع جدول المشروبات
     GOLD_DIR.mkdir(parents=True, exist_ok=True)
     formatted = []
 
@@ -217,7 +308,7 @@ def main():
         all_barcodes = canonical.get("barcodes") or []
         primary_barcode = all_barcodes[0] if all_barcodes else None
 
-        # بناء سجل الأسعار التراكمي
+        # بناء وتحديث التاريخ التراكمي
         lookup_key = str(primary_barcode or canonical.get("name_en"))
         existing_history = prior_history.get(lookup_key, [])
 
@@ -237,10 +328,10 @@ def main():
             "product_name_en": canonical.get("name_en"),
             "brand": canonical.get("brand"),
             "category": "dairy_and_eggs",
-            "size": canonical.get("unit_size_value") or canonical.get("size_value"),
+            "size": canonical.get("unit_size_value"),
             "unit": canonical.get("size_unit"),
             "quantity": canonical.get("pack_qty", 1),
-            "total_size": canonical.get("total_size_value") or canonical.get("size_value"),
+            "total_size": canonical.get("total_size_value"),
             "barcode": primary_barcode,
             "image_url": canonical.get("image_url"),
             "canonical_source": canonical.get("store"),
@@ -248,7 +339,7 @@ def main():
             "confidence_score": c["confidence"],
             "matched_stores_count": 3,
             "matched_stores": ["bindawood", "lulu", "tamimi"],
-            "current_pricing": {
+            "price_metrics": {
                 "avg_price": avg_price,
                 "min_price": min_price,
                 "max_price": max_price,
@@ -258,11 +349,10 @@ def main():
             "stores_data": stores_data,
         })
 
-    # حفظ الملف النشط
+    # حفظ الملف
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(formatted, f, ensure_ascii=False, indent=2)
 
-    # حفظ لقطة مؤرخة في مجلد archive لـ Airflow
     archive_dir = GOLD_DIR / "archive"
     archive_dir.mkdir(parents=True, exist_ok=True)
     archive_file = archive_dir / f"matched_dairy_and_eggs_{today_str}.json"
@@ -277,11 +367,9 @@ def main():
     print("📊 DAIRY & EGGS REPORT (EXCLUSIVE 3-STORE ONLY):")
     print(f"   • Total Products In Silver : {total_prods}")
     print(f"   • 3-Store Matches (Clusters): {len(formatted)} clusters")
-    print(f"   • 2-Store Matches          : 0 (Excluded completely)")
     print(f"   • Matched Products Count   : {matched_prods}")
     print(f"   • Pure 3-Store Coverage    : {pct}%")
     print(f"   • Active File Saved        : {out_file.name}")
-    print(f"   • Archive Snapshot Saved   : {archive_file.name}")
     print("=" * 60)
 
 
