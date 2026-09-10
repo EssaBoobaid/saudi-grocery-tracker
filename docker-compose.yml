@@ -24,6 +24,8 @@ services:
       context: .
       dockerfile: Dockerfile
 
+    user: "${AIRFLOW_UID:-50000}:0"
+
     container_name: airflow_init
 
     depends_on:
@@ -62,6 +64,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+
+    user: "${AIRFLOW_UID:-50000}:0"
 
     container_name: airflow_webserver
     restart: unless-stopped
@@ -105,6 +109,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+
+    user: "${AIRFLOW_UID:-50000}:0"
 
     container_name: airflow_scheduler
     restart: unless-stopped
