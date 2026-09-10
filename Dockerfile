@@ -1,18 +1,17 @@
-FROM python:3.10-slim
+FROM apache/airflow:2.8.1-python3.10
 
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
+USER root
 
-WORKDIR /app
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        curl \
+        git && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-    curl \
-    && rm -rf /var/lib/apt/lists/*
+USER airflow
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements.txt /requirements.txt
 
-COPY . .
-
-CMD ["python", "src/database/snowflake_loader.py"]
+RUN pip install --no-cache-dir -r /requirements.txt

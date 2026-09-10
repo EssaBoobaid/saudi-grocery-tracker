@@ -1,52 +1,41 @@
-version: '3.8'
-
 services:
   db:
     image: postgres:15-alpine
     container_name: grocery_db
+    restart: unless-stopped
+
     environment:
       POSTGRES_USER: grocery_user
       POSTGRES_PASSWORD: grocery_password
       POSTGRES_DB: tracker_db
-    ports:
-      - "5432:5432"
+
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U grocery_user -d tracker_db"]
       interval: 5s
       timeout: 5s
       retries: 5
 
+
   airflow-init:
-    image: apache/airflow:2.8.1-python3.10
+    build:
+      context: .
+      dockerfile: Dockerfile
+
     container_name: airflow_init
+
     depends_on:
       db:
         condition: service_healthy
-    environment:
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://grocery_user:grocery_password@db:5432/tracker_db
-      - AIRFLOW__CORE__LOAD_EXAMPLES=False
-    command: >
-      bash -c "airflow db migrate &&
-               airflow users create --username admin --firstname Admin --lastname User --role Admin --email admin@example.com --password admin || true"
 
-  airflow-webserver:
-    image: apache/airflow:2.8.1-python3.10
-    container_name: airflow_webserver
-    depends_on:
-      airflow-init:
-        condition: service_completed_successfully
-    env_file:
-      - .env
     environment:
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://grocery_user:grocery_password@db:5432/tracker_db
-      - AIRFLOW__CORE__LOAD_EXAMPLES=False
-      - PYTHONPATH=/opt/airflow
-      - DB_HOST=db
-      - _PIP_ADDITIONAL_REQUIREMENTS=curl_cffi psycopg2-binary snowflake-connector-python python-dotenv
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://grocery_user:grocery_password@db:5432/tracker_db
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      PYTHONPATH: /opt/airflow
+
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
@@ -55,30 +44,85 @@ services:
       - ./data:/opt/airflow/data
       - ./config:/opt/airflow/config
       - ./.env:/opt/airflow/.env:ro
+
+    command: >
+      bash -c "
+      airflow db migrate &&
+      airflow users create
+      --username admin
+      --firstname Admin
+      --lastname User
+      --role Admin
+      --email admin@example.com
+      --password admin || true
+      "
+
+
+  airflow-webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: airflow_webserver
+    restart: unless-stopped
+
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+
+    env_file:
+      - .env
+
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://grocery_user:grocery_password@db:5432/tracker_db
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      PYTHONPATH: /opt/airflow
+      DB_HOST: db
+
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./config:/opt/airflow/config
+      - ./.env:/opt/airflow/.env:ro
+
     ports:
-      - "8080:8080"
+      - "127.0.0.1:8080:8080"
+
     command: webserver
+
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 10s
       timeout: 10s
       retries: 5
 
+
   airflow-scheduler:
-    image: apache/airflow:2.8.1-python3.10
+    build:
+      context: .
+      dockerfile: Dockerfile
+
     container_name: airflow_scheduler
+    restart: unless-stopped
+
     depends_on:
       airflow-init:
         condition: service_completed_successfully
+
     env_file:
       - .env
+
     environment:
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://grocery_user:grocery_password@db:5432/tracker_db
-      - AIRFLOW__CORE__LOAD_EXAMPLES=False
-      - PYTHONPATH=/opt/airflow
-      - DB_HOST=db
-      - _PIP_ADDITIONAL_REQUIREMENTS=curl_cffi psycopg2-binary snowflake-connector-python python-dotenv
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://grocery_user:grocery_password@db:5432/tracker_db
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      PYTHONPATH: /opt/airflow
+      DB_HOST: db
+
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
@@ -87,7 +131,9 @@ services:
       - ./data:/opt/airflow/data
       - ./config:/opt/airflow/config
       - ./.env:/opt/airflow/.env:ro
+
     command: scheduler
+
 
 volumes:
   postgres_data:
