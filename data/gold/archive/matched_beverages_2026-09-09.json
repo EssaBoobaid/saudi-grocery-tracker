@@ -218,7 +218,7 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/16/675252/b6e12ba4-6cf3-4f9a-a820-939f52066805.jpg",
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/16/675252/689e2e9f-f475-49f6-abbe-da161b00f1f3.jpg",
         "raw_product_id": "223502"
       }
     }
@@ -259,15 +259,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/077/939/product/628101204546.jpg",
         "raw_product_id": "43509"
       },
-      "tamimi": {
-        "price": 15.75,
-        "original_price": 18.95,
-        "discount_amount": 3.2,
-        "discount_percentage": 16.89,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240925/1785411-20240925-160813.webp",
-        "raw_product_id": "258868"
-      },
       "lulu": {
         "price": 18.95,
         "original_price": null,
@@ -276,6 +267,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/17/63356/96b43bd4-e985-4b0b-ad12-8d7144fb3cf5.jpg",
         "raw_product_id": "68644"
+      },
+      "tamimi": {
+        "price": 15.75,
+        "original_price": 18.95,
+        "discount_amount": 3.2,
+        "discount_percentage": 16.89,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240925/1785411-20240925-160813.webp",
+        "raw_product_id": "258868"
       }
     }
   },
@@ -315,15 +315,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/846/product/98000010679_1.png",
         "raw_product_id": "43387"
       },
-      "tamimi": {
-        "price": 2.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260906/b6e74880-38ed-4923-b9bb-0ff22c23b924-4222741.webp",
-        "raw_product_id": "267831"
-      },
       "lulu": {
         "price": 2.5,
         "original_price": null,
@@ -332,6 +323,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/01/617703/48400132-ec46-44a7-a061-0e32e76b540d.jpg",
         "raw_product_id": "187791"
+      },
+      "tamimi": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260906/b6e74880-38ed-4923-b9bb-0ff22c23b924-4222741.webp",
+        "raw_product_id": "267831"
       }
     }
   },
@@ -651,15 +651,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/772/product/12000063527_%281%29.png",
         "raw_product_id": "43368"
       },
-      "tamimi": {
-        "price": 15.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/cc46a0e7-f87b-4bc6-a60b-9d0f44862866-4310041.webp",
-        "raw_product_id": "267859"
-      },
       "lulu": {
         "price": 12.99,
         "original_price": 14.25,
@@ -668,6 +659,15 @@
         "has_discount": true,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/16/238813/0ff67c29-d980-43f4-b114-d7a7b33f7137.jpg",
         "raw_product_id": "153499"
+      },
+      "tamimi": {
+        "price": 15.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/cc46a0e7-f87b-4bc6-a60b-9d0f44862866-4310041.webp",
+        "raw_product_id": "267859"
       }
     }
   },
@@ -707,15 +707,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/769/product/12000063442_%281%29.png",
         "raw_product_id": "43367"
       },
-      "tamimi": {
-        "price": 2.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/3638371-20250417-160600.webp",
-        "raw_product_id": "237407"
-      },
       "lulu": {
         "price": 2.6,
         "original_price": null,
@@ -724,6 +715,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/09/01/612095/df2d4c8c-0764-4b50-849a-ac8cbe025844.jpg",
         "raw_product_id": "190453"
+      },
+      "tamimi": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/3638371-20250417-160600.webp",
+        "raw_product_id": "237407"
       }
     }
   },
@@ -739,8 +739,8 @@
     "barcode": "012000066474",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/751/product/12000066474_%281%29.png",
     "canonical_source": "bindawood",
-    "match_tier": "gs1_prefix_match",
-    "confidence_score": 0.94,
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -769,8 +769,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/03/24/651539/f5b6814d-01e0-45e5-b746-3654363e8840.jpg",
-        "raw_product_id": "215041"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/30/622498/91088e50-623d-4545-b3ce-1e467f2c679a.jpg",
+        "raw_product_id": "197644"
       },
       "tamimi": {
         "price": 2.0,
@@ -819,15 +819,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/075/600/product/9124975.jpg",
         "raw_product_id": "43095"
       },
-      "lulu": {
-        "price": 8.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/21/133745/6d570bdf-3c5a-4901-bfc5-804e44bad308.jpg",
-        "raw_product_id": "66883"
-      },
       "tamimi": {
         "price": 9.95,
         "original_price": null,
@@ -836,6 +827,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201101/218081_1-20201101-023928.png",
         "raw_product_id": "29002"
+      },
+      "lulu": {
+        "price": 8.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/21/133745/6d570bdf-3c5a-4901-bfc5-804e44bad308.jpg",
+        "raw_product_id": "66883"
       }
     }
   },
@@ -890,8 +890,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/20/63522/b8e52324-672e-458f-9d17-6e15c325b9bb.jpg",
-        "raw_product_id": "54751"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/20/63128/70418d3e-e63c-4265-81c8-ef52512ee10f.jpg",
+        "raw_product_id": "54519"
       }
     }
   },
@@ -1114,8 +1114,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/ac913962-968d-4255-852f-6d48eeacba89-4201151.webp",
-        "raw_product_id": "264386"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/c7c5d61d-b67e-4a60-a25e-ab374085e7c4-4201141.webp",
+        "raw_product_id": "264385"
       }
     }
   },
@@ -1155,15 +1155,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/929/product/5000112694550_1.jpg",
         "raw_product_id": "41783"
       },
-      "lulu": {
-        "price": 13.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/16/646720/054ed565-44cc-48cc-860c-234bdf8de829.jpg",
-        "raw_product_id": "227117"
-      },
       "tamimi": {
         "price": 13.99,
         "original_price": 18.75,
@@ -1172,6 +1163,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260618/16b4e289-9991-473e-8e44-4c2d76a68527-4007481.webp",
         "raw_product_id": "259065"
+      },
+      "lulu": {
+        "price": 13.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/16/646720/054ed565-44cc-48cc-860c-234bdf8de829.jpg",
+        "raw_product_id": "227117"
       }
     }
   },
@@ -1211,15 +1211,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/628/product/800227002106.jpg",
         "raw_product_id": "41741"
       },
-      "tamimi": {
-        "price": 26.99,
-        "original_price": 28.95,
-        "discount_amount": 1.96,
-        "discount_percentage": 6.77,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/184524_1-20231019-125731.png",
-        "raw_product_id": "242604"
-      },
       "lulu": {
         "price": 37.95,
         "original_price": null,
@@ -1228,6 +1219,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/23/143986/f895e144-2ef6-4532-a1b2-b2757f1c9808.jpg",
         "raw_product_id": "80"
+      },
+      "tamimi": {
+        "price": 26.99,
+        "original_price": 28.95,
+        "discount_amount": 1.96,
+        "discount_percentage": 6.77,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/184524_1-20231019-125731.png",
+        "raw_product_id": "242604"
       }
     }
   },
@@ -1323,15 +1323,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/478/product/628103490044.jpg",
         "raw_product_id": "41656"
       },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/175863_1-20231019-131122.png",
-        "raw_product_id": "222146"
-      },
       "lulu": {
         "price": 2.0,
         "original_price": null,
@@ -1340,6 +1331,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/03/17/93979/f6c36704-a8f4-4e5f-a2e8-dc87bd0a1378.jpg",
         "raw_product_id": "59377"
+      },
+      "tamimi": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/175863_1-20231019-131122.png",
+        "raw_product_id": "222146"
       }
     }
   },
@@ -1394,8 +1394,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/21/133286/fa8a196f-ff78-4773-816b-5079b025e3d0.jpg",
-        "raw_product_id": "66720"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/17/63333/d30257d7-ca8e-4644-b438-52852b2d4f34.jpg",
+        "raw_product_id": "66716"
       }
     }
   },
@@ -1491,15 +1491,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/454/product/627100220361.jpg",
         "raw_product_id": "41640"
       },
-      "tamimi": {
-        "price": 7.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240714/1025341-20240714-161744.webp",
-        "raw_product_id": "256689"
-      },
       "lulu": {
         "price": 7.75,
         "original_price": null,
@@ -1508,6 +1499,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/11/63486/257402f1-0573-4ecd-a49b-465b2336194b.jpg",
         "raw_product_id": "15896"
+      },
+      "tamimi": {
+        "price": 7.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240714/1025341-20240714-161744.webp",
+        "raw_product_id": "256689"
       }
     }
   },
@@ -1715,15 +1715,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/363/product/900844200055.jpeg",
         "raw_product_id": "41569"
       },
-      "lulu": {
-        "price": 10.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/11/63175/f81b87eb-d9ed-4ed8-9589-d896e40608d4.jpg",
-        "raw_product_id": "14971"
-      },
       "tamimi": {
         "price": 10.95,
         "original_price": null,
@@ -1732,6 +1723,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20251218/ccc50232-d740-437b-a1bf-31b4535898aa-3999511.webp",
         "raw_product_id": "263929"
+      },
+      "lulu": {
+        "price": 10.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/11/63175/f81b87eb-d9ed-4ed8-9589-d896e40608d4.jpg",
+        "raw_product_id": "14971"
       }
     }
   },
@@ -1786,8 +1786,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/30/622490/da705714-f7c3-47a3-9e56-a2133d75ee08.jpg",
-        "raw_product_id": "197631"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/04/23/636145/eb8ff68f-2271-45be-9604-3fcfd44e20e8.jpg",
+        "raw_product_id": "207120"
       }
     }
   },
@@ -1842,8 +1842,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/11/13/63537/c8ef2c26-d1c1-4669-9ea3-059ff253c6e5.jpg",
-        "raw_product_id": "27869"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/11/10/219651/bd37f18a-764d-4ebc-babb-c48a30b59c7a.png",
+        "raw_product_id": "196649"
       }
     }
   },
@@ -1859,8 +1859,8 @@
     "barcode": null,
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/521/product/9048627.jpg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "brand_package_token",
+    "confidence_score": 0.88,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -1889,8 +1889,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20231108/163725_1-20231019-122935-20231108-085104.png",
-        "raw_product_id": "2862"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260211/16ad78ec-fd34-4909-9f24-90210089acbf-4161661.webp",
+        "raw_product_id": "265523"
       },
       "lulu": {
         "price": 10.95,
@@ -1939,6 +1939,15 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/990/product/628103491373.jpeg",
         "raw_product_id": "41423"
       },
+      "tamimi": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/332902_1-20201031-225503.png",
+        "raw_product_id": "218276"
+      },
       "lulu": {
         "price": 2.5,
         "original_price": null,
@@ -1947,15 +1956,6 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/03/18/66508/0f4facc2-607f-4531-b3e0-6485632f8d3e.jpg",
         "raw_product_id": "58690"
-      },
-      "tamimi": {
-        "price": 2.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260120/c6b2a97f-3f70-47c5-9d6c-c136abc7193e-4170931.webp",
-        "raw_product_id": "264571"
       }
     }
   },
@@ -2163,15 +2163,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/912/product/628703410090.jpeg",
         "raw_product_id": "41377"
       },
-      "tamimi": {
-        "price": 2.2,
-        "original_price": 3.25,
-        "discount_amount": 1.05,
-        "discount_percentage": 32.31,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240903/4034021-20240903-161451.webp",
-        "raw_product_id": "258466"
-      },
       "lulu": {
         "price": 3.25,
         "original_price": null,
@@ -2180,20 +2171,29 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/20/365950/c0422ab0-60bd-4e9c-8215-435fe4ef705c.jpg",
         "raw_product_id": "179703"
+      },
+      "tamimi": {
+        "price": 2.2,
+        "original_price": 3.25,
+        "discount_amount": 1.05,
+        "discount_percentage": 32.31,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240903/4034021-20240903-161451.webp",
+        "raw_product_id": "258466"
       }
     }
   },
   {
-    "product_name_ar": "كوكاكولا زيرو سكر مشروب غازي ٦*٢٥٠مل",
-    "product_name_en": "Coca Cola Zero Soft Drink 6*250ml",
+    "product_name_ar": "كوكاكولا مشروب غازي زيرو بدون سكر، إصدار اليوم الوطني السعودي ٦*٢٥٠مل",
+    "product_name_en": "Coca Cola Zero Sugar Soft Drink, Saudi National Day Limited Edition 6*250ml",
     "brand": "Coca Cola",
     "category": "beverages",
     "size": 250.0,
     "unit": "ml",
     "quantity": 6,
     "total_size": 1500.0,
-    "barcode": "0544900027719",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/070/product/544900027719.png",
+    "barcode": "5449000277190",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/085/612/product/5449000277190_1.jpg",
     "canonical_source": "bindawood",
     "match_tier": "exact_barcode",
     "confidence_score": 1.0,
@@ -2216,17 +2216,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/070/product/544900027719.png",
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/085/612/product/5449000277190_1.jpg",
         "raw_product_id": "41352"
-      },
-      "lulu": {
-        "price": 12.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/19/143773/26096b44-1789-4469-8fb2-d4111d2979c6.jpg",
-        "raw_product_id": "68285"
       },
       "tamimi": {
         "price": 12.5,
@@ -2236,6 +2227,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260907/e1e87ee8-496d-4641-b59a-306a1a8aa920-4007412.webp",
         "raw_product_id": "257448"
+      },
+      "lulu": {
+        "price": 12.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/19/143773/26096b44-1789-4469-8fb2-d4111d2979c6.jpg",
+        "raw_product_id": "68285"
       }
     }
   },
@@ -2331,15 +2331,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/841/product/871200005762.jpg",
         "raw_product_id": "41344"
       },
-      "lulu": {
-        "price": 27.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/15/367263/4a2b05b6-0030-4cb8-a7a9-f6235dcfbe49.jpg",
-        "raw_product_id": "178368"
-      },
       "tamimi": {
         "price": 28.95,
         "original_price": null,
@@ -2348,6 +2339,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250909/d0889e12-f6ab-4ea2-9083-b8824c67ec1f-4056671.webp",
         "raw_product_id": "262793"
+      },
+      "lulu": {
+        "price": 27.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/15/367263/4a2b05b6-0030-4cb8-a7a9-f6235dcfbe49.jpg",
+        "raw_product_id": "178368"
       }
     }
   },
@@ -2387,15 +2387,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/336/product/544900034346.png",
         "raw_product_id": "40784"
       },
-      "lulu": {
-        "price": 7.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/23/676529/c261bd50-36fe-4dfe-b9c0-9fcfd04f24a5.jpg",
-        "raw_product_id": "224403"
-      },
       "tamimi": {
         "price": 7.5,
         "original_price": null,
@@ -2404,6 +2395,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260720/14e0c276-0e78-4ac7-836c-81b75fce1851-4276801.webp",
         "raw_product_id": "268916"
+      },
+      "lulu": {
+        "price": 7.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/23/676529/c261bd50-36fe-4dfe-b9c0-9fcfd04f24a5.jpg",
+        "raw_product_id": "224403"
       }
     }
   },
@@ -2484,10 +2484,10 @@
       "tamimi"
     ],
     "price_metrics": {
-      "avg_price": 3.91,
+      "avg_price": 3.58,
       "min_price": 3.25,
-      "max_price": 4.5,
-      "price_diff": 1.25
+      "max_price": 3.99,
+      "price_diff": 0.74
     },
     "stores_data": {
       "bindawood": {
@@ -2499,6 +2499,15 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/074/383/product/5449000133328_1.jpg",
         "raw_product_id": "40778"
       },
+      "lulu": {
+        "price": 3.5,
+        "original_price": 4.5,
+        "discount_amount": 1.0,
+        "discount_percentage": 22.22,
+        "has_discount": true,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/09/66867/24bbcdb5-7a33-4667-ae65-6f3962346ce3.jpg",
+        "raw_product_id": "5667"
+      },
       "tamimi": {
         "price": 3.25,
         "original_price": 4.25,
@@ -2507,15 +2516,6 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260618/6c033541-35fa-41b3-abc4-5a2d29d19b84-4003311.webp",
         "raw_product_id": "260735"
-      },
-      "lulu": {
-        "price": 4.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/09/66867/24bbcdb5-7a33-4667-ae65-6f3962346ce3.jpg",
-        "raw_product_id": "5667"
       }
     }
   },
@@ -2611,15 +2611,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/077/026/product/012000022586_1.png",
         "raw_product_id": "40773"
       },
-      "tamimi": {
-        "price": 2.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/1ec29b85-a78f-47e2-863f-dc479f9a8f4d-3670871.webp",
-        "raw_product_id": "267955"
-      },
       "lulu": {
         "price": 2.6,
         "original_price": null,
@@ -2628,6 +2619,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/23/146778/3e419c0f-4496-4808-b7ac-ea6a5cc41238.jpg",
         "raw_product_id": "84890"
+      },
+      "tamimi": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/1ec29b85-a78f-47e2-863f-dc479f9a8f4d-3670871.webp",
+        "raw_product_id": "267955"
       }
     }
   },
@@ -2835,15 +2835,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/901/product/762220236049.jpeg",
         "raw_product_id": "40027"
       },
-      "lulu": {
-        "price": 59.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/18/634987/3ca026dc-0fb9-4319-bc43-e9a9a7d4582b.jpg",
-        "raw_product_id": "207674"
-      },
       "tamimi": {
         "price": 64.95,
         "original_price": null,
@@ -2852,6 +2843,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/4cb4da31-7a5d-4fde-8b3d-22b7e0859aa8-4245931.webp",
         "raw_product_id": "267841"
+      },
+      "lulu": {
+        "price": 59.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/18/634987/3ca026dc-0fb9-4319-bc43-e9a9a7d4582b.jpg",
+        "raw_product_id": "207674"
       }
     }
   },
@@ -2891,15 +2891,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/837/product/628103491648.jpeg",
         "raw_product_id": "39996"
       },
-      "lulu": {
-        "price": 18.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/02/10/638327/b55215e8-2fd9-4018-bd43-f35282b74868.jpg",
-        "raw_product_id": "208413"
-      },
       "tamimi": {
         "price": 18.95,
         "original_price": null,
@@ -2908,6 +2899,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260104/344858ab-7e41-465c-9dfc-f38d3e8b2bd8-4246051.webp",
         "raw_product_id": "264026"
+      },
+      "lulu": {
+        "price": 18.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/02/10/638327/b55215e8-2fd9-4018-bd43-f35282b74868.jpg",
+        "raw_product_id": "208413"
       }
     }
   },
@@ -2947,15 +2947,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/613/product/200007704610.jpeg",
         "raw_product_id": "39811"
       },
-      "lulu": {
-        "price": 48.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/02/20/642070/03d105be-6131-423e-9314-f1d91a2d7f39.jpg",
-        "raw_product_id": "209400"
-      },
       "tamimi": {
         "price": 48.0,
         "original_price": null,
@@ -2964,62 +2955,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260526/92c24a20-21cb-41b3-b122-f4752b94b086-4351151.webp",
         "raw_product_id": "267072"
-      }
-    }
-  },
-  {
-    "product_name_ar": "راني رمان مشروب الفاكهة المشكلة ١.٤لتر",
-    "product_name_en": "Rani Pomegranate Mixed Fruit Drink 1.4L",
-    "brand": "Rani",
-    "category": "beverages",
-    "size": 1400.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 1400.0,
-    "barcode": "0628103491395",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/362/product/628103491395.jpeg",
-    "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "lulu",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 6.81,
-      "min_price": 5.99,
-      "max_price": 7.5,
-      "price_diff": 1.51
-    },
-    "stores_data": {
-      "bindawood": {
-        "price": 5.99,
-        "original_price": 7.5,
-        "discount_amount": 1.51,
-        "discount_percentage": 20.13,
-        "has_discount": true,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/362/product/628103491395.jpeg",
-        "raw_product_id": "39705"
       },
       "lulu": {
-        "price": 6.95,
+        "price": 48.0,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/03/24/378422/804aabae-dee1-4cb3-9596-1d99062ce059.jpg",
-        "raw_product_id": "215085"
-      },
-      "tamimi": {
-        "price": 7.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260114/c7eb1f65-c1e5-49c9-9c7d-a1cd0f5e5d8d-4049171.webp",
-        "raw_product_id": "264090"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/02/20/642070/03d105be-6131-423e-9314-f1d91a2d7f39.jpg",
+        "raw_product_id": "209400"
       }
     }
   },
@@ -3059,15 +3003,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/357/product/628703410176.jpeg",
         "raw_product_id": "39702"
       },
-      "lulu": {
-        "price": 16.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/20/374930/7462316d-3973-4693-91a3-1b13b47c88fe.jpg",
-        "raw_product_id": "179705"
-      },
       "tamimi": {
         "price": 12.25,
         "original_price": 16.5,
@@ -3076,6 +3011,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260114/751f87ec-371a-4c85-98f5-0fb3d0a0ada0-4160041.webp",
         "raw_product_id": "264143"
+      },
+      "lulu": {
+        "price": 16.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/20/374930/7462316d-3973-4693-91a3-1b13b47c88fe.jpg",
+        "raw_product_id": "179705"
       }
     }
   },
@@ -3115,15 +3059,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/349/product/544900030414.jpg",
         "raw_product_id": "39664"
       },
-      "lulu": {
-        "price": 7.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/17/331212/6b735c2e-4c68-4fff-806c-4757b325efa5.jpg",
-        "raw_product_id": "173861"
-      },
       "tamimi": {
         "price": 7.5,
         "original_price": null,
@@ -3132,6 +3067,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/1a0330c9-375c-4dad-9e24-3d1501936a07-3867141.webp",
         "raw_product_id": "257208"
+      },
+      "lulu": {
+        "price": 7.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/17/331212/6b735c2e-4c68-4fff-806c-4757b325efa5.jpg",
+        "raw_product_id": "173861"
       }
     }
   },
@@ -3156,10 +3100,10 @@
       "tamimi"
     ],
     "price_metrics": {
-      "avg_price": 3.91,
+      "avg_price": 3.58,
       "min_price": 3.25,
-      "max_price": 4.5,
-      "price_diff": 1.25
+      "max_price": 3.99,
+      "price_diff": 0.74
     },
     "stores_data": {
       "bindawood": {
@@ -3181,11 +3125,11 @@
         "raw_product_id": "217751"
       },
       "lulu": {
-        "price": 4.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
+        "price": 3.5,
+        "original_price": 4.5,
+        "discount_amount": 1.0,
+        "discount_percentage": 22.22,
+        "has_discount": true,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/21/133750/20d38418-2990-4ef5-b778-c4d9b5d82dca.jpg",
         "raw_product_id": "66884"
       }
@@ -3300,6 +3244,62 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/11/63644/a85c9a2e-7963-49f6-9850-04cb53ba62ae.jpg",
         "raw_product_id": "16202"
+      }
+    }
+  },
+  {
+    "product_name_ar": "الربيع شراب التوت المشكل ١لتر",
+    "product_name_en": "Al Rabie Berry Mix Drink 1L",
+    "brand": "Al Rabie",
+    "category": "beverages",
+    "size": 1000.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 1000.0,
+    "barcode": "0628102631070",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/542/product/628102631070.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 8.0,
+      "min_price": 8.0,
+      "max_price": 8.0,
+      "price_diff": 0.0
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/542/product/628102631070.jpg",
+        "raw_product_id": "35755"
+      },
+      "tamimi": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/173247_1-20231019-122913.png",
+        "raw_product_id": "221174"
+      },
+      "lulu": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/09/15/210008/81545ed0-33ad-4c3a-b021-bfcc8e2f2842.jpg",
+        "raw_product_id": "80890"
       }
     }
   },
@@ -3563,15 +3563,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/054/867/product/628102616565.jpeg",
         "raw_product_id": "33837"
       },
-      "lulu": {
-        "price": 15.0,
-        "original_price": 17.95,
-        "discount_amount": 2.95,
-        "discount_percentage": 16.43,
-        "has_discount": true,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/01/29/635550/13881ef5-140a-49de-8a57-dbea93f41c7a.jpg",
-        "raw_product_id": "207379"
-      },
       "tamimi": {
         "price": 15.99,
         "original_price": 18.0,
@@ -3580,6 +3571,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250428/4137811-20250428-120039.webp",
         "raw_product_id": "261743"
+      },
+      "lulu": {
+        "price": 15.0,
+        "original_price": 17.95,
+        "discount_amount": 2.95,
+        "discount_percentage": 16.43,
+        "has_discount": true,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/01/29/635550/13881ef5-140a-49de-8a57-dbea93f41c7a.jpg",
+        "raw_product_id": "207379"
       }
     }
   },
@@ -3787,15 +3787,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/589/product/800227004994.jpeg",
         "raw_product_id": "33552"
       },
-      "tamimi": {
-        "price": 45.99,
-        "original_price": 51.0,
-        "discount_amount": 5.01,
-        "discount_percentage": 9.82,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201101/255590_1-20201101-024024.png",
-        "raw_product_id": "210197"
-      },
       "lulu": {
         "price": 43.95,
         "original_price": null,
@@ -3804,6 +3795,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/01/30/92208/f36982d1-f38d-4be7-ba14-b9f832081f06.jpg",
         "raw_product_id": "69235"
+      },
+      "tamimi": {
+        "price": 45.99,
+        "original_price": 51.0,
+        "discount_amount": 5.01,
+        "discount_percentage": 9.82,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201101/255590_1-20201101-024024.png",
+        "raw_product_id": "210197"
       }
     }
   },
@@ -3843,15 +3843,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/569/product/628103490042.jpeg",
         "raw_product_id": "33536"
       },
-      "lulu": {
-        "price": 12.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/11/17/94047/7f081b51-ef18-47e1-8253-dff228bf7bb6.jpg",
-        "raw_product_id": "17086"
-      },
       "tamimi": {
         "price": 12.0,
         "original_price": null,
@@ -3860,6 +3851,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231004/369749_1-20231004-120120.png",
         "raw_product_id": "251918"
+      },
+      "lulu": {
+        "price": 12.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/11/17/94047/7f081b51-ef18-47e1-8253-dff228bf7bb6.jpg",
+        "raw_product_id": "17086"
       }
     }
   },
@@ -3899,15 +3899,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/565/product/628103491449.jpeg",
         "raw_product_id": "33532"
       },
-      "tamimi": {
-        "price": 14.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20241203/4043071-20241203-161436.webp",
-        "raw_product_id": "260049"
-      },
       "lulu": {
         "price": 14.95,
         "original_price": null,
@@ -3916,6 +3907,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/03/18/105931/c41470a2-ce78-4e4a-8a90-305ddbde6ad9.jpg",
         "raw_product_id": "67234"
+      },
+      "tamimi": {
+        "price": 14.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20241203/4043071-20241203-161436.webp",
+        "raw_product_id": "260049"
       }
     }
   },
@@ -4011,15 +4011,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/459/product/691835710426.jpeg",
         "raw_product_id": "33441"
       },
-      "lulu": {
-        "price": 32.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/09/10/63413/95945709-33f1-4802-99bf-61b68bacec23.jpg",
-        "raw_product_id": "58661"
-      },
       "tamimi": {
         "price": 32.95,
         "original_price": null,
@@ -4028,6 +4019,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240714/3984261-20240714-161522.webp",
         "raw_product_id": "256914"
+      },
+      "lulu": {
+        "price": 32.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/09/10/63450/192f7f18-aacb-4fe8-8926-65c7b9b836bb.jpg",
+        "raw_product_id": "27838"
       }
     }
   },
@@ -4073,8 +4073,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/190619_1-20201031-214414.png",
-        "raw_product_id": "2978"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/240858_1-20201031-225816.png",
+        "raw_product_id": "2907"
       },
       "lulu": {
         "price": 30.95,
@@ -4082,8 +4082,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/22/620199/4e264eaa-342c-49b9-a415-36f22a5d247b.jpg",
-        "raw_product_id": "196236"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/04/25/63283/87d9d1c4-6796-48af-87ef-294513f3c456.jpg",
+        "raw_product_id": "68759"
       }
     }
   },
@@ -4179,15 +4179,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/680/product/544900015533.jpeg",
         "raw_product_id": "32939"
       },
-      "tamimi": {
-        "price": 2.25,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/22fc1231-d971-4a89-9d72-12919c06e3a8-4135071.webp",
-        "raw_product_id": "260587"
-      },
       "lulu": {
         "price": 2.0,
         "original_price": null,
@@ -4196,6 +4187,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/20/66792/ddffc7ce-158e-470b-8496-35e1f8639b98.jpg",
         "raw_product_id": "27786"
+      },
+      "tamimi": {
+        "price": 2.25,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/22fc1231-d971-4a89-9d72-12919c06e3a8-4135071.webp",
+        "raw_product_id": "260587"
       }
     }
   },
@@ -4235,15 +4235,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/877/product/12000061417_1.png",
         "raw_product_id": "32899"
       },
-      "lulu": {
-        "price": 4.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/16/331790/656a6ccc-249a-4218-a028-8557a03a744e.jpg",
-        "raw_product_id": "191933"
-      },
       "tamimi": {
         "price": 4.0,
         "original_price": null,
@@ -4252,6 +4243,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250306/3919001-20250306-080229.webp",
         "raw_product_id": "245011"
+      },
+      "lulu": {
+        "price": 4.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/16/331790/656a6ccc-249a-4218-a028-8557a03a744e.jpg",
+        "raw_product_id": "191933"
       }
     }
   },
@@ -4409,8 +4409,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/09/10/63368/8de842a5-1d3d-46ca-a6bd-00a21cd04581.jpg",
-        "raw_product_id": "58579"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/09/10/63316/ac13fd35-73ce-49a4-bf40-b1cd623f1ca1.jpg",
+        "raw_product_id": "68770"
       },
       "tamimi": {
         "price": 5.5,
@@ -4547,8 +4547,8 @@
     "barcode": "0628103491284",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/111/product/628103491284.jpeg",
     "canonical_source": "bindawood",
-    "match_tier": "gs1_prefix_match",
-    "confidence_score": 0.94,
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -4571,6 +4571,15 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/111/product/628103491284.jpeg",
         "raw_product_id": "32489"
       },
+      "lulu": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/04/25/63283/87d9d1c4-6796-48af-87ef-294513f3c456.jpg",
+        "raw_product_id": "68748"
+      },
       "tamimi": {
         "price": 5.0,
         "original_price": null,
@@ -4579,15 +4588,6 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/240858_1-20201031-225816.png",
         "raw_product_id": "2905"
-      },
-      "lulu": {
-        "price": 5.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/22/620199/4e264eaa-342c-49b9-a415-36f22a5d247b.jpg",
-        "raw_product_id": "196235"
       }
     }
   },
@@ -4603,8 +4603,8 @@
     "barcode": "0628100706806",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/090/product/628100706806.jpeg",
     "canonical_source": "bindawood",
-    "match_tier": "gs1_prefix_match",
-    "confidence_score": 0.94,
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -4627,6 +4627,15 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/090/product/628100706806.jpeg",
         "raw_product_id": "32470"
       },
+      "tamimi": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240904/4037091-20240904-055517.webp",
+        "raw_product_id": "258469"
+      },
       "lulu": {
         "price": 2.0,
         "original_price": null,
@@ -4635,15 +4644,6 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/03/210131/0edc7b4e-8313-492a-8f6b-8c4ee83639c9.jpg",
         "raw_product_id": "80745"
-      },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260715/eeef0bf7-14ae-46ff-9bdd-bbd5aaa01406-4327171.webp",
-        "raw_product_id": "268461"
       }
     }
   },
@@ -4683,15 +4683,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/724/product/10444431.PNG",
         "raw_product_id": "32270"
       },
-      "tamimi": {
-        "price": 12.5,
-        "original_price": 14.95,
-        "discount_amount": 2.45,
-        "discount_percentage": 16.39,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/3638381-20250417-160126.webp",
-        "raw_product_id": "237411"
-      },
       "lulu": {
         "price": 12.99,
         "original_price": 14.25,
@@ -4700,6 +4691,15 @@
         "has_discount": true,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/16/238738/909792fd-f253-4973-85d5-2d087cd17403.jpg",
         "raw_product_id": "153466"
+      },
+      "tamimi": {
+        "price": 12.5,
+        "original_price": 14.95,
+        "discount_amount": 2.45,
+        "discount_percentage": 16.39,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/3638381-20250417-160126.webp",
+        "raw_product_id": "237411"
       }
     }
   },
@@ -4795,15 +4795,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/280/product/628703410110.jpg",
         "raw_product_id": "32100"
       },
-      "lulu": {
-        "price": 68.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/16/169695/9ef31cb5-a8b0-42a9-97f7-c41fe3e00894.jpg",
-        "raw_product_id": "102944"
-      },
       "tamimi": {
         "price": 65.95,
         "original_price": null,
@@ -4812,6 +4803,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/3f1c3cc6-2aaa-4130-9c7a-5b606ae3ebdc-4034001.webp",
         "raw_product_id": "264323"
+      },
+      "lulu": {
+        "price": 68.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/16/169830/6816219f-6c5b-4b38-bb8d-e8330fd3c3ae.jpg",
+        "raw_product_id": "102943"
       }
     }
   },
@@ -4907,15 +4907,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/886/product/12000022777_1.png",
         "raw_product_id": "31714"
       },
-      "tamimi": {
-        "price": 1.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250306/3907911-20250306-080220.webp",
-        "raw_product_id": "245001"
-      },
       "lulu": {
         "price": 2.0,
         "original_price": null,
@@ -4924,6 +4915,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/19/133611/8e06f0ff-4d6f-479c-8cdc-f5e889ea9eb1.jpg",
         "raw_product_id": "27905"
+      },
+      "tamimi": {
+        "price": 1.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250306/3907911-20250306-080220.webp",
+        "raw_product_id": "245001"
       }
     }
   },
@@ -4963,15 +4963,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/068/821/product/8445291047167_1.jpg",
         "raw_product_id": "31304"
       },
-      "lulu": {
-        "price": 46.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/18/622743/39f6527d-dc2b-4af4-bd8f-b2dcf07e2718.jpg",
-        "raw_product_id": "197553"
-      },
       "tamimi": {
         "price": 52.95,
         "original_price": null,
@@ -4980,6 +4971,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260218/19ee476e-a4a3-4de4-9b32-62997409237f-4037951.webp",
         "raw_product_id": "258324"
+      },
+      "lulu": {
+        "price": 46.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/18/622743/39f6527d-dc2b-4af4-bd8f-b2dcf07e2718.jpg",
+        "raw_product_id": "197553"
       }
     }
   },
@@ -5025,8 +5025,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/18/622743/39f6527d-dc2b-4af4-bd8f-b2dcf07e2718.jpg",
-        "raw_product_id": "227355"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/18/321164/c8c1aae8-6ce3-446c-aafe-49223a39af01.jpg",
+        "raw_product_id": "227352"
       },
       "tamimi": {
         "price": 5.95,
@@ -5131,15 +5131,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/072/480/product/5449000218957.png",
         "raw_product_id": "29887"
       },
-      "lulu": {
-        "price": 3.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/04/12/66824/8629206f-aa64-45b0-b2ae-7be76f56d43b.jpg",
-        "raw_product_id": "54885"
-      },
       "tamimi": {
         "price": 3.25,
         "original_price": null,
@@ -5148,6 +5139,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/3d798f74-83f5-4d6a-b9d2-1866c2aa75a4-4135021.webp",
         "raw_product_id": "260577"
+      },
+      "lulu": {
+        "price": 3.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/04/12/66824/8629206f-aa64-45b0-b2ae-7be76f56d43b.jpg",
+        "raw_product_id": "54885"
       }
     }
   },
@@ -5187,15 +5187,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/072/476/product/544900021895.png",
         "raw_product_id": "29883"
       },
-      "lulu": {
-        "price": 16.99,
-        "original_price": 18.95,
-        "discount_amount": 1.96,
-        "discount_percentage": 10.34,
-        "has_discount": true,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/04/12/66824/8629206f-aa64-45b0-b2ae-7be76f56d43b.jpg",
-        "raw_product_id": "54876"
-      },
       "tamimi": {
         "price": 18.75,
         "original_price": null,
@@ -5204,6 +5195,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/3d798f74-83f5-4d6a-b9d2-1866c2aa75a4-4135021.webp",
         "raw_product_id": "260583"
+      },
+      "lulu": {
+        "price": 16.99,
+        "original_price": 18.95,
+        "discount_amount": 1.96,
+        "discount_percentage": 10.34,
+        "has_discount": true,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/04/12/66824/8629206f-aa64-45b0-b2ae-7be76f56d43b.jpg",
+        "raw_product_id": "54876"
       }
     }
   },
@@ -5320,6 +5320,62 @@
     }
   },
   {
+    "product_name_ar": "الربيع نكتار فواكه مشكلة ١لتر",
+    "product_name_en": "Al Rabie Fruit Cocktail Nectar 1L",
+    "brand": "Al Rabie",
+    "category": "beverages",
+    "size": 1000.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 1000.0,
+    "barcode": "0628102630620",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/045/395/product/628102630620.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 8.0,
+      "min_price": 8.0,
+      "max_price": 8.0,
+      "price_diff": 0.0
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/045/395/product/628102630620.jpg",
+        "raw_product_id": "28656"
+      },
+      "lulu": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/11/21/210182/55e4872b-40de-43c5-9eb7-831a9200589b.jpg",
+        "raw_product_id": "80921"
+      },
+      "tamimi": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/136583_1-20231019-124954.png",
+        "raw_product_id": "228278"
+      }
+    }
+  },
+  {
     "product_name_ar": "هاينكن شراب شعير بالنكهة الأصلية ٢٥٠مل",
     "product_name_en": "Heineken Malt Beverage with Natural Flavor 250ml",
     "brand": "Heineken",
@@ -5355,15 +5411,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/043/262/product/871200005534.jpg",
         "raw_product_id": "28424"
       },
-      "lulu": {
-        "price": 4.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/15/367263/4a2b05b6-0030-4cb8-a7a9-f6235dcfbe49.jpg",
-        "raw_product_id": "178367"
-      },
       "tamimi": {
         "price": 5.0,
         "original_price": null,
@@ -5372,6 +5419,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250909/d0889e12-f6ab-4ea2-9083-b8824c67ec1f-4056671.webp",
         "raw_product_id": "262792"
+      },
+      "lulu": {
+        "price": 4.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/15/367263/4a2b05b6-0030-4cb8-a7a9-f6235dcfbe49.jpg",
+        "raw_product_id": "178367"
       }
     }
   },
@@ -5467,15 +5523,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/040/064/product/306832012940.jpg",
         "raw_product_id": "27168"
       },
-      "tamimi": {
-        "price": 7.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250728/f7e073bd-6b5b-4fe4-884b-2394c288f3cb-1110892.webp",
-        "raw_product_id": "2655"
-      },
       "lulu": {
         "price": 6.5,
         "original_price": null,
@@ -5484,6 +5531,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/19/298776/2738b593-9882-468e-aa11-c6b62ec63268.jpg",
         "raw_product_id": "54628"
+      },
+      "tamimi": {
+        "price": 7.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250728/f7e073bd-6b5b-4fe4-884b-2394c288f3cb-1110892.webp",
+        "raw_product_id": "2655"
       }
     }
   },
@@ -5523,15 +5579,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/044/858/product/628102608367.jpg",
         "raw_product_id": "27148"
       },
-      "lulu": {
-        "price": 17.25,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/14/169879/51f58306-7999-4726-8ac4-e5352b073885.jpg",
-        "raw_product_id": "102971"
-      },
       "tamimi": {
         "price": 13.5,
         "original_price": 17.95,
@@ -5540,6 +5587,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240811/2458122-20240811-071240.webp",
         "raw_product_id": "250132"
+      },
+      "lulu": {
+        "price": 17.25,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/14/169879/51f58306-7999-4726-8ac4-e5352b073885.jpg",
+        "raw_product_id": "102971"
       }
     }
   },
@@ -5691,15 +5747,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/072/490/product/5449350.png",
         "raw_product_id": "26147"
       },
-      "lulu": {
-        "price": 0.6,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/01/30/92303/e16cdd8e-e376-4e5f-9e3b-081ba481f662.jpg",
-        "raw_product_id": "54693"
-      },
       "tamimi": {
         "price": 0.55,
         "original_price": null,
@@ -5708,6 +5755,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/d761ba58-3350-4bbb-8db9-10ebf1c6017e-2263321.webp",
         "raw_product_id": "259370"
+      },
+      "lulu": {
+        "price": 0.6,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/01/30/92303/e16cdd8e-e376-4e5f-9e3b-081ba481f662.jpg",
+        "raw_product_id": "54693"
       }
     }
   },
@@ -5859,15 +5915,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/038/080/product/628110122075.jpg",
         "raw_product_id": "26144"
       },
-      "tamimi": {
-        "price": 0.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250604/8d42e952-d813-49c0-be8e-17c1e3402a93-2725652.webp",
-        "raw_product_id": "262201"
-      },
       "lulu": {
         "price": 0.85,
         "original_price": null,
@@ -5876,6 +5923,15 @@
         "has_discount": false,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/12/14/219070/a209f1e3-42b8-464a-b1ff-5fe5a61900ad.jpg",
         "raw_product_id": "153098"
+      },
+      "tamimi": {
+        "price": 0.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250604/8d42e952-d813-49c0-be8e-17c1e3402a93-2725652.webp",
+        "raw_product_id": "262201"
       }
     }
   },

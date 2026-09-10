@@ -1,0 +1,64 @@
+[2026-09-09T20:04:18.647+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weekly_grocery_pipeline.bronze_extract_tamimi manual__2026-09-09T20:04:17.818431+00:00 [queued]>
+[2026-09-09T20:04:18.650+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weekly_grocery_pipeline.bronze_extract_tamimi manual__2026-09-09T20:04:17.818431+00:00 [queued]>
+[2026-09-09T20:04:18.650+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-09-09T20:04:18.655+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): bronze_extract_tamimi> on 2026-09-09 20:04:17.818431+00:00
+[2026-09-09T20:04:18.658+0000] {standard_task_runner.py:60} INFO - Started process 234 to run task
+[2026-09-09T20:04:18.659+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'weekly_grocery_pipeline', 'bronze_extract_tamimi', 'manual__2026-09-09T20:04:17.818431+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/weekly_grocery_pipeline.py', '--cfg-path', '/tmp/tmp3lfqp4oq']
+[2026-09-09T20:04:18.662+0000] {standard_task_runner.py:88} INFO - Job 39: Subtask bronze_extract_tamimi
+[2026-09-09T20:04:18.691+0000] {task_command.py:423} INFO - Running <TaskInstance: weekly_grocery_pipeline.bronze_extract_tamimi manual__2026-09-09T20:04:17.818431+00:00 [running]> on host 185da616c941
+[2026-09-09T20:04:18.733+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='shaleh' AIRFLOW_CTX_DAG_ID='weekly_grocery_pipeline' AIRFLOW_CTX_TASK_ID='bronze_extract_tamimi' AIRFLOW_CTX_EXECUTION_DATE='2026-09-09T20:04:17.818431+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-09T20:04:17.818431+00:00'
+[2026-09-09T20:04:18.734+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-09-09T20:04:18.735+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python -m src.bronze.extract_tamimi']
+[2026-09-09T20:04:18.738+0000] {subprocess.py:86} INFO - Output:
+[2026-09-09T20:05:04.741+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-09T20:05:04.742+0000] {subprocess.py:93} INFO - 🛒 EXTRACTING & NORMALIZING TAMIMI BRONZE DATA
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO - 
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO - [*] Processing: Fresh Fruits & Veg
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 1  (offset 0   ): Total kept: 94
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 2  (offset 100 ): Total kept: 173
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 3  (offset 200 ): Total kept: 215
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 4  (offset 300 ): Total kept: 256
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 5  (offset 400 ): Total kept: 328
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 6  (offset 500 ): Total kept: 426
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 7  (offset 600 ): Total kept: 524
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 8  (offset 700 ): Total kept: 619
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 9  (offset 798 ): Total kept: 694
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -   ✓ Saved 1606 normalized items to: fruits_and_vegetables_raw.json
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO - 
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO - [*] Processing: Dairy & Eggs
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 1  (offset 0   ): Total kept: 67
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 2  (offset 100 ): Total kept: 167
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 3  (offset 200 ): Total kept: 264
+[2026-09-09T20:05:04.743+0000] {subprocess.py:93} INFO -     • Page 4  (offset 300 ): Total kept: 364
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 5  (offset 400 ): Total kept: 463
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 6  (offset 500 ): Total kept: 562
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 7  (offset 600 ): Total kept: 659
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 8  (offset 700 ): Total kept: 755
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 9  (offset 800 ): Total kept: 849
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 10 (offset 900 ): Total kept: 935
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 11 (offset 1000): Total kept: 1020
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 12 (offset 1100): Total kept: 1086
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 13 (offset 1200): Total kept: 1176
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 14 (offset 1300): Total kept: 1267
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 15 (offset 1400): Total kept: 1306
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -   ✓ Saved 1619 normalized items to: dairy_and_eggs_raw.json
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO - 
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO - [*] Processing: Beverages & Water
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 1  (offset 0   ): Total kept: 100
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 2  (offset 100 ): Total kept: 200
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 3  (offset 200 ): Total kept: 300
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 4  (offset 300 ): Total kept: 400
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 5  (offset 400 ): Total kept: 497
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 6  (offset 500 ): Total kept: 594
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 7  (offset 600 ): Total kept: 690
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -     • Page 8  (offset 700 ): Total kept: 767
+[2026-09-09T20:05:04.744+0000] {subprocess.py:93} INFO -   ✓ Saved 1366 normalized items to: beverages_raw.json
+[2026-09-09T20:05:04.745+0000] {subprocess.py:93} INFO - 
+[2026-09-09T20:05:04.745+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-09T20:05:04.745+0000] {subprocess.py:93} INFO - 🎉 TAMIMI FINISHED! Total Saved: 4,591 items
+[2026-09-09T20:05:04.745+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-09T20:05:04.750+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-09-09T20:05:04.762+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=weekly_grocery_pipeline, task_id=bronze_extract_tamimi, execution_date=20260909T200417, start_date=20260909T200418, end_date=20260909T200504
+[2026-09-09T20:05:04.782+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-09-09T20:05:04.793+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

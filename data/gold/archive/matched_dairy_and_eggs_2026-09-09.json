@@ -690,6 +690,75 @@
     }
   },
   {
+    "product_name_ar": "الصافي لبن طازج كامل الدسم ١.٢لتر",
+    "product_name_en": "Al Safi Fresh Laban Full Fat 1.2L",
+    "brand": "Al Safi",
+    "category": "dairy_and_eggs",
+    "size": 1200.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 1200.0,
+    "barcode": "0628102211315",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/065/product/628102211315.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 8.0,
+      "min_price": 8.0,
+      "max_price": 8.0,
+      "price_diff": 0.0
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 8.0,
+        "min_price": 8.0,
+        "max_price": 8.0,
+        "stores_prices": {
+          "bindawood": 8.0,
+          "lulu": 8.0,
+          "tamimi": 8.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/065/product/628102211315.jpg",
+        "raw_product_id": "42401"
+      },
+      "lulu": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/20/642138/7ba9c33c-ee78-4e7d-a419-a53230726cfd.jpg",
+        "raw_product_id": "227506"
+      },
+      "tamimi": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260826/66d1026b-db35-46be-9425-44d58e70424e-4254311.webp",
+        "raw_product_id": "270534"
+      }
+    }
+  },
+  {
     "product_name_ar": "بوك خليط جبنة شيدر مبشورة ١٨٠غرام",
     "product_name_en": "Puck Shredded Cheddar Cheese Mix 180g",
     "brand": "Puck",
@@ -824,6 +893,75 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260817/dc2e84f3-f058-4139-a147-4d8c8b23c0e5-4171071.webp",
         "raw_product_id": "269908"
+      }
+    }
+  },
+  {
+    "product_name_ar": "اكتيفيا زبادي يوناني دبل زيرو سادة ١٥٠غرام",
+    "product_name_en": "Activia Greek Yoghurt Double Zero Plain 150g",
+    "brand": "Activia",
+    "category": "dairy_and_eggs",
+    "size": 150.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 150.0,
+    "barcode": "0628102212691",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/030/product/628102212691.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 5.65,
+      "min_price": 5.5,
+      "max_price": 5.95,
+      "price_diff": 0.45
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 5.65,
+        "min_price": 5.5,
+        "max_price": 5.95,
+        "stores_prices": {
+          "bindawood": 5.95,
+          "lulu": 5.5,
+          "tamimi": 5.5
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 5.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/030/product/628102212691.jpg",
+        "raw_product_id": "42383"
+      },
+      "lulu": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/06/13/363968/5507841d-c4fb-4495-a971-cb79d0cab4c7.jpg",
+        "raw_product_id": "176225"
+      },
+      "tamimi": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260827/1dc1c458-889b-4be1-9c2f-d45a41b0de78-4133951.webp",
+        "raw_product_id": "270530"
       }
     }
   },
@@ -2894,6 +3032,75 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/1d44b75f-8386-455f-9cad-ee581a7ba322-3930931.webp",
         "raw_product_id": "249967"
+      }
+    }
+  },
+  {
+    "product_name_ar": "الصافي زبادي يوناني بالتوت المشكل ١٥٠غرام",
+    "product_name_en": "Al Safi Greek Yogurt Mixed Berry 150g",
+    "brand": "Al Safi",
+    "category": "dairy_and_eggs",
+    "size": 150.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 150.0,
+    "barcode": "0628102213240",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/065/281/product/628102213240.jpeg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 3.78,
+      "min_price": 3.0,
+      "max_price": 5.0,
+      "price_diff": 2.0
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 3.78,
+        "min_price": 3.0,
+        "max_price": 5.0,
+        "stores_prices": {
+          "bindawood": 5.0,
+          "lulu": 3.33,
+          "tamimi": 3.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 5.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/065/281/product/628102213240.jpeg",
+        "raw_product_id": "38595"
+      },
+      "lulu": {
+        "price": 3.33,
+        "original_price": 5.0,
+        "discount_amount": 1.67,
+        "discount_percentage": 33.4,
+        "has_discount": true,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/07/03/363603/5eeb6c47-4817-4494-a770-c4622bb1c580.jpg",
+        "raw_product_id": "184071"
+      },
+      "tamimi": {
+        "price": 3.0,
+        "original_price": 5.0,
+        "discount_amount": 2.0,
+        "discount_percentage": 40.0,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/504d7c39-9e47-47d9-91ec-40d87290ebfb-3930941.webp",
+        "raw_product_id": "249968"
       }
     }
   },
@@ -5520,75 +5727,6 @@
     }
   },
   {
-    "product_name_ar": "نادك حليب طازج بالشوكولاتة ٢٠٠مل",
-    "product_name_en": "Nadec Fresh Milk Chocolate Flavour 200ml",
-    "brand": "Nadec",
-    "category": "dairy_and_eggs",
-    "size": 200.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 200.0,
-    "barcode": "0628105700020",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/902/product/628105700020.jpg",
-    "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "lulu",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 2.0,
-      "min_price": 2.0,
-      "max_price": 2.0,
-      "price_diff": 0.0
-    },
-    "price_history": [
-      {
-        "date": "2026-09-09",
-        "avg_price": 2.0,
-        "min_price": 2.0,
-        "max_price": 2.0,
-        "stores_prices": {
-          "bindawood": 2.0,
-          "lulu": 2.0,
-          "tamimi": 2.0
-        }
-      }
-    ],
-    "stores_data": {
-      "bindawood": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/902/product/628105700020.jpg",
-        "raw_product_id": "26433"
-      },
-      "lulu": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/14/121642/0426d16c-71b1-498b-989c-e01b43e1fd83.jpg",
-        "raw_product_id": "63788"
-      },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20220602/208314_1-20220602-132810.png",
-        "raw_product_id": "240756"
-      }
-    }
-  },
-  {
     "product_name_ar": "كرافت لايت تشدر جبنة قابلة للدهن ٤٨٠غرام",
     "product_name_en": "Kraft Light Cheddar Cheese Spread 480g",
     "brand": "Kraft",
@@ -5861,6 +5999,75 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250226/2138421-20250226-121013.webp",
         "raw_product_id": "218438"
+      }
+    }
+  },
+  {
+    "product_name_ar": "نادك زبادي طازج خالي الدسم ١٧٠غرام",
+    "product_name_en": "Nadec Skimmed Fresh Yoghurt 170g",
+    "brand": "Nadec",
+    "category": "dairy_and_eggs",
+    "size": 170.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 170.0,
+    "barcode": "0628105700114",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/533/product/628105700114.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 2.0,
+      "min_price": 2.0,
+      "max_price": 2.0,
+      "price_diff": 0.0
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 2.0,
+        "min_price": 2.0,
+        "max_price": 2.0,
+        "stores_prices": {
+          "bindawood": 2.0,
+          "lulu": 2.0,
+          "tamimi": 2.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/533/product/628105700114.jpg",
+        "raw_product_id": "25970"
+      },
+      "lulu": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/14/209541/98b28367-c42b-46b6-a87e-1131fbab05cb.jpg",
+        "raw_product_id": "78438"
+      },
+      "tamimi": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240820/2278231-20240820-121515.webp",
+        "raw_product_id": "238808"
       }
     }
   },
@@ -6620,75 +6827,6 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/3ef4ce16-ffcf-4237-92ce-484a11785681-3529211.webp",
         "raw_product_id": "241181"
-      }
-    }
-  },
-  {
-    "product_name_ar": "نادك لبن عيران ١٨٠مل",
-    "product_name_en": "Nadec Ayran Laban Drink 180ml",
-    "brand": "Nadec",
-    "category": "dairy_and_eggs",
-    "size": 180.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 180.0,
-    "barcode": "0628105700561",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/030/155/product/628105700561.jpg",
-    "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "lulu",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 2.0,
-      "min_price": 2.0,
-      "max_price": 2.0,
-      "price_diff": 0.0
-    },
-    "price_history": [
-      {
-        "date": "2026-09-09",
-        "avg_price": 2.0,
-        "min_price": 2.0,
-        "max_price": 2.0,
-        "stores_prices": {
-          "bindawood": 2.0,
-          "lulu": 2.0,
-          "tamimi": 2.0
-        }
-      }
-    ],
-    "stores_data": {
-      "bindawood": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/030/155/product/628105700561.jpg",
-        "raw_product_id": "22103"
-      },
-      "lulu": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/14/298519/d6cdf1ab-5be0-4040-9f82-ebc66e935a62.jpg",
-        "raw_product_id": "142543"
-      },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20220109/330279_1-20220109-132724.png",
-        "raw_product_id": "229536"
       }
     }
   },
@@ -10074,6 +10212,75 @@
     }
   },
   {
+    "product_name_ar": "بريزيدن كريمة خفق ١لتر",
+    "product_name_en": "President Whipping Cream 1L",
+    "brand": "President",
+    "category": "dairy_and_eggs",
+    "size": 1000.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 1000.0,
+    "barcode": "0322802016031",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/020/471/product/322802016031.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 31.81,
+      "min_price": 27.99,
+      "max_price": 34.95,
+      "price_diff": 6.96
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 31.81,
+        "min_price": 27.99,
+        "max_price": 34.95,
+        "stores_prices": {
+          "bindawood": 32.5,
+          "lulu": 34.95,
+          "tamimi": 27.99
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 32.5,
+        "original_price": 46.99,
+        "discount_amount": 14.49,
+        "discount_percentage": 30.84,
+        "has_discount": true,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/020/471/product/322802016031.jpg",
+        "raw_product_id": "17157"
+      },
+      "lulu": {
+        "price": 34.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/07/28/87519/7c64275b-7c6f-4664-a102-0004f04358f0.jpg",
+        "raw_product_id": "38097"
+      },
+      "tamimi": {
+        "price": 27.99,
+        "original_price": 37.5,
+        "discount_amount": 9.51,
+        "discount_percentage": 25.36,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/169019_1-20231019-122400.png",
+        "raw_product_id": "221067"
+      }
+    }
+  },
+  {
     "product_name_ar": "لورباك زبدة طرية غير مملحة ٢٠٠غرام",
     "product_name_en": "Lurpak Soft Unsalted Butter 200g",
     "brand": "Lurpak",
@@ -11312,6 +11519,75 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20230816/360610_1-20230816-122204.png",
         "raw_product_id": "29568"
+      }
+    }
+  },
+  {
+    "product_name_ar": "ندى قشطة رائبة ٢٠٠غرام",
+    "product_name_en": "Nada Sour Cream 200g",
+    "brand": "Nada",
+    "category": "dairy_and_eggs",
+    "size": 200.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 200.0,
+    "barcode": "0628101825018",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/858/product/628101825018.jpeg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 7.0,
+      "min_price": 7.0,
+      "max_price": 7.0,
+      "price_diff": 0.0
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 7.0,
+        "min_price": 7.0,
+        "max_price": 7.0,
+        "stores_prices": {
+          "bindawood": 7.0,
+          "lulu": 7.0,
+          "tamimi": 7.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 7.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/858/product/628101825018.jpeg",
+        "raw_product_id": "15574"
+      },
+      "lulu": {
+        "price": 7.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/04/87535/2529ca41-0326-4cb5-a88f-bc0bee8f7d7c.jpg",
+        "raw_product_id": "32910"
+      },
+      "tamimi": {
+        "price": 7.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20251120/f7eb499d-c0ab-4526-a735-39535a6644fd-1197431.webp",
+        "raw_product_id": "217443"
       }
     }
   },
@@ -12696,6 +12972,75 @@
     }
   },
   {
+    "product_name_ar": "بوك كريمة الخفق ١لتر",
+    "product_name_en": "Puck Whipping Cream 1L",
+    "brand": "Puck",
+    "category": "dairy_and_eggs",
+    "size": 1000.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 1000.0,
+    "barcode": "0570042623015",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/582/product/570042623015.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 32.63,
+      "min_price": 28.99,
+      "max_price": 34.95,
+      "price_diff": 5.96
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 32.63,
+        "min_price": 28.99,
+        "max_price": 34.95,
+        "stores_prices": {
+          "bindawood": 28.99,
+          "lulu": 33.95,
+          "tamimi": 34.95
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 28.99,
+        "original_price": 36.5,
+        "discount_amount": 7.51,
+        "discount_percentage": 20.58,
+        "has_discount": true,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/582/product/570042623015.jpg",
+        "raw_product_id": "13037"
+      },
+      "lulu": {
+        "price": 33.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/11/87566/c58f2df0-5445-4151-97c0-ea58280bc7d2.jpg",
+        "raw_product_id": "32951"
+      },
+      "tamimi": {
+        "price": 34.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/119845_1-20231019-120300.png",
+        "raw_product_id": "27583"
+      }
+    }
+  },
+  {
     "product_name_ar": "نادك شبيهة جبنة موزاريلا مبشورة ٥٠٠غرام",
     "product_name_en": "Nadec Analogue Shredded Mozzarella Cheese 500g",
     "brand": "Nadec",
@@ -13199,20 +13544,20 @@
       "tamimi"
     ],
     "price_metrics": {
-      "avg_price": 22.31,
-      "min_price": 18.99,
+      "avg_price": 21.64,
+      "min_price": 16.99,
       "max_price": 24.95,
-      "price_diff": 5.96
+      "price_diff": 7.96
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 22.31,
-        "min_price": 18.99,
+        "avg_price": 21.64,
+        "min_price": 16.99,
         "max_price": 24.95,
         "stores_prices": {
           "bindawood": 22.99,
-          "lulu": 18.99,
+          "lulu": 16.99,
           "tamimi": 24.95
         }
       }
@@ -13228,10 +13573,10 @@
         "raw_product_id": "12990"
       },
       "lulu": {
-        "price": 18.99,
+        "price": 16.99,
         "original_price": 23.95,
-        "discount_amount": 4.96,
-        "discount_percentage": 20.71,
+        "discount_amount": 6.96,
+        "discount_percentage": 29.06,
         "has_discount": true,
         "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/14/100600/e535bfd2-28cf-4bc8-8cb0-69affd882fef.jpg",
         "raw_product_id": "60091"
@@ -16146,6 +16491,75 @@
     }
   },
   {
+    "product_name_ar": "اكتيفيا زبادي مخفوق سادة كامل الدسم ١٢٥غرام",
+    "product_name_en": "Activia Full Fat Pure Stirred Yogurt 125g",
+    "brand": "Activia",
+    "category": "dairy_and_eggs",
+    "size": 125.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 125.0,
+    "barcode": "0628102211830",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/013/044/product/628102211830.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 2.33,
+      "min_price": 1.99,
+      "max_price": 2.5,
+      "price_diff": 0.51
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 2.33,
+        "min_price": 1.99,
+        "max_price": 2.5,
+        "stores_prices": {
+          "bindawood": 2.5,
+          "lulu": 2.5,
+          "tamimi": 1.99
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/013/044/product/628102211830.jpg",
+        "raw_product_id": "12788"
+      },
+      "lulu": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/06/13/53909/c0ae310a-e4f4-411d-8f07-2f610094bd63.jpg",
+        "raw_product_id": "58457"
+      },
+      "tamimi": {
+        "price": 1.99,
+        "original_price": 2.5,
+        "discount_amount": 0.51,
+        "discount_percentage": 20.4,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/c3bdd770-950c-48f6-b81c-bdcf6fccf3ed-1982771.webp",
+        "raw_product_id": "240755"
+      }
+    }
+  },
+  {
     "product_name_ar": "دانيت حلى شوكولاتة ٧٥غرام",
     "product_name_en": "Danette Chocolate Dessert 75g",
     "brand": "Danette",
@@ -17181,6 +17595,213 @@
     }
   },
   {
+    "product_name_ar": "المراعي مارفيلو شرائح جبن جودا طبيعي ١٥٠غرام",
+    "product_name_en": "Almarai Marvello Natural Gouda Cheese Slices 150g",
+    "brand": "Almarai",
+    "category": "dairy_and_eggs",
+    "size": 150.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 150.0,
+    "barcode": null,
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/331/product/10514995---50172-NATURAL-SLICES-GOUDA-150G-%281X12%29-BIF-RA.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "dairy_brand_token",
+    "confidence_score": 0.9,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 11.83,
+      "min_price": 10.99,
+      "max_price": 12.5,
+      "price_diff": 1.51
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 11.83,
+        "min_price": 10.99,
+        "max_price": 12.5,
+        "stores_prices": {
+          "bindawood": 12.5,
+          "lulu": 12.0,
+          "tamimi": 10.99
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 12.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/331/product/10514995---50172-NATURAL-SLICES-GOUDA-150G-%281X12%29-BIF-RA.jpg",
+        "raw_product_id": "35568"
+      },
+      "lulu": {
+        "price": 12.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/03/617634/fcf57920-dac5-4feb-94b3-b063999b3493.jpg",
+        "raw_product_id": "193969"
+      },
+      "tamimi": {
+        "price": 10.99,
+        "original_price": 11.95,
+        "discount_amount": 0.96,
+        "discount_percentage": 8.03,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250819/6affb88f-f346-41f4-8c89-18f3d9ba34ab-4197691.webp",
+        "raw_product_id": "262570"
+      }
+    }
+  },
+  {
+    "product_name_ar": "المراعي مارفيلو شرائح جبن شيدر طبيعي ١٥٠غرام",
+    "product_name_en": "Almarai Marvello Natural Cheddar Cheese Slices 150g",
+    "brand": "Almarai",
+    "category": "dairy_and_eggs",
+    "size": 150.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 150.0,
+    "barcode": null,
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/330/product/10515005---50173-NATURAL-SLICES-CHEDAR-150G-%281X12%29-BIF-RA.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "dairy_brand_token",
+    "confidence_score": 0.9,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 13.16,
+      "min_price": 10.99,
+      "max_price": 14.5,
+      "price_diff": 3.51
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 13.16,
+        "min_price": 10.99,
+        "max_price": 14.5,
+        "stores_prices": {
+          "bindawood": 14.5,
+          "lulu": 14.0,
+          "tamimi": 10.99
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 14.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/330/product/10515005---50173-NATURAL-SLICES-CHEDAR-150G-%281X12%29-BIF-RA.jpg",
+        "raw_product_id": "35567"
+      },
+      "lulu": {
+        "price": 14.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/03/617635/49e114ea-8cdc-4e4b-bd40-4e8553c9239b.jpg",
+        "raw_product_id": "193970"
+      },
+      "tamimi": {
+        "price": 10.99,
+        "original_price": 13.95,
+        "discount_amount": 2.96,
+        "discount_percentage": 21.22,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250901/c6f032fa-fd18-4431-b4ff-07d4980bc337-4197401.webp",
+        "raw_product_id": "262629"
+      }
+    }
+  },
+  {
+    "product_name_ar": "المراعي تروفوس جبن فيتا يوناني ٤٠٠غرام",
+    "product_name_en": "Almarai Trofos Greek Feta Cheese 400g",
+    "brand": "Almarai",
+    "category": "dairy_and_eggs",
+    "size": 400.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 400.0,
+    "barcode": null,
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/329/product/10518000---50139-FETA-GREEK-400G-%281X6%29-VACUUMED-BIF.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "dairy_brand_token",
+    "confidence_score": 0.9,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 30.48,
+      "min_price": 23.5,
+      "max_price": 40.95,
+      "price_diff": 17.45
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 30.48,
+        "min_price": 23.5,
+        "max_price": 40.95,
+        "stores_prices": {
+          "bindawood": 26.99,
+          "lulu": 40.95,
+          "tamimi": 23.5
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 26.99,
+        "original_price": 39.99,
+        "discount_amount": 13.0,
+        "discount_percentage": 32.51,
+        "has_discount": true,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/329/product/10518000---50139-FETA-GREEK-400G-%281X6%29-VACUUMED-BIF.jpg",
+        "raw_product_id": "35566"
+      },
+      "lulu": {
+        "price": 40.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/10/03/617804/7d861a08-10e7-4370-8008-0eb3262c6360.jpg",
+        "raw_product_id": "193968"
+      },
+      "tamimi": {
+        "price": 23.5,
+        "original_price": 38.95,
+        "discount_amount": 15.45,
+        "discount_percentage": 39.67,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260201/ee76767b-2a13-4947-aca0-cb1f0bd3c807-4211151.webp",
+        "raw_product_id": "264948"
+      }
+    }
+  },
+  {
     "product_name_ar": "المراعي تروفوس جبن فيتا يوناني ٢٠٠غرام",
     "product_name_en": "Almarai Trofos Greek Feta Cheese 200g",
     "brand": "Almarai",
@@ -17319,6 +17940,144 @@
     }
   },
   {
+    "product_name_ar": "المراعي باريستا حليب كامل الدسم رغوة أكثر ١لتر",
+    "product_name_en": "Almarai Barista Full Fat Milk 1L",
+    "brand": "Almarai",
+    "category": "dairy_and_eggs",
+    "size": 1000.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 1000.0,
+    "barcode": "0628100703136",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/030/140/product/628100703136.png",
+    "canonical_source": "bindawood",
+    "match_tier": "dairy_brand_token",
+    "confidence_score": 0.9,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 6.83,
+      "min_price": 6.5,
+      "max_price": 7.0,
+      "price_diff": 0.5
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 6.83,
+        "min_price": 6.5,
+        "max_price": 7.0,
+        "stores_prices": {
+          "bindawood": 6.5,
+          "lulu": 7.0,
+          "tamimi": 7.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 6.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/030/140/product/628100703136.png",
+        "raw_product_id": "22095"
+      },
+      "lulu": {
+        "price": 7.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/07/11/1897/0390d365-1229-492d-9349-12196eafaaca.jpg",
+        "raw_product_id": "283"
+      },
+      "tamimi": {
+        "price": 7.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240509/1000971-20240509-160006.webp",
+        "raw_product_id": "255875"
+      }
+    }
+  },
+  {
+    "product_name_ar": "المراعي حليب طازج كامل الدسم ٥٠٠مل",
+    "product_name_en": "Almarai Full Fat Fresh Milk 500ml",
+    "brand": "Almarai",
+    "category": "dairy_and_eggs",
+    "size": 500.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 500.0,
+    "barcode": null,
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/123/product/6281053.png",
+    "canonical_source": "bindawood",
+    "match_tier": "dairy_brand_token",
+    "confidence_score": 0.9,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 4.0,
+      "min_price": 4.0,
+      "max_price": 4.0,
+      "price_diff": 0.0
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 4.0,
+        "min_price": 4.0,
+        "max_price": 4.0,
+        "stores_prices": {
+          "bindawood": 4.0,
+          "lulu": 4.0,
+          "tamimi": 4.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 4.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/123/product/6281053.png",
+        "raw_product_id": "19592"
+      },
+      "lulu": {
+        "price": 4.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/09/11/55847/b21ad6a8-6ef0-4c72-8096-bbea84402be7.jpg",
+        "raw_product_id": "279"
+      },
+      "tamimi": {
+        "price": 4.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240618/FLalmaraiBYD10image1-20240618-071446.webp",
+        "raw_product_id": "255874"
+      }
+    }
+  },
+  {
     "product_name_ar": "المراعي جبنة مثلثات ٤٨٠غرام",
     "product_name_en": "Almarai Triangle Cheese 480g",
     "brand": "Almarai",
@@ -17384,75 +18143,6 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20240218/275184_1-20240218-052100.png",
         "raw_product_id": "254823"
-      }
-    }
-  },
-  {
-    "product_name_ar": "المراعي حليب طويل الاجل كامل الدسم غني و كريمي ١لتر",
-    "product_name_en": "Almarai Long Life Full Fat Milk Rich & Creamy 1L",
-    "brand": "Almarai",
-    "category": "dairy_and_eggs",
-    "size": 1000.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 1000.0,
-    "barcode": "0628100703226",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/044/867/product/628100703226.jpg",
-    "canonical_source": "bindawood",
-    "match_tier": "dairy_brand_token",
-    "confidence_score": 0.9,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "lulu",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 6.33,
-      "min_price": 6.0,
-      "max_price": 7.0,
-      "price_diff": 1.0
-    },
-    "price_history": [
-      {
-        "date": "2026-09-09",
-        "avg_price": 6.33,
-        "min_price": 6.0,
-        "max_price": 7.0,
-        "stores_prices": {
-          "bindawood": 6.0,
-          "lulu": 7.0,
-          "tamimi": 6.0
-        }
-      }
-    ],
-    "stores_data": {
-      "bindawood": {
-        "price": 6.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/044/867/product/628100703226.jpg",
-        "raw_product_id": "12880"
-      },
-      "lulu": {
-        "price": 7.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/07/11/1897/0390d365-1229-492d-9349-12196eafaaca.jpg",
-        "raw_product_id": "283"
-      },
-      "tamimi": {
-        "price": 6.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20220323/275177_1-20220323-140348.png",
-        "raw_product_id": "27718"
       }
     }
   },
@@ -17798,6 +18488,75 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250114/2157961-20250114-160628.webp",
         "raw_product_id": "260433"
+      }
+    }
+  },
+  {
+    "product_name_ar": "نادك زبادي يوناني سادة قليل الدسم ١٦٠غرام",
+    "product_name_en": "Nadec Low Fat Plain Greek Yoghurt 160g",
+    "brand": "Nadec",
+    "category": "dairy_and_eggs",
+    "size": 160.0,
+    "unit": "g",
+    "quantity": 1,
+    "total_size": 160.0,
+    "barcode": "0628105701285",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/040/314/product/628105701285.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "dairy_brand_token",
+    "confidence_score": 0.9,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 5.5,
+      "min_price": 5.5,
+      "max_price": 5.5,
+      "price_diff": 0.0
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 5.5,
+        "min_price": 5.5,
+        "max_price": 5.5,
+        "stores_prices": {
+          "bindawood": 5.5,
+          "lulu": 5.5,
+          "tamimi": 5.5
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/040/314/product/628105701285.jpg",
+        "raw_product_id": "27373"
+      },
+      "lulu": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/05/20/178446/499edeef-223c-401f-92c2-dc43c49989c5.jpg",
+        "raw_product_id": "100297"
+      },
+      "tamimi": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240820/3919331-20240820-122121.webp",
+        "raw_product_id": "249960"
       }
     }
   },
@@ -18281,6 +19040,75 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260427/b1d5ebaa-82bc-4dcc-83f2-12d22e02ea60-4168581.webp",
         "raw_product_id": "264734"
+      }
+    }
+  },
+  {
+    "product_name_ar": "اكتيفيا مكس آند جو زبادي يوناني مع جرانولا الشوفان بالعسل ١٥٠غرام",
+    "product_name_en": "Activia Mix & Go Breakfast Greek Yogurt with Honey Oat Granola 150g",
+    "brand": "Activia",
+    "category": "dairy_and_eggs",
+    "size": 150.0,
+    "unit": "g",
+    "quantity": 6,
+    "total_size": 900.0,
+    "barcode": "0628102212682",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/056/745/product/628102212682.jpeg",
+    "canonical_source": "bindawood",
+    "match_tier": "dairy_brand_token",
+    "confidence_score": 0.9,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 8.5,
+      "min_price": 7.0,
+      "max_price": 11.0,
+      "price_diff": 4.0
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 8.5,
+        "min_price": 7.0,
+        "max_price": 11.0,
+        "stores_prices": {
+          "bindawood": 7.5,
+          "lulu": 7.0,
+          "tamimi": 11.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 7.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/056/745/product/628102212682.jpeg",
+        "raw_product_id": "34578"
+      },
+      "lulu": {
+        "price": 7.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2025/06/13/209694/edf7c4e9-13ed-4cd7-9cc2-b9536408d1fd.jpg",
+        "raw_product_id": "74220"
+      },
+      "tamimi": {
+        "price": 11.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/4230da9c-c00b-426a-bc5b-05887a2cfbc3-3930971.webp",
+        "raw_product_id": "260527"
       }
     }
   },

@@ -1,0 +1,20 @@
+[2026-09-10T01:08:46.375+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weekly_grocery_pipeline.silver_clean_lulu manual__2026-09-10T01:07:36.912977+00:00 [queued]>
+[2026-09-10T01:08:46.380+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weekly_grocery_pipeline.silver_clean_lulu manual__2026-09-10T01:07:36.912977+00:00 [queued]>
+[2026-09-10T01:08:46.380+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-09-10T01:08:46.384+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): silver_clean_lulu> on 2026-09-10 01:07:36.912977+00:00
+[2026-09-10T01:08:46.388+0000] {standard_task_runner.py:60} INFO - Started process 335 to run task
+[2026-09-10T01:08:46.390+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'weekly_grocery_pipeline', 'silver_clean_lulu', 'manual__2026-09-10T01:07:36.912977+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/weekly_grocery_pipeline.py', '--cfg-path', '/tmp/tmpnvmfym7j']
+[2026-09-10T01:08:46.392+0000] {standard_task_runner.py:88} INFO - Job 75: Subtask silver_clean_lulu
+[2026-09-10T01:08:46.426+0000] {task_command.py:423} INFO - Running <TaskInstance: weekly_grocery_pipeline.silver_clean_lulu manual__2026-09-10T01:07:36.912977+00:00 [running]> on host d6853e0c6c65
+[2026-09-10T01:08:46.472+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='shaleh' AIRFLOW_CTX_DAG_ID='weekly_grocery_pipeline' AIRFLOW_CTX_TASK_ID='silver_clean_lulu' AIRFLOW_CTX_EXECUTION_DATE='2026-09-10T01:07:36.912977+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-10T01:07:36.912977+00:00'
+[2026-09-10T01:08:46.472+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-09-10T01:08:46.473+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python -m src.silver.clean_lulu']
+[2026-09-10T01:08:46.477+0000] {subprocess.py:86} INFO - Output:
+[2026-09-10T01:08:46.683+0000] {subprocess.py:93} INFO - === [Lulu] Starting Silver Clean Pipeline (Dairy-Enhanced) ===
+[2026-09-10T01:08:46.685+0000] {subprocess.py:93} INFO -   ✓ Cleaned 1455 products (Sizes: 1367 | Barcodes: 1455 | Deals: 72) -> beverages_clean.json
+[2026-09-10T01:08:46.685+0000] {subprocess.py:93} INFO -   ✓ Cleaned 660 products (Sizes: 655 | Barcodes: 660 | Deals: 59) -> dairy_and_eggs_clean.json
+[2026-09-10T01:08:46.685+0000] {subprocess.py:93} INFO -   ✓ Cleaned 267 products (Sizes: 216 | Barcodes: 267 | Deals: 12) -> fruits_and_vegetables_clean.json
+[2026-09-10T01:08:46.687+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-09-10T01:08:46.701+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=weekly_grocery_pipeline, task_id=silver_clean_lulu, execution_date=20260910T010736, start_date=20260910T010846, end_date=20260910T010846
+[2026-09-10T01:08:46.727+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-09-10T01:08:46.740+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -2,6 +2,4 @@ __pycache__/
 *.py[cod]
 .venv/
 .env
-data/bronze/**/*.json
-data/silver/*
-data/gold/*.sqlite3
+

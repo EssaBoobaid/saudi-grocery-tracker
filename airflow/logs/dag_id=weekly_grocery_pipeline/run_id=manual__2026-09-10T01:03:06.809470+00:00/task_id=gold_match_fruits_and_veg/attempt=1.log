@@ -1,0 +1,29 @@
+[2026-09-10T01:04:35.542+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weekly_grocery_pipeline.gold_match_fruits_and_veg manual__2026-09-10T01:03:06.809470+00:00 [queued]>
+[2026-09-10T01:04:35.545+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weekly_grocery_pipeline.gold_match_fruits_and_veg manual__2026-09-10T01:03:06.809470+00:00 [queued]>
+[2026-09-10T01:04:35.546+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-09-10T01:04:35.550+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): gold_match_fruits_and_veg> on 2026-09-10 01:03:06.809470+00:00
+[2026-09-10T01:04:35.554+0000] {standard_task_runner.py:60} INFO - Started process 245 to run task
+[2026-09-10T01:04:35.557+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'weekly_grocery_pipeline', 'gold_match_fruits_and_veg', 'manual__2026-09-10T01:03:06.809470+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/weekly_grocery_pipeline.py', '--cfg-path', '/tmp/tmpnytpi4iu']
+[2026-09-10T01:04:35.558+0000] {standard_task_runner.py:88} INFO - Job 65: Subtask gold_match_fruits_and_veg
+[2026-09-10T01:04:35.602+0000] {task_command.py:423} INFO - Running <TaskInstance: weekly_grocery_pipeline.gold_match_fruits_and_veg manual__2026-09-10T01:03:06.809470+00:00 [running]> on host d6853e0c6c65
+[2026-09-10T01:04:35.641+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='shaleh' AIRFLOW_CTX_DAG_ID='weekly_grocery_pipeline' AIRFLOW_CTX_TASK_ID='gold_match_fruits_and_veg' AIRFLOW_CTX_EXECUTION_DATE='2026-09-10T01:03:06.809470+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-09-10T01:03:06.809470+00:00'
+[2026-09-10T01:04:35.642+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-09-10T01:04:35.643+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python -m src.gold.matched_fruits_and_vegetables']
+[2026-09-10T01:04:35.647+0000] {subprocess.py:86} INFO - Output:
+[2026-09-10T01:04:37.939+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-10T01:04:37.941+0000] {subprocess.py:93} INFO - 🌾 RUNNING ADVANCED GASTAT PRODUCE MATCHER (ALL OFFICIAL ITEMS)
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO -   • Successfully extracted 41 distinct official GASTAT commodities.
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO - 
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO - 📊 GASTAT OFFICIAL BASKET REPORT:
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO -    • Total Official Commodities: 41
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO -    • Matched Tri-Store Clusters : 31 clusters
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO -    • Official Basket Coverage   : 75.61%
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO -    • Matched Store Items        : 93 products
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO -    • Output File                : matched_fruits_and_vegetables.json
+[2026-09-10T01:04:37.942+0000] {subprocess.py:93} INFO - =================================================================
+[2026-09-10T01:04:37.943+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-09-10T01:04:37.955+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=weekly_grocery_pipeline, task_id=gold_match_fruits_and_veg, execution_date=20260910T010306, start_date=20260910T010435, end_date=20260910T010437
+[2026-09-10T01:04:37.966+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-09-10T01:04:37.978+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

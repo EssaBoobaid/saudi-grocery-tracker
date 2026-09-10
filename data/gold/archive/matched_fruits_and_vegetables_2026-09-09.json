@@ -92,24 +92,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 18.96,
-      "min_price": 13.95,
-      "max_price": 22.99,
-      "price_diff": 9.04,
+      "avg_price": 15.63,
+      "min_price": 12.99,
+      "max_price": 19.95,
+      "price_diff": 6.96,
       "gastat_benchmark_price": 14.55,
-      "variance_from_benchmark": 4.41
+      "variance_from_benchmark": 1.08
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 18.96,
-        "min_price": 13.95,
-        "max_price": 22.99,
+        "avg_price": 15.63,
+        "min_price": 12.99,
+        "max_price": 19.95,
         "gastat_benchmark": 14.55,
         "stores_prices": {
           "bindawood": 19.95,
           "lulu": 13.95,
-          "tamimi": 22.99
+          "tamimi": 12.99
         }
       }
     ],
@@ -133,13 +133,13 @@
         "raw_product_id": "85776"
       },
       "tamimi": {
-        "price": 22.99,
-        "original_price": 29.95,
-        "discount_amount": 6.96,
-        "discount_percentage": 23.24,
+        "price": 12.99,
+        "original_price": 16.95,
+        "discount_amount": 3.96,
+        "discount_percentage": 23.36,
         "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260714/dabeead7-88db-45f9-95ac-5e5a0f3973e9-3949281.webp",
-        "raw_product_id": "255018"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260714/3a149026-7511-4ee2-95e8-76781af35c9f-3949271.webp",
+        "raw_product_id": "251268"
       }
     }
   },
@@ -308,24 +308,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 7.15,
-      "min_price": 6.5,
+      "avg_price": 7.46,
+      "min_price": 6.95,
       "max_price": 8.0,
-      "price_diff": 1.5,
+      "price_diff": 1.05,
       "gastat_benchmark_price": 7.37,
-      "variance_from_benchmark": -0.22
+      "variance_from_benchmark": 0.09
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 7.15,
-        "min_price": 6.5,
+        "avg_price": 7.46,
+        "min_price": 6.95,
         "max_price": 8.0,
         "gastat_benchmark": 7.37,
         "stores_prices": {
           "bindawood": 6.95,
           "lulu": 8.0,
-          "tamimi": 6.5
+          "tamimi": 7.43
         }
       }
     ],
@@ -349,13 +349,13 @@
         "raw_product_id": "84382"
       },
       "tamimi": {
-        "price": 6.5,
-        "original_price": 7.95,
-        "discount_amount": 1.45,
-        "discount_percentage": 18.24,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20220810/235934_1-20220810-083348.png",
-        "raw_product_id": "242893"
+        "price": 7.43,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250428/3953731-20250428-120422.webp",
+        "raw_product_id": "261704"
       }
     }
   },
@@ -668,24 +668,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 14.13,
+      "avg_price": 13.8,
       "min_price": 11.5,
-      "max_price": 15.95,
-      "price_diff": 4.45,
+      "max_price": 14.95,
+      "price_diff": 3.45,
       "gastat_benchmark_price": 13.7,
-      "variance_from_benchmark": 0.43
+      "variance_from_benchmark": 0.1
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 14.13,
+        "avg_price": 13.8,
         "min_price": 11.5,
-        "max_price": 15.95,
+        "max_price": 14.95,
         "gastat_benchmark": 13.7,
         "stores_prices": {
           "bindawood": 14.95,
           "lulu": 11.5,
-          "tamimi": 15.95
+          "tamimi": 14.95
         }
       }
     ],
@@ -709,13 +709,85 @@
         "raw_product_id": "202608"
       },
       "tamimi": {
-        "price": 15.95,
+        "price": 14.95,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20230101/387746_1-20230101-220916.png",
-        "raw_product_id": "245140"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/b6fa7691-fdd0-40bd-a601-a62aa76d9d86-4051311.webp",
+        "raw_product_id": "268058"
+      }
+    }
+  },
+  {
+    "gastat_key": "Lebanese Peach",
+    "commodity_root": "peach",
+    "product_name_ar": "خوخ دونات (علبة)",
+    "product_name_en": "Peach Donuts (Pack)",
+    "official_gastat_name_ar": "خوخ لبناني",
+    "official_gastat_name_en": "Lebanese Peach",
+    "brand": "Peach",
+    "category": "fruits_and_vegetables",
+    "unit": "kg",
+    "size": 1.0,
+    "barcode": "0200000001523",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/019/422/product/200000001523.jpg",
+    "canonical_source": "bindawood",
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "lulu",
+      "tamimi"
+    ],
+    "current_pricing": {
+      "avg_price": 11.47,
+      "min_price": 8.5,
+      "max_price": 14.95,
+      "price_diff": 6.45,
+      "gastat_benchmark_price": 17.9,
+      "variance_from_benchmark": -6.43
+    },
+    "price_history": [
+      {
+        "date": "2026-09-09",
+        "avg_price": 11.47,
+        "min_price": 8.5,
+        "max_price": 14.95,
+        "gastat_benchmark": 17.9,
+        "stores_prices": {
+          "bindawood": 10.95,
+          "lulu": 8.5,
+          "tamimi": 14.95
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 10.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/019/422/product/200000001523.jpg",
+        "raw_product_id": "17005"
+      },
+      "lulu": {
+        "price": 8.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/10/01/145692/88bcc84c-0e91-4e95-98d3-8b9a38e36327.jpg",
+        "raw_product_id": "84185"
+      },
+      "tamimi": {
+        "price": 14.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/640/20240212/371210_1-20240212-200339.png",
+        "raw_product_id": "254472"
       }
     }
   },
@@ -740,24 +812,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 11.24,
-      "min_price": 9.98,
-      "max_price": 11.99,
-      "price_diff": 2.01,
+      "avg_price": 12.23,
+      "min_price": 11.74,
+      "max_price": 12.95,
+      "price_diff": 1.21,
       "gastat_benchmark_price": 12.49,
-      "variance_from_benchmark": -1.25
+      "variance_from_benchmark": -0.26
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 11.24,
-        "min_price": 9.98,
-        "max_price": 11.99,
+        "avg_price": 12.23,
+        "min_price": 11.74,
+        "max_price": 12.95,
         "gastat_benchmark": 12.49,
         "stores_prices": {
           "bindawood": 11.99,
           "lulu": 11.74,
-          "tamimi": 9.98
+          "tamimi": 12.95
         }
       }
     ],
@@ -781,13 +853,13 @@
         "raw_product_id": "86995"
       },
       "tamimi": {
-        "price": 9.98,
+        "price": 12.95,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20220830/251612_1-20220830-060239.png",
-        "raw_product_id": "243486"
+        "raw_product_id": "243487"
       }
     }
   },
@@ -956,24 +1028,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 4.3,
+      "avg_price": 4.31,
       "min_price": 3.95,
       "max_price": 4.99,
       "price_diff": 1.04,
       "gastat_benchmark_price": 4.59,
-      "variance_from_benchmark": -0.29
+      "variance_from_benchmark": -0.28
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 4.3,
+        "avg_price": 4.31,
         "min_price": 3.95,
         "max_price": 4.99,
         "gastat_benchmark": 4.59,
         "stores_prices": {
           "bindawood": 3.95,
           "lulu": 4.99,
-          "tamimi": 3.95
+          "tamimi": 3.98
         }
       }
     ],
@@ -997,13 +1069,13 @@
         "raw_product_id": "86398"
       },
       "tamimi": {
-        "price": 3.95,
+        "price": 3.98,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20210706/334774_1-20210706-070909.png",
-        "raw_product_id": "230458"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260816/9578935d-5be0-435f-9a7e-202ae73ac28c-2581171.webp",
+        "raw_product_id": "269858"
       }
     }
   },
@@ -1028,24 +1100,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 3.56,
-      "min_price": 2.48,
+      "avg_price": 3.72,
+      "min_price": 2.98,
       "max_price": 4.24,
-      "price_diff": 1.76,
+      "price_diff": 1.26,
       "gastat_benchmark_price": 3.33,
-      "variance_from_benchmark": 0.23
+      "variance_from_benchmark": 0.39
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 3.56,
-        "min_price": 2.48,
+        "avg_price": 3.72,
+        "min_price": 2.98,
         "max_price": 4.24,
         "gastat_benchmark": 3.33,
         "stores_prices": {
           "bindawood": 3.95,
           "lulu": 4.24,
-          "tamimi": 2.48
+          "tamimi": 2.98
         }
       }
     ],
@@ -1069,7 +1141,7 @@
         "raw_product_id": "86404"
       },
       "tamimi": {
-        "price": 2.48,
+        "price": 2.98,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
@@ -1100,24 +1172,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 19.96,
-      "min_price": 16.95,
-      "max_price": 22.99,
-      "price_diff": 6.04,
+      "avg_price": 16.63,
+      "min_price": 12.99,
+      "max_price": 19.95,
+      "price_diff": 6.96,
       "gastat_benchmark_price": 15.6,
-      "variance_from_benchmark": 4.36
+      "variance_from_benchmark": 1.03
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 19.96,
-        "min_price": 16.95,
-        "max_price": 22.99,
+        "avg_price": 16.63,
+        "min_price": 12.99,
+        "max_price": 19.95,
         "gastat_benchmark": 15.6,
         "stores_prices": {
           "bindawood": 19.95,
           "lulu": 16.95,
-          "tamimi": 22.99
+          "tamimi": 12.99
         }
       }
     ],
@@ -1141,13 +1213,13 @@
         "raw_product_id": "85773"
       },
       "tamimi": {
-        "price": 22.99,
-        "original_price": 29.95,
-        "discount_amount": 6.96,
-        "discount_percentage": 23.24,
+        "price": 12.99,
+        "original_price": 16.95,
+        "discount_amount": 3.96,
+        "discount_percentage": 23.36,
         "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260714/dabeead7-88db-45f9-95ac-5e5a0f3973e9-3949281.webp",
-        "raw_product_id": "255018"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260714/3a149026-7511-4ee2-95e8-76781af35c9f-3949271.webp",
+        "raw_product_id": "251268"
       }
     }
   },
@@ -1172,24 +1244,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 6.38,
+      "avg_price": 5.23,
       "min_price": 3.25,
-      "max_price": 8.95,
-      "price_diff": 5.7,
+      "max_price": 6.95,
+      "price_diff": 3.7,
       "gastat_benchmark_price": 5.84,
-      "variance_from_benchmark": 0.54
+      "variance_from_benchmark": -0.61
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 6.38,
+        "avg_price": 5.23,
         "min_price": 3.25,
-        "max_price": 8.95,
+        "max_price": 6.95,
         "gastat_benchmark": 5.84,
         "stores_prices": {
           "bindawood": 6.95,
           "lulu": 3.25,
-          "tamimi": 8.95
+          "tamimi": 5.5
         }
       }
     ],
@@ -1213,13 +1285,13 @@
         "raw_product_id": "133"
       },
       "tamimi": {
-        "price": 8.95,
+        "price": 5.5,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/124376_1-20231019-130916.png",
-        "raw_product_id": "21628"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250525/3195761-20250525-082201.webp",
+        "raw_product_id": "261971"
       }
     }
   },
@@ -1244,24 +1316,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 4.31,
+      "avg_price": 3.75,
       "min_price": 3.5,
-      "max_price": 5.93,
-      "price_diff": 2.43,
+      "max_price": 4.25,
+      "price_diff": 0.75,
       "gastat_benchmark_price": 3.67,
-      "variance_from_benchmark": 0.64
+      "variance_from_benchmark": 0.08
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 4.31,
+        "avg_price": 3.75,
         "min_price": 3.5,
-        "max_price": 5.93,
+        "max_price": 4.25,
         "gastat_benchmark": 3.67,
         "stores_prices": {
           "bindawood": 3.5,
           "lulu": 3.5,
-          "tamimi": 5.93
+          "tamimi": 4.25
         }
       }
     ],
@@ -1285,13 +1357,13 @@
         "raw_product_id": "86075"
       },
       "tamimi": {
-        "price": 5.93,
+        "price": 4.25,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/124310_1-20231019-133053.png",
-        "raw_product_id": "21624"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240815/3805351-20240815-163541.webp",
+        "raw_product_id": "257688"
       }
     }
   },
@@ -1316,24 +1388,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 8.15,
+      "avg_price": 8.13,
       "min_price": 7.95,
       "max_price": 8.5,
       "price_diff": 0.55,
       "gastat_benchmark_price": 7.84,
-      "variance_from_benchmark": 0.31
+      "variance_from_benchmark": 0.29
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 8.15,
+        "avg_price": 8.13,
         "min_price": 7.95,
         "max_price": 8.5,
         "gastat_benchmark": 7.84,
         "stores_prices": {
           "bindawood": 7.95,
           "lulu": 8.5,
-          "tamimi": 7.99
+          "tamimi": 7.95
         }
       }
     ],
@@ -1357,13 +1429,13 @@
         "raw_product_id": "102430"
       },
       "tamimi": {
-        "price": 7.99,
-        "original_price": 9.95,
-        "discount_amount": 1.96,
-        "discount_percentage": 19.7,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240711/2180161-20240711-080628.webp",
-        "raw_product_id": "256595"
+        "price": 7.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/145104_1-20231019-132140.png",
+        "raw_product_id": "21767"
       }
     }
   },
@@ -1964,23 +2036,23 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 10.3,
-      "min_price": 9.48,
+      "avg_price": 9.64,
+      "min_price": 7.5,
       "max_price": 11.48,
-      "price_diff": 2.0,
+      "price_diff": 3.98,
       "gastat_benchmark_price": 11.87,
-      "variance_from_benchmark": -1.57
+      "variance_from_benchmark": -2.23
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 10.3,
-        "min_price": 9.48,
+        "avg_price": 9.64,
+        "min_price": 7.5,
         "max_price": 11.48,
         "gastat_benchmark": 11.87,
         "stores_prices": {
           "bindawood": 9.95,
-          "lulu": 9.48,
+          "lulu": 7.5,
           "tamimi": 11.48
         }
       }
@@ -1996,13 +2068,13 @@
         "raw_product_id": "41773"
       },
       "lulu": {
-        "price": 9.48,
+        "price": 7.5,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2024/10/01/151029/24556d9e-6177-422c-95ff-0fc2e8eb24ee.jpg",
-        "raw_product_id": "86060"
+        "image_url": "https://bf1af2.akinoncloudcdn.com/products/2026/06/27/195460/185b44a3-7716-4bc8-9246-610582590096.jpg",
+        "raw_product_id": "100795"
       },
       "tamimi": {
         "price": 11.48,
@@ -2036,24 +2108,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 5.31,
+      "avg_price": 5.47,
       "min_price": 4.95,
-      "max_price": 5.5,
-      "price_diff": 0.55,
+      "max_price": 5.95,
+      "price_diff": 1.0,
       "gastat_benchmark_price": 6.02,
-      "variance_from_benchmark": -0.71
+      "variance_from_benchmark": -0.55
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 5.31,
+        "avg_price": 5.47,
         "min_price": 4.95,
-        "max_price": 5.5,
+        "max_price": 5.95,
         "gastat_benchmark": 6.02,
         "stores_prices": {
           "bindawood": 4.95,
           "lulu": 5.5,
-          "tamimi": 5.48
+          "tamimi": 5.95
         }
       }
     ],
@@ -2077,13 +2149,13 @@
         "raw_product_id": "129318"
       },
       "tamimi": {
-        "price": 5.48,
+        "price": 5.95,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20220601/218299_1-20220601-052652.png",
-        "raw_product_id": "239779"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260702/afe12d92-43a1-41b0-b275-593762ab61be-3756681.webp",
+        "raw_product_id": "267967"
       }
     }
   },
@@ -2108,24 +2180,24 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 12.62,
-      "min_price": 11.95,
+      "avg_price": 11.95,
+      "min_price": 9.95,
       "max_price": 13.95,
-      "price_diff": 2.0,
+      "price_diff": 4.0,
       "gastat_benchmark_price": 10.93,
-      "variance_from_benchmark": 1.69
+      "variance_from_benchmark": 1.02
     },
     "price_history": [
       {
         "date": "2026-09-09",
-        "avg_price": 12.62,
-        "min_price": 11.95,
+        "avg_price": 11.95,
+        "min_price": 9.95,
         "max_price": 13.95,
         "gastat_benchmark": 10.93,
         "stores_prices": {
           "bindawood": 13.95,
           "lulu": 11.95,
-          "tamimi": 11.95
+          "tamimi": 9.95
         }
       }
     ],
@@ -2149,13 +2221,13 @@
         "raw_product_id": "86122"
       },
       "tamimi": {
-        "price": 11.95,
+        "price": 9.95,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260827/997b82c6-bf9e-41b7-bd9e-3a1e5974d297-4142491.webp",
-        "raw_product_id": "262569"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260218/0cc3ad68-c4fa-4b9d-b052-e5eaf05b0e47-3743751.webp",
+        "raw_product_id": "265575"
       }
     }
   },
