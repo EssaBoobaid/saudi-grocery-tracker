@@ -26,7 +26,7 @@ with DAG(
     dag_id="weekly_grocery_pipeline",
     default_args=default_args,
     description="Automated multi-store grocery tracker: Bronze -> Silver -> Gold -> Snowflake",
-    schedule_interval="@weekly",
+    schedule_interval="0 6 * * *",
     start_date=datetime(2026, 1, 1),
     catchup=False,
     max_active_runs=1,
