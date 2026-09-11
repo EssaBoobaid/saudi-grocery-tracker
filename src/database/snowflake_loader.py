@@ -27,9 +27,9 @@ GOLD_FILES = [
 GASTAT_FILE = GOLD_DIR / "gastat_fruits_and_vegetables_matched.json"
 
 SNOWFLAKE_CONFIG = {
-    "user": "ESSASA",
-    "account": "BZYOXVH-UV32793",
-    "host": "BZYOXVH-UV32793.snowflakecomputing.com",
+    "user": "ESSABOOBAID",
+    "account": "RBYPHDS-BQ32363",
+    "host": "RBYPHDS-BQ32363.snowflakecomputing.com",
     "warehouse": "COMPUTE_WH",
     "role": "ACCOUNTADMIN",
 }
