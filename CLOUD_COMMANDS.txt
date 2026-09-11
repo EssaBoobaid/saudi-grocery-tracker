@@ -1,0 +1,824 @@
+# ==========================================
+# Saudi Grocery Tracker - Cloud Commands
+# Azure + AWS + Docker + Airflow + Git
+# ==========================================
+
+
+# ==========================================
+# AZURE
+# ==========================================
+
+
+# ------------------------------------------
+# 1. الدخول إلى Azure VM من الماك
+# ------------------------------------------
+
+ssh -i ~/Desktop/grocery-airflow-vm_key.pem azureuser@20.215.248.215
+
+
+# ------------------------------------------
+# 2. الدخول إلى مجلد المشروع على Azure
+# ------------------------------------------
+
+cd ~/saudi-grocery-tracker
+
+
+# ------------------------------------------
+# 3. التأكد من Git Branch الخاص بـ Azure
+# ------------------------------------------
+
+git branch --show-current
+
+# المفروض:
+# ready-to-cloud
+
+
+# ------------------------------------------
+# 4. سحب آخر تحديث من GitHub - Azure
+# ------------------------------------------
+
+git pull origin ready-to-cloud
+
+
+# ------------------------------------------
+# 5. عرض حالة Docker Containers
+# ------------------------------------------
+
+docker compose ps
+
+
+# ------------------------------------------
+# 6. تشغيل المشروع
+# ------------------------------------------
+
+docker compose up -d
+
+
+# ------------------------------------------
+# 7. تشغيل المشروع مع إعادة Build
+# استخدمه إذا عدلت:
+# Dockerfile
+# requirements.txt
+# docker-compose.yml
+# ------------------------------------------
+
+docker compose up -d --build
+
+
+# ------------------------------------------
+# 8. إيقاف المشروع
+# ------------------------------------------
+
+docker compose down
+
+
+# ------------------------------------------
+# 9. Restart لـ Airflow فقط
+# ------------------------------------------
+
+docker compose restart airflow-scheduler airflow-webserver
+
+
+# ------------------------------------------
+# 10. Restart لكل الخدمات
+# ------------------------------------------
+
+docker compose restart
+
+
+# ------------------------------------------
+# 11. مشاهدة استهلاك CPU / RAM
+# ------------------------------------------
+
+docker stats
+
+
+# ------------------------------------------
+# 12. Scheduler Logs
+# ------------------------------------------
+
+docker logs airflow_scheduler
+
+# Live Logs
+docker logs -f airflow_scheduler
+
+# آخر 100 سطر
+docker logs --tail 100 airflow_scheduler
+
+
+# ------------------------------------------
+# 13. Airflow Webserver Logs
+# ------------------------------------------
+
+docker logs -f airflow_webserver
+
+
+# ------------------------------------------
+# 14. PostgreSQL Logs
+# ------------------------------------------
+
+docker logs -f grocery_db
+
+
+# ------------------------------------------
+# 15. الدخول داخل Airflow Scheduler
+# ------------------------------------------
+
+docker exec -it airflow_scheduler bash
+
+# للخروج:
+exit
+
+
+# ------------------------------------------
+# 16. عرض DAGs
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags list
+
+
+# ------------------------------------------
+# 17. عرض Tasks
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow tasks list weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 18. تفعيل DAG
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags unpause weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 19. إيقاف DAG مؤقتاً
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags pause weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 20. تشغيل DAG يدوياً
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags trigger weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 21. معرفة التشغيل القادم
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags next-execution weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 22. التأكد من Schedule
+# ------------------------------------------
+
+grep -n "schedule_interval" airflow/dags/weekly_grocery_pipeline.py
+
+
+# Azure Schedule الحالي:
+#
+# schedule_interval="0 6 * * 1,5"
+#
+# الاثنين + الجمعة
+# 06:00 UTC
+# 09:00 Saudi Arabia
+
+
+# ------------------------------------------
+# 23. فتح Airflow Azure من الماك
+# Terminal جديد على الماك
+# ------------------------------------------
+
+ssh -N \
+-i ~/Desktop/grocery-airflow-vm_key.pem \
+-L 8081:127.0.0.1:8080 \
+azureuser@20.215.248.215
+
+
+# بعدها افتح:
+#
+# http://localhost:8081
+#
+# Username: admin
+# Password: admin
+#
+# ملاحظة:
+# إغلاق هذا Terminal لا يوقف Azure
+# فقط يقفل الوصول للواجهة
+
+
+# ------------------------------------------
+# 24. Git Status
+# ------------------------------------------
+
+git status
+
+
+# ------------------------------------------
+# 25. رفع تحديث Azure من الماك
+# ------------------------------------------
+
+cd ~/Desktop/saudi-grocery-tracker
+
+git status
+
+git add .
+
+git commit -m "update Azure pipeline"
+
+git push origin ready-to-cloud
+
+
+# ------------------------------------------
+# 26. بعد Push من الماك
+# ادخل Azure واسحب التحديث
+# ------------------------------------------
+
+cd ~/saudi-grocery-tracker
+
+git pull origin ready-to-cloud
+
+docker compose restart airflow-scheduler airflow-webserver
+
+
+# ------------------------------------------
+# 27. إذا تغير Dockerfile أو Requirements
+# ------------------------------------------
+
+git pull origin ready-to-cloud
+
+docker compose down
+
+docker compose up -d --build
+
+
+# ==========================================
+# AWS
+# ==========================================
+
+
+# ------------------------------------------
+# AWS Information
+# ------------------------------------------
+
+# Instance ID:
+# i-0e0f1ac8b9fd8e63e
+
+# Public IP:
+# 16.192.148.114
+
+# OS:
+# Amazon Linux 2023
+
+# User:
+# ec2-user
+
+# Instance Type:
+# m7i-flex.large
+
+# Git Branch:
+# aws-cloud
+
+
+# ------------------------------------------
+# 28. الدخول إلى AWS EC2 من الماك
+# ------------------------------------------
+
+ssh -i ~/Desktop/grocery-airflow-aws-key.pem ec2-user@16.192.148.114
+
+
+# ------------------------------------------
+# 29. الدخول إلى المشروع على AWS
+# ------------------------------------------
+
+cd ~/saudi-grocery-tracker
+
+
+# ------------------------------------------
+# 30. التأكد من Branch
+# ------------------------------------------
+
+git branch --show-current
+
+# المفروض:
+# aws-cloud
+
+
+# ------------------------------------------
+# 31. سحب آخر تحديث AWS
+# ------------------------------------------
+
+git pull origin aws-cloud
+
+
+# ------------------------------------------
+# 32. عرض Containers على AWS
+# ------------------------------------------
+
+docker compose ps
+
+
+# ------------------------------------------
+# 33. تشغيل AWS Containers
+# ------------------------------------------
+
+docker compose up -d
+
+
+# ------------------------------------------
+# 34. تشغيل AWS مع Build
+# ------------------------------------------
+
+docker compose up -d --build
+
+
+# ------------------------------------------
+# 35. إيقاف AWS Containers
+# ------------------------------------------
+
+docker compose down
+
+
+# ------------------------------------------
+# 36. Restart Airflow على AWS
+# ------------------------------------------
+
+docker compose restart airflow-scheduler airflow-webserver
+
+
+# ------------------------------------------
+# 37. عرض DAGs على AWS
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags list
+
+
+# ------------------------------------------
+# 38. تفعيل DAG على AWS
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags unpause weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 39. تشغيل AWS Pipeline يدوياً
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags trigger weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 40. معرفة التشغيل القادم AWS
+# ------------------------------------------
+
+docker exec airflow_scheduler airflow dags next-execution weekly_grocery_pipeline
+
+
+# ------------------------------------------
+# 41. Schedule الخاص بـ AWS
+# ------------------------------------------
+
+grep -n "schedule_interval" airflow/dags/weekly_grocery_pipeline.py
+
+
+# AWS Schedule الحالي:
+#
+# schedule_interval="0 1 * * 6"
+#
+# السبت
+# 01:00 UTC
+# 04:00 Saudi Arabia
+
+
+# ------------------------------------------
+# 42. فتح Airflow AWS من الماك
+# Terminal جديد
+# ------------------------------------------
+
+ssh -N \
+-i ~/Desktop/grocery-airflow-aws-key.pem \
+-L 8082:127.0.0.1:8080 \
+ec2-user@16.192.148.114
+
+
+# بعدها افتح:
+#
+# http://localhost:8082
+#
+# Username: admin
+# Password: admin
+#
+# إغلاق Terminal لا يوقف AWS
+# فقط يقفل SSH Tunnel
+
+
+# ------------------------------------------
+# 43. AWS Scheduler Logs
+# ------------------------------------------
+
+docker logs -f airflow_scheduler
+
+
+# آخر 100 سطر:
+docker logs --tail 100 airflow_scheduler
+
+
+# ------------------------------------------
+# 44. AWS Webserver Logs
+# ------------------------------------------
+
+docker logs -f airflow_webserver
+
+
+# ------------------------------------------
+# 45. AWS PostgreSQL Logs
+# ------------------------------------------
+
+docker logs -f grocery_db
+
+
+# ------------------------------------------
+# 46. رفع تحديث إلى aws-cloud من الماك
+# ------------------------------------------
+
+cd ~/Desktop/saudi-grocery-tracker-aws
+
+git status
+
+git branch --show-current
+
+git add .
+
+git commit -m "update AWS pipeline"
+
+git push origin aws-cloud
+
+
+# ------------------------------------------
+# 47. بعد Push إلى AWS Branch
+# ------------------------------------------
+
+# ادخل EC2:
+
+ssh -i ~/Desktop/grocery-airflow-aws-key.pem ec2-user@16.192.148.114
+
+cd ~/saudi-grocery-tracker
+
+git pull origin aws-cloud
+
+docker compose restart airflow-scheduler airflow-webserver
+
+
+# ------------------------------------------
+# 48. إذا تغير Dockerfile أو Requirements على AWS
+# ------------------------------------------
+
+git pull origin aws-cloud
+
+docker compose down
+
+docker compose up -d --build
+
+
+# ==========================================
+# DOCKER GENERAL COMMANDS
+# Azure + AWS
+# ==========================================
+
+
+# ------------------------------------------
+# 49. Docker Version
+# ------------------------------------------
+
+docker --version
+
+
+# ------------------------------------------
+# 50. Docker Compose Version
+# ------------------------------------------
+
+docker compose version
+
+
+# ------------------------------------------
+# 51. عرض Containers
+# ------------------------------------------
+
+docker ps
+
+
+# حتى المتوقفة:
+docker ps -a
+
+
+# ------------------------------------------
+# 52. عرض Docker Images
+# ------------------------------------------
+
+docker images
+
+
+# ------------------------------------------
+# 53. Docker Service Status
+# ------------------------------------------
+
+sudo systemctl status docker
+
+
+# تشغيل Docker:
+sudo systemctl start docker
+
+
+# Restart:
+sudo systemctl restart docker
+
+
+# تشغيل Docker تلقائياً بعد Reboot:
+sudo systemctl enable docker
+
+
+# ------------------------------------------
+# 54. تنظيف Docker
+# استخدمه فقط عند الحاجة
+# ------------------------------------------
+
+docker system prune
+
+
+# ==========================================
+# SERVER RESOURCES
+# ==========================================
+
+
+# ------------------------------------------
+# 55. مساحة السيرفر
+# ------------------------------------------
+
+df -h
+
+
+# ------------------------------------------
+# 56. RAM
+# ------------------------------------------
+
+free -h
+
+
+# ------------------------------------------
+# 57. CPU
+# ------------------------------------------
+
+nproc
+
+
+# ------------------------------------------
+# 58. Docker Resources
+# ------------------------------------------
+
+docker stats
+
+
+# ==========================================
+# SNOWFLAKE
+# ==========================================
+
+
+# ------------------------------------------
+# Snowflake AWS
+# ------------------------------------------
+
+# Account:
+# RBYPHDS-BQ32363
+
+# User:
+# ESSABOOBAID
+
+# Region:
+# AWS_AP_SOUTH_1
+
+# Warehouse:
+# COMPUTE_WH
+
+# Database:
+# GROCERY_TRACKER_DB
+
+# Schema:
+# ANALYTICS
+
+
+# ------------------------------------------
+# Snowflake Azure
+# ------------------------------------------
+
+# Account:
+# BZYOXVH-UV32793
+
+# User:
+# ESSASA
+
+# Warehouse:
+# COMPUTE_WH
+
+# Database:
+# GROCERY_TRACKER_DB
+
+# Schema:
+# ANALYTICS
+
+
+# ------------------------------------------
+# 59. Snowflake - Check Tables Count
+# ------------------------------------------
+
+# يشغل داخل Snowflake Worksheet:
+
+# USE DATABASE GROCERY_TRACKER_DB;
+# USE SCHEMA ANALYTICS;
+#
+# SELECT
+#     (SELECT COUNT(*) FROM DIM_MATCHED_PRODUCTS) AS DIM_COUNT,
+#     (SELECT COUNT(*) FROM FCT_PRICE_SNAPSHOTS) AS FCT_COUNT,
+#     (SELECT COUNT(*) FROM REF_GASTAT_PRICES) AS GASTAT_COUNT;
+
+
+# ------------------------------------------
+# 60. Snowflake - Check Price History
+# ------------------------------------------
+
+# SELECT
+#     MIN(snapshot_date) AS OLDEST_SNAPSHOT,
+#     MAX(snapshot_date) AS NEWEST_SNAPSHOT,
+#     COUNT(DISTINCT snapshot_date) AS NUMBER_OF_DAYS,
+#     COUNT(*) AS TOTAL_ROWS
+# FROM FCT_PRICE_SNAPSHOTS;
+
+
+# ------------------------------------------
+# 61. أحدث الأسعار
+# ------------------------------------------
+
+# SELECT *
+# FROM FCT_PRICE_SNAPSHOTS
+# ORDER BY snapshot_date DESC
+# LIMIT 20;
+
+
+# ==========================================
+# .ENV
+# ==========================================
+
+
+# ------------------------------------------
+# لا ترفع .env إلى GitHub أبداً
+# ------------------------------------------
+
+# Azure:
+#
+# SNOWFLAKE_PASSWORD=PASSWORD
+# AIRFLOW_UID=1000
+
+
+# AWS:
+#
+# SNOWFLAKE_PASSWORD=AWS_SNOWFLAKE_PASSWORD
+# AIRFLOW_UID=1000
+
+
+# للتأكد أن .env غير مرفوع:
+git status
+
+
+# ==========================================
+# LOCAL MAC
+# ==========================================
+
+
+# ------------------------------------------
+# 62. إيقاف Airflow المحلي
+# ------------------------------------------
+
+cd ~/Desktop/saudi-grocery-tracker
+
+docker compose down
+
+
+# هذا يوقف المحلي فقط
+#
+# لا يوقف Azure
+# لا يوقف AWS
+
+
+# ------------------------------------------
+# 63. تشغيل المحلي إذا احتجته للتطوير
+# ------------------------------------------
+
+docker compose up -d
+
+
+# ------------------------------------------
+# Airflow Ports
+# ------------------------------------------
+
+# Local:
+# http://localhost:8080
+
+# Azure:
+# http://localhost:8081
+
+# AWS:
+# http://localhost:8082
+
+
+# ==========================================
+# IMPORTANT SECURITY
+# ==========================================
+
+# لا ترفع:
+#
+# .env
+# *.pem
+# Passwords
+# SSH Private Keys
+#
+# إلى GitHub أبداً
+
+
+# لا تفتح Airflow Port 8080 للعالم
+#
+# نستخدم SSH Tunnel:
+#
+# Azure -> localhost:8081
+# AWS   -> localhost:8082
+
+
+# ==========================================
+# QUICK AZURE
+# ==========================================
+
+# من الماك:
+
+ssh -i ~/Desktop/grocery-airflow-vm_key.pem azureuser@20.215.248.215
+
+# ثم:
+
+cd ~/saudi-grocery-tracker
+
+git pull origin ready-to-cloud
+
+docker compose ps
+
+docker logs --tail 100 airflow_scheduler
+
+
+# ==========================================
+# QUICK AWS
+# ==========================================
+
+# من الماك:
+
+ssh -i ~/Desktop/grocery-airflow-aws-key.pem ec2-user@16.192.148.114
+
+# ثم:
+
+cd ~/saudi-grocery-tracker
+
+git pull origin aws-cloud
+
+docker compose ps
+
+docker logs --tail 100 airflow_scheduler
+
+
+# ==========================================
+# MANUAL RUN
+# Azure أو AWS
+# ==========================================
+
+docker exec airflow_scheduler airflow dags trigger weekly_grocery_pipeline
+
+
+# ==========================================
+# CURRENT CLOUD SETUP
+# ==========================================
+
+# Azure:
+# ready-to-cloud
+# Monday + Friday
+# 09:00 AM Saudi Time
+# Snowflake Azure
+
+
+# AWS:
+# aws-cloud
+# Saturday
+# 04:00 AM Saudi Time
+# Snowflake AWS
+
+
+# ==========================================
+# END
+# ==========================================
