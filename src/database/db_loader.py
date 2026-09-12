@@ -39,7 +39,6 @@ def init_schema(conn):
 def load_branches(conn):
     branch_files = [
         "bindawood_branches.json",
-        "lulu_branches.json",
         "tamimi_branches.json",
     ]
     total_branches = 0

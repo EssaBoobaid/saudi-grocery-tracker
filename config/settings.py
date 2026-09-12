@@ -18,12 +18,12 @@ REFERENCE_DIR = GOLD_DIR / "reference"
 
 # مسارات برونز المتاجر
 BRONZE_BINDAWOOD = BRONZE_DIR / "bindawood"
-BRONZE_LULU = BRONZE_DIR / "lulu"
+BRONZE_PANDA = BRONZE_DIR / "panda"
 BRONZE_TAMIMI = BRONZE_DIR / "tamimi"
 
 # مسارات سيلفر المتاجر
 SILVER_BINDAWOOD = SILVER_DIR / "bindawood"
-SILVER_LULU = SILVER_DIR / "lulu"
+SILVER_PANDA = SILVER_DIR / "panda"
 SILVER_TAMIMI = SILVER_DIR / "tamimi"
 
 # إعدادات قاعدة البيانات PostgreSQL (تُقرأ تلقائياً من Docker أو Local)

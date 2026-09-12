@@ -56,9 +56,22 @@ UNIT_MULTIPLIERS = {
     "portions": ("triangles", 1.0),
     "مثلث": ("triangles", 1.0),
     "مثلثات": ("triangles", 1.0),
+    "pc": ("pcs", 1.0),
+    "pcs": ("pcs", 1.0),
+    "pack": ("pcs", 1.0),
+    "can": ("pcs", 1.0),
+    "cans": ("pcs", 1.0),
+    "حبة": ("pcs", 1.0),
+    "حبات": ("pcs", 1.0),
+    "قطعة": ("pcs", 1.0),
+    "قطع": ("pcs", 1.0),
+    "علبة": ("pcs", 1.0),
+    "علب": ("pcs", 1.0),
+    "count": ("pcs", 1.0),
+    "counts": ("pcs", 1.0),
 }
 
-UNIT_PATTERN = r"(?:milliliter|kilogram|portions?|triangles?|slices?|liter|litre|ltr|grams?|kilo|pack|cans|can|pcs|ml|kg|gm|pc|l|g|كيلو|جرام|غرام|كغم|كجم|ملل|لتر|قطع|قطعة|حبات|حبة|علب|علبة|كغ|غم|جم|مل|شريحة|شرائح|مثلث|مثلثات|ل)"
+UNIT_PATTERN = r"(?:milliliter|kilogram|portions?|triangles?|slices?|liter|litre|ltr|grams?|kilo|pack|cans|can|pcs|ml|kg|gm|pc|l|g|كيلو|جرام|غرام|كغم|كجم|ملل|لتر|قطع|قطعة|حبات|حبة|علب|علبة|كغ|غم|جم|مل|شريحة|شرائح|مثلث|مثلثات|ل|counts?|count)"
 
 
 def parse_pack_and_size(text: str | None) -> dict[str, Any]:
@@ -75,6 +88,168 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
     text = text.translate(ARABIC_DIGITS_MAP)
     text = re.sub(r"(\d+)[,،](\d+)", r"\1.\2", text)
 
+    # Fix obvious source-data unit typo:
+    # Example: 1500Kg on a retail grocery product
+    # is clearly intended as 1500g, not 1,500,000g.
+    def fix_impossible_kg(match):
+        value = float(match.group(1))
+
+        if value >= 100:
+            return f"{match.group(1)} G"
+
+        return match.group(0)
+
+    text = re.sub(
+        r"(\d+(?:\.\d+)?)\s*(kg|kilogram|kilo)\b",
+        fix_impossible_kg,
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    
+        # 0A. Multipack with size range:
+    # 6 X 250-300 ML
+    # 18 X 330-355 ML
+    multi_range_pattern = (
+        rf"(\d+)\s*[\*xX×]\s*"
+        rf"(\d+(?:\.\d+)?)\s*-\s*"
+        rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
+    )
+
+    m_multi_range = re.search(
+        multi_range_pattern,
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    if m_multi_range:
+        qty = int(m_multi_range.group(1))
+        max_val = float(m_multi_range.group(3))
+        u_raw = m_multi_range.group(4).lower()
+
+        std_unit, mult = UNIT_MULTIPLIERS.get(
+            u_raw,
+            (u_raw, 1.0),
+        )
+
+        unit_val = round(max_val * mult, 2)
+
+        return {
+            "pack_qty": qty,
+            "unit_size_value": unit_val,
+            "total_size_value": round(unit_val * qty, 2),
+            "size_unit": std_unit,
+        }
+
+    # 0B. Single product with size range:
+    # 250-300 ML
+    # 375-400 G
+    range_pattern = (
+        rf"(\d+(?:\.\d+)?)\s*-\s*"
+        rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
+    )
+
+    m_range = re.search(
+        range_pattern,
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    if m_range:
+        max_val = float(m_range.group(2))
+        u_raw = m_range.group(3).lower()
+
+        std_unit, mult = UNIT_MULTIPLIERS.get(
+            u_raw,
+            (u_raw, 1.0),
+        )
+
+        unit_val = round(max_val * mult, 2)
+
+        return {
+            "pack_qty": 1,
+            "unit_size_value": unit_val,
+            "total_size_value": unit_val,
+            "size_unit": std_unit,
+        }
+
+        # Count + total weight:
+    # 24 Portions-336 G
+    # 12 Slices-200 G
+    count_total_weight_pattern = (
+        rf"(\d+)\s*"
+        rf"(?:portions?|triangles?|slices?|"
+        rf"حبة|حبات|قطعة|قطع|شريحة|شرائح|مثلث|مثلثات)"
+        rf"\s*[-–]?\s*"
+        rf"(\d+(?:\.\d+)?)\s*"
+        rf"(g|gm|gram|grams|kg|ml|l|ltr|litre|liter|"
+        rf"جرام|غرام|جم|غم|كجم|كغ|مل|لتر)"
+    )
+
+    m_count_weight = re.search(
+        count_total_weight_pattern,
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    if m_count_weight:
+        qty = int(m_count_weight.group(1))
+        total_raw = float(m_count_weight.group(2))
+        u_raw = m_count_weight.group(3).lower()
+
+        std_unit, mult = UNIT_MULTIPLIERS.get(
+            u_raw,
+            (u_raw, 1.0),
+        )
+
+        total_val = round(total_raw * mult, 2)
+        unit_val = round(total_val / qty, 2)
+
+        return {
+            "pack_qty": qty,
+            "unit_size_value": unit_val,
+            "total_size_value": total_val,
+            "size_unit": std_unit,
+        }
+
+        # Tamimi abbreviated weight formats:
+    # 2K / 1.8K = kilograms
+    # 3Z / 8Oz = ounces
+
+    short_kg = re.search(
+        r"(\d+(?:\.\d+)?)\s*K\b",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    if short_kg:
+        value = float(short_kg.group(1))
+        total_g = round(value * 1000.0, 2)
+
+        return {
+            "pack_qty": 1,
+            "unit_size_value": total_g,
+            "total_size_value": total_g,
+            "size_unit": "g",
+        }
+
+    short_oz = re.search(
+        r"(\d+(?:\.\d+)?)\s*(?:OZ|Z)\b",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    if short_oz:
+        value = float(short_oz.group(1))
+        total_g = round(value * 28.3495, 2)
+
+        return {
+            "pack_qty": 1,
+            "unit_size_value": total_g,
+            "total_size_value": total_g,
+            "size_unit": "g",
+        }
+
     # 0. فحص عروض الجمع الترويجية: 8+2 Slices أو 24+4
     plus_pattern = rf"(\d+)\s*\+\s*(\d+)\s*(?:slices?|portions?|شرائح|شريحة|مثلث|مثلثات)"
     m_plus = re.search(plus_pattern, text, flags=re.IGNORECASE)
@@ -88,7 +263,7 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
         }
 
     # 1. صيغة الضرب والشدات: 10 X 200 ML أو 2*500g أو 24*330ml
-    multi_pattern = rf"(\d+)\s*[\*xX×\-]\s*(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
+    multi_pattern = rf"(\d+)\s*[\*xX×]\s*(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
     m_multi = re.search(multi_pattern, text, flags=re.IGNORECASE)
     if m_multi:
         qty = int(m_multi.group(1))
@@ -104,7 +279,7 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
         }
 
     # 2. صيغة الضرب العكسية: 500g x 2 أو 200ml x 10
-    multi_reverse_pattern = rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})\s*[\*xX×\-]\s*(\d+)"
+    multi_reverse_pattern = rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})\s*[\*xX×]\s*(\d+)"
     m_rev = re.search(multi_reverse_pattern, text, flags=re.IGNORECASE)
     if m_rev:
         val = float(m_rev.group(1))
@@ -140,7 +315,7 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
         }
 
     # 4. عبوات بالعدد فقط (بيض، شرائح، مثلثات)
-    count_pattern = r"(\d+)\s*(?:حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|بيض|بيضة|slices?|شرائح|شريحة)\b"
+    count_pattern = r"(\d+)\s*(?:counts?|حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|بيض|بيضة|slices?|شرائح|شريحة)\b"
     m_count = re.search(count_pattern, text, flags=re.IGNORECASE)
     if m_count:
         qty = int(m_count.group(1))
@@ -206,51 +381,7 @@ def parse_item(item: dict[str, Any], cat_slug: str) -> dict[str, Any] | None:
 
     size_data = parse_pack_and_size(full_text)
 
-    # --- 1. حراس أمان المشروبات للتميمي ---
-    if cat_slug == "beverages" and price is not None:
-        unit_val = size_data.get("unit_size_value")
-        current_qty = size_data.get("pack_qty", 1)
-
-        if current_qty == 1 and unit_val and unit_val <= 500 and price >= 35.0:
-            estimated_qty = round(price / 2.5)
-            size_data["pack_qty"] = estimated_qty if estimated_qty in [24, 30, 12] else 24
-            size_data["total_size_value"] = round(unit_val * size_data["pack_qty"], 2)
-        elif current_qty == 1 and unit_val and unit_val <= 250 and price >= 12.0:
-            estimated_qty = round(price / 1.75)
-            size_data["pack_qty"] = estimated_qty if estimated_qty in [10, 12, 18] else 10
-            size_data["total_size_value"] = round(unit_val * size_data["pack_qty"], 2)
-
-    # --- 2. حراس أمان الألبان والبيض للتميمي ---
-    if cat_slug == "dairy_and_eggs" and price is not None:
-        unit_val = size_data.get("unit_size_value")
-        current_qty = size_data.get("pack_qty", 1)
-        s_unit = size_data.get("size_unit")
-
-        # طبق البيض 30 حبة
-        if ("egg" in full_lower or "بيض" in full_lower) and s_unit is None and price >= 14.0:
-            size_data["pack_qty"] = 30
-            size_data["unit_size_value"] = 1.0
-            size_data["total_size_value"] = 30.0
-            size_data["size_unit"] = "pcs"
-
-        # شرائح الجبن المفقود حجمها
-        elif ("slice" in full_lower or "شريحة" in full_lower or "شرائح" in full_lower) and size_data["total_size_value"] is None:
-            if price <= 10.0:
-                size_data["pack_qty"] = 1
-                size_data["unit_size_value"] = 10.0
-                size_data["total_size_value"] = 10.0
-                size_data["size_unit"] = "slices"
-            else:
-                size_data["pack_qty"] = 1
-                size_data["unit_size_value"] = 400.0
-                size_data["total_size_value"] = 400.0
-                size_data["size_unit"] = "g"
-
-        # كراتين/شدات الزبادي
-        elif ("زبادي" in full_lower or "yogurt" in full_lower) and current_qty == 1 and unit_val and unit_val <= 180 and price >= 7.0:
-            size_data["pack_qty"] = 6
-            size_data["total_size_value"] = round(unit_val * 6, 2)
-
+   
     barcodes = extract_tamimi_barcodes(v)
 
     images = v.get("images") or []

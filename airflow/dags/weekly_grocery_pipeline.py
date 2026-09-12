@@ -1,7 +1,7 @@
 """Weekly Grocery Price Tracking Pipeline (End-to-End Orchestration).
 
 Orchestrates the Medallion data workflow:
-1. Bronze: Parallel extraction from Tamimi, BinDawood, and Lulu
+1. Bronze: Parallel extraction from Tamimi, BinDawood, and Panda
 2. Silver: Standardizing schemas and cleaning text/prices
 3. Gold: Category-level entity matching across all stores + GASTAT Open Data matching
 4. Load: Upserting snapshots and pricing dimensions into Snowflake Cloud DWH
@@ -46,9 +46,9 @@ with DAG(
         bash_command="python -m src.bronze.extract_bindawood",
     )
 
-    bronze_lulu = BashOperator(
-        task_id="bronze_extract_lulu",
-        bash_command="python -m src.bronze.lulu_extractor",
+    bronze_panda = BashOperator(
+        task_id="bronze_extract_panda",
+        bash_command="python -m src.bronze.extract_panda",
     )
 
     # -------------------------------------------------------------
@@ -64,9 +64,9 @@ with DAG(
         bash_command="python -m src.silver.clean_bindawood",
     )
 
-    silver_lulu = BashOperator(
-        task_id="silver_clean_lulu",
-        bash_command="python -m src.silver.clean_lulu",
+    silver_panda = BashOperator(
+        task_id="silver_clean_panda",
+        bash_command="python -m src.silver.clean_panda",
     )
 
     # -------------------------------------------------------------
@@ -105,10 +105,10 @@ with DAG(
     # -------------------------------------------------------------
     bronze_tamimi >> silver_tamimi
     bronze_bindawood >> silver_bindawood
-    bronze_lulu >> silver_lulu
+    bronze_panda >> silver_panda
 
     # مهام السيلفر تغذي مهام القولد
-    all_silver = [silver_tamimi, silver_bindawood, silver_lulu]
+    all_silver = [silver_tamimi, silver_bindawood, silver_panda]
 
     all_silver >> gold_beverages
     all_silver >> gold_dairy_and_eggs

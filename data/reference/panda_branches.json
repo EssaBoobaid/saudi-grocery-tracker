@@ -1,0 +1,45 @@
+[
+  {"id": 1, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "طويق", "name_en": "Tuwaiq", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Tuwaiq+Riyadh"},
+  {"id": 2, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "المعذر الشمالي - التخصصي", "name_en": "Al Ma'ather Al Shamali", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Takhassusi+Riyadh"},
+  {"id": 3, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "الروضة", "name_en": "Al Rawdah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Rawdah+Riyadh"},
+  {"id": 4, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "الصحافة", "name_en": "As Sahafah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+As+Sahafah+Riyadh"},
+  {"id": 5, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "الملقا", "name_en": "Al Malqa", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Malqa+Riyadh"},
+  {"id": 6, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "السويدي", "name_en": "As Suwaidi", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+As+Suwaidi+Riyadh"},
+  {"id": 7, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "النزهة", "name_en": "An Nuzhah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+An+Nuzhah+Riyadh"},
+  {"id": 8, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "الشفا", "name_en": "Ash Shafa", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Ash+Shafa+Riyadh"},
+  {"id": 9, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "اليرموك", "name_en": "Al Yarmuk", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Yarmuk+Riyadh"},
+  {"id": 10, "brand": "Panda", "city_ar": "الرياض", "city_en": "Riyadh", "name_ar": "العزيزية", "name_en": "Al Aziziyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Aziziyah+Riyadh"},
+
+  {"id": 11, "brand": "Panda", "city_ar": "جدة", "city_en": "Jeddah", "name_ar": "المروة", "name_en": "Al Marwah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Marwah+Jeddah"},
+  {"id": 12, "brand": "Panda", "city_ar": "جدة", "city_en": "Jeddah", "name_ar": "الروضة", "name_en": "Al Rawdah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Rawdah+Jeddah"},
+  {"id": 13, "brand": "Panda", "city_ar": "جدة", "city_en": "Jeddah", "name_ar": "الزهراء", "name_en": "Al Zahra", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Zahra+Jeddah"},
+  {"id": 14, "brand": "Panda", "city_ar": "جدة", "city_en": "Jeddah", "name_ar": "العزيزية", "name_en": "Al Aziziyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Aziziyah+Jeddah"},
+  {"id": 15, "brand": "Panda", "city_ar": "جدة", "city_en": "Jeddah", "name_ar": "الحمدانية", "name_en": "Al Hamadaniyyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Hamadaniyyah+Jeddah"},
+  {"id": 16, "brand": "Panda", "city_ar": "جدة", "city_en": "Jeddah", "name_ar": "الصفا", "name_en": "As Safa", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+As+Safa+Jeddah"},
+  {"id": 17, "brand": "Panda", "city_ar": "جدة", "city_en": "Jeddah", "name_ar": "الشاطئ - رد سي مول", "name_en": "Red Sea Mall", "map_url": "https://www.google.com/maps/search/?api=1&query=Hyper+Panda+Red+Sea+Mall+Jeddah"},
+
+  {"id": 18, "brand": "Panda", "city_ar": "الدمام", "city_en": "Dammam", "name_ar": "الجلاوية", "name_en": "Al Jalawiyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Jalawiyah+Dammam"},
+  {"id": 19, "brand": "Panda", "city_ar": "الدمام", "city_en": "Dammam", "name_ar": "الفيصلية", "name_en": "Al Faisaliyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Al+Faisaliyah+Dammam"},
+  {"id": 20, "brand": "Panda", "city_ar": "الدمام", "city_en": "Dammam", "name_ar": "الشاطئ الغربي", "name_en": "Ash Shati Al Gharbi", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Ash+Shati+Dammam"},
+  {"id": 21, "brand": "Panda", "city_ar": "الدمام", "city_en": "Dammam", "name_ar": "أحد - 71", "name_en": "Uhud", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Uhud+Dammam"},
+
+  {"id": 22, "brand": "Panda", "city_ar": "الخبر", "city_en": "Khobar", "name_ar": "الحزام الذهبي", "name_en": "Al Hizam Al الذهبي", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Khobar"},
+  {"id": 23, "brand": "Panda", "city_ar": "الخبر", "city_en": "Khobar", "name_ar": "العزيزية", "name_en": "Al Aziziyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Aziziyah+Khobar"},
+  {"id": 24, "brand": "Panda", "city_ar": "الخبر", "city_en": "Khobar", "name_ar": "الراكة الشمالية", "name_en": "Ar Rakah Ash Shamaliyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Rakah+Khobar"},
+
+  {"id": 25, "brand": "Panda", "city_ar": "الأحساء", "city_en": "Al Ahsa", "name_ar": "الهفوف - السلمانية", "name_en": "Al Hofuf - As Sulaimaniyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Hofuf+Al+Ahsa"},
+  {"id": 26, "brand": "Panda", "city_ar": "الأحساء", "city_en": "Al Ahsa", "name_ar": "المبرز", "name_en": "Al Mubarraz", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Mubarraz+Al+Ahsa"},
+
+  {"id": 27, "brand": "Panda", "city_ar": "مكة المكرمة", "city_en": "Makkah", "name_ar": "العزيزية", "name_en": "Al Aziziyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Aziziyah+Makkah"},
+  {"id": 28, "brand": "Panda", "city_ar": "مكة المكرمة", "city_en": "Makkah", "name_ar": "الشوقية", "name_en": "Ash Shawqiyyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Shawqiyyah+Makkah"},
+
+  {"id": 29, "brand": "Panda", "city_ar": "المدينة المنورة", "city_en": "Madinah", "name_ar": "العزيزية", "name_en": "Al Aziziyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Aziziyah+Madinah"},
+  {"id": 30, "brand": "Panda", "city_ar": "المدينة المنورة", "city_en": "Madinah", "name_ar": "سلطانة", "name_en": "Sultana", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Sultana+Madinah"},
+
+  {"id": 31, "brand": "Panda", "city_ar": "بريدة", "city_en": "Buraidah", "name_ar": "سلطانة", "name_en": "Sultana", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Sultana+Buraidah"},
+  {"id": 32, "brand": "Panda", "city_ar": "عنيزة", "city_en": "Unaizah", "name_ar": "المليحية", "name_en": "Al Mulaihiyah", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Unaizah"},
+
+  {"id": 33, "brand": "Panda", "city_ar": "تبوك", "city_en": "Tabuk", "name_ar": "المروج", "name_en": "Al Muruj", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Tabuk"},
+  {"id": 34, "brand": "Panda", "city_ar": "أبها", "city_en": "Abha", "name_ar": "طريق الملك فهد", "name_en": "King Fahd Road", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Abha"},
+  {"id": 35, "brand": "Panda", "city_ar": "خميس مشيط", "city_en": "Khamis Mushait", "name_ar": "أم سرور", "name_en": "Um Surour", "map_url": "https://www.google.com/maps/search/?api=1&query=Panda+Khamis+Mushait"}
+]

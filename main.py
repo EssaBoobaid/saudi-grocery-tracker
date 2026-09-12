@@ -23,22 +23,22 @@ def execute_stage(stage_name: str, task):
 # 1. BRONZE (Extraction)
 def run_bronze():
     from src.bronze.extract_bindawood import main as bindawood_extract
-    from src.bronze.lulu_extractor import main as lulu_extract
+    from src.bronze.extract_panda import main as panda_extract
     from src.bronze.extract_tamimi import main as tamimi_extract
 
     bindawood_extract()
-    lulu_extract()
+    panda_extract()
     tamimi_extract()
 
 
 # 2. SILVER (Cleaning & Normalization)
 def run_silver():
     from src.silver.clean_bindawood import main as bindawood_clean
-    from src.silver.clean_lulu import main as lulu_clean
+    from src.silver.clean_panda import main as panda_clean
     from src.silver.clean_tamimi import main as tamimi_clean
 
     bindawood_clean()
-    lulu_clean()
+    panda_clean()
     tamimi_clean()
 
 

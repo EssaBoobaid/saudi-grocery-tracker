@@ -1,6 +1,7 @@
 import json
 import re
 import unicodedata
+from collections import Counter
 from pathlib import Path
 from difflib import SequenceMatcher
 
@@ -37,7 +38,11 @@ OUTPUT_FILE = (
 # SETTINGS
 # ============================================================
 
-# Minimum score for fuzzy matching when gastat_id is unavailable.
+# Fuzzy matching is retained only as an opt-in diagnostic fallback.  The
+# validated first-stage file is the source of truth for production matching.
+ENABLE_FUZZY_FALLBACK = False
+
+# Minimum score for fuzzy matching when explicitly enabled.
 FUZZY_THRESHOLD = 0.70
 
 # Weights used by fuzzy matching.
@@ -447,68 +452,79 @@ def calculate_fuzzy_score(
 # FIND MATCHES
 # ============================================================
 
-def find_matches(
-    gastat_record,
-    products,
-    valid_gastat_ids
-):
+def _add_unique_index_entry(index, key, product):
+    """Add a normalized key only when it identifies one cluster uniquely."""
+
+    if not key:
+        return
+
+    if key not in index:
+        index[key] = product
+    elif index[key] is not product:
+        # An ambiguous name must never produce a deterministic match.
+        index[key] = None
+
+
+def build_exact_match_index(products):
+    """Index validated clusters by their official GASTAT names and key."""
+
+    index = {
+        "official_ar": {},
+        "official_en": {},
+        "gastat_key": {},
+    }
+
+    for product in products:
+        _add_unique_index_entry(
+            index["official_ar"],
+            normalize_text(product.get("official_gastat_name_ar")),
+            product,
+        )
+        _add_unique_index_entry(
+            index["official_en"],
+            normalize_text(product.get("official_gastat_name_en")),
+            product,
+        )
+        _add_unique_index_entry(
+            index["gastat_key"],
+            normalize_text(product.get("gastat_key")),
+            product,
+        )
+
+    return index
+
+
+def find_matches(gastat_record, exact_index, products=None):
     """
     Find ALL products matching one GASTAT product.
 
     Matching priority:
 
-    1. gastat_id
-    2. fuzzy name/root matching
-
-    This makes the pipeline dynamic without
-    manually mapping products.
+    1. exact official Arabic name
+    2. exact official English name
+    3. exact gastat_key against a source GASTAT name
+    4. optional fuzzy fallback (disabled by default)
     """
 
-    gastat_id = normalize_id(
-        gastat_record.get(
-            "gastat_id"
-        )
-    )
+    official_ar = normalize_text(gastat_record.get("item_name_ar"))
+    official_en = normalize_text(gastat_record.get("item_name_en"))
 
-    id_matches = []
-    fuzzy_matches = []
-
-    # ========================================================
-    # PASS 1
-    # Strong match using gastat_id
-    # ========================================================
-
-    if (
-        gastat_id is not None
-        and gastat_id in valid_gastat_ids
+    for index_name, key in (
+        ("official_ar", official_ar),
+        ("official_en", official_en),
+        ("gastat_key", official_ar),
+        ("gastat_key", official_en),
     ):
+        product = exact_index[index_name].get(key)
+        if product is not None:
+            return [{"product": product, "score": 1.0}]
 
-        for product in products:
+    # The first-stage clusters are validated; unmatched commodities are
+    # deliberately left unmatched unless this safety switch is enabled.
+    if not ENABLE_FUZZY_FALLBACK or not products:
+        return []
 
-            product_id = normalize_id(
-                product.get(
-                    "gastat_id"
-                )
-            )
-
-            if product_id == gastat_id:
-
-                id_matches.append(
-                    {
-                        "product": product,
-                        "score": 1.0
-                    }
-                )
-
-        # If we found products through the official ID,
-        # use those as the authoritative matches.
-        if id_matches:
-            return id_matches
-
-    # ========================================================
-    # PASS 2
-    # Fuzzy matching
-    # ========================================================
+    fuzzy_matches = []
 
     for product in products:
 
@@ -561,6 +577,54 @@ def get_barcode(product):
         return None
 
     return barcode
+
+
+def _append_valid_barcodes(value, barcodes):
+    """Append one barcode or a barcode list, preserving first-seen order."""
+
+    values = value if isinstance(value, list) else [value]
+
+    for candidate in values:
+        if candidate is None:
+            continue
+
+        barcode = str(candidate).strip()
+        if barcode and barcode not in barcodes:
+            barcodes.append(barcode)
+
+
+def get_matched_barcodes(product):
+    """Collect actual store barcodes; never use raw_product_id as a barcode."""
+
+    barcodes = []
+    stores_data = product.get("stores_data")
+
+    if isinstance(stores_data, dict):
+        for store_data in stores_data.values():
+            if not isinstance(store_data, dict):
+                continue
+            _append_valid_barcodes(store_data.get("barcode"), barcodes)
+            _append_valid_barcodes(store_data.get("barcodes"), barcodes)
+
+    # Current source data has no store-level barcode fields for some clusters.
+    if not barcodes:
+        _append_valid_barcodes(product.get("barcode"), barcodes)
+
+    return barcodes
+
+
+def get_store_coverage(product):
+    """Return validated store coverage for a first-stage Gold cluster."""
+
+    matched_stores_count = product.get("matched_stores_count")
+    try:
+        if matched_stores_count is not None:
+            return int(matched_stores_count)
+    except (TypeError, ValueError):
+        pass
+
+    stores_data = product.get("stores_data")
+    return len(stores_data) if isinstance(stores_data, dict) else 0
 
 
 # ============================================================
@@ -721,28 +785,10 @@ def main():
     )
 
     # ========================================================
-    # VALID GASTAT IDS
+    # DETERMINISTIC FIRST-STAGE INDEX
     # ========================================================
 
-    valid_gastat_ids = set()
-
-    for record in gastat_records:
-
-        gastat_id = normalize_id(
-            record.get(
-                "gastat_id"
-            )
-        )
-
-        if gastat_id is not None:
-
-            valid_gastat_ids.add(
-                gastat_id
-            )
-
-    print(
-        f"Unique GASTAT IDs: {len(valid_gastat_ids)}"
-    )
+    exact_index = build_exact_match_index(products)
 
     # ========================================================
     # MATCH CACHE
@@ -808,34 +854,21 @@ def main():
 
             matches = find_matches(
                 record,
+                exact_index,
                 products,
-                valid_gastat_ids
             )
 
-            # ------------------------------------------------
-            # Extract all unique barcodes.
-            # ------------------------------------------------
-
-            barcodes = []
-
-            for match in matches:
-
-                barcode = get_barcode(
-                    match["product"]
-                )
-
-                if (
-                    barcode
-                    and barcode not in barcodes
-                ):
-                    barcodes.append(
-                        barcode
-                    )
-
-            match_cache[cache_key] = {
-                "match_count": len(matches),
-                "matched_barcodes": barcodes
-            }
+            if matches:
+                product = matches[0]["product"]
+                match_cache[cache_key] = {
+                    "match_count": get_store_coverage(product),
+                    "matched_barcodes": get_matched_barcodes(product),
+                }
+            else:
+                match_cache[cache_key] = {
+                    "match_count": 0,
+                    "matched_barcodes": [],
+                }
 
         # ----------------------------------------------------
         # Get cached match information.
@@ -937,24 +970,16 @@ def main():
     # STATISTICS
     # ========================================================
 
-    unique_products = len(
-        match_cache
+    distinct_commodities = len(match_cache)
+    matched_commodities = sum(
+        1 for value in match_cache.values() if value["match_count"] > 0
     )
-
-    matched_products = sum(
-        1
-        for value in match_cache.values()
-        if value["match_count"] > 0
+    unmatched_commodities = distinct_commodities - matched_commodities
+    matched_historical_records = sum(
+        1 for record in output_records if record["match_count"] > 0
     )
-
-    unmatched_products = (
-        unique_products
-        - matched_products
-    )
-
-    total_matches = sum(
-        value["match_count"]
-        for value in match_cache.values()
+    coverage_distribution = Counter(
+        record["match_count"] for record in output_records
     )
 
     # ========================================================
@@ -966,23 +991,31 @@ def main():
     print("=" * 70)
 
     print(
-        f"GASTAT records processed : {len(gastat_records)}"
+        f"Total historical records      : {len(gastat_records)}"
     )
 
     print(
-        f"Unique GASTAT products   : {unique_products}"
+        f"Distinct GASTAT commodities  : {distinct_commodities}"
     )
 
     print(
-        f"Matched GASTAT products  : {matched_products}"
+        f"Matched distinct commodities : {matched_commodities}"
     )
 
     print(
-        f"Unmatched GASTAT products: {unmatched_products}"
+        f"Unmatched distinct commodities: {unmatched_commodities}"
     )
 
     print(
-        f"Total product matches    : {total_matches}"
+        f"Records with match_count > 0 : {matched_historical_records}"
+    )
+
+    print(
+        "match_count distribution     : "
+        + ", ".join(
+            f"{count}={coverage_distribution[count]}"
+            for count in sorted(coverage_distribution)
+        )
     )
 
     print(

@@ -36,6 +36,9 @@ UNIT_MULTIPLIERS = {
     "milliliter": ("ml", 1.0),
     "مل": ("ml", 1.0),
     "ملل": ("ml", 1.0),
+    "cl": ("ml", 10.0),
+    "centiliter": ("ml", 10.0),
+    "centiliters": ("ml", 10.0),
     "kg": ("g", 1000.0),
     "kilo": ("g", 1000.0),
     "kilogram": ("g", 1000.0),
@@ -44,6 +47,7 @@ UNIT_MULTIPLIERS = {
     "كغ": ("g", 1000.0),
     "كغم": ("g", 1000.0),
     "g": ("g", 1.0),
+    "gm": ("g", 1.0),
     "gram": ("g", 1.0),
     "grams": ("g", 1.0),
     "غرام": ("g", 1.0),
@@ -57,10 +61,22 @@ UNIT_MULTIPLIERS = {
     "portion": ("triangles", 1.0),
     "portions": ("triangles", 1.0),
     "مثلث": ("triangles", 1.0),
-    "مثلثات": ("triangles", 1.0),
+    "مثلثات": ("triangles", 1.0), 
+        # Count units -> canonical pcs
+    "pc": ("pcs", 1.0),
+    "pcs": ("pcs", 1.0),
+    "pack": ("pcs", 1.0),
+    "can": ("pcs", 1.0),
+    "cans": ("pcs", 1.0),
+    "حبة": ("pcs", 1.0),
+    "حبات": ("pcs", 1.0),
+    "قطعة": ("pcs", 1.0),
+    "قطع": ("pcs", 1.0),
+    "علبة": ("pcs", 1.0),
+    "علب": ("pcs", 1.0),
 }
 
-UNIT_PATTERN = r"(?:milliliter|kilogram|portions?|triangles?|slices?|litre|liter|grams|kilo|pack|cans|can|pcs|ltr|ml|kg|gm|pc|l|g|كيلو|جرام|غرام|كغم|كجم|ملل|لتر|قطع|قطعة|حبات|حبة|علب|علبة|كغ|غم|جم|مل|شريحة|شرائح|مثلث|مثلثات|ل)"
+UNIT_PATTERN = r"(?:centiliters?|milliliter|kilogram|portions?|triangles?|slices?|litre|liter|grams|kilo|pack|cans|can|pcs|ltr|cl|ml|kg|gm|pc|l|g|كيلو|جرام|غرام|كغم|كجم|ملل|لتر|قطع|قطعة|حبات|حبة|علب|علبة|كغ|غم|جم|مل|شريحة|شرائح|مثلث|مثلثات|ل)"
 
 
 def calculate_ean13_check_digit(digits_12: str) -> str:
@@ -110,7 +126,7 @@ def clean_text_for_parsing(text: str) -> str:
     return t
 
 
-def parse_pack_and_size(text: str | None) -> dict[str, Any]:
+def parse_pack_and_size(text: str | None, category: str | None = None) -> dict[str, Any]:
     """استخراج عدد الحبات والوحدة والحجم بالمقياس الموحد مع دعم الشرائح."""
     empty_res = {
         "pack_qty": 1,
@@ -122,6 +138,45 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
         return empty_res
 
     text = clean_text_for_parsing(text)
+
+    # Ounces:
+    # - beverages: plain oz is treated as US fluid ounce -> ml
+    # - other categories: plain oz is treated as weight ounce -> g
+    # Explicit "fl oz" is always liquid.
+    fluid_oz = re.search(
+        r"(\d+(?:\.\d+)?)\s*fl\.?\s*oz\b",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if fluid_oz:
+        value = round(float(fluid_oz.group(1)) * 29.5735, 2)
+        return {
+            "pack_qty": 1,
+            "unit_size_value": value,
+            "total_size_value": value,
+            "size_unit": "ml",
+        }
+
+    oz_match = re.search(
+        r"(\d+(?:\.\d+)?)\s*(?:oz|ounce|ounces)\b",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if oz_match:
+        oz = float(oz_match.group(1))
+        if category == "beverages":
+            value = round(oz * 29.5735, 2)
+            unit = "ml"
+        else:
+            value = round(oz * 28.3495, 2)
+            unit = "g"
+
+        return {
+            "pack_qty": 1,
+            "unit_size_value": value,
+            "total_size_value": value,
+            "size_unit": unit,
+        }
 
     # 0. فحص صيغ الجمع والعروض الترويجية: 8+2 Slices أو 24+4 مثلثات
     plus_pattern = rf"(\d+)\s*\+\s*(\d+)\s*(?:slices?|portions?|شرائح|شريحة|مثلث|مثلثات)"
@@ -136,7 +191,7 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
         }
 
     # 1. فحص الشدات والعبوات المتعددة: 18*125ml أو 2*500g
-    multi_pattern = rf"(\d+)\s*[\*xX×\-]\s*(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
+    multi_pattern = rf"(\d+)\s*[\*xX×]\s*(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})"
     m_multi = re.search(multi_pattern, text, flags=re.IGNORECASE)
     if m_multi:
         qty = int(m_multi.group(1))
@@ -153,7 +208,7 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
         }
 
     # 2. النمط العكسي: 500g x 2 أو 125ml * 18
-    multi_rev = rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})\s*[\*xX×\-]\s*(\d+)"
+    multi_rev = rf"(\d+(?:\.\d+)?)\s*({UNIT_PATTERN})\s*[\*xX×]\s*(\d+)"
     m_rev = re.search(multi_rev, text, flags=re.IGNORECASE)
     if m_rev:
         val = float(m_rev.group(1))
@@ -190,7 +245,7 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
         }
 
     # 4. فحص العبوات بالعدد فقط (مثل 30 بيضة أو 10 شرائح)
-    count_pattern = r"(\d+)\s*(?:حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|بيض|بيضة|slices?|شرائح|شريحة)\b"
+    count_pattern = r"(\d+)\s*(?:counts?|eggs?|حبة|حبات|قطع|قطعة|pcs|pc|pack|can|cans|علبة|علب|بيض|بيضة|slices?|شرائح|شريحة)\b"
     m_count = re.search(count_pattern, text, flags=re.IGNORECASE)
     if m_count:
         qty = int(m_count.group(1))
@@ -203,58 +258,173 @@ def parse_pack_and_size(text: str | None) -> dict[str, Any]:
 
     return empty_res
 
+def extract_best_price_and_discounts(
+    item: dict[str, Any],
+) -> tuple[
+    float | None,
+    float | None,
+    float | None,
+    float | None,
+]:
+    """
+    BinDawood pricing policy:
 
-def extract_best_price_and_discounts(item: dict[str, Any]) -> tuple[float | None, float | None, float | None, float | None]:
-    default_price = item.get("price")
-    default_orig = item.get("original_price")
+    1. Check all branches in inventory_modifiers.
+    2. Ignore explicitly unavailable / out-of-stock branches.
+    3. If ANY branch has a real sale
+       (original_price > price), use the best sale price.
+    4. Otherwise use the best available normal price.
+    """
 
-    best_price = float(default_price) if default_price is not None else None
-    best_orig = float(default_orig) if default_orig is not None else None
-    max_discount_amount = 0.0
+    def to_float(value: Any) -> float | None:
+        try:
+            if value in (None, ""):
+                return None
+            return float(value)
+        except (TypeError, ValueError):
+            return None
+
+    candidates = []
 
     modifiers = item.get("inventory_modifiers") or {}
+
     if isinstance(modifiers, dict):
-        for mod in modifiers.values():
+        for branch_id, mod in modifiers.items():
+
             if not isinstance(mod, dict):
                 continue
 
-            raw_p = mod.get("price")
-            raw_orig = mod.get("original_price")
-
-            try:
-                cur_price = float(raw_p) if raw_p is not None else None
-            except (ValueError, TypeError):
-                cur_price = None
-
-            try:
-                cur_orig = float(raw_orig) if raw_orig is not None else None
-            except (ValueError, TypeError):
-                cur_orig = None
-
-            if cur_price is None:
+            # Skip branch only when Panda/BinDawood explicitly
+            # tells us it is unavailable or out of stock.
+            if mod.get("available") is False:
                 continue
 
-            cur_disc = 0.0
-            if cur_orig and cur_orig > cur_price:
-                cur_disc = round(cur_orig - cur_price, 2)
+            if mod.get("in_stock") is False:
+                continue
 
-            if cur_disc > max_discount_amount:
-                max_discount_amount = cur_disc
-                best_price = cur_price
-                best_orig = cur_orig
-            elif best_price is None or cur_price < best_price:
-                best_price = cur_price
-                best_orig = cur_orig
+            price = to_float(mod.get("price"))
+            original = to_float(
+                mod.get("original_price")
+            )
 
-    discount_amount = None
-    discount_pct = None
-    if best_orig and best_price and best_orig > best_price:
-        discount_amount = round(best_orig - best_price, 2)
-        discount_pct = round((discount_amount / best_orig) * 100, 2)
-    elif best_orig and best_price and best_orig == best_price:
-        best_orig = None
+            if price is None or price <= 0:
+                continue
 
-    return best_price, best_orig, discount_amount, discount_pct
+            is_sale = (
+                original is not None
+                and original > price
+            )
+
+            candidates.append({
+                "branch_id": branch_id,
+                "price": price,
+                "original_price": original,
+                "is_sale": is_sale,
+            })
+
+    # -------------------------------------------------
+    # First priority: ANY branch with a real offer.
+    # -------------------------------------------------
+
+    sale_candidates = [
+        c for c in candidates
+        if c["is_sale"]
+    ]
+
+    if sale_candidates:
+
+        best = min(
+            sale_candidates,
+            key=lambda x: x["price"],
+        )
+
+        price = round(
+            best["price"],
+            2,
+        )
+
+        original = round(
+            best["original_price"],
+            2,
+        )
+
+        discount_amount = round(
+            original - price,
+            2,
+        )
+
+        discount_percentage = round(
+            (discount_amount / original) * 100,
+            2,
+        )
+
+        return (
+            price,
+            original,
+            discount_amount,
+            discount_percentage,
+        )
+
+    # -------------------------------------------------
+    # No offer anywhere: use lowest available price.
+    # -------------------------------------------------
+
+    if candidates:
+
+        best = min(
+            candidates,
+            key=lambda x: x["price"],
+        )
+
+        return (
+            round(best["price"], 2),
+            None,
+            None,
+            None,
+        )
+
+    # -------------------------------------------------
+    # Fallback to top-level product price.
+    # -------------------------------------------------
+
+    price = to_float(
+        item.get("price")
+    )
+
+    original = to_float(
+        item.get("original_price")
+    )
+
+    if (
+        price is not None
+        and original is not None
+        and original > price
+    ):
+
+        discount_amount = round(
+            original - price,
+            2,
+        )
+
+        discount_percentage = round(
+            (discount_amount / original) * 100,
+            2,
+        )
+
+        return (
+            round(price, 2),
+            round(original, 2),
+            discount_amount,
+            discount_percentage,
+        )
+
+    return (
+        round(price, 2)
+        if price is not None else None,
+        None,
+        None,
+        None,
+    )
 
 
 def parse_item(item: dict[str, Any], cat_slug: str) -> dict[str, Any] | None:
@@ -267,54 +437,9 @@ def parse_item(item: dict[str, Any], cat_slug: str) -> dict[str, Any] | None:
         brand = name_en.split()[0]
 
     price, orig_price, disc_amt, disc_pct = extract_best_price_and_discounts(item)
-    size_data = parse_pack_and_size(full_text)
+    size_data = parse_pack_and_size(full_text, cat_slug)
 
-    # --- 1. حراس أمان المشروبات ---
-    if cat_slug == "beverages" and price is not None:
-        u_val = size_data.get("unit_size_value")
-        p_qty = size_data.get("pack_qty", 1)
-
-        if p_qty == 1 and u_val and u_val <= 500 and price >= 35.0:
-            estimated_qty = round(price / 2.5)
-            size_data["pack_qty"] = estimated_qty if estimated_qty in [24, 30, 12] else 24
-            size_data["total_size_value"] = round(u_val * size_data["pack_qty"], 2)
-        elif p_qty == 1 and u_val and u_val <= 250 and price >= 12.0:
-            estimated_qty = round(price / 1.8)
-            size_data["pack_qty"] = estimated_qty if estimated_qty in [10, 12, 18] else 10
-            size_data["total_size_value"] = round(u_val * size_data["pack_qty"], 2)
-
-    # --- 2. حراس أمان الألبان والبيض ---
-    if cat_slug == "dairy_and_eggs" and price is not None:
-        u_val = size_data.get("unit_size_value")
-        p_qty = size_data.get("pack_qty", 1)
-        s_unit = size_data.get("size_unit")
-        name_lower = full_text.lower()
-
-        # طبق البيض 30 حبة
-        if ("egg" in name_lower or "بيض" in name_lower) and s_unit is None and price >= 14.0:
-            size_data["pack_qty"] = 30
-            size_data["unit_size_value"] = 1.0
-            size_data["total_size_value"] = 30.0
-            size_data["size_unit"] = "pcs"
-
-        # شرائح الجبن المفقود حجمها
-        elif ("slice" in name_lower or "شريحة" in name_lower or "شرائح" in name_lower) and size_data["total_size_value"] is None:
-            if price <= 10.0:
-                size_data["pack_qty"] = 1
-                size_data["unit_size_value"] = 10.0
-                size_data["total_size_value"] = 10.0
-                size_data["size_unit"] = "slices"
-            else:
-                size_data["pack_qty"] = 1
-                size_data["unit_size_value"] = 20.0
-                size_data["total_size_value"] = 20.0
-                size_data["size_unit"] = "slices"
-
-        # شدات الزبادي
-        elif ("زبادي" in name_lower or "yogurt" in name_lower) and p_qty == 1 and u_val and u_val <= 180 and price >= 7.0:
-            size_data["pack_qty"] = 6
-            size_data["total_size_value"] = round(u_val * 6, 2)
-
+    
     image_url = item.get("image") or ""
     barcodes = extract_barcodes_from_image_url(image_url)
 

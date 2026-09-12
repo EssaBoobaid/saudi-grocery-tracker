@@ -957,9 +957,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 180.0,
-    "total_size_value": 1080.0,
+    "total_size_value": 180.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/392/product/629700077835.jpg"
   },
@@ -1199,9 +1199,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/330/product/628102213248.jpg"
   },
@@ -1706,7 +1706,7 @@
     "pack_qty": 32,
     "unit_size_value": 2.0,
     "total_size_value": 64.0,
-    "size_unit": "قطع",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/073/042/product/307378104899.jpg"
   },
   {
@@ -2744,9 +2744,9 @@
     "discount_amount": null,
     "discount_percentage": null,
     "pack_qty": 1,
-    "unit_size_value": null,
-    "total_size_value": null,
-    "size_unit": null,
+    "unit_size_value": 396.89,
+    "total_size_value": 396.89,
+    "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/072/038/product/9042705.jpg"
   },
   {
@@ -3848,7 +3848,7 @@
     "pack_qty": 4,
     "unit_size_value": 8.0,
     "total_size_value": 32.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/065/534/product/307378104983.jpeg"
   },
   {
@@ -4699,10 +4699,10 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 30,
-    "unit_size_value": 1.0,
-    "total_size_value": 30.0,
-    "size_unit": "pcs",
+    "pack_qty": 1,
+    "unit_size_value": 226.8,
+    "total_size_value": 226.8,
+    "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/060/028/product/85004535731.png"
   },
   {
@@ -5016,7 +5016,7 @@
     "pack_qty": 15,
     "unit_size_value": 15.0,
     "total_size_value": 225.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/445/product/993120110002.jpg"
   },
   {
@@ -5038,7 +5038,7 @@
     "pack_qty": 30,
     "unit_size_value": 30.0,
     "total_size_value": 900.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/444/product/993120109002.jpg"
   },
   {
@@ -5079,9 +5079,9 @@
     "original_price": 11.0,
     "discount_amount": 1.01,
     "discount_percentage": 9.18,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 160.0,
-    "total_size_value": 960.0,
+    "total_size_value": 160.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/430/product/628105701289.png"
   },
@@ -5699,9 +5699,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 30,
-    "unit_size_value": 1.0,
-    "total_size_value": 30.0,
+    "pack_qty": 1,
+    "unit_size_value": 6.0,
+    "total_size_value": 6.0,
     "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/057/600/product/70999332463.jpeg"
   },
@@ -6270,7 +6270,7 @@
     "pack_qty": 2,
     "unit_size_value": 24.0,
     "total_size_value": 48.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/056/749/product/628100704493.jpeg"
   },
   {
@@ -6289,9 +6289,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/056/745/product/628102212682.jpeg"
   },
@@ -6311,9 +6311,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/056/743/product/628102212683.jpeg"
   },
@@ -6509,9 +6509,9 @@
     "original_price": 11.0,
     "discount_amount": 1.01,
     "discount_percentage": 9.18,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 160.0,
-    "total_size_value": 960.0,
+    "total_size_value": 160.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/053/060/product/628105701290.PNG"
   },
@@ -6817,9 +6817,9 @@
     "original_price": 11.0,
     "discount_amount": 1.5,
     "discount_percentage": 13.64,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/034/product/628100705912.jpeg"
   },
@@ -6837,9 +6837,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 180.0,
-    "total_size_value": 1080.0,
+    "total_size_value": 180.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/717/product/6297001083871_-01.jpg"
   },
@@ -6857,9 +6857,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 180.0,
-    "total_size_value": 1080.0,
+    "total_size_value": 180.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/713/product/6297001083888_-01.jpg"
   },
@@ -6973,7 +6973,7 @@
     "barcodes": [
       "6297000670447"
     ],
-    "price": 33.25,
+    "price": 38.99,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -7073,7 +7073,7 @@
     "barcodes": [
       "6297000670362"
     ],
-    "price": 17.75,
+    "price": 20.5,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -7253,7 +7253,7 @@
     "barcodes": [
       "6297001083567"
     ],
-    "price": 31.95,
+    "price": 34.95,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -7273,7 +7273,7 @@
     "barcodes": [
       "6297001083529"
     ],
-    "price": 31.95,
+    "price": 34.95,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -7333,7 +7333,7 @@
     "barcodes": [
       "6297001083536"
     ],
-    "price": 31.95,
+    "price": 34.99,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -7373,7 +7373,7 @@
     "barcodes": [
       "6297000670454"
     ],
-    "price": 35.95,
+    "price": 39.99,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -7981,10 +7981,10 @@
     "name_ar": "نادك شرائح جبنة شيدر ٢٠٠غرام",
     "brand": "Nadec",
     "barcodes": [],
-    "price": 6.95,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 7.99,
+    "original_price": 8.95,
+    "discount_amount": 0.96,
+    "discount_percentage": 10.73,
     "pack_qty": 1,
     "unit_size_value": 200.0,
     "total_size_value": 200.0,
@@ -8615,9 +8615,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/043/955/product/628102211649.jpg"
   },
@@ -8769,9 +8769,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 160.0,
-    "total_size_value": 960.0,
+    "total_size_value": 160.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/043/945/product/628101824008.jpg"
   },
@@ -8919,9 +8919,9 @@
     "original_price": 11.0,
     "discount_amount": 1.01,
     "discount_percentage": 9.18,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 160.0,
-    "total_size_value": 960.0,
+    "total_size_value": 160.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/365/product/60395421.png"
   },
@@ -9003,9 +9003,9 @@
     "original_price": 11.0,
     "discount_amount": 1.01,
     "discount_percentage": 9.18,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 160.0,
-    "total_size_value": 960.0,
+    "total_size_value": 160.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/364/product/60395431.png"
   },
@@ -9035,10 +9035,10 @@
     "name_ar": "نادك شرائح جبنة للشاندويتشات ٢٠٠غرام",
     "brand": "Nadec",
     "barcodes": [],
-    "price": 6.95,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 7.99,
+    "original_price": 8.95,
+    "discount_amount": 0.96,
+    "discount_percentage": 10.73,
     "pack_qty": 1,
     "unit_size_value": 200.0,
     "total_size_value": 200.0,
@@ -9184,7 +9184,7 @@
     "pack_qty": 30,
     "unit_size_value": 30.0,
     "total_size_value": 900.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/041/275/product/628110611101.jpg"
   },
   {
@@ -10004,7 +10004,7 @@
     "pack_qty": 15,
     "unit_size_value": 15.0,
     "total_size_value": 225.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/038/159/product/15.jpg"
   },
   {
@@ -10239,10 +10239,10 @@
       "628105706261",
       "6281057062614"
     ],
-    "price": 6.95,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 7.99,
+    "original_price": 8.95,
+    "discount_amount": 0.96,
+    "discount_percentage": 10.73,
     "pack_qty": 1,
     "unit_size_value": 200.0,
     "total_size_value": 200.0,
@@ -10463,9 +10463,9 @@
     "original_price": 11.0,
     "discount_amount": 1.01,
     "discount_percentage": 9.18,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 160.0,
-    "total_size_value": 960.0,
+    "total_size_value": 160.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/055/360/product/628105700647.jpg"
   },
@@ -10506,7 +10506,7 @@
     "pack_qty": 30,
     "unit_size_value": 30.0,
     "total_size_value": 900.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/037/736/product/628701709002.jpg"
   },
   {
@@ -11162,7 +11162,7 @@
     "pack_qty": 4,
     "unit_size_value": 8.0,
     "total_size_value": 32.0,
-    "size_unit": "قطع",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/031/514/product/307378111970.jpg"
   },
   {
@@ -12098,7 +12098,7 @@
     "pack_qty": 24,
     "unit_size_value": 24.0,
     "total_size_value": 576.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/029/551/product/628100703735.jpg"
   },
   {
@@ -13389,9 +13389,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 140.0,
-    "total_size_value": 840.0,
+    "total_size_value": 140.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/350/product/628100703607.png"
   },
@@ -13524,7 +13524,7 @@
     "pack_qty": 6,
     "unit_size_value": 6.0,
     "total_size_value": 36.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/473/product/628100702395.png"
   },
   {
@@ -13872,7 +13872,7 @@
     "pack_qty": 12,
     "unit_size_value": 12.0,
     "total_size_value": 144.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/474/product/628100702396.png"
   },
   {
@@ -15302,7 +15302,7 @@
     "pack_qty": 8,
     "unit_size_value": 8.0,
     "total_size_value": 64.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/022/550/product/322802398018.jpg"
   },
   {
@@ -15541,9 +15541,9 @@
     "original_price": 11.0,
     "discount_amount": 1.5,
     "discount_percentage": 13.64,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/356/product/628100705581.png"
   },
@@ -15563,9 +15563,9 @@
     "original_price": 11.0,
     "discount_amount": 1.5,
     "discount_percentage": 13.64,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/355/product/628100705580.png"
   },
@@ -17104,7 +17104,7 @@
     "pack_qty": 30,
     "unit_size_value": 30.0,
     "total_size_value": 900.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/048/838/product/628701195004_%282%29.jpg"
   },
   {
@@ -17254,7 +17254,7 @@
     "pack_qty": 15,
     "unit_size_value": 15.0,
     "total_size_value": 225.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/016/759/product/image_%283%29.png"
   },
   {
@@ -17716,7 +17716,7 @@
     "pack_qty": 24,
     "unit_size_value": 24.0,
     "total_size_value": 576.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/027/475/product/628100702397.png"
   },
   {
@@ -17890,9 +17890,9 @@
     "discount_amount": null,
     "discount_percentage": null,
     "pack_qty": 1,
-    "unit_size_value": null,
-    "total_size_value": null,
-    "size_unit": null,
+    "unit_size_value": 500.0,
+    "total_size_value": 500.0,
+    "size_unit": "ml",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/013/428/product/345179019657.jpg"
   },
   {
@@ -18457,9 +18457,9 @@
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
-    "pack_qty": 6,
+    "pack_qty": 1,
     "unit_size_value": 150.0,
-    "total_size_value": 900.0,
+    "total_size_value": 150.0,
     "size_unit": "g",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/013/272/product/628102211855.jpg"
   },
@@ -18504,7 +18504,7 @@
     "pack_qty": 20,
     "unit_size_value": 20.0,
     "total_size_value": 400.0,
-    "size_unit": "pc",
+    "size_unit": "pcs",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/019/879/product/571195311347.jpg"
   },
   {

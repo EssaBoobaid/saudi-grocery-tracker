@@ -3,3 +3,13 @@ __pycache__/
 .venv/
 .env
 
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Airflow runtime logs
+airflow/logs/
+
+# Gold archives
+data/gold/archive/
