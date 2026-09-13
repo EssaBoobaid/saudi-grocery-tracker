@@ -142,6 +142,22 @@ def init_database_objects(
         );
         """,
         """
+        CREATE TABLE IF NOT EXISTS GROCERY_TRACKER_DB.ANALYTICS.FCT_STORE_ITEM_PRICES (
+            snapshot_date DATE,
+            product_id VARCHAR(100),
+            store_name VARCHAR(50),
+            store_product_id VARCHAR(100),
+            price FLOAT,
+            original_price FLOAT,
+            discount_amount FLOAT,
+            discount_percentage FLOAT,
+            has_discount BOOLEAN,
+            image_url VARCHAR(1000),
+            created_at TIMESTAMP_NTZ DEFAULT CURRENT_TIMESTAMP(),
+            PRIMARY KEY (snapshot_date, product_id, store_name)
+        );
+        """,
+        """
         CREATE TABLE IF NOT EXISTS GROCERY_TRACKER_DB.ANALYTICS.REF_GASTAT_PRICES (
             gastat_id INT,
             item_name_ar VARCHAR(500),
@@ -208,6 +224,7 @@ def main() -> None:
 
     dim_dict: dict[str, tuple] = {}
     fct_dict: dict[tuple, tuple] = {}
+    store_price_dict: dict[tuple, tuple] = {}
 
     for p in products:
 
@@ -260,8 +277,31 @@ def main() -> None:
             s_data.get("tamimi", {}).get("price"),
         )
 
+        # ========================================================
+        # FCT store item prices
+        # ========================================================
+
+        for store_name in ("bindawood", "panda", "tamimi"):
+            if store_name not in s_data:
+                continue
+
+            store_data = s_data[store_name]
+            store_price_dict[(today, pid, store_name)] = (
+                today,
+                pid,
+                store_name,
+                store_data.get("raw_product_id"),
+                store_data.get("price"),
+                store_data.get("original_price"),
+                store_data.get("discount_amount"),
+                store_data.get("discount_percentage"),
+                store_data.get("has_discount"),
+                store_data.get("image_url"),
+            )
+
     dim_rows = list(dim_dict.values())
     fct_rows = list(fct_dict.values())
+    store_price_rows = list(store_price_dict.values())
 
     print(
         f"[*] Current Gold unique products: "
@@ -586,6 +626,111 @@ def main() -> None:
         )
 
     # ============================================================
+    # 4. Upload today's FCT store item prices
+    # ============================================================
+
+    print(
+        f"[*] Cleaning existing FCT_STORE_ITEM_PRICES "
+        f"for {today}..."
+    )
+
+    cursor.execute(
+        """
+        DELETE FROM
+            GROCERY_TRACKER_DB.ANALYTICS.FCT_STORE_ITEM_PRICES
+        WHERE snapshot_date = %s
+        """,
+        (today,),
+    )
+
+    print(
+        f"[*] Batch uploading FCT_STORE_ITEM_PRICES "
+        f"({len(store_price_rows)} unique items)..."
+    )
+
+    cursor.execute(
+        """
+        CREATE TEMPORARY TABLE IF NOT EXISTS temp_store_price_stage (
+            snapshot_date DATE,
+            product_id VARCHAR(100),
+            store_name VARCHAR(50),
+            store_product_id VARCHAR(100),
+            price FLOAT,
+            original_price FLOAT,
+            discount_amount FLOAT,
+            discount_percentage FLOAT,
+            has_discount BOOLEAN,
+            image_url VARCHAR(1000)
+        );
+        """
+    )
+
+    cursor.execute(
+        "TRUNCATE TABLE temp_store_price_stage;"
+    )
+
+    if store_price_rows:
+        cursor.executemany(
+            """
+            INSERT INTO temp_store_price_stage
+            VALUES (
+                %s, %s, %s, %s, %s,
+                %s, %s, %s, %s, %s
+            )
+            """,
+            store_price_rows,
+        )
+
+    cursor.execute(
+        """
+        MERGE INTO
+            GROCERY_TRACKER_DB.ANALYTICS.FCT_STORE_ITEM_PRICES target
+
+        USING temp_store_price_stage source
+
+        ON
+            target.snapshot_date = source.snapshot_date
+            AND target.product_id = source.product_id
+            AND target.store_name = source.store_name
+
+        WHEN MATCHED THEN UPDATE SET
+            store_product_id = source.store_product_id,
+            price = source.price,
+            original_price = source.original_price,
+            discount_amount = source.discount_amount,
+            discount_percentage = source.discount_percentage,
+            has_discount = source.has_discount,
+            image_url = source.image_url
+
+        WHEN NOT MATCHED THEN INSERT (
+            snapshot_date,
+            product_id,
+            store_name,
+            store_product_id,
+            price,
+            original_price,
+            discount_amount,
+            discount_percentage,
+            has_discount,
+            image_url
+        )
+
+        VALUES (
+            source.snapshot_date,
+            source.product_id,
+            source.store_name,
+            source.store_product_id,
+            source.price,
+            source.original_price,
+            source.discount_amount,
+            source.discount_percentage,
+            source.has_discount,
+            source.image_url
+        );
+        """
+    )
+
+    # ============================================================
     # Commit and close
     # ============================================================
 
@@ -607,6 +752,10 @@ def main() -> None:
     print(
         f"  • REF_GASTAT_PRICES:    "
         f"{len(gastat_rows)} records synced"
+    )
+    print(
+        f"  • FCT_STORE_ITEM_PRICES: "
+        f"{len(store_price_rows)} records synced"
     )
     print("=" * 60)
 
