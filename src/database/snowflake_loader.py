@@ -36,6 +36,56 @@ SNOWFLAKE_CONFIG = {
 }
 
 
+def load_branches(
+    cursor: snowflake.connector.cursor.SnowflakeCursor,
+) -> None:
+    """Replace the branch dimension with all three UTF-8 reference files."""
+    branch_files = [
+        ("Panda", BASE_DIR / "data/reference/panda_branches.json"),
+        ("Tamimi", BASE_DIR / "data/reference/tamimi_branches.json"),
+        ("BinDawood", BASE_DIR / "data/reference/bindawood_branches.json"),
+    ]
+    rows = []
+    counts = {}
+
+    # Prepare every file before clearing the existing branch dimension.
+    for label, file_path in branch_files:
+        with open(file_path, "r", encoding="utf-8") as f:
+            branches = json.load(f)
+
+        counts[label] = len(branches)
+        for branch in branches:
+            branch_key = f"{branch['brand'].replace(' ', '_')}_{branch['id']}"
+            rows.append((
+                branch_key,
+                branch["id"],
+                branch["brand"],
+                branch["city_ar"],
+                branch["city_en"],
+                branch["name_ar"],
+                branch["name_en"],
+                branch["map_url"],
+            ))
+
+    cursor.execute("TRUNCATE TABLE GROCERY_TRACKER_DB.ANALYTICS.DIM_BRANCHES;")
+
+    if rows:
+        cursor.executemany(
+            """
+            INSERT INTO GROCERY_TRACKER_DB.ANALYTICS.DIM_BRANCHES (
+                branch_key, branch_id, brand, city_ar, city_en,
+                name_ar, name_en, map_url, created_at
+            )
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, CURRENT_TIMESTAMP())
+            """,
+            rows,
+        )
+
+    for label, count in counts.items():
+        print(f"✓ {label} branches loaded: {count}")
+    print(f"✓ Total branches loaded: {len(rows)}\n")
+
+
 def load_gold_data() -> list[dict[str, Any]]:
     all_products = []
 
@@ -208,6 +258,8 @@ def main() -> None:
     print("✓ Connected successfully!\n")
 
     init_database_objects(cursor)
+
+    load_branches(cursor)
 
     # ============================================================
     # Load current Gold
