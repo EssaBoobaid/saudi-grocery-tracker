@@ -187,7 +187,7 @@
     "id": "2640520",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Nadec Fresh Full Fat Yoghurt Multi Pack 170x6 G",
+    "name_en": "Nadec Fresh Full Fat Yoghurt Multi Pack 170g  x 6",
     "name_ar": null,
     "brand": "Nadec",
     "barcodes": [
@@ -200,9 +200,9 @@
     "is_weighted": false,
     "weighted_interval": 0.0,
     "weighted_options": [],
-    "pack_qty": 170,
-    "unit_size_value": 6.0,
-    "total_size_value": 1020.0,
+    "pack_qty": 1,
+    "unit_size_value": 170.0,
+    "total_size_value": 170.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/2640520/Ar_small.jpg?t=1744675200"
   },
@@ -619,6 +619,29 @@
     "total_size_value": 100.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/3817285/Ar_small.jpg?t=1744675200"
+  },
+  {
+    "id": "100144429",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Nada Greek Yogurt Low Fat 160 G",
+    "name_ar": null,
+    "brand": "Nada",
+    "barcodes": [
+      "6281018146980"
+    ],
+    "price": 5.0,
+    "original_price": 5.75,
+    "discount_amount": 0.75,
+    "discount_percentage": 13.04,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 160.0,
+    "total_size_value": 160.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/100144429/Ar_small.jpg?t=1780481258"
   },
   {
     "id": "326380",
@@ -1127,29 +1150,6 @@
     "image_url": "https://images.todoorstep.com/product/100211312/Ar_small.jpg?t=1780483439"
   },
   {
-    "id": "2347170",
-    "store": "panda",
-    "category": "dairy_and_eggs",
-    "name_en": "Alsafi Yoghurt Low Fat 180g x6 g",
-    "name_ar": null,
-    "brand": "Al Safi",
-    "barcodes": [
-      "6281022130490"
-    ],
-    "price": 12.0,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.0,
-    "weighted_options": [],
-    "pack_qty": 1,
-    "unit_size_value": 170.0,
-    "total_size_value": 170.0,
-    "size_unit": "g",
-    "image_url": "https://images.todoorstep.com/product/2347170/Ar_small.jpg?t=1744675200"
-  },
-  {
     "id": "3873790",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -1236,8 +1236,8 @@
     "weighted_interval": 0.0,
     "weighted_options": [],
     "pack_qty": 1,
-    "unit_size_value": 1.0,
-    "total_size_value": 1.0,
+    "unit_size_value": 1000.0,
+    "total_size_value": 1000.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/100218194/Ar_small.jpg?t=1785748698"
   },
@@ -1403,6 +1403,29 @@
     "image_url": "https://images.todoorstep.com/product/3817360/Ar_small.jpg?t=1764070094"
   },
   {
+    "id": "100144938",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Alsafi Laban Full Fat 2.9L",
+    "name_ar": null,
+    "brand": "Al Safi",
+    "barcodes": [
+      "6281022110630"
+    ],
+    "price": 16.5,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 2900.0,
+    "total_size_value": 2900.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100144938/Ar_small.jpg?t=1785748661"
+  },
+  {
     "id": "100218196",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -1420,8 +1443,8 @@
     "weighted_interval": 0.0,
     "weighted_options": [],
     "pack_qty": 1,
-    "unit_size_value": 2.0,
-    "total_size_value": 2.0,
+    "unit_size_value": 2000.0,
+    "total_size_value": 2000.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/100218196/Ar_small.jpg?t=1785748693"
   },
@@ -1792,6 +1815,29 @@
     "total_size_value": 1.75,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/3722890/Ar_small.jpg?t=1744675200"
+  },
+  {
+    "id": "3170570",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Almarai Fresh Laban Low Fat 180Ml",
+    "name_ar": null,
+    "brand": "Almarai",
+    "barcodes": [
+      "6281007023500"
+    ],
+    "price": 2.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 180.0,
+    "total_size_value": 180.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/3170570/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "100211186",
@@ -3082,6 +3128,29 @@
     "image_url": "https://images.todoorstep.com/product/100164003/Ar_small.jpg?t=1780481897"
   },
   {
+    "id": "3026400",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Activia Laban Light 375Ml",
+    "name_ar": null,
+    "brand": "Activia",
+    "barcodes": [
+      "6281022118070"
+    ],
+    "price": 4.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 375.0,
+    "total_size_value": 375.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/3026400/Ar_small.jpg?t=1744675200"
+  },
+  {
     "id": "3747340",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -3841,6 +3910,29 @@
     "image_url": "https://images.todoorstep.com/product/100127503/Ar_small.jpg?t=1780480721"
   },
   {
+    "id": "2218790",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Activia Laban Bottle 375Ml",
+    "name_ar": null,
+    "brand": "Activia",
+    "barcodes": [
+      "6281022118410"
+    ],
+    "price": 4.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 375.0,
+    "total_size_value": 375.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/2218790/Ar_small.jpg?t=1744675200"
+  },
+  {
     "id": "183650398",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -4000,6 +4092,29 @@
     "total_size_value": 360.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/3442990/Ar_small.jpg?t=1744675200"
+  },
+  {
+    "id": "3170530",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Almarai Fresh Milk Low Fat 180Ml",
+    "name_ar": null,
+    "brand": "Almarai",
+    "barcodes": [
+      "6281007023530"
+    ],
+    "price": 2.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 180.0,
+    "total_size_value": 180.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/3170530/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "3817305",
@@ -6256,6 +6371,29 @@
     "image_url": "https://images.todoorstep.com/product/210802634/Ar_small.jpg?t="
   },
   {
+    "id": "210401911",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Al Safi Full Fat Milk 1.2L",
+    "name_ar": null,
+    "brand": "Alsafi",
+    "barcodes": [
+      "6281022120960"
+    ],
+    "price": 8.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1200.0,
+    "total_size_value": 1200.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/210401911/Ar_small.jpg?t="
+  },
+  {
     "id": "210401937",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -6482,7 +6620,7 @@
     "pack_qty": 1,
     "unit_size_value": 360.0,
     "total_size_value": 360.0,
-    "size_unit": "g",
+    "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/210401945/Ar_small.jpg?t=1783930937"
   },
   {
@@ -7234,7 +7372,7 @@
     "id": "3757155",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Kiri Cheese Portions 2 x 400g",
+    "name_en": "Kiri Cheese Portions 2 x 400g - 48 Portions",
     "name_ar": null,
     "brand": "Kiri",
     "barcodes": [
@@ -7748,29 +7886,6 @@
     "image_url": "https://images.todoorstep.com/product/3837225/Ar_small.jpg?t=1787573484"
   },
   {
-    "id": "330755",
-    "store": "panda",
-    "category": "dairy_and_eggs",
-    "name_en": "Pride Analogue Cheese Slices Burger 400 g",
-    "name_ar": null,
-    "brand": "Pride",
-    "barcodes": [
-      "6281024010810"
-    ],
-    "price": 10.0,
-    "original_price": 16.99,
-    "discount_amount": 6.99,
-    "discount_percentage": 41.14,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 1,
-    "unit_size_value": 400.0,
-    "total_size_value": 400.0,
-    "size_unit": "g",
-    "image_url": "https://images.todoorstep.com/product/330755/Ar_small.jpg?t=1787572120"
-  },
-  {
     "id": "3883655",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -8136,252 +8251,252 @@
     "barcodes": [
       "5998200468610"
     ],
-    "price": 69.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 39.99,
+    "original_price": 69.99,
+    "discount_amount": 30.0,
+    "discount_percentage": 42.86,
     "is_weighted": true,
     "weighted_interval": 0.25,
     "weighted_options": [
       {
         "quantity_value": 0.25,
         "quantity_name": "0.25 KG",
-        "price": 17.5,
-        "original_price": null
+        "price": 10.0,
+        "original_price": 17.5
       },
       {
         "quantity_value": 0.5,
         "quantity_name": "0.5 KG",
-        "price": 34.99,
-        "original_price": null
+        "price": 20.0,
+        "original_price": 34.99
       },
       {
         "quantity_value": 0.75,
         "quantity_name": "0.75 KG",
-        "price": 52.49,
-        "original_price": null
+        "price": 29.99,
+        "original_price": 52.49
       },
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 69.99,
-        "original_price": null
+        "price": 39.99,
+        "original_price": 69.99
       },
       {
         "quantity_value": 1.25,
         "quantity_name": "1.25 KG",
-        "price": 87.49,
-        "original_price": null
+        "price": 49.99,
+        "original_price": 87.49
       },
       {
         "quantity_value": 1.5,
         "quantity_name": "1.5 KG",
-        "price": 104.98,
-        "original_price": null
+        "price": 59.98,
+        "original_price": 104.98
       },
       {
         "quantity_value": 1.75,
         "quantity_name": "1.75 KG",
-        "price": 122.48,
-        "original_price": null
+        "price": 69.98,
+        "original_price": 122.48
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 139.98,
-        "original_price": null
+        "price": 79.98,
+        "original_price": 139.98
       },
       {
         "quantity_value": 2.25,
         "quantity_name": "2.25 KG",
-        "price": 157.48,
-        "original_price": null
+        "price": 89.98,
+        "original_price": 157.48
       },
       {
         "quantity_value": 2.5,
         "quantity_name": "2.5 KG",
-        "price": 174.97,
-        "original_price": null
+        "price": 99.98,
+        "original_price": 174.97
       },
       {
         "quantity_value": 2.75,
         "quantity_name": "2.75 KG",
-        "price": 192.47,
-        "original_price": null
+        "price": 109.97,
+        "original_price": 192.47
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 209.97,
-        "original_price": null
+        "price": 119.97,
+        "original_price": 209.97
       },
       {
         "quantity_value": 3.25,
         "quantity_name": "3.25 KG",
-        "price": 227.47,
-        "original_price": null
+        "price": 129.97,
+        "original_price": 227.47
       },
       {
         "quantity_value": 3.5,
         "quantity_name": "3.5 KG",
-        "price": 244.96,
-        "original_price": null
+        "price": 139.97,
+        "original_price": 244.96
       },
       {
         "quantity_value": 3.75,
         "quantity_name": "3.75 KG",
-        "price": 262.46,
-        "original_price": null
+        "price": 149.96,
+        "original_price": 262.46
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 279.96,
-        "original_price": null
+        "price": 159.96,
+        "original_price": 279.96
       },
       {
         "quantity_value": 4.25,
         "quantity_name": "4.25 KG",
-        "price": 297.46,
-        "original_price": null
+        "price": 169.96,
+        "original_price": 297.46
       },
       {
         "quantity_value": 4.5,
         "quantity_name": "4.5 KG",
-        "price": 314.95,
-        "original_price": null
+        "price": 179.96,
+        "original_price": 314.95
       },
       {
         "quantity_value": 4.75,
         "quantity_name": "4.75 KG",
-        "price": 332.45,
-        "original_price": null
+        "price": 189.95,
+        "original_price": 332.45
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 349.95,
-        "original_price": null
+        "price": 199.95,
+        "original_price": 349.95
       },
       {
         "quantity_value": 5.25,
         "quantity_name": "5.25 KG",
-        "price": 367.45,
-        "original_price": null
+        "price": 209.95,
+        "original_price": 367.45
       },
       {
         "quantity_value": 5.5,
         "quantity_name": "5.5 KG",
-        "price": 384.94,
-        "original_price": null
+        "price": 219.95,
+        "original_price": 384.94
       },
       {
         "quantity_value": 5.75,
         "quantity_name": "5.75 KG",
-        "price": 402.44,
-        "original_price": null
+        "price": 229.94,
+        "original_price": 402.44
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 419.94,
-        "original_price": null
+        "price": 239.94,
+        "original_price": 419.94
       },
       {
         "quantity_value": 6.25,
         "quantity_name": "6.25 KG",
-        "price": 437.44,
-        "original_price": null
+        "price": 249.94,
+        "original_price": 437.44
       },
       {
         "quantity_value": 6.5,
         "quantity_name": "6.5 KG",
-        "price": 454.93,
-        "original_price": null
+        "price": 259.94,
+        "original_price": 454.93
       },
       {
         "quantity_value": 6.75,
         "quantity_name": "6.75 KG",
-        "price": 472.43,
-        "original_price": null
+        "price": 269.93,
+        "original_price": 472.43
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 489.93,
-        "original_price": null
+        "price": 279.93,
+        "original_price": 489.93
       },
       {
         "quantity_value": 7.25,
         "quantity_name": "7.25 KG",
-        "price": 507.43,
-        "original_price": null
+        "price": 289.93,
+        "original_price": 507.43
       },
       {
         "quantity_value": 7.5,
         "quantity_name": "7.5 KG",
-        "price": 524.92,
-        "original_price": null
+        "price": 299.93,
+        "original_price": 524.92
       },
       {
         "quantity_value": 7.75,
         "quantity_name": "7.75 KG",
-        "price": 542.42,
-        "original_price": null
+        "price": 309.92,
+        "original_price": 542.42
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 559.92,
-        "original_price": null
+        "price": 319.92,
+        "original_price": 559.92
       },
       {
         "quantity_value": 8.25,
         "quantity_name": "8.25 KG",
-        "price": 577.42,
-        "original_price": null
+        "price": 329.92,
+        "original_price": 577.42
       },
       {
         "quantity_value": 8.5,
         "quantity_name": "8.5 KG",
-        "price": 594.91,
-        "original_price": null
+        "price": 339.92,
+        "original_price": 594.91
       },
       {
         "quantity_value": 8.75,
         "quantity_name": "8.75 KG",
-        "price": 612.41,
-        "original_price": null
+        "price": 349.91,
+        "original_price": 612.41
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 629.91,
-        "original_price": null
+        "price": 359.91,
+        "original_price": 629.91
       },
       {
         "quantity_value": 9.25,
         "quantity_name": "9.25 KG",
-        "price": 647.41,
-        "original_price": null
+        "price": 369.91,
+        "original_price": 647.41
       },
       {
         "quantity_value": 9.5,
         "quantity_name": "9.5 KG",
-        "price": 664.9,
-        "original_price": null
+        "price": 379.91,
+        "original_price": 664.9
       },
       {
         "quantity_value": 9.75,
         "quantity_name": "9.75 KG",
-        "price": 682.4,
-        "original_price": null
+        "price": 389.9,
+        "original_price": 682.4
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 699.9,
-        "original_price": null
+        "price": 399.9,
+        "original_price": 699.9
       }
     ],
     "pack_qty": 1,
@@ -9321,33 +9436,10 @@
     "image_url": "https://images.todoorstep.com/product/712925/Ar_small.jpg?t=1744675200"
   },
   {
-    "id": "100212634",
-    "store": "panda",
-    "category": "dairy_and_eggs",
-    "name_en": "Nadec Slice Cheese Low Fat 400g",
-    "name_ar": null,
-    "brand": "Nadec",
-    "barcodes": [
-      "6281057007390"
-    ],
-    "price": 13.5,
-    "original_price": 19.5,
-    "discount_amount": 6.0,
-    "discount_percentage": 30.77,
-    "is_weighted": false,
-    "weighted_interval": 0.0,
-    "weighted_options": [],
-    "pack_qty": 1,
-    "unit_size_value": 400.0,
-    "total_size_value": 400.0,
-    "size_unit": "g",
-    "image_url": "https://images.todoorstep.com/product/100212634/Ar_small.jpg?t=1787574365"
-  },
-  {
     "id": "3751495",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Picon Cheese Triangles 4 x 120g",
+    "name_en": "Picon Cheese Triangles 4 x 120g - 32 Portions",
     "name_ar": null,
     "brand": "Regal Picon",
     "barcodes": [
@@ -10059,7 +10151,7 @@
     "id": "3757145",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Kiri Cheese Portions 3 x 200g",
+    "name_en": "Kiri Cheese Portions 3 x 200g - 36 Portions",
     "name_ar": null,
     "brand": "Kiri",
     "barcodes": [
@@ -10553,7 +10645,7 @@
     "id": "3669625",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Almarai Analogue Cheese Triangles Kids Pack 480 g",
+    "name_en": "Almarai Analogue Cheese Triangles Kids Pack 32 Portions",
     "name_ar": null,
     "brand": "Almarai",
     "barcodes": [
@@ -12085,7 +12177,7 @@
     "id": "114250075",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "La Vache Quirit Triangle Cheese 480g",
+    "name_en": "La Vache Quirit Triangle Cheese 32 Portions",
     "name_ar": null,
     "brand": "Lavache Qrt",
     "barcodes": [
@@ -12875,6 +12967,29 @@
     "image_url": "https://images.todoorstep.com/product/100128300/Ar_small.jpg?t=1780480748"
   },
   {
+    "id": "2231495",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "President Sliced Cheese Burger 400g",
+    "name_ar": null,
+    "brand": "President",
+    "barcodes": [
+      "6281024110210"
+    ],
+    "price": 23.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 400.0,
+    "total_size_value": 400.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/2231495/Ar_small.jpg?t=1787572536"
+  },
+  {
     "id": "3527085",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -13493,6 +13608,29 @@
     "total_size_value": 500.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/3320045/Ar_small.jpg?t=1787573054"
+  },
+  {
+    "id": "1539635",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Pride Shredded Mozzarella Cheese 900g",
+    "name_ar": null,
+    "brand": "Pride",
+    "barcodes": [
+      "6281024012510"
+    ],
+    "price": 39.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 900.0,
+    "total_size_value": 900.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/1539635/Ar_small.jpg?t=1787572410"
   },
   {
     "id": "663405",
@@ -14761,7 +14899,7 @@
     "id": "3319940",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Nadec Analogue Cheese Triangles 16 pcs 4 + 1 × 120 g",
+    "name_en": "Nadec Analogue Cheese Triangles 40 Portions  4 + 1 × 120 g",
     "name_ar": null,
     "brand": "Nadec",
     "barcodes": [
@@ -14790,252 +14928,252 @@
     "barcodes": [
       "6281174038420"
     ],
-    "price": 45.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 24.99,
+    "original_price": 45.99,
+    "discount_amount": 21.0,
+    "discount_percentage": 45.66,
     "is_weighted": true,
     "weighted_interval": 0.25,
     "weighted_options": [
       {
         "quantity_value": 0.25,
         "quantity_name": "0.25 KG",
-        "price": 11.5,
-        "original_price": null
+        "price": 6.25,
+        "original_price": 11.5
       },
       {
         "quantity_value": 0.5,
         "quantity_name": "0.5 KG",
-        "price": 23.0,
-        "original_price": null
+        "price": 12.49,
+        "original_price": 23.0
       },
       {
         "quantity_value": 0.75,
         "quantity_name": "0.75 KG",
-        "price": 34.49,
-        "original_price": null
+        "price": 18.74,
+        "original_price": 34.49
       },
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 45.99,
-        "original_price": null
+        "price": 24.99,
+        "original_price": 45.99
       },
       {
         "quantity_value": 1.25,
         "quantity_name": "1.25 KG",
-        "price": 57.49,
-        "original_price": null
+        "price": 31.24,
+        "original_price": 57.49
       },
       {
         "quantity_value": 1.5,
         "quantity_name": "1.5 KG",
-        "price": 68.98,
-        "original_price": null
+        "price": 37.48,
+        "original_price": 68.98
       },
       {
         "quantity_value": 1.75,
         "quantity_name": "1.75 KG",
-        "price": 80.48,
-        "original_price": null
+        "price": 43.73,
+        "original_price": 80.48
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 91.98,
-        "original_price": null
+        "price": 49.98,
+        "original_price": 91.98
       },
       {
         "quantity_value": 2.25,
         "quantity_name": "2.25 KG",
-        "price": 103.48,
-        "original_price": null
+        "price": 56.23,
+        "original_price": 103.48
       },
       {
         "quantity_value": 2.5,
         "quantity_name": "2.5 KG",
-        "price": 114.98,
-        "original_price": null
+        "price": 62.47,
+        "original_price": 114.98
       },
       {
         "quantity_value": 2.75,
         "quantity_name": "2.75 KG",
-        "price": 126.47,
-        "original_price": null
+        "price": 68.72,
+        "original_price": 126.47
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 137.97,
-        "original_price": null
+        "price": 74.97,
+        "original_price": 137.97
       },
       {
         "quantity_value": 3.25,
         "quantity_name": "3.25 KG",
-        "price": 149.47,
-        "original_price": null
+        "price": 81.22,
+        "original_price": 149.47
       },
       {
         "quantity_value": 3.5,
         "quantity_name": "3.5 KG",
-        "price": 160.97,
-        "original_price": null
+        "price": 87.46,
+        "original_price": 160.97
       },
       {
         "quantity_value": 3.75,
         "quantity_name": "3.75 KG",
-        "price": 172.46,
-        "original_price": null
+        "price": 93.71,
+        "original_price": 172.46
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 183.96,
-        "original_price": null
+        "price": 99.96,
+        "original_price": 183.96
       },
       {
         "quantity_value": 4.25,
         "quantity_name": "4.25 KG",
-        "price": 195.46,
-        "original_price": null
+        "price": 106.21,
+        "original_price": 195.46
       },
       {
         "quantity_value": 4.5,
         "quantity_name": "4.5 KG",
-        "price": 206.96,
-        "original_price": null
+        "price": 112.45,
+        "original_price": 206.96
       },
       {
         "quantity_value": 4.75,
         "quantity_name": "4.75 KG",
-        "price": 218.45,
-        "original_price": null
+        "price": 118.7,
+        "original_price": 218.45
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 229.95,
-        "original_price": null
+        "price": 124.95,
+        "original_price": 229.95
       },
       {
         "quantity_value": 5.25,
         "quantity_name": "5.25 KG",
-        "price": 241.45,
-        "original_price": null
+        "price": 131.2,
+        "original_price": 241.45
       },
       {
         "quantity_value": 5.5,
         "quantity_name": "5.5 KG",
-        "price": 252.95,
-        "original_price": null
+        "price": 137.44,
+        "original_price": 252.95
       },
       {
         "quantity_value": 5.75,
         "quantity_name": "5.75 KG",
-        "price": 264.44,
-        "original_price": null
+        "price": 143.69,
+        "original_price": 264.44
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 275.94,
-        "original_price": null
+        "price": 149.94,
+        "original_price": 275.94
       },
       {
         "quantity_value": 6.25,
         "quantity_name": "6.25 KG",
-        "price": 287.44,
-        "original_price": null
+        "price": 156.19,
+        "original_price": 287.44
       },
       {
         "quantity_value": 6.5,
         "quantity_name": "6.5 KG",
-        "price": 298.94,
-        "original_price": null
+        "price": 162.44,
+        "original_price": 298.94
       },
       {
         "quantity_value": 6.75,
         "quantity_name": "6.75 KG",
-        "price": 310.43,
-        "original_price": null
+        "price": 168.68,
+        "original_price": 310.43
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 321.93,
-        "original_price": null
+        "price": 174.93,
+        "original_price": 321.93
       },
       {
         "quantity_value": 7.25,
         "quantity_name": "7.25 KG",
-        "price": 333.43,
-        "original_price": null
+        "price": 181.18,
+        "original_price": 333.43
       },
       {
         "quantity_value": 7.5,
         "quantity_name": "7.5 KG",
-        "price": 344.93,
-        "original_price": null
+        "price": 187.42,
+        "original_price": 344.93
       },
       {
         "quantity_value": 7.75,
         "quantity_name": "7.75 KG",
-        "price": 356.42,
-        "original_price": null
+        "price": 193.67,
+        "original_price": 356.42
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 367.92,
-        "original_price": null
+        "price": 199.92,
+        "original_price": 367.92
       },
       {
         "quantity_value": 8.25,
         "quantity_name": "8.25 KG",
-        "price": 379.42,
-        "original_price": null
+        "price": 206.17,
+        "original_price": 379.42
       },
       {
         "quantity_value": 8.5,
         "quantity_name": "8.5 KG",
-        "price": 390.92,
-        "original_price": null
+        "price": 212.41,
+        "original_price": 390.92
       },
       {
         "quantity_value": 8.75,
         "quantity_name": "8.75 KG",
-        "price": 402.41,
-        "original_price": null
+        "price": 218.66,
+        "original_price": 402.41
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 413.91,
-        "original_price": null
+        "price": 224.91,
+        "original_price": 413.91
       },
       {
         "quantity_value": 9.25,
         "quantity_name": "9.25 KG",
-        "price": 425.41,
-        "original_price": null
+        "price": 231.16,
+        "original_price": 425.41
       },
       {
         "quantity_value": 9.5,
         "quantity_name": "9.5 KG",
-        "price": 436.91,
-        "original_price": null
+        "price": 237.4,
+        "original_price": 436.91
       },
       {
         "quantity_value": 9.75,
         "quantity_name": "9.75 KG",
-        "price": 448.4,
-        "original_price": null
+        "price": 243.65,
+        "original_price": 448.4
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 459.9,
-        "original_price": null
+        "price": 249.9,
+        "original_price": 459.9
       }
     ],
     "pack_qty": 1,
@@ -20729,6 +20867,29 @@
     "image_url": "https://images.todoorstep.com/product/100202616/Ar_small.jpg?t=1780483108"
   },
   {
+    "id": "3376225",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "President Cheese Triangle 120 gm",
+    "name_ar": null,
+    "brand": "President",
+    "barcodes": [
+      "6281024114660"
+    ],
+    "price": 4.5,
+    "original_price": 5.99,
+    "discount_amount": 1.49,
+    "discount_percentage": 24.87,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 120.0,
+    "total_size_value": 120.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/3376225/Ar_small.jpg?t=1787573045"
+  },
+  {
     "id": "100094064",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -22053,7 +22214,7 @@
     "id": "2790135",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "President Alvita Cheese 32pcs 480g",
+    "name_en": "President Alvita Cheese 32 Portions",
     "name_ar": null,
     "brand": "President",
     "barcodes": [
@@ -23793,7 +23954,7 @@
     "id": "3669575",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Almarai Triangle Cheese 16 Portions Pack 240 G",
+    "name_en": "Almarai Triangle Cheese 16 Portions",
     "name_ar": null,
     "brand": "Almarai",
     "barcodes": [
@@ -24112,6 +24273,29 @@
     "image_url": "https://images.todoorstep.com/product/100231209/Ar_small.jpg?t=1787574598"
   },
   {
+    "id": "330665",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "Pride Cheese Slices Burger Melt 200G",
+    "name_ar": null,
+    "brand": "Pride",
+    "barcodes": [
+      "6281024010800"
+    ],
+    "price": 8.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 200.0,
+    "total_size_value": 200.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/330665/Ar_small.jpg?t=1787572121"
+  },
+  {
     "id": "157850100",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -24382,7 +24566,7 @@
     "id": "3811875",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Lavache Qrt Cheese Triangle Leaf 360G",
+    "name_en": "Lavache Qrt Light Cheese Triangle Leaf 24 Portions",
     "name_ar": null,
     "brand": "Lavache Qrt",
     "barcodes": [
@@ -24692,7 +24876,7 @@
     "id": "389975",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Lavache Qrt Cheese Triangle Leaf 120G",
+    "name_en": "Lavache Qrt Cheese Triangle Leaf 8 Portions",
     "name_ar": null,
     "brand": "Lavache Qrt",
     "barcodes": [
@@ -24784,7 +24968,7 @@
     "id": "3319915",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Nadec Triangle Cheese Pack 120g",
+    "name_en": "Nadec Triangle Cheese Pack 8 Portions",
     "name_ar": null,
     "brand": "Nadec",
     "barcodes": [
@@ -24807,7 +24991,7 @@
     "id": "329635",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Lavache Qrt Cheese Triangle 16S 240G",
+    "name_en": "Lavache Qrt Cheese Triangle 16 Portions",
     "name_ar": null,
     "brand": "Lavache Qrt",
     "barcodes": [
@@ -24876,7 +25060,7 @@
     "id": "1193205",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Regal Picon Cheese Triangles 16pcs 240g",
+    "name_en": "Regal Picon Cheese Triangles 16 Portions",
     "name_ar": null,
     "brand": "Regal Picon",
     "barcodes": [
@@ -25255,7 +25439,7 @@
     "id": "3460885",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Picon Cheese Triangles 8s 120g",
+    "name_en": "Picon Cheese Triangles 8 Portions",
     "name_ar": null,
     "brand": "Regal Picon",
     "barcodes": [
@@ -25657,7 +25841,7 @@
     "id": "3669565",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Almarai Triangle Cheese 8 Portions Pack 120 G",
+    "name_en": "Almarai Triangle Cheese 8 Portions",
     "name_ar": null,
     "brand": "Almarai",
     "barcodes": [
@@ -26393,7 +26577,7 @@
     "id": "329575",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "La Vache Qui Rit, The Laughing Cow Analogue Cheese Triangles 24 pcs 360 g",
+    "name_en": "La Vache Qui Rit, The Laughing Cow Analogue Cheese Triangles 24 Portions",
     "name_ar": null,
     "brand": "Lavache Qrt",
     "barcodes": [
@@ -26744,6 +26928,29 @@
     "total_size_value": 900.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/3142065/Ar_small.jpg?t=1787572934"
+  },
+  {
+    "id": "2462675",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": "President Extra Light Processed Cheese 10 Slices 200g",
+    "name_ar": null,
+    "brand": "President",
+    "barcodes": [
+      "6281024110690"
+    ],
+    "price": 16.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 200.0,
+    "total_size_value": 200.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/2462675/Ar_small.jpg?t=1787572659"
   },
   {
     "id": "3817165",
@@ -27369,7 +27576,7 @@
     "id": "329655",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Lavache Qrt Cheese Triangle 32S 480G",
+    "name_en": "Lavache Qrt Cheese Triangle 32 Portions",
     "name_ar": null,
     "brand": "Lavache Qrt",
     "barcodes": [
@@ -27725,7 +27932,7 @@
     "id": "3669585",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Almarai Cheese Triangle Kid 360g",
+    "name_en": "Almarai Cheese Triangle Kids 24 Portions",
     "name_ar": null,
     "brand": "Almarai",
     "barcodes": [
@@ -28935,7 +29142,7 @@
     "id": "1193215",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Picon Cheese Triangle 360g",
+    "name_en": "Picon Cheese Triangle 24 Portions",
     "name_ar": null,
     "brand": "Regal Picon",
     "barcodes": [
@@ -29050,7 +29257,7 @@
     "id": "100105506",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Triangles Cheese 16 Portions 240g",
+    "name_en": "Puck Triangles Cheese 16 Portions",
     "name_ar": null,
     "brand": "Puck",
     "barcodes": [
@@ -29337,7 +29544,7 @@
     "id": "100150351",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Almarai Cheese Triangles Kids PP 32s 2x480 g",
+    "name_en": "Almarai Cheese Triangles Kids  64 Portions",
     "name_ar": null,
     "brand": "Almarai",
     "barcodes": [
@@ -29350,9 +29557,9 @@
     "is_weighted": false,
     "weighted_interval": 0.0,
     "weighted_options": [],
-    "pack_qty": 2,
+    "pack_qty": 1,
     "unit_size_value": 480.0,
-    "total_size_value": 960.0,
+    "total_size_value": 480.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/100150351/Ar_small.jpg?t=1787573934"
   },
@@ -29360,7 +29567,7 @@
     "id": "1193225",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Regal Picon Analogue Cheese Triangles 32 pcs 480 g",
+    "name_en": "Regal Picon Analogue Cheese Triangles 32 Portins",
     "name_ar": null,
     "brand": "Regal Picon",
     "barcodes": [
@@ -30118,7 +30325,7 @@
     "id": "3744185",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Picon Cheese Triangles Family 720g",
+    "name_en": "Picon Cheese Triangles Family 48 Portions",
     "name_ar": null,
     "brand": "Regal Picon",
     "barcodes": [
@@ -30354,7 +30561,7 @@
     "id": "127550034",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Lactima Triangle Cream Cheese 120g",
+    "name_en": "Lactima Triangle Cream Cheese 8 Portions",
     "name_ar": null,
     "brand": "Lactima",
     "barcodes": [
@@ -31067,7 +31274,7 @@
     "id": "3319925",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Nadec Triangle Cheese Pack 240g",
+    "name_en": "Nadec Triangle Cheese Pack 16 Portions",
     "name_ar": null,
     "brand": "Nadec",
     "barcodes": [
@@ -32060,7 +32267,7 @@
     "id": "3828105",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Pride Cheese Triangles 448g",
+    "name_en": "Pride Cheese Triangles 32 Portions",
     "name_ar": null,
     "brand": "Pride",
     "barcodes": [
@@ -35261,7 +35468,7 @@
     "id": "200701813",
     "store": "panda",
     "category": "dairy_and_eggs",
-    "name_en": "Puck Cheese Triangles 480g",
+    "name_en": "Puck Cheese Triangles 32 Portions",
     "name_ar": null,
     "brand": "Puck",
     "barcodes": [
@@ -37305,6 +37512,29 @@
     "image_url": "https://images.todoorstep.com/product/2236015/Ar_small.jpg?t=1744675200"
   },
   {
+    "id": "161450070",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية حليب كامل الدسم 200 مل",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039108030"
+    ],
+    "price": 40.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 200.0,
+    "total_size_value": 200.0,
+    "size_unit": "مل",
+    "image_url": "https://images.todoorstep.com/product/161450070/Ar_small.jpg?t=1770039997"
+  },
+  {
     "id": "144665",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -38800,29 +39030,6 @@
     "image_url": "https://images.todoorstep.com/product/100195928/Ar_small.jpg?t=1780482798"
   },
   {
-    "id": "100225138",
-    "store": "panda",
-    "category": "dairy_and_eggs",
-    "name_en": null,
-    "name_ar": "ألبرو مشروب جوز الهند باريستا 1 لتر",
-    "brand": "البرو",
-    "barcodes": [
-      "5411188119750"
-    ],
-    "price": 24.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 1,
-    "unit_size_value": 1.0,
-    "total_size_value": 1.0,
-    "size_unit": "لتر",
-    "image_url": "https://images.todoorstep.com/product/100225138/Ar_small.jpg?t=1780483945"
-  },
-  {
     "id": "3767295",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -40017,6 +40224,29 @@
     "total_size_value": 1.0,
     "size_unit": "لتر",
     "image_url": "https://images.todoorstep.com/product/684705/Ar_small.jpg?t=1744675200"
+  },
+  {
+    "id": "660665",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية حليب قليل الدسم طويل الأجل 1 لتر",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039121010"
+    ],
+    "price": 6.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1.0,
+    "total_size_value": 1.0,
+    "size_unit": "لتر",
+    "image_url": "https://images.todoorstep.com/product/660665/Ar_small.jpg?t=1772969873"
   },
   {
     "id": "674315",
@@ -42043,6 +42273,29 @@
     "image_url": "https://images.todoorstep.com/product/109300162/Ar_small.jpg?t=1783236862"
   },
   {
+    "id": "660661",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية حليب قليل الدسم عبوة متعددة 4×1 لتر",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039121030"
+    ],
+    "price": 19.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1.0,
+    "total_size_value": 1.0,
+    "size_unit": "لتر",
+    "image_url": "https://images.todoorstep.com/product/660661/Ar_small.jpg?t=1770039986"
+  },
+  {
     "id": "3691090",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -42409,6 +42662,29 @@
     "total_size_value": 1.0,
     "size_unit": "لتر",
     "image_url": "https://images.todoorstep.com/product/660680/Ar_small.jpg?t=1772969877"
+  },
+  {
+    "id": "660660",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية حليب قليل الدسم عبوة متعددة 12×1 لتر",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039121020"
+    ],
+    "price": 63.99,
+    "original_price": 72.0,
+    "discount_amount": 8.01,
+    "discount_percentage": 11.12,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1.0,
+    "total_size_value": 1.0,
+    "size_unit": "لتر",
+    "image_url": "https://images.todoorstep.com/product/660660/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "2383720",
@@ -43194,6 +43470,29 @@
     "image_url": "https://images.todoorstep.com/product/136502536/Ar_small.jpg?t=1769499743"
   },
   {
+    "id": "106450069",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية حليب فراولة 125 مل",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039172310"
+    ],
+    "price": 1.25,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 125.0,
+    "total_size_value": 125.0,
+    "size_unit": "مل",
+    "image_url": "https://images.todoorstep.com/product/106450069/Ar_small.jpg?t=1780485524"
+  },
+  {
     "id": "106450114",
     "store": "panda",
     "category": "dairy_and_eggs",
@@ -43238,6 +43537,29 @@
     "total_size_value": 1.0,
     "size_unit": "لتر",
     "image_url": "https://images.todoorstep.com/product/173400424/Ar_small.jpg?t=1777884676"
+  },
+  {
+    "id": "173400441",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية مشروب اللوز 6×1 لتر",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039121430"
+    ],
+    "price": 69.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1.0,
+    "total_size_value": 1.0,
+    "size_unit": "لتر",
+    "image_url": "https://images.todoorstep.com/product/173400441/Ar_small.jpg?t=1777884687"
   },
   {
     "id": "194650916",
@@ -43514,6 +43836,29 @@
     "total_size_value": 170.0,
     "size_unit": "جرام",
     "image_url": "https://images.todoorstep.com/product/212001814/Ar_small.jpg?t=1775139153"
+  },
+  {
+    "id": "194450973",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية حليب خالي من اللاكتوز كامل الدسم 1 لتر",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039112310"
+    ],
+    "price": 9.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1.0,
+    "total_size_value": 1.0,
+    "size_unit": "لتر",
+    "image_url": "https://images.todoorstep.com/product/194450973/Ar_small.jpg?t="
   },
   {
     "id": "206451860",
@@ -43951,5 +44296,28 @@
     "total_size_value": 1.95,
     "size_unit": "كيلو جرام",
     "image_url": "https://images.todoorstep.com/product/109250142/Ar_small.jpg?t=1783236850"
+  },
+  {
+    "id": "106450085",
+    "store": "panda",
+    "category": "dairy_and_eggs",
+    "name_en": null,
+    "name_ar": "السعودية حليب فراولة 24×125 مل",
+    "brand": "السعودية",
+    "barcodes": [
+      "6281039172330"
+    ],
+    "price": 20.99,
+    "original_price": 29.99,
+    "discount_amount": 9.0,
+    "discount_percentage": 30.01,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 125.0,
+    "total_size_value": 125.0,
+    "size_unit": "مل",
+    "image_url": "https://images.todoorstep.com/product/106450085/Ar_small.jpg?t=1780485477"
   }
 ]

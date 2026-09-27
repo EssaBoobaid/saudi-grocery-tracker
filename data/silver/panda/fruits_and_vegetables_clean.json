@@ -333,132 +333,132 @@
     "barcodes": [
       "2553510000000"
     ],
-    "price": 5.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 3.33,
+    "original_price": 5.99,
+    "discount_amount": 2.66,
+    "discount_percentage": 44.41,
     "is_weighted": true,
     "weighted_interval": 0.5,
     "weighted_options": [
       {
         "quantity_value": 0.5,
         "quantity_name": "0.5 KG",
-        "price": 3.0,
-        "original_price": null
+        "price": 1.67,
+        "original_price": 3.0
       },
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 5.99,
-        "original_price": null
+        "price": 3.33,
+        "original_price": 5.99
       },
       {
         "quantity_value": 1.5,
         "quantity_name": "1.5 KG",
-        "price": 8.98,
-        "original_price": null
+        "price": 5.0,
+        "original_price": 8.98
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 11.98,
-        "original_price": null
+        "price": 6.66,
+        "original_price": 11.98
       },
       {
         "quantity_value": 2.5,
         "quantity_name": "2.5 KG",
-        "price": 14.98,
-        "original_price": null
+        "price": 8.32,
+        "original_price": 14.98
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 17.97,
-        "original_price": null
+        "price": 9.99,
+        "original_price": 17.97
       },
       {
         "quantity_value": 3.5,
         "quantity_name": "3.5 KG",
-        "price": 20.96,
-        "original_price": null
+        "price": 11.66,
+        "original_price": 20.96
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 23.96,
-        "original_price": null
+        "price": 13.32,
+        "original_price": 23.96
       },
       {
         "quantity_value": 4.5,
         "quantity_name": "4.5 KG",
-        "price": 26.96,
-        "original_price": null
+        "price": 14.98,
+        "original_price": 26.96
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 29.95,
-        "original_price": null
+        "price": 16.65,
+        "original_price": 29.95
       },
       {
         "quantity_value": 5.5,
         "quantity_name": "5.5 KG",
-        "price": 32.95,
-        "original_price": null
+        "price": 18.32,
+        "original_price": 32.95
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 35.94,
-        "original_price": null
+        "price": 19.98,
+        "original_price": 35.94
       },
       {
         "quantity_value": 6.5,
         "quantity_name": "6.5 KG",
-        "price": 38.94,
-        "original_price": null
+        "price": 21.64,
+        "original_price": 38.94
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 41.93,
-        "original_price": null
+        "price": 23.31,
+        "original_price": 41.93
       },
       {
         "quantity_value": 7.5,
         "quantity_name": "7.5 KG",
-        "price": 44.93,
-        "original_price": null
+        "price": 24.98,
+        "original_price": 44.93
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 47.92,
-        "original_price": null
+        "price": 26.64,
+        "original_price": 47.92
       },
       {
         "quantity_value": 8.5,
         "quantity_name": "8.5 KG",
-        "price": 50.91,
-        "original_price": null
+        "price": 28.3,
+        "original_price": 50.91
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 53.91,
-        "original_price": null
+        "price": 29.97,
+        "original_price": 53.91
       },
       {
         "quantity_value": 9.5,
         "quantity_name": "9.5 KG",
-        "price": 56.91,
-        "original_price": null
+        "price": 31.64,
+        "original_price": 56.91
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 59.9,
-        "original_price": null
+        "price": 33.3,
+        "original_price": 59.9
       }
     ],
     "pack_qty": 1,
@@ -1130,252 +1130,252 @@
     "barcodes": [
       "2552640000000"
     ],
-    "price": 11.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 5.0,
+    "original_price": 11.99,
+    "discount_amount": 6.99,
+    "discount_percentage": 58.3,
     "is_weighted": true,
     "weighted_interval": 0.25,
     "weighted_options": [
       {
         "quantity_value": 0.25,
         "quantity_name": "0.25 KG",
-        "price": 3.0,
-        "original_price": null
+        "price": 1.25,
+        "original_price": 3.0
       },
       {
         "quantity_value": 0.5,
         "quantity_name": "0.5 KG",
-        "price": 6.0,
-        "original_price": null
+        "price": 2.5,
+        "original_price": 6.0
       },
       {
         "quantity_value": 0.75,
         "quantity_name": "0.75 KG",
-        "price": 8.99,
-        "original_price": null
+        "price": 3.75,
+        "original_price": 8.99
       },
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 11.99,
-        "original_price": null
+        "price": 5.0,
+        "original_price": 11.99
       },
       {
         "quantity_value": 1.25,
         "quantity_name": "1.25 KG",
-        "price": 14.99,
-        "original_price": null
+        "price": 6.25,
+        "original_price": 14.99
       },
       {
         "quantity_value": 1.5,
         "quantity_name": "1.5 KG",
-        "price": 17.98,
-        "original_price": null
+        "price": 7.5,
+        "original_price": 17.98
       },
       {
         "quantity_value": 1.75,
         "quantity_name": "1.75 KG",
-        "price": 20.98,
-        "original_price": null
+        "price": 8.75,
+        "original_price": 20.98
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 23.98,
-        "original_price": null
+        "price": 10.0,
+        "original_price": 23.98
       },
       {
         "quantity_value": 2.25,
         "quantity_name": "2.25 KG",
-        "price": 26.98,
-        "original_price": null
+        "price": 11.25,
+        "original_price": 26.98
       },
       {
         "quantity_value": 2.5,
         "quantity_name": "2.5 KG",
-        "price": 29.98,
-        "original_price": null
+        "price": 12.5,
+        "original_price": 29.98
       },
       {
         "quantity_value": 2.75,
         "quantity_name": "2.75 KG",
-        "price": 32.97,
-        "original_price": null
+        "price": 13.75,
+        "original_price": 32.97
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 35.97,
-        "original_price": null
+        "price": 15.0,
+        "original_price": 35.97
       },
       {
         "quantity_value": 3.25,
         "quantity_name": "3.25 KG",
-        "price": 38.97,
-        "original_price": null
+        "price": 16.25,
+        "original_price": 38.97
       },
       {
         "quantity_value": 3.5,
         "quantity_name": "3.5 KG",
-        "price": 41.97,
-        "original_price": null
+        "price": 17.5,
+        "original_price": 41.97
       },
       {
         "quantity_value": 3.75,
         "quantity_name": "3.75 KG",
-        "price": 44.96,
-        "original_price": null
+        "price": 18.75,
+        "original_price": 44.96
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 47.96,
-        "original_price": null
+        "price": 20.0,
+        "original_price": 47.96
       },
       {
         "quantity_value": 4.25,
         "quantity_name": "4.25 KG",
-        "price": 50.96,
-        "original_price": null
+        "price": 21.25,
+        "original_price": 50.96
       },
       {
         "quantity_value": 4.5,
         "quantity_name": "4.5 KG",
-        "price": 53.95,
-        "original_price": null
+        "price": 22.5,
+        "original_price": 53.95
       },
       {
         "quantity_value": 4.75,
         "quantity_name": "4.75 KG",
-        "price": 56.95,
-        "original_price": null
+        "price": 23.75,
+        "original_price": 56.95
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 59.95,
-        "original_price": null
+        "price": 25.0,
+        "original_price": 59.95
       },
       {
         "quantity_value": 5.25,
         "quantity_name": "5.25 KG",
-        "price": 62.95,
-        "original_price": null
+        "price": 26.25,
+        "original_price": 62.95
       },
       {
         "quantity_value": 5.5,
         "quantity_name": "5.5 KG",
-        "price": 65.95,
-        "original_price": null
+        "price": 27.5,
+        "original_price": 65.95
       },
       {
         "quantity_value": 5.75,
         "quantity_name": "5.75 KG",
-        "price": 68.94,
-        "original_price": null
+        "price": 28.75,
+        "original_price": 68.94
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 71.94,
-        "original_price": null
+        "price": 30.0,
+        "original_price": 71.94
       },
       {
         "quantity_value": 6.25,
         "quantity_name": "6.25 KG",
-        "price": 74.94,
-        "original_price": null
+        "price": 31.25,
+        "original_price": 74.94
       },
       {
         "quantity_value": 6.5,
         "quantity_name": "6.5 KG",
-        "price": 77.94,
-        "original_price": null
+        "price": 32.5,
+        "original_price": 77.94
       },
       {
         "quantity_value": 6.75,
         "quantity_name": "6.75 KG",
-        "price": 80.93,
-        "original_price": null
+        "price": 33.75,
+        "original_price": 80.93
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 83.93,
-        "original_price": null
+        "price": 35.0,
+        "original_price": 83.93
       },
       {
         "quantity_value": 7.25,
         "quantity_name": "7.25 KG",
-        "price": 86.93,
-        "original_price": null
+        "price": 36.25,
+        "original_price": 86.93
       },
       {
         "quantity_value": 7.5,
         "quantity_name": "7.5 KG",
-        "price": 89.92,
-        "original_price": null
+        "price": 37.5,
+        "original_price": 89.92
       },
       {
         "quantity_value": 7.75,
         "quantity_name": "7.75 KG",
-        "price": 92.92,
-        "original_price": null
+        "price": 38.75,
+        "original_price": 92.92
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 95.92,
-        "original_price": null
+        "price": 40.0,
+        "original_price": 95.92
       },
       {
         "quantity_value": 8.25,
         "quantity_name": "8.25 KG",
-        "price": 98.92,
-        "original_price": null
+        "price": 41.25,
+        "original_price": 98.92
       },
       {
         "quantity_value": 8.5,
         "quantity_name": "8.5 KG",
-        "price": 101.92,
-        "original_price": null
+        "price": 42.5,
+        "original_price": 101.92
       },
       {
         "quantity_value": 8.75,
         "quantity_name": "8.75 KG",
-        "price": 104.91,
-        "original_price": null
+        "price": 43.75,
+        "original_price": 104.91
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 107.91,
-        "original_price": null
+        "price": 45.0,
+        "original_price": 107.91
       },
       {
         "quantity_value": 9.25,
         "quantity_name": "9.25 KG",
-        "price": 110.91,
-        "original_price": null
+        "price": 46.25,
+        "original_price": 110.91
       },
       {
         "quantity_value": 9.5,
         "quantity_name": "9.5 KG",
-        "price": 113.91,
-        "original_price": null
+        "price": 47.5,
+        "original_price": 113.91
       },
       {
         "quantity_value": 9.75,
         "quantity_name": "9.75 KG",
-        "price": 116.9,
-        "original_price": null
+        "price": 48.75,
+        "original_price": 116.9
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 119.9,
-        "original_price": null
+        "price": 50.0,
+        "original_price": 119.9
       }
     ],
     "pack_qty": 1,
@@ -1970,7 +1970,7 @@
     "barcodes": [
       "2553720000000"
     ],
-    "price": 15.99,
+    "price": 13.99,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -1980,121 +1980,121 @@
       {
         "quantity_value": 0.5,
         "quantity_name": "0.5 KG",
-        "price": 8.0,
+        "price": 7.0,
         "original_price": null
       },
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 15.99,
+        "price": 13.99,
         "original_price": null
       },
       {
         "quantity_value": 1.5,
         "quantity_name": "1.5 KG",
-        "price": 23.98,
+        "price": 20.98,
         "original_price": null
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 31.98,
+        "price": 27.98,
         "original_price": null
       },
       {
         "quantity_value": 2.5,
         "quantity_name": "2.5 KG",
-        "price": 39.98,
+        "price": 34.98,
         "original_price": null
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 47.97,
+        "price": 41.97,
         "original_price": null
       },
       {
         "quantity_value": 3.5,
         "quantity_name": "3.5 KG",
-        "price": 55.97,
+        "price": 48.97,
         "original_price": null
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 63.96,
+        "price": 55.96,
         "original_price": null
       },
       {
         "quantity_value": 4.5,
         "quantity_name": "4.5 KG",
-        "price": 71.95,
+        "price": 62.95,
         "original_price": null
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 79.95,
+        "price": 69.95,
         "original_price": null
       },
       {
         "quantity_value": 5.5,
         "quantity_name": "5.5 KG",
-        "price": 87.95,
+        "price": 76.95,
         "original_price": null
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 95.94,
+        "price": 83.94,
         "original_price": null
       },
       {
         "quantity_value": 6.5,
         "quantity_name": "6.5 KG",
-        "price": 103.94,
+        "price": 90.94,
         "original_price": null
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 111.93,
+        "price": 97.93,
         "original_price": null
       },
       {
         "quantity_value": 7.5,
         "quantity_name": "7.5 KG",
-        "price": 119.92,
+        "price": 104.92,
         "original_price": null
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 127.92,
+        "price": 111.92,
         "original_price": null
       },
       {
         "quantity_value": 8.5,
         "quantity_name": "8.5 KG",
-        "price": 135.91,
+        "price": 118.92,
         "original_price": null
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 143.91,
+        "price": 125.91,
         "original_price": null
       },
       {
         "quantity_value": 9.5,
         "quantity_name": "9.5 KG",
-        "price": 151.91,
+        "price": 132.91,
         "original_price": null
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 159.9,
+        "price": 139.9,
         "original_price": null
       }
     ],
@@ -2568,132 +2568,132 @@
     "barcodes": [
       "2551190000000"
     ],
-    "price": 7.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 3.33,
+    "original_price": 7.99,
+    "discount_amount": 4.66,
+    "discount_percentage": 58.32,
     "is_weighted": true,
     "weighted_interval": 0.5,
     "weighted_options": [
       {
         "quantity_value": 0.5,
         "quantity_name": "0.5 KG",
-        "price": 4.0,
-        "original_price": null
+        "price": 1.67,
+        "original_price": 4.0
       },
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 7.99,
-        "original_price": null
+        "price": 3.33,
+        "original_price": 7.99
       },
       {
         "quantity_value": 1.5,
         "quantity_name": "1.5 KG",
-        "price": 11.98,
-        "original_price": null
+        "price": 5.0,
+        "original_price": 11.98
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 15.98,
-        "original_price": null
+        "price": 6.66,
+        "original_price": 15.98
       },
       {
         "quantity_value": 2.5,
         "quantity_name": "2.5 KG",
-        "price": 19.98,
-        "original_price": null
+        "price": 8.32,
+        "original_price": 19.98
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 23.97,
-        "original_price": null
+        "price": 9.99,
+        "original_price": 23.97
       },
       {
         "quantity_value": 3.5,
         "quantity_name": "3.5 KG",
-        "price": 27.96,
-        "original_price": null
+        "price": 11.66,
+        "original_price": 27.96
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 31.96,
-        "original_price": null
+        "price": 13.32,
+        "original_price": 31.96
       },
       {
         "quantity_value": 4.5,
         "quantity_name": "4.5 KG",
-        "price": 35.95,
-        "original_price": null
+        "price": 14.98,
+        "original_price": 35.95
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 39.95,
-        "original_price": null
+        "price": 16.65,
+        "original_price": 39.95
       },
       {
         "quantity_value": 5.5,
         "quantity_name": "5.5 KG",
-        "price": 43.95,
-        "original_price": null
+        "price": 18.32,
+        "original_price": 43.95
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 47.94,
-        "original_price": null
+        "price": 19.98,
+        "original_price": 47.94
       },
       {
         "quantity_value": 6.5,
         "quantity_name": "6.5 KG",
-        "price": 51.94,
-        "original_price": null
+        "price": 21.64,
+        "original_price": 51.94
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 55.93,
-        "original_price": null
+        "price": 23.31,
+        "original_price": 55.93
       },
       {
         "quantity_value": 7.5,
         "quantity_name": "7.5 KG",
-        "price": 59.93,
-        "original_price": null
+        "price": 24.98,
+        "original_price": 59.93
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 63.92,
-        "original_price": null
+        "price": 26.64,
+        "original_price": 63.92
       },
       {
         "quantity_value": 8.5,
         "quantity_name": "8.5 KG",
-        "price": 67.92,
-        "original_price": null
+        "price": 28.3,
+        "original_price": 67.92
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 71.91,
-        "original_price": null
+        "price": 29.97,
+        "original_price": 71.91
       },
       {
         "quantity_value": 9.5,
         "quantity_name": "9.5 KG",
-        "price": 75.91,
-        "original_price": null
+        "price": 31.64,
+        "original_price": 75.91
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 79.9,
-        "original_price": null
+        "price": 33.3,
+        "original_price": 79.9
       }
     ],
     "pack_qty": 1,
@@ -5488,7 +5488,7 @@
     "barcodes": [
       "2510120000000"
     ],
-    "price": 2.99,
+    "price": 3.99,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -6683,60 +6683,60 @@
     "barcodes": [
       "2552030000000"
     ],
-    "price": 4.5,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 3.33,
+    "original_price": 4.5,
+    "discount_amount": 1.17,
+    "discount_percentage": 26.0,
     "is_weighted": true,
     "weighted_interval": 1.0,
     "weighted_options": [
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 13.5,
-        "original_price": null
+        "price": 9.99,
+        "original_price": 13.5
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 18.0,
-        "original_price": null
+        "price": 13.32,
+        "original_price": 18.0
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 22.5,
-        "original_price": null
+        "price": 16.65,
+        "original_price": 22.5
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 27.0,
-        "original_price": null
+        "price": 19.98,
+        "original_price": 27.0
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 31.5,
-        "original_price": null
+        "price": 23.31,
+        "original_price": 31.5
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 36.0,
-        "original_price": null
+        "price": 26.64,
+        "original_price": 36.0
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 40.5,
-        "original_price": null
+        "price": 29.97,
+        "original_price": 40.5
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 45.0,
-        "original_price": null
+        "price": 33.3,
+        "original_price": 45.0
       }
     ],
     "pack_qty": 1,
@@ -7141,72 +7141,72 @@
     "barcodes": [
       "2550600000000"
     ],
-    "price": 3.5,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
+    "price": 2.0,
+    "original_price": 3.5,
+    "discount_amount": 1.5,
+    "discount_percentage": 42.86,
     "is_weighted": true,
     "weighted_interval": 1.0,
     "weighted_options": [
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 3.5,
-        "original_price": null
+        "price": 2.0,
+        "original_price": 3.5
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 7.0,
-        "original_price": null
+        "price": 4.0,
+        "original_price": 7.0
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 10.5,
-        "original_price": null
+        "price": 6.0,
+        "original_price": 10.5
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 14.0,
-        "original_price": null
+        "price": 8.0,
+        "original_price": 14.0
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 17.5,
-        "original_price": null
+        "price": 10.0,
+        "original_price": 17.5
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 21.0,
-        "original_price": null
+        "price": 12.0,
+        "original_price": 21.0
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 24.5,
-        "original_price": null
+        "price": 14.0,
+        "original_price": 24.5
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 28.0,
-        "original_price": null
+        "price": 16.0,
+        "original_price": 28.0
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 31.5,
-        "original_price": null
+        "price": 18.0,
+        "original_price": 31.5
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 35.0,
-        "original_price": null
+        "price": 20.0,
+        "original_price": 35.0
       }
     ],
     "pack_qty": 1,
@@ -7237,66 +7237,6 @@
     "total_size_value": 250.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/100141980/Ar_small.jpg?t=1780481190"
-  },
-  {
-    "id": "454530",
-    "store": "panda",
-    "category": "fruits_and_vegetables",
-    "name_en": "Grapefruit",
-    "name_ar": null,
-    "brand": "",
-    "barcodes": [
-      "2551390000000"
-    ],
-    "price": 3.33,
-    "original_price": 6.99,
-    "discount_amount": 3.66,
-    "discount_percentage": 52.36,
-    "is_weighted": true,
-    "weighted_interval": 1.5,
-    "weighted_options": [
-      {
-        "quantity_value": 1.5,
-        "quantity_name": "1.5 KG",
-        "price": 5.0,
-        "original_price": 10.48
-      },
-      {
-        "quantity_value": 3.0,
-        "quantity_name": "3 KG",
-        "price": 9.99,
-        "original_price": 20.97
-      },
-      {
-        "quantity_value": 4.5,
-        "quantity_name": "4.5 KG",
-        "price": 14.98,
-        "original_price": 31.46
-      },
-      {
-        "quantity_value": 6.0,
-        "quantity_name": "6 KG",
-        "price": 19.98,
-        "original_price": 41.94
-      },
-      {
-        "quantity_value": 7.5,
-        "quantity_name": "7.5 KG",
-        "price": 24.98,
-        "original_price": 52.43
-      },
-      {
-        "quantity_value": 9.0,
-        "quantity_name": "9 KG",
-        "price": 29.97,
-        "original_price": 62.91
-      }
-    ],
-    "pack_qty": 1,
-    "unit_size_value": 1500.0,
-    "total_size_value": 1500.0,
-    "size_unit": "g",
-    "image_url": "https://images.todoorstep.com/product/454530/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "451990",
@@ -8035,7 +7975,7 @@
     "barcodes": [
       "2571570000000"
     ],
-    "price": 11.99,
+    "price": 13.99,
     "original_price": null,
     "discount_amount": null,
     "discount_percentage": null,
@@ -8045,121 +7985,121 @@
       {
         "quantity_value": 0.5,
         "quantity_name": "0.5 KG",
-        "price": 6.0,
+        "price": 7.0,
         "original_price": null
       },
       {
         "quantity_value": 1.0,
         "quantity_name": "1 KG",
-        "price": 11.99,
+        "price": 13.99,
         "original_price": null
       },
       {
         "quantity_value": 1.5,
         "quantity_name": "1.5 KG",
-        "price": 17.98,
+        "price": 20.98,
         "original_price": null
       },
       {
         "quantity_value": 2.0,
         "quantity_name": "2 KG",
-        "price": 23.98,
+        "price": 27.98,
         "original_price": null
       },
       {
         "quantity_value": 2.5,
         "quantity_name": "2.5 KG",
-        "price": 29.98,
+        "price": 34.98,
         "original_price": null
       },
       {
         "quantity_value": 3.0,
         "quantity_name": "3 KG",
-        "price": 35.97,
+        "price": 41.97,
         "original_price": null
       },
       {
         "quantity_value": 3.5,
         "quantity_name": "3.5 KG",
-        "price": 41.97,
+        "price": 48.97,
         "original_price": null
       },
       {
         "quantity_value": 4.0,
         "quantity_name": "4 KG",
-        "price": 47.96,
+        "price": 55.96,
         "original_price": null
       },
       {
         "quantity_value": 4.5,
         "quantity_name": "4.5 KG",
-        "price": 53.95,
+        "price": 62.95,
         "original_price": null
       },
       {
         "quantity_value": 5.0,
         "quantity_name": "5 KG",
-        "price": 59.95,
+        "price": 69.95,
         "original_price": null
       },
       {
         "quantity_value": 5.5,
         "quantity_name": "5.5 KG",
-        "price": 65.95,
+        "price": 76.95,
         "original_price": null
       },
       {
         "quantity_value": 6.0,
         "quantity_name": "6 KG",
-        "price": 71.94,
+        "price": 83.94,
         "original_price": null
       },
       {
         "quantity_value": 6.5,
         "quantity_name": "6.5 KG",
-        "price": 77.94,
+        "price": 90.94,
         "original_price": null
       },
       {
         "quantity_value": 7.0,
         "quantity_name": "7 KG",
-        "price": 83.93,
+        "price": 97.93,
         "original_price": null
       },
       {
         "quantity_value": 7.5,
         "quantity_name": "7.5 KG",
-        "price": 89.92,
+        "price": 104.92,
         "original_price": null
       },
       {
         "quantity_value": 8.0,
         "quantity_name": "8 KG",
-        "price": 95.92,
+        "price": 111.92,
         "original_price": null
       },
       {
         "quantity_value": 8.5,
         "quantity_name": "8.5 KG",
-        "price": 101.92,
+        "price": 118.92,
         "original_price": null
       },
       {
         "quantity_value": 9.0,
         "quantity_name": "9 KG",
-        "price": 107.91,
+        "price": 125.91,
         "original_price": null
       },
       {
         "quantity_value": 9.5,
         "quantity_name": "9.5 KG",
-        "price": 113.91,
+        "price": 132.91,
         "original_price": null
       },
       {
         "quantity_value": 10.0,
         "quantity_name": "10 KG",
-        "price": 119.9,
+        "price": 139.9,
         "original_price": null
       }
     ],
@@ -11645,6 +11585,29 @@
     "total_size_value": 750.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/892450/Ar_small.jpg?t=1777884931"
+  },
+  {
+    "id": "100121317",
+    "store": "panda",
+    "category": "fruits_and_vegetables",
+    "name_en": "Imported Strawberry 250g",
+    "name_ar": null,
+    "brand": "",
+    "barcodes": [
+      "6223001752060"
+    ],
+    "price": 18.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 250.0,
+    "total_size_value": 250.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/100121317/Ar_small.jpg?t=1780480586"
   },
   {
     "id": "100182793",

@@ -1047,6 +1047,30 @@
     "image_url": "https://images.todoorstep.com/product/100140095/Ar_small.jpg?t=1780481117"
   },
   {
+    "id": "197651480",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Diet  6x245ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "012000065980",
+      "12000065980"
+    ],
+    "price": 11.5,
+    "original_price": 11.99,
+    "discount_amount": 0.49,
+    "discount_percentage": 4.09,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 245.0,
+    "total_size_value": 1470.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/197651480/Ar_small.jpg?t=1758795300"
+  },
+  {
     "id": "141700051",
     "store": "panda",
     "category": "beverages",
@@ -1463,29 +1487,6 @@
     "total_size_value": 330.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/2666145/Ar_small.jpg?t=1744675200"
-  },
-  {
-    "id": "3521301",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "Holsten Classic Malt Drink 6×330ml",
-    "name_ar": null,
-    "brand": "Holsten",
-    "barcodes": [
-      "3080216032540"
-    ],
-    "price": 37.5,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 6,
-    "unit_size_value": 330.0,
-    "total_size_value": 1980.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/3521301/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "178050427",
@@ -2248,29 +2249,6 @@
     "total_size_value": 2000.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/178700451/Ar_small.jpg?t=1758718646"
-  },
-  {
-    "id": "3521305",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "Holsten Beer Classic 330Ml",
-    "name_ar": null,
-    "brand": "Holsten",
-    "barcodes": [
-      "3080216032530"
-    ],
-    "price": 6.5,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 1,
-    "unit_size_value": 330.0,
-    "total_size_value": 330.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/3521305/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "156050223",
@@ -3216,6 +3194,29 @@
     "image_url": "https://images.todoorstep.com/product/100128380/Ar_small.jpg?t=1780480755"
   },
   {
+    "id": "100128377",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Can Diet  330 ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "12000002490"
+    ],
+    "price": 2.5,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 330.0,
+    "total_size_value": 330.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100128377/Ar_small.jpg?t=1780480755"
+  },
+  {
     "id": "197651447",
     "store": "panda",
     "category": "beverages",
@@ -3238,6 +3239,30 @@
     "total_size_value": 245.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/197651447/Ar_small.jpg?t="
+  },
+  {
+    "id": "197651439",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Diet 245ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "012000060630",
+      "12000060630"
+    ],
+    "price": 2.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 245.0,
+    "total_size_value": 245.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/197651439/Ar_small.jpg?t="
   },
   {
     "id": "100128383",
@@ -3679,6 +3704,29 @@
     "image_url": "https://images.todoorstep.com/product/100128384/Ar_small.jpg?t=1780480757"
   },
   {
+    "id": "100128378",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Can Diet  24x330 ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "12000805910"
+    ],
+    "price": 60.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 24,
+    "unit_size_value": 330.0,
+    "total_size_value": 7920.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100128378/Ar_small.jpg?t=1780480731"
+  },
+  {
     "id": "100128169",
     "store": "panda",
     "category": "beverages",
@@ -3792,29 +3840,6 @@
     "total_size_value": 7920.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/3519790/Ar_small.jpg?t=1766487143"
-  },
-  {
-    "id": "3521300",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "Holsten Beer Classic 24×330ml",
-    "name_ar": null,
-    "brand": "Holsten",
-    "barcodes": [
-      "3080216032550"
-    ],
-    "price": 143.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 24,
-    "unit_size_value": 330.0,
-    "total_size_value": 7920.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/3521300/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "3521370",
@@ -4185,6 +4210,29 @@
     "image_url": "https://images.todoorstep.com/product/3521341/Ar_small.jpg?t=1780832755"
   },
   {
+    "id": "100128420",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Can Diet  6x330 ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "12000048490"
+    ],
+    "price": 14.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 330.0,
+    "total_size_value": 1980.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100128420/Ar_small.jpg?t=1781590079"
+  },
+  {
     "id": "100128422",
     "store": "panda",
     "category": "beverages",
@@ -4231,6 +4279,29 @@
     "image_url": "https://images.todoorstep.com/product/100128424/Ar_small.jpg?t=1780480741"
   },
   {
+    "id": "100182189",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Cans 18x330ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "12000050750"
+    ],
+    "price": 39.99,
+    "original_price": 54.5,
+    "discount_amount": 14.51,
+    "discount_percentage": 26.62,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 18,
+    "unit_size_value": 330.0,
+    "total_size_value": 5940.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100182189/Ar_small.jpg?t=1784018051"
+  },
+  {
     "id": "100182191",
     "store": "panda",
     "category": "beverages",
@@ -4252,6 +4323,29 @@
     "total_size_value": 5940.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100182191/Ar_small.jpg?t=1784018049"
+  },
+  {
+    "id": "100182193",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Mirinda Citrus Cans 18x330ml",
+    "name_ar": null,
+    "brand": "Mirinda",
+    "barcodes": [
+      "12000050880"
+    ],
+    "price": 39.99,
+    "original_price": 54.5,
+    "discount_amount": 14.51,
+    "discount_percentage": 26.62,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 18,
+    "unit_size_value": 330.0,
+    "total_size_value": 5940.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100182193/Ar_small.jpg?t=1784018049"
   },
   {
     "id": "1995905",
@@ -5455,6 +5549,30 @@
     "image_url": "https://images.todoorstep.com/product/213451921/Ar_small.jpg?t="
   },
   {
+    "id": "213451930",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Diet 12x330ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "012000020770",
+      "12000020770"
+    ],
+    "price": 30.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 12,
+    "unit_size_value": 330.0,
+    "total_size_value": 3960.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/213451930/Ar_small.jpg?t="
+  },
+  {
     "id": "215652196",
     "store": "panda",
     "category": "beverages",
@@ -5499,6 +5617,30 @@
     "total_size_value": 395.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/215652209/Ar_small.jpg?t="
+  },
+  {
+    "id": "215652217",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Zero 245ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "012000064830",
+      "12000064830"
+    ],
+    "price": 2.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 245.0,
+    "total_size_value": 245.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/215652217/Ar_small.jpg?t="
   },
   {
     "id": "215652225",
@@ -5618,6 +5760,29 @@
     "image_url": "https://images.todoorstep.com/product/215652268/Ar_small.jpg?t="
   },
   {
+    "id": "215652276",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Mirinda Orange 24x395ml",
+    "name_ar": null,
+    "brand": "Mirinda",
+    "barcodes": [
+      "12000068900"
+    ],
+    "price": 60.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 24,
+    "unit_size_value": 395.0,
+    "total_size_value": 9480.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/215652276/Ar_small.jpg?t="
+  },
+  {
     "id": "215652292",
     "store": "panda",
     "category": "beverages",
@@ -5641,6 +5806,29 @@
     "image_url": "https://images.todoorstep.com/product/215652292/Ar_small.jpg?t="
   },
   {
+    "id": "215652313",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Pepsi Zero 6x245ml",
+    "name_ar": null,
+    "brand": "Pepsi",
+    "barcodes": [
+      "12000068890"
+    ],
+    "price": 12.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 245.0,
+    "total_size_value": 1470.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/215652313/Ar_small.jpg?t="
+  },
+  {
     "id": "215652364",
     "store": "panda",
     "category": "beverages",
@@ -5662,6 +5850,29 @@
     "total_size_value": 395.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/215652364/Ar_small.jpg?t="
+  },
+  {
+    "id": "215652372",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "7up 24x395ml",
+    "name_ar": null,
+    "brand": "7 Up",
+    "barcodes": [
+      "12000069030"
+    ],
+    "price": 66.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 24,
+    "unit_size_value": 395.0,
+    "total_size_value": 9480.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/215652372/Ar_small.jpg?t="
   },
   {
     "id": "215751901",
@@ -8339,29 +8550,6 @@
     "image_url": "https://images.todoorstep.com/product/189300647/Ar_small.jpg?t=1787576520"
   },
   {
-    "id": "100141299",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "Kdd Mango Nectar 24x180ml",
-    "name_ar": null,
-    "brand": "Kdd",
-    "barcodes": [
-      "6271002221620"
-    ],
-    "price": 28.99,
-    "original_price": 36.99,
-    "discount_amount": 8.0,
-    "discount_percentage": 21.63,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 24,
-    "unit_size_value": 180.0,
-    "total_size_value": 4320.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/100141299/Ar_small.jpg?t=1787573872"
-  },
-  {
     "id": "3038845",
     "store": "panda",
     "category": "beverages",
@@ -9671,6 +9859,29 @@
     "total_size_value": 125.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100101100/Ar_small.jpg?t=1787573631"
+  },
+  {
+    "id": "100212211",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Tang Pineapple Drink Powder 375g",
+    "name_ar": null,
+    "brand": "Tang",
+    "barcodes": [
+      "7622201129140"
+    ],
+    "price": 14.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 375.0,
+    "total_size_value": 375.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/100212211/Ar_small.jpg?t=1787574374"
   },
   {
     "id": "158200061",
@@ -11145,29 +11356,6 @@
     "image_url": "https://images.todoorstep.com/product/3227095/Ar_small.jpg?t=1787572965"
   },
   {
-    "id": "2852395",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "Original Guava Juice 1.4L",
-    "name_ar": null,
-    "brand": "Original",
-    "barcodes": [
-      "6281100510120"
-    ],
-    "price": 5.0,
-    "original_price": 7.99,
-    "discount_amount": 2.99,
-    "discount_percentage": 37.42,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 1,
-    "unit_size_value": 1400.0,
-    "total_size_value": 1400.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/2852395/Ar_small.jpg?t=1787572770"
-  },
-  {
     "id": "714705",
     "store": "panda",
     "category": "beverages",
@@ -11764,6 +11952,29 @@
     "total_size_value": 200.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/3630915/Ar_small.jpg?t=1744675200"
+  },
+  {
+    "id": "165100077",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Al Safi Saudi Cocktail 1.5L",
+    "name_ar": null,
+    "brand": "Al Safi",
+    "barcodes": [
+      "6281022157740"
+    ],
+    "price": 7.95,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1500.0,
+    "total_size_value": 1500.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/165100077/Ar_small.jpg?t=1787575912"
   },
   {
     "id": "100272499",
@@ -12454,29 +12665,6 @@
     "total_size_value": 300.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100198456/Ar_small.jpg?t=1787574239"
-  },
-  {
-    "id": "3630865",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "Orange Drink 200ml",
-    "name_ar": null,
-    "brand": "Capri Sun",
-    "barcodes": [
-      "6281101260520"
-    ],
-    "price": 1.75,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 1,
-    "unit_size_value": 200.0,
-    "total_size_value": 200.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/3630865/Ar_small.jpg?t=1744675200"
   },
   {
     "id": "195050963",
@@ -14184,29 +14372,6 @@
     "image_url": "https://images.todoorstep.com/product/714461/Ar_small.jpg?t=1744675200"
   },
   {
-    "id": "100253110",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "KDD Mango Nectar 18x125ml",
-    "name_ar": null,
-    "brand": "Kdd",
-    "barcodes": [
-      "6271002205170"
-    ],
-    "price": 26.0,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 18,
-    "unit_size_value": 125.0,
-    "total_size_value": 2250.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/100253110/Ar_small.jpg?t=1780484782"
-  },
-  {
     "id": "181800663",
     "store": "panda",
     "category": "beverages",
@@ -14253,29 +14418,6 @@
     "image_url": "https://images.todoorstep.com/product/167300064/Ar_small.jpg?t=1744675200"
   },
   {
-    "id": "100213814",
-    "store": "panda",
-    "category": "beverages",
-    "name_en": "Original Junior Raspberry Juice 18×125ml",
-    "name_ar": null,
-    "brand": "Original",
-    "barcodes": [
-      "6281100519130"
-    ],
-    "price": 18.99,
-    "original_price": null,
-    "discount_amount": null,
-    "discount_percentage": null,
-    "is_weighted": false,
-    "weighted_interval": 0.5,
-    "weighted_options": [],
-    "pack_qty": 18,
-    "unit_size_value": 125.0,
-    "total_size_value": 2250.0,
-    "size_unit": "ml",
-    "image_url": "https://images.todoorstep.com/product/100213814/Ar_small.jpg?t=1787574428"
-  },
-  {
     "id": "100250290",
     "store": "panda",
     "category": "beverages",
@@ -14320,6 +14462,29 @@
     "total_size_value": 200.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/193651933/Ar_small.jpg?t=1769681585"
+  },
+  {
+    "id": "100213811",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Original Junior Mango Juice 18×125ml",
+    "name_ar": null,
+    "brand": "Original",
+    "barcodes": [
+      "6281100519100"
+    ],
+    "price": 18.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 18,
+    "unit_size_value": 125.0,
+    "total_size_value": 2250.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100213811/Ar_small.jpg?t=1787574428"
   },
   {
     "id": "100213801",
@@ -14389,6 +14554,29 @@
     "total_size_value": 2250.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/108250036/Ar_small.jpg?t=1787574892"
+  },
+  {
+    "id": "100213804",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Original Junior Mixed Fruit Juice 18×125ml",
+    "name_ar": null,
+    "brand": "Original",
+    "barcodes": [
+      "6281100519110"
+    ],
+    "price": 18.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 18,
+    "unit_size_value": 125.0,
+    "total_size_value": 2250.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100213804/Ar_small.jpg?t=1787574430"
   },
   {
     "id": "1053910",
@@ -17297,6 +17485,30 @@
     "image_url": "https://images.todoorstep.com/product/177750641/Ar_small.jpg?t=1744675200"
   },
   {
+    "id": "100600169",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Lipton Ice Tea Peach Can Zero Sugar 6x320ml",
+    "name_ar": null,
+    "brand": "Lipton",
+    "barcodes": [
+      "012000059500",
+      "12000059500"
+    ],
+    "price": 11.99,
+    "original_price": 15.0,
+    "discount_amount": 3.01,
+    "discount_percentage": 20.07,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 320.0,
+    "total_size_value": 1920.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100600169/Ar_small.jpg?t=1787574875"
+  },
+  {
     "id": "100219801",
     "store": "panda",
     "category": "beverages",
@@ -17434,6 +17646,30 @@
     "total_size_value": 320.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100600142/Ar_small.jpg?t=1780485420"
+  },
+  {
+    "id": "169200251",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Lipton Ice Tea Tropical Fruit Zero 6x320ml",
+    "name_ar": null,
+    "brand": "Lipton",
+    "barcodes": [
+      "098000010100",
+      "98000010100"
+    ],
+    "price": 11.99,
+    "original_price": 15.0,
+    "discount_amount": 3.01,
+    "discount_percentage": 20.07,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 320.0,
+    "total_size_value": 1920.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/169200251/Ar_small.jpg?t=1787575927"
   },
   {
     "id": "3860665",
@@ -17734,6 +17970,30 @@
     "total_size_value": 200.0,
     "size_unit": "g",
     "image_url": "https://images.todoorstep.com/product/2772345/Ar_small.jpg?t=1781595642"
+  },
+  {
+    "id": "169200243",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Lipton Ice Tea Tropical Can Zero Sugar 320ml",
+    "name_ar": null,
+    "brand": "Lipton",
+    "barcodes": [
+      "098000010090",
+      "98000010090"
+    ],
+    "price": 2.5,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 320.0,
+    "total_size_value": 320.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/169200243/Ar_small.jpg?t=1758718444"
   },
   {
     "id": "100179404",
@@ -23886,6 +24146,52 @@
     "image_url": "https://images.todoorstep.com/product/214101886/Ar_small.jpg?t="
   },
   {
+    "id": "211352031",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Bunna Cappuccino 30×15g",
+    "name_ar": null,
+    "brand": "Bunna",
+    "barcodes": [
+      "6281101495130"
+    ],
+    "price": 59.5,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 30,
+    "unit_size_value": 15.0,
+    "total_size_value": 450.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/211352031/Ar_small.jpg?t=1787577469"
+  },
+  {
+    "id": "211352014",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Bunna Instant Cappuccino Coffee 15g",
+    "name_ar": null,
+    "brand": "Bunna",
+    "barcodes": [
+      "6281101495140"
+    ],
+    "price": 1.75,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 15.0,
+    "total_size_value": 15.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/211352014/Ar_small.jpg?t="
+  },
+  {
     "id": "193201051",
     "store": "panda",
     "category": "beverages",
@@ -24185,6 +24491,29 @@
     "image_url": "https://images.todoorstep.com/product/195201055/Ar_small.jpg?t=1787576841"
   },
   {
+    "id": "100218708",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Hershey’s Cocoa Powder, 100% Cocoa, 230 g",
+    "name_ar": null,
+    "brand": "",
+    "barcodes": [
+      "34000052120"
+    ],
+    "price": 47.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 230.0,
+    "total_size_value": 230.0,
+    "size_unit": "g",
+    "image_url": "https://images.todoorstep.com/product/100218708/Ar_small.jpg?t=1780483715"
+  },
+  {
     "id": "100268632",
     "store": "panda",
     "category": "beverages",
@@ -24392,6 +24721,29 @@
     "image_url": "https://images.todoorstep.com/product/100193834/Ar_small.jpg?t=1780482689"
   },
   {
+    "id": "3846865",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nove Mineral Water 1.5 L Pack of 6",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035000110"
+    ],
+    "price": 8.75,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 1500.0,
+    "total_size_value": 1500.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/3846865/Ar_small.jpg?t=1744675200"
+  },
+  {
     "id": "1185270",
     "store": "panda",
     "category": "beverages",
@@ -24436,6 +24788,29 @@
     "total_size_value": 330.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100200388/Ar_small.jpg?t=1780482988"
+  },
+  {
+    "id": "2069590",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nova Water 12 L",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035000180"
+    ],
+    "price": 10.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 12000.0,
+    "total_size_value": 12000.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/2069590/Ar_small.jpg?t=1755683395"
   },
   {
     "id": "1087420",
@@ -24631,10 +25006,10 @@
     "barcodes": [
       "6281101220110"
     ],
-    "price": 12.99,
-    "original_price": 22.0,
-    "discount_amount": 9.01,
-    "discount_percentage": 40.95,
+    "price": 22.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
     "is_weighted": false,
     "weighted_interval": 0.5,
     "weighted_options": [],
@@ -24758,6 +25133,30 @@
     "total_size_value": 9600.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100096062/Ar_small.jpg?t=1780480074"
+  },
+  {
+    "id": "2305180",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Aquafina Water Shrink Wrap 6x1.5 Liter",
+    "name_ar": null,
+    "brand": "Aquafina",
+    "barcodes": [
+      "012000012200",
+      "12000012200"
+    ],
+    "price": 5.0,
+    "original_price": 7.99,
+    "discount_amount": 2.99,
+    "discount_percentage": 37.42,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 1500.0,
+    "total_size_value": 9000.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/2305180/Ar_small.jpg?t=1758718665"
   },
   {
     "id": "2738790",
@@ -24899,6 +25298,29 @@
     "image_url": "https://images.todoorstep.com/product/100212593/Ar_small.jpg?t=1780483493"
   },
   {
+    "id": "100143362",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nova Water 6×550ml",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035000360"
+    ],
+    "price": 5.75,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 550.0,
+    "total_size_value": 3300.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100143362/Ar_small.jpg?t=1780481235"
+  },
+  {
     "id": "100182089",
     "store": "panda",
     "category": "beverages",
@@ -24966,6 +25388,30 @@
     "total_size_value": 3960.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100117843/Ar_small.jpg?t=1780480476"
+  },
+  {
+    "id": "100134768",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Aquafina Water 24 X 500ml",
+    "name_ar": null,
+    "brand": "Aquafina",
+    "barcodes": [
+      "012000038050",
+      "12000038050"
+    ],
+    "price": 15.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 24,
+    "unit_size_value": 500.0,
+    "total_size_value": 12000.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100134768/Ar_small.jpg?t=1780480978"
   },
   {
     "id": "119300140",
@@ -25127,6 +25573,29 @@
     "total_size_value": 8000.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/100272803/Ar_small.jpg?t=1780485389"
+  },
+  {
+    "id": "100134770",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Aquafina  Water Shrink Wrap 12x500ml",
+    "name_ar": null,
+    "brand": "Aquafina",
+    "barcodes": [
+      "12000101560"
+    ],
+    "price": 8.0,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.0,
+    "weighted_options": [],
+    "pack_qty": 12,
+    "unit_size_value": 500.0,
+    "total_size_value": 6000.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100134770/Ar_small.jpg?t=1780480978"
   },
   {
     "id": "100249169",
@@ -25959,6 +26428,98 @@
     "image_url": "https://images.todoorstep.com/product/208051923/Ar_small.jpg?t="
   },
   {
+    "id": "198452642",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nova Flavored Sparkling Water Lemon & Mint 250ml",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035119430"
+    ],
+    "price": 4.5,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 250.0,
+    "total_size_value": 250.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/198452642/Ar_small.jpg?t="
+  },
+  {
+    "id": "198452651",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nova Flavored Sparkling Water Strawberry 250ml",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035360400"
+    ],
+    "price": 3.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 250.0,
+    "total_size_value": 250.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/198452651/Ar_small.jpg?t="
+  },
+  {
+    "id": "198452677",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nova Flavored Sparkling Water Strawberry 6×250ml",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035370390"
+    ],
+    "price": 25.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 250.0,
+    "total_size_value": 1500.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/198452677/Ar_small.jpg?t="
+  },
+  {
+    "id": "198452685",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nova Flavored Sparkling Water Lemon & Mint 6×250ml",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035154490"
+    ],
+    "price": 25.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 6,
+    "unit_size_value": 250.0,
+    "total_size_value": 1500.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/198452685/Ar_small.jpg?t="
+  },
+  {
     "id": "184400374",
     "store": "panda",
     "category": "beverages",
@@ -26233,6 +26794,29 @@
     "total_size_value": 3000.0,
     "size_unit": "ml",
     "image_url": "https://images.todoorstep.com/product/160550319/Ar_small.jpg?t=1744675200"
+  },
+  {
+    "id": "100123009",
+    "store": "panda",
+    "category": "beverages",
+    "name_en": "Nova Glass Water 750ml",
+    "name_ar": null,
+    "brand": "Nova",
+    "barcodes": [
+      "6281035000270"
+    ],
+    "price": 7.99,
+    "original_price": null,
+    "discount_amount": null,
+    "discount_percentage": null,
+    "is_weighted": false,
+    "weighted_interval": 0.5,
+    "weighted_options": [],
+    "pack_qty": 1,
+    "unit_size_value": 750.0,
+    "total_size_value": 750.0,
+    "size_unit": "ml",
+    "image_url": "https://images.todoorstep.com/product/100123009/Ar_small.jpg?t=1780480612"
   },
   {
     "id": "100252601",

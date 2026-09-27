@@ -39,6 +39,18 @@
           "panda": 8.99,
           "tamimi": 8.95
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 8.96,
+        "min_price": 8.95,
+        "max_price": 8.99,
+        "gastat_benchmark": 9.18,
+        "stores_prices": {
+          "bindawood": 8.95,
+          "panda": 8.99,
+          "tamimi": 8.95
+        }
       }
     ],
     "stores_data": {
@@ -75,81 +87,6 @@
     }
   },
   {
-    "gastat_key": "Medium Lebanese Pears",
-    "commodity_root": "pear",
-    "product_name_ar": "كمثرى (علبة)",
-    "product_name_en": "Pear (Pack)",
-    "official_gastat_name_ar": "كمثرى وسط لبناني",
-    "official_gastat_name_en": "Medium Lebanese Pears",
-    "brand": "Pear",
-    "category": "fruits_and_vegetables",
-    "unit": "kg",
-    "size": 1.0,
-    "barcode": null,
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/134/product/1983.jpg",
-    "canonical_source": "bindawood",
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "current_pricing": {
-      "avg_price": 12.3,
-      "min_price": 11.95,
-      "max_price": 12.95,
-      "price_diff": 1.0,
-      "gastat_benchmark_price": 12.03,
-      "variance_from_benchmark": 0.27
-    },
-    "price_history": [
-      {
-        "date": "2026-09-12",
-        "avg_price": 12.3,
-        "min_price": 11.95,
-        "max_price": 12.95,
-        "gastat_benchmark": 12.03,
-        "stores_prices": {
-          "bindawood": 12.95,
-          "panda": 11.99,
-          "tamimi": 11.95
-        }
-      }
-    ],
-    "stores_data": {
-      "bindawood": {
-        "price": 12.95,
-        "store_raw_price": 12.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/134/product/1983.jpg",
-        "raw_product_id": "35539"
-      },
-      "panda": {
-        "price": 11.99,
-        "store_raw_price": 11.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/2945880/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "2945880"
-      },
-      "tamimi": {
-        "price": 11.95,
-        "store_raw_price": 11.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260714/0849bfe1-6028-42e3-beee-c7efbb6f7aa6-2510981.webp",
-        "raw_product_id": "242656"
-      }
-    }
-  },
-  {
     "gastat_key": "Lebanese Grapes",
     "commodity_root": "grape",
     "product_name_ar": "عنب أبيض ١كغم",
@@ -180,6 +117,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 16.51,
+        "min_price": 15.95,
+        "max_price": 16.95,
+        "gastat_benchmark": 15.91,
+        "stores_prices": {
+          "bindawood": 15.95,
+          "panda": 16.63,
+          "tamimi": 16.95
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 16.51,
         "min_price": 15.95,
         "max_price": 16.95,
@@ -264,6 +213,18 @@
           "panda": 4.99,
           "tamimi": 4.0
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 5.31,
+        "min_price": 4.0,
+        "max_price": 6.95,
+        "gastat_benchmark": 5.3,
+        "stores_prices": {
+          "bindawood": 6.95,
+          "panda": 4.99,
+          "tamimi": 4.0
+        }
       }
     ],
     "stores_data": {
@@ -300,81 +261,6 @@
     }
   },
   {
-    "gastat_key": "Philippines Banana,  Alsharbatli",
-    "commodity_root": "banana",
-    "product_name_ar": "موز مستورد ١كغم",
-    "product_name_en": "Imported Banana 1kg",
-    "official_gastat_name_ar": "موز الشربتلي الفلبين",
-    "official_gastat_name_en": "Philippines Banana,  Alsharbatli",
-    "brand": "Imported",
-    "category": "fruits_and_vegetables",
-    "unit": "kg",
-    "size": 1000.0,
-    "barcode": "0280030700000",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/011/741/product/280030700000.JPG",
-    "canonical_source": "bindawood",
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "current_pricing": {
-      "avg_price": 5.73,
-      "min_price": 5.26,
-      "max_price": 5.99,
-      "price_diff": 0.73,
-      "gastat_benchmark_price": 5.92,
-      "variance_from_benchmark": -0.19
-    },
-    "price_history": [
-      {
-        "date": "2026-09-12",
-        "avg_price": 5.73,
-        "min_price": 5.26,
-        "max_price": 5.99,
-        "gastat_benchmark": 5.92,
-        "stores_prices": {
-          "bindawood": 5.95,
-          "panda": 5.26,
-          "tamimi": 5.99
-        }
-      }
-    ],
-    "stores_data": {
-      "bindawood": {
-        "price": 5.95,
-        "store_raw_price": 5.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/011/741/product/280030700000.JPG",
-        "raw_product_id": "11482"
-      },
-      "panda": {
-        "price": 5.26,
-        "store_raw_price": 5.0,
-        "original_price": 6.99,
-        "discount_amount": 1.99,
-        "discount_percentage": 28.47,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/221502830/Ar_small.jpg?t=",
-        "raw_product_id": "221502830"
-      },
-      "tamimi": {
-        "price": 5.99,
-        "store_raw_price": 11.98,
-        "original_price": 15.9,
-        "discount_amount": 3.92,
-        "discount_percentage": 24.65,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/145043_1-20231019-130042.png",
-        "raw_product_id": "21741"
-      }
-    }
-  },
-  {
     "gastat_key": "Green local Chili",
     "commodity_root": "pepper",
     "product_name_ar": "فلفل أخضر حار ١كغم",
@@ -405,6 +291,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 7.96,
+        "min_price": 7.95,
+        "max_price": 7.98,
+        "gastat_benchmark": 8.54,
+        "stores_prices": {
+          "bindawood": 7.95,
+          "panda": 7.98,
+          "tamimi": 7.96
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 7.96,
         "min_price": 7.95,
         "max_price": 7.98,
@@ -489,6 +387,18 @@
           "panda": 14.65,
           "tamimi": 13.95
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 14.52,
+        "min_price": 13.95,
+        "max_price": 14.95,
+        "gastat_benchmark": 13.7,
+        "stores_prices": {
+          "bindawood": 14.95,
+          "panda": 14.65,
+          "tamimi": 13.95
+        }
       }
     ],
     "stores_data": {
@@ -525,81 +435,6 @@
     }
   },
   {
-    "gastat_key": "white Cabbage",
-    "commodity_root": "cabbage",
-    "product_name_ar": "ملفوف ١كغم",
-    "product_name_en": "Cabbage 1kg",
-    "official_gastat_name_ar": "ملفوف أبيض",
-    "official_gastat_name_en": "white Cabbage",
-    "brand": "Cabbage",
-    "category": "fruits_and_vegetables",
-    "unit": "kg",
-    "size": 1000.0,
-    "barcode": "0280002300000",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/381/product/280002300000.jpg",
-    "canonical_source": "bindawood",
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "current_pricing": {
-      "avg_price": 3.65,
-      "min_price": 3.5,
-      "max_price": 3.95,
-      "price_diff": 0.45,
-      "gastat_benchmark_price": 3.67,
-      "variance_from_benchmark": -0.02
-    },
-    "price_history": [
-      {
-        "date": "2026-09-12",
-        "avg_price": 3.65,
-        "min_price": 3.5,
-        "max_price": 3.95,
-        "gastat_benchmark": 3.67,
-        "stores_prices": {
-          "bindawood": 3.5,
-          "panda": 3.5,
-          "tamimi": 3.95
-        }
-      }
-    ],
-    "stores_data": {
-      "bindawood": {
-        "price": 3.5,
-        "store_raw_price": 3.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/381/product/280002300000.jpg",
-        "raw_product_id": "11231"
-      },
-      "panda": {
-        "price": 3.5,
-        "store_raw_price": 3.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/448030/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "448030"
-      },
-      "tamimi": {
-        "price": 3.95,
-        "store_raw_price": 7.9,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/124310_1-20231019-133053.png",
-        "raw_product_id": "21625"
-      }
-    }
-  },
-  {
     "gastat_key": "Pakistani Mango",
     "commodity_root": "mango",
     "product_name_ar": "مانجو باكستاني ١كغم",
@@ -630,6 +465,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 12.41,
+        "min_price": 11.95,
+        "max_price": 13.32,
+        "gastat_benchmark": 12.9,
+        "stores_prices": {
+          "bindawood": 11.95,
+          "panda": 13.32,
+          "tamimi": 11.96
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 12.41,
         "min_price": 11.95,
         "max_price": 13.32,
@@ -714,6 +561,18 @@
           "panda": 12.99,
           "tamimi": 14.88
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 14.25,
+        "min_price": 12.99,
+        "max_price": 14.88,
+        "gastat_benchmark": 14.05,
+        "stores_prices": {
+          "bindawood": 14.88,
+          "panda": 12.99,
+          "tamimi": 14.88
+        }
       }
     ],
     "stores_data": {
@@ -789,6 +648,18 @@
           "panda": 5.98,
           "tamimi": 6.95
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 6.29,
+        "min_price": 5.95,
+        "max_price": 6.95,
+        "gastat_benchmark": 5.84,
+        "stores_prices": {
+          "bindawood": 5.95,
+          "panda": 5.98,
+          "tamimi": 6.95
+        }
       }
     ],
     "stores_data": {
@@ -825,18 +696,18 @@
     }
   },
   {
-    "gastat_key": "Imported tomatoes",
-    "commodity_root": "tomatoes",
-    "product_name_ar": "طماطم عنقودية ١كغم",
-    "product_name_en": "Vine Tomatoes 1kg",
-    "official_gastat_name_ar": "طماطم مستورد",
-    "official_gastat_name_en": "Imported tomatoes",
-    "brand": "Vine",
+    "gastat_key": "Medium Lebanese Pears",
+    "commodity_root": "pear",
+    "product_name_ar": "كمثرى (علبة)",
+    "product_name_en": "Pear (Pack)",
+    "official_gastat_name_ar": "كمثرى وسط لبناني",
+    "official_gastat_name_en": "Medium Lebanese Pears",
+    "brand": "Pear",
     "category": "fruits_and_vegetables",
     "unit": "kg",
-    "size": 1000.0,
+    "size": 1.0,
     "barcode": null,
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/062/225/product/935.jpeg",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/134/product/1983.jpg",
     "canonical_source": "bindawood",
     "matched_stores_count": 3,
     "matched_stores": [
@@ -845,57 +716,69 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 6.63,
-      "min_price": 5.99,
-      "max_price": 6.95,
-      "price_diff": 0.96,
-      "gastat_benchmark_price": 6.36,
-      "variance_from_benchmark": 0.27
+      "avg_price": 12.96,
+      "min_price": 11.95,
+      "max_price": 13.99,
+      "price_diff": 2.04,
+      "gastat_benchmark_price": 12.03,
+      "variance_from_benchmark": 0.93
     },
     "price_history": [
       {
         "date": "2026-09-12",
-        "avg_price": 6.63,
-        "min_price": 5.99,
-        "max_price": 6.95,
-        "gastat_benchmark": 6.36,
+        "avg_price": 12.3,
+        "min_price": 11.95,
+        "max_price": 12.95,
+        "gastat_benchmark": 12.03,
         "stores_prices": {
-          "bindawood": 6.95,
-          "panda": 5.99,
-          "tamimi": 6.95
+          "bindawood": 12.95,
+          "panda": 11.99,
+          "tamimi": 11.95
+        }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 12.96,
+        "min_price": 11.95,
+        "max_price": 13.99,
+        "gastat_benchmark": 12.03,
+        "stores_prices": {
+          "bindawood": 12.95,
+          "panda": 13.99,
+          "tamimi": 11.95
         }
       }
     ],
     "stores_data": {
       "bindawood": {
-        "price": 6.95,
-        "store_raw_price": 6.95,
+        "price": 12.95,
+        "store_raw_price": 12.95,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/062/225/product/935.jpeg",
-        "raw_product_id": "36992"
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/134/product/1983.jpg",
+        "raw_product_id": "35539"
       },
       "panda": {
-        "price": 5.99,
-        "store_raw_price": 5.99,
+        "price": 13.99,
+        "store_raw_price": 13.99,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/449370/Ar_small.jpg?t=1751204156",
-        "raw_product_id": "449370"
+        "image_url": "https://images.todoorstep.com/product/2945880/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "2945880"
       },
       "tamimi": {
-        "price": 6.95,
-        "store_raw_price": 6.95,
+        "price": 11.95,
+        "store_raw_price": 11.95,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260831/c749e6d6-cb14-46a0-9666-d98df1e6ec66-3880441.webp",
-        "raw_product_id": "268003"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260714/0849bfe1-6028-42e3-beee-c7efbb6f7aa6-2510981.webp",
+        "raw_product_id": "242656"
       }
     }
   },
@@ -930,6 +813,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 7.15,
+        "min_price": 6.51,
+        "max_price": 7.99,
+        "gastat_benchmark": 7.37,
+        "stores_prices": {
+          "bindawood": 6.95,
+          "panda": 7.99,
+          "tamimi": 6.51
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 7.15,
         "min_price": 6.51,
         "max_price": 7.99,
@@ -1014,6 +909,18 @@
           "panda": 6.99,
           "tamimi": 8.94
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 8.29,
+        "min_price": 6.99,
+        "max_price": 8.95,
+        "gastat_benchmark": 8.72,
+        "stores_prices": {
+          "bindawood": 8.95,
+          "panda": 6.99,
+          "tamimi": 8.94
+        }
       }
     ],
     "stores_data": {
@@ -1080,6 +987,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 20.17,
+        "min_price": 18.65,
+        "max_price": 21.95,
+        "gastat_benchmark": 17.9,
+        "stores_prices": {
+          "bindawood": 19.9,
+          "panda": 18.65,
+          "tamimi": 21.95
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 20.17,
         "min_price": 18.65,
         "max_price": 21.95,
@@ -1164,6 +1083,18 @@
           "panda": 11.98,
           "tamimi": 15.95
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 13.29,
+        "min_price": 11.95,
+        "max_price": 15.95,
+        "gastat_benchmark": 11.87,
+        "stores_prices": {
+          "bindawood": 11.95,
+          "panda": 11.98,
+          "tamimi": 15.95
+        }
       }
     ],
     "stores_data": {
@@ -1239,6 +1170,18 @@
           "panda": 7.98,
           "tamimi": 7.95
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 8.61,
+        "min_price": 7.95,
+        "max_price": 9.9,
+        "gastat_benchmark": 6.02,
+        "stores_prices": {
+          "bindawood": 9.9,
+          "panda": 7.98,
+          "tamimi": 7.95
+        }
       }
     ],
     "stores_data": {
@@ -1275,6 +1218,93 @@
     }
   },
   {
+    "gastat_key": "Philippines Banana,  Alsharbatli",
+    "commodity_root": "banana",
+    "product_name_ar": "موز مستورد ١كغم",
+    "product_name_en": "Imported Banana 1kg",
+    "official_gastat_name_ar": "موز الشربتلي الفلبين",
+    "official_gastat_name_en": "Philippines Banana,  Alsharbatli",
+    "brand": "Imported",
+    "category": "fruits_and_vegetables",
+    "unit": "kg",
+    "size": 1000.0,
+    "barcode": "0280030700000",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/011/741/product/280030700000.JPG",
+    "canonical_source": "bindawood",
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "current_pricing": {
+      "avg_price": 6.98,
+      "min_price": 5.95,
+      "max_price": 7.99,
+      "price_diff": 2.04,
+      "gastat_benchmark_price": 5.92,
+      "variance_from_benchmark": 1.06
+    },
+    "price_history": [
+      {
+        "date": "2026-09-12",
+        "avg_price": 5.73,
+        "min_price": 5.26,
+        "max_price": 5.99,
+        "gastat_benchmark": 5.92,
+        "stores_prices": {
+          "bindawood": 5.95,
+          "panda": 5.26,
+          "tamimi": 5.99
+        }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 6.98,
+        "min_price": 5.95,
+        "max_price": 7.99,
+        "gastat_benchmark": 5.92,
+        "stores_prices": {
+          "bindawood": 5.95,
+          "panda": 6.99,
+          "tamimi": 7.99
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 5.95,
+        "store_raw_price": 5.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/011/741/product/280030700000.JPG",
+        "raw_product_id": "11482"
+      },
+      "panda": {
+        "price": 6.99,
+        "store_raw_price": 6.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/454130/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "454130"
+      },
+      "tamimi": {
+        "price": 7.99,
+        "store_raw_price": 15.98,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/145043_1-20231019-130042.png",
+        "raw_product_id": "21741"
+      }
+    }
+  },
+  {
     "gastat_key": "Chinese Garlic",
     "commodity_root": "garlic",
     "product_name_ar": "ثوم ١كغم",
@@ -1305,6 +1335,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 13.29,
+        "min_price": 11.98,
+        "max_price": 13.95,
+        "gastat_benchmark": 10.93,
+        "stores_prices": {
+          "bindawood": 13.95,
+          "panda": 11.98,
+          "tamimi": 13.95
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 13.29,
         "min_price": 11.98,
         "max_price": 13.95,
@@ -1350,6 +1392,93 @@
     }
   },
   {
+    "gastat_key": "Local Black Eggplants",
+    "commodity_root": "eggplant",
+    "product_name_ar": "باذنجان كبير ١كغم",
+    "product_name_en": "Big Eggplant 1kg",
+    "official_gastat_name_ar": "باذنجان أسود محلي",
+    "official_gastat_name_en": "Local Black Eggplants",
+    "brand": "Big",
+    "category": "fruits_and_vegetables",
+    "unit": "kg",
+    "size": 1000.0,
+    "barcode": "0280001100000",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/379/product/280001100000.png",
+    "canonical_source": "bindawood",
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "current_pricing": {
+      "avg_price": 3.76,
+      "min_price": 3.33,
+      "max_price": 4.0,
+      "price_diff": 0.67,
+      "gastat_benchmark_price": 4.79,
+      "variance_from_benchmark": -1.03
+    },
+    "price_history": [
+      {
+        "date": "2026-09-12",
+        "avg_price": 4.98,
+        "min_price": 3.95,
+        "max_price": 6.99,
+        "gastat_benchmark": 4.79,
+        "stores_prices": {
+          "bindawood": 3.95,
+          "panda": 6.99,
+          "tamimi": 4.0
+        }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 3.76,
+        "min_price": 3.33,
+        "max_price": 4.0,
+        "gastat_benchmark": 4.79,
+        "stores_prices": {
+          "bindawood": 3.95,
+          "panda": 3.33,
+          "tamimi": 4.0
+        }
+      }
+    ],
+    "stores_data": {
+      "bindawood": {
+        "price": 3.95,
+        "store_raw_price": 3.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/379/product/280001100000.png",
+        "raw_product_id": "11226"
+      },
+      "panda": {
+        "price": 3.33,
+        "store_raw_price": 3.33,
+        "original_price": 7.99,
+        "discount_amount": 4.66,
+        "discount_percentage": 58.32,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/447890/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "447890"
+      },
+      "tamimi": {
+        "price": 4.0,
+        "store_raw_price": 2.0,
+        "original_price": 3.98,
+        "discount_amount": 1.98,
+        "discount_percentage": 49.75,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231030/218011_1-20231030-200021.png",
+        "raw_product_id": "252543"
+      }
+    }
+  },
+  {
     "gastat_key": "medium African Lemon",
     "commodity_root": "lemon",
     "product_name_ar": "ليمون (كيس)",
@@ -1380,6 +1509,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 7.14,
+        "min_price": 5.0,
+        "max_price": 8.95,
+        "gastat_benchmark": 9.08,
+        "stores_prices": {
+          "bindawood": 8.95,
+          "panda": 5.0,
+          "tamimi": 7.46
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 7.14,
         "min_price": 5.0,
         "max_price": 8.95,
@@ -1464,6 +1605,18 @@
           "panda": 3.33,
           "tamimi": 5.5
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 4.11,
+        "min_price": 3.33,
+        "max_price": 5.5,
+        "gastat_benchmark": 4.61,
+        "stores_prices": {
+          "bindawood": 3.5,
+          "panda": 3.33,
+          "tamimi": 5.5
+        }
       }
     ],
     "stores_data": {
@@ -1500,18 +1653,18 @@
     }
   },
   {
-    "gastat_key": "Local Black Eggplants",
-    "commodity_root": "eggplant",
-    "product_name_ar": "باذنجان كبير ١كغم",
-    "product_name_en": "Big Eggplant 1kg",
-    "official_gastat_name_ar": "باذنجان أسود محلي",
-    "official_gastat_name_en": "Local Black Eggplants",
-    "brand": "Big",
+    "gastat_key": "white Cabbage",
+    "commodity_root": "cabbage",
+    "product_name_ar": "ملفوف ١كغم",
+    "product_name_en": "Cabbage 1kg",
+    "official_gastat_name_ar": "ملفوف أبيض",
+    "official_gastat_name_en": "white Cabbage",
+    "brand": "Cabbage",
     "category": "fruits_and_vegetables",
     "unit": "kg",
     "size": 1000.0,
-    "barcode": "0280001100000",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/379/product/280001100000.png",
+    "barcode": "0280002300000",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/381/product/280002300000.jpg",
     "canonical_source": "bindawood",
     "matched_stores_count": 3,
     "matched_stores": [
@@ -1520,57 +1673,69 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 4.98,
-      "min_price": 3.95,
-      "max_price": 6.99,
-      "price_diff": 3.04,
-      "gastat_benchmark_price": 4.79,
-      "variance_from_benchmark": 0.19
+      "avg_price": 3.15,
+      "min_price": 2.0,
+      "max_price": 3.95,
+      "price_diff": 1.95,
+      "gastat_benchmark_price": 3.67,
+      "variance_from_benchmark": -0.52
     },
     "price_history": [
       {
         "date": "2026-09-12",
-        "avg_price": 4.98,
-        "min_price": 3.95,
-        "max_price": 6.99,
-        "gastat_benchmark": 4.79,
+        "avg_price": 3.65,
+        "min_price": 3.5,
+        "max_price": 3.95,
+        "gastat_benchmark": 3.67,
         "stores_prices": {
-          "bindawood": 3.95,
-          "panda": 6.99,
-          "tamimi": 4.0
+          "bindawood": 3.5,
+          "panda": 3.5,
+          "tamimi": 3.95
+        }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 3.15,
+        "min_price": 2.0,
+        "max_price": 3.95,
+        "gastat_benchmark": 3.67,
+        "stores_prices": {
+          "bindawood": 3.5,
+          "panda": 2.0,
+          "tamimi": 3.95
         }
       }
     ],
     "stores_data": {
       "bindawood": {
-        "price": 3.95,
-        "store_raw_price": 3.95,
+        "price": 3.5,
+        "store_raw_price": 3.5,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/379/product/280001100000.png",
-        "raw_product_id": "11226"
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/058/381/product/280002300000.jpg",
+        "raw_product_id": "11231"
       },
       "panda": {
-        "price": 6.99,
-        "store_raw_price": 6.99,
+        "price": 2.0,
+        "store_raw_price": 2.0,
+        "original_price": 3.5,
+        "discount_amount": 1.5,
+        "discount_percentage": 42.86,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/448030/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "448030"
+      },
+      "tamimi": {
+        "price": 3.95,
+        "store_raw_price": 7.9,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/202551901/Ar_small.jpg?t=1777281656",
-        "raw_product_id": "202551901"
-      },
-      "tamimi": {
-        "price": 4.0,
-        "store_raw_price": 2.0,
-        "original_price": 3.98,
-        "discount_amount": 1.98,
-        "discount_percentage": 49.75,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231030/218011_1-20231030-200021.png",
-        "raw_product_id": "252543"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/124310_1-20231019-133053.png",
+        "raw_product_id": "21625"
       }
     }
   },
@@ -1605,6 +1770,18 @@
     "price_history": [
       {
         "date": "2026-09-12",
+        "avg_price": 4.91,
+        "min_price": 3.86,
+        "max_price": 6.11,
+        "gastat_benchmark": 3.77,
+        "stores_prices": {
+          "bindawood": 3.86,
+          "panda": 6.11,
+          "tamimi": 4.75
+        }
+      },
+      {
+        "date": "2026-09-13",
         "avg_price": 4.91,
         "min_price": 3.86,
         "max_price": 6.11,
@@ -1689,6 +1866,18 @@
           "panda": 8.99,
           "tamimi": 7.94
         }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 8.29,
+        "min_price": 7.94,
+        "max_price": 8.99,
+        "gastat_benchmark": 5.74,
+        "stores_prices": {
+          "bindawood": 7.95,
+          "panda": 8.99,
+          "tamimi": 7.94
+        }
       }
     ],
     "stores_data": {
@@ -1745,12 +1934,12 @@
       "tamimi"
     ],
     "current_pricing": {
-      "avg_price": 9.62,
+      "avg_price": 9.63,
       "min_price": 7.95,
-      "max_price": 11.96,
-      "price_diff": 4.01,
+      "max_price": 11.99,
+      "price_diff": 4.04,
       "gastat_benchmark_price": 5.84,
-      "variance_from_benchmark": 3.78
+      "variance_from_benchmark": 3.79
     },
     "price_history": [
       {
@@ -1762,6 +1951,18 @@
         "stores_prices": {
           "bindawood": 7.95,
           "panda": 11.96,
+          "tamimi": 8.95
+        }
+      },
+      {
+        "date": "2026-09-13",
+        "avg_price": 9.63,
+        "min_price": 7.95,
+        "max_price": 11.99,
+        "gastat_benchmark": 5.84,
+        "stores_prices": {
+          "bindawood": 7.95,
+          "panda": 11.99,
           "tamimi": 8.95
         }
       }
@@ -1778,14 +1979,14 @@
         "raw_product_id": "43286"
       },
       "panda": {
-        "price": 11.96,
-        "store_raw_price": 2.99,
+        "price": 11.99,
+        "store_raw_price": 11.99,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100193814/Ar_small.jpg?t=1780482687",
-        "raw_product_id": "100193814"
+        "image_url": "https://images.todoorstep.com/product/449450/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "449450"
       },
       "tamimi": {
         "price": 8.95,

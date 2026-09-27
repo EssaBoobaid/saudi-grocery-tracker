@@ -780,7 +780,7 @@
     "custom_category_ids": [
       735
     ],
-    "name": "Nadec Fresh Full Fat Yoghurt Multi Pack 170x6 G",
+    "name": "Nadec Fresh Full Fat Yoghurt Multi Pack 170g  x 6",
     "filter": "nadec-ramadan,ten-banner-promo",
     "selected": null,
     "brand": {
@@ -813,7 +813,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "Nadec Fresh Full Fat Yoghurt, 170gm 6Pcs",
+        "description": "Nadec Fresh Full Fat Yoghurt Multi Pack 170g  x 6",
         "availability": 1,
         "max_quantity": 10,
         "min_quantity": 1,
@@ -2495,6 +2495,101 @@
     "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=1"
   },
   {
+    "id": 18358,
+    "brand_id": 862,
+    "category_id": 356,
+    "rank": 20030,
+    "filter_category_ids": [
+      596
+    ],
+    "custom_category_ids": [
+      567,
+      735,
+      961
+    ],
+    "name": "Nada Greek Yogurt Low Fat 160 G ",
+    "filter": "Greek,ten-banner-promo",
+    "selected": 0,
+    "brand": {
+      "id": 862,
+      "name": "Nada",
+      "imageURL": null
+    },
+    "category": {
+      "id": 356,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Dairy & Eggs",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 28629,
+        "item_parent": null,
+        "price": "5",
+        "size": "160",
+        "wighted": false,
+        "barcode": "6281018146980",
+        "sku": 100144429,
+        "sides_images": 0,
+        "image_updated_at": "1780481258",
+        "unit": "gm",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "NADA GRK YGT LF 160G",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/100144429/Ar_small.jpg?t=1780481258",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/100144429/Ar.jpg?t=1780481258",
+            "https://images.todoorstep.com/product/100144429/Ar_large.jpg?t=1780481258",
+            "https://images.todoorstep.com/product/100144429/Ar_small.jpg?t=1780481258"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": "5.75",
+        "availability_desc": "Mostly unavailable",
+        "show_discount": true,
+        "discount_label": "13% Off",
+        "mix_match_promo": null,
+        "discount_labels": [
+          "13% Off"
+        ],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": true,
+        "cashback_price": "1.00",
+        "cashback_type": "F",
+        "cashback_mode": "PerQuantity",
+        "cashback_min_qty": 1,
+        "cashback_max_qty": 50,
+        "cashback_message": "SAR 1.00 Cashback per item (max 50)",
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 356,
+    "_source_parent_category_id": 311,
+    "_source_page": 1,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=1"
+  },
+  {
     "id": 8862,
     "brand_id": 612,
     "category_id": 356,
@@ -2764,9 +2859,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 1,
+    "_source_page": 2,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=1"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=2"
   },
   {
     "id": 42125,
@@ -3261,7 +3356,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "ALSAFI YOGHURT FF 6X170G",
+        "description": "Alsafi Yoghurt Full Fat 6x170g  ",
         "availability": 1,
         "max_quantity": 10,
         "min_quantity": 1,
@@ -3525,7 +3620,7 @@
         "id": 42465,
         "item_parent": null,
         "price": "11.00",
-        "size": "360",
+        "size": "160",
         "wighted": false,
         "barcode": "6281057006490",
         "sku": 100164089,
@@ -4500,95 +4595,6 @@
     "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=2"
   },
   {
-    "id": 42146,
-    "brand_id": 2684,
-    "category_id": 356,
-    "rank": 20059,
-    "filter_category_ids": [
-      596
-    ],
-    "custom_category_ids": null,
-    "name": "Alsafi Yoghurt Low Fat 180g x6 g",
-    "filter": "ten-banner-promo",
-    "selected": null,
-    "brand": {
-      "id": 2684,
-      "name": "Al Safi",
-      "imageURL": null
-    },
-    "category": {
-      "id": 356,
-      "type": "category",
-      "color": "#c9d8d1",
-      "name": "Dairy & Eggs",
-      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
-      "parent": 311
-    },
-    "varieties": [
-      {
-        "imageAr": false,
-        "imageEn": false,
-        "use_sku_image_path": false,
-        "id": 33454,
-        "item_parent": null,
-        "price": "12.00",
-        "size": "170",
-        "wighted": false,
-        "barcode": "6281022130490",
-        "sku": 2347170,
-        "sides_images": 0,
-        "image_updated_at": "1744675200",
-        "unit": "gm",
-        "variety_options": null,
-        "weighted_interval": "0.00",
-        "description": "ALSAFI YOGHURT LF 170GX6 6X170G",
-        "availability": 1,
-        "max_quantity": 10,
-        "min_quantity": 1,
-        "imageURL": "https://images.todoorstep.com/product/2347170/Ar_small.jpg?t=1744675200",
-        "images": [
-          [
-            "https://images.todoorstep.com/product/2347170/Ar.jpg?t=1744675200",
-            "https://images.todoorstep.com/product/2347170/Ar_large.jpg?t=1744675200",
-            "https://images.todoorstep.com/product/2347170/Ar_small.jpg?t=1744675200"
-          ]
-        ],
-        "nutrition": "",
-        "note": "maximum 10",
-        "note_color": "#AA0000",
-        "undiscounted_price": null,
-        "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
-        "mix_match_promo": null,
-        "discount_labels": [],
-        "discount_label_color": "#FF3B3B",
-        "is_favorite": false,
-        "member_price": false,
-        "express": true,
-        "bundles_included": false,
-        "weighted_options": [],
-        "gift_note": {
-          "enabled": false,
-          "label": null
-        },
-        "cashback_enabled": false,
-        "cashback_price": "0",
-        "cashback_type": null,
-        "cashback_mode": null,
-        "cashback_min_qty": null,
-        "cashback_max_qty": null,
-        "cashback_message": null,
-        "life_style": null
-      }
-    ],
-    "_source_category_id": 356,
-    "_source_parent_category_id": 311,
-    "_source_page": 2,
-    "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=2"
-  },
-  {
     "id": 13615,
     "brand_id": 1378,
     "category_id": 356,
@@ -4902,7 +4908,7 @@
         "sku": 100218194,
         "sides_images": 0,
         "image_updated_at": "1785748698",
-        "unit": "gm",
+        "unit": "kg",
         "variety_options": null,
         "weighted_interval": "0.00",
         "description": "ALSAFI YOGHURT FULL FAT 1KG",
@@ -5595,6 +5601,98 @@
     "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=3"
   },
   {
+    "id": 42102,
+    "brand_id": 2684,
+    "category_id": 356,
+    "rank": 20073,
+    "filter_category_ids": [
+      595
+    ],
+    "custom_category_ids": [
+      567,
+      735
+    ],
+    "name": "Alsafi Laban Full Fat 2.9L  ",
+    "filter": "fefteen-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 2684,
+      "name": "Al Safi",
+      "imageURL": null
+    },
+    "category": {
+      "id": 356,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Dairy & Eggs",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 33165,
+        "item_parent": 903550,
+        "price": "16.50",
+        "size": "2.9",
+        "wighted": false,
+        "barcode": "6281022110630",
+        "sku": 100144938,
+        "sides_images": 0,
+        "image_updated_at": "1785748661",
+        "unit": "L",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "ALSAFI LABAN FF 2.9L",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/100144938/Ar_small.jpg?t=1785748661",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/100144938/Ar.jpg?t=1785748661",
+            "https://images.todoorstep.com/product/100144938/Ar_large.jpg?t=1785748661",
+            "https://images.todoorstep.com/product/100144938/Ar_small.jpg?t=1785748661"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 356,
+    "_source_parent_category_id": 311,
+    "_source_page": 3,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=3"
+  },
+  {
     "id": 38918,
     "brand_id": 2684,
     "category_id": 356,
@@ -5635,7 +5733,7 @@
         "sku": 100218196,
         "sides_images": 0,
         "image_updated_at": "1785748693",
-        "unit": "gm",
+        "unit": "kg",
         "variety_options": null,
         "weighted_interval": "0.00",
         "description": "ALSAFI YOGHURT FULL FAT 2KG",
@@ -7130,6 +7228,97 @@
     "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=3"
   },
   {
+    "id": 42068,
+    "brand_id": 612,
+    "category_id": 356,
+    "rank": 20093,
+    "filter_category_ids": [
+      595
+    ],
+    "custom_category_ids": [
+      735
+    ],
+    "name": "Almarai Fresh Laban Low Fat 180Ml  ",
+    "filter": "ten-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 612,
+      "name": "Almarai",
+      "imageURL": null
+    },
+    "category": {
+      "id": 356,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Dairy & Eggs",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 16523,
+        "item_parent": null,
+        "price": "2.00",
+        "size": "180",
+        "wighted": false,
+        "barcode": "6281007023500",
+        "sku": 3170570,
+        "sides_images": 0,
+        "image_updated_at": "1744675200",
+        "unit": "mL",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "ALMARAI FRSH LABAN LF VIT180ML",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/3170570/Ar_small.jpg?t=1744675200",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/3170570/Ar.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/3170570/Ar_large.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/3170570/Ar_small.jpg?t=1744675200"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 356,
+    "_source_parent_category_id": 311,
+    "_source_page": 3,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=3"
+  },
+  {
     "id": 37795,
     "brand_id": 3028,
     "category_id": 356,
@@ -8114,9 +8303,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 3,
+    "_source_page": 4,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=3"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=4"
   },
   {
     "id": 21488,
@@ -8205,9 +8394,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 3,
+    "_source_page": 4,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=3"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=4"
   },
   {
     "id": 42073,
@@ -10870,9 +11059,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 4,
+    "_source_page": 5,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=4"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=5"
   },
   {
     "id": 29798,
@@ -10961,9 +11150,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 4,
+    "_source_page": 5,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=4"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=5"
   },
   {
     "id": 42104,
@@ -12298,6 +12487,95 @@
     "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=5"
   },
   {
+    "id": 8894,
+    "brand_id": 2649,
+    "category_id": 356,
+    "rank": 20172,
+    "filter_category_ids": [
+      595
+    ],
+    "custom_category_ids": null,
+    "name": "Activia Laban Light 375Ml  ",
+    "filter": "Digestive Laban,ten-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 2649,
+      "name": "Activia",
+      "imageURL": null
+    },
+    "category": {
+      "id": 356,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Dairy & Eggs",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 16580,
+        "item_parent": null,
+        "price": "4.00",
+        "size": "375",
+        "wighted": false,
+        "barcode": "6281022118070",
+        "sku": 3026400,
+        "sides_images": 0,
+        "image_updated_at": "1744675200",
+        "unit": "mL",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "ALSAFI ACTIVIA LABAN LIGHT 375ML",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/3026400/Ar_small.jpg?t=1744675200",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/3026400/Ar.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/3026400/Ar_large.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/3026400/Ar_small.jpg?t=1744675200"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 356,
+    "_source_parent_category_id": 311,
+    "_source_page": 5,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=5"
+  },
+  {
     "id": 8936,
     "brand_id": 3238,
     "category_id": 356,
@@ -13560,9 +13838,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 5,
+    "_source_page": 6,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=5"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
   },
   {
     "id": 8913,
@@ -13649,9 +13927,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 5,
+    "_source_page": 6,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=5"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
   },
   {
     "id": 42135,
@@ -13738,9 +14016,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 5,
+    "_source_page": 6,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=5"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
   },
   {
     "id": 8935,
@@ -15281,6 +15559,95 @@
     "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
   },
   {
+    "id": 42159,
+    "brand_id": 2649,
+    "category_id": 356,
+    "rank": 20211,
+    "filter_category_ids": [
+      595
+    ],
+    "custom_category_ids": null,
+    "name": "Activia Laban Bottle 375Ml  ",
+    "filter": "ten-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 2649,
+      "name": "Activia",
+      "imageURL": null
+    },
+    "category": {
+      "id": 356,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Dairy & Eggs",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 16581,
+        "item_parent": 2218770,
+        "price": "4.00",
+        "size": "375",
+        "wighted": false,
+        "barcode": "6281022118410",
+        "sku": 2218790,
+        "sides_images": 0,
+        "image_updated_at": "1744675200",
+        "unit": "mL",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "AL SAFI ACTIVIA LABAN 375ML",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/2218790/Ar_small.jpg?t=1744675200",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/2218790/Ar.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/2218790/Ar_large.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/2218790/Ar_small.jpg?t=1744675200"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 356,
+    "_source_parent_category_id": 311,
+    "_source_page": 6,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
+  },
+  {
     "id": 162627,
     "brand_id": 896,
     "category_id": 356,
@@ -15914,6 +16281,95 @@
     "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
   },
   {
+    "id": 42077,
+    "brand_id": 612,
+    "category_id": 356,
+    "rank": 20223,
+    "filter_category_ids": [
+      594
+    ],
+    "custom_category_ids": null,
+    "name": "Almarai Fresh Milk Low Fat 180Ml  ",
+    "filter": "ten-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 612,
+      "name": "Almarai",
+      "imageURL": null
+    },
+    "category": {
+      "id": 356,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Dairy & Eggs",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 16524,
+        "item_parent": null,
+        "price": "2.00",
+        "size": "180",
+        "wighted": false,
+        "barcode": "6281007023530",
+        "sku": 3170530,
+        "sides_images": 0,
+        "image_updated_at": "1744675200",
+        "unit": "mL",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "ALMARAI FRSH MLK LF I VIT180ML",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/3170530/Ar_small.jpg?t=1744675200",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/3170530/Ar.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/3170530/Ar_large.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/3170530/Ar_small.jpg?t=1744675200"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 356,
+    "_source_parent_category_id": 311,
+    "_source_page": 6,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
+  },
+  {
     "id": 8852,
     "brand_id": 765,
     "category_id": 356,
@@ -16092,9 +16548,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 6,
+    "_source_page": 7,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
   },
   {
     "id": 12649,
@@ -16181,9 +16637,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 6,
+    "_source_page": 7,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
   },
   {
     "id": 16534,
@@ -16272,9 +16728,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 6,
+    "_source_page": 7,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
   },
   {
     "id": 8928,
@@ -16361,9 +16817,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 6,
+    "_source_page": 7,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
   },
   {
     "id": 126977,
@@ -16452,9 +16908,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 6,
+    "_source_page": 7,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=6"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
   },
   {
     "id": 17874,
@@ -18806,9 +19262,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 7,
+    "_source_page": 8,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
   },
   {
     "id": 14084,
@@ -18895,9 +19351,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 7,
+    "_source_page": 8,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
   },
   {
     "id": 44495,
@@ -18984,9 +19440,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 7,
+    "_source_page": 8,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
   },
   {
     "id": 25914,
@@ -19073,9 +19529,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 7,
+    "_source_page": 8,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
   },
   {
     "id": 26768,
@@ -19162,9 +19618,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 7,
+    "_source_page": 8,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=7"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
   },
   {
     "id": 27750,
@@ -21585,9 +22041,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
   },
   {
     "id": 164657,
@@ -21674,9 +22130,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
   },
   {
     "id": 166299,
@@ -21765,9 +22221,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
   },
   {
     "id": 166300,
@@ -21856,9 +22312,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
   },
   {
     "id": 166301,
@@ -21947,9 +22403,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=8"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
   },
   {
     "id": 166627,
@@ -22164,7 +22620,7 @@
         "id": 161990,
         "item_parent": 3751750,
         "price": "11.99",
-        "size": "120",
+        "size": "140",
         "wighted": false,
         "barcode": "6281007072010",
         "sku": 198951345,
@@ -24295,9 +24751,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=10"
   },
   {
     "id": 167134,
@@ -24384,9 +24840,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=10"
   },
   {
     "id": 167135,
@@ -24473,9 +24929,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=10"
   },
   {
     "id": 167136,
@@ -24566,9 +25022,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=10"
   },
   {
     "id": 167137,
@@ -24655,9 +25111,9 @@
     ],
     "_source_category_id": 356,
     "_source_parent_category_id": 311,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=9"
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=10"
   },
   {
     "id": 167138,
@@ -24822,6 +25278,95 @@
             "https://images.todoorstep.com/product/210802634/Ar.jpg?t=",
             "https://images.todoorstep.com/product/210802634/Ar_large.jpg?t=",
             "https://images.todoorstep.com/product/210802634/Ar_small.jpg?t="
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 356,
+    "_source_parent_category_id": 311,
+    "_source_page": 10,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=356&parent_category_id=311&page=10"
+  },
+  {
+    "id": 167412,
+    "brand_id": 764,
+    "category_id": 356,
+    "rank": 20314,
+    "filter_category_ids": [
+      595
+    ],
+    "custom_category_ids": null,
+    "name": "Al Safi Full Fat Milk 1.2L",
+    "filter": null,
+    "selected": null,
+    "brand": {
+      "id": 764,
+      "name": "Alsafi",
+      "imageURL": null
+    },
+    "category": {
+      "id": 356,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Dairy & Eggs",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 162773,
+        "item_parent": 210401911,
+        "price": "8.00",
+        "size": "1.2",
+        "wighted": false,
+        "barcode": "6281022120960",
+        "sku": 210401911,
+        "sides_images": 0,
+        "image_updated_at": "",
+        "unit": "L",
+        "variety_options": null,
+        "weighted_interval": "0.50",
+        "description": "Al Safi Full Fat Milk 1.2L",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 0,
+        "imageURL": "https://images.todoorstep.com/product/210401911/Ar_small.jpg?t=",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/210401911/Ar.jpg?t=",
+            "https://images.todoorstep.com/product/210401911/Ar_large.jpg?t=",
+            "https://images.todoorstep.com/product/210401911/Ar_small.jpg?t="
           ]
         ],
         "nutrition": "",
@@ -25701,7 +26246,7 @@
         "sku": 210401945,
         "sides_images": 0,
         "image_updated_at": "1783930937",
-        "unit": "gm",
+        "unit": "mL",
         "variety_options": null,
         "weighted_interval": "0.50",
         "description": "Al Safi Greek Yoghurt Plain Full Fat 360g",
@@ -28144,7 +28689,7 @@
     "custom_category_ids": [
       735
     ],
-    "name": "Kiri Cheese Portions 2 x 400g",
+    "name": "Kiri Cheese Portions 2 x 400g - 48 Portions",
     "filter": "kiri-ramadan",
     "selected": 16070,
     "brand": {
@@ -28177,7 +28722,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Large pack of creamy Kiri cheese portions.",
+        "description": "Kiri Cheese Portions 2 x 400g - 48 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -29468,102 +30013,6 @@
     "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=2"
   },
   {
-    "id": 8548,
-    "brand_id": 711,
-    "category_id": 349,
-    "rank": 30029,
-    "filter_category_ids": [
-      576
-    ],
-    "custom_category_ids": [],
-    "name": "Pride Analogue Cheese Slices Burger 400 g",
-    "filter": "Slices,saudi-home-slider-sep-promo",
-    "selected": null,
-    "brand": {
-      "id": 711,
-      "name": "Pride",
-      "imageURL": null
-    },
-    "category": {
-      "id": 349,
-      "type": "category",
-      "color": "#c9d8d1",
-      "name": "Cheese & Labneh",
-      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
-      "parent": 311
-    },
-    "varieties": [
-      {
-        "imageAr": false,
-        "imageEn": false,
-        "use_sku_image_path": false,
-        "id": 16094,
-        "item_parent": null,
-        "price": "10",
-        "size": "400",
-        "wighted": false,
-        "barcode": "6281024010810",
-        "sku": 330755,
-        "sides_images": 1,
-        "image_updated_at": "1787572120",
-        "unit": "gm",
-        "variety_options": null,
-        "weighted_interval": "0.50",
-        "description": "Pride Analogue Cheese Slices Burger 400 g",
-        "availability": 1,
-        "max_quantity": 25,
-        "min_quantity": 1,
-        "imageURL": "https://images.todoorstep.com/product/330755/Ar_small.jpg?t=1787572120",
-        "images": [
-          [
-            "https://images.todoorstep.com/product/330755/Ar.jpg?t=1787572120",
-            "https://images.todoorstep.com/product/330755/Ar_large.jpg?t=1787572120",
-            "https://images.todoorstep.com/product/330755/Ar_small.jpg?t=1787572120"
-          ],
-          [
-            "https://images.todoorstep.com/product/330755/side1.jpg?t=1787572120",
-            "https://images.todoorstep.com/product/330755/side1_large.jpg?t=1787572120",
-            "https://images.todoorstep.com/product/330755/side1_small.jpg?t=1787572120"
-          ]
-        ],
-        "nutrition": "",
-        "note": "maximum 25",
-        "note_color": "#AA0000",
-        "undiscounted_price": "16.99",
-        "availability_desc": "Mostly unavailable",
-        "show_discount": true,
-        "discount_label": "41% Off",
-        "mix_match_promo": null,
-        "discount_labels": [
-          "41% Off"
-        ],
-        "discount_label_color": "#FF3B3B",
-        "is_favorite": false,
-        "member_price": false,
-        "express": true,
-        "bundles_included": false,
-        "weighted_options": [],
-        "gift_note": {
-          "enabled": false,
-          "label": null
-        },
-        "cashback_enabled": false,
-        "cashback_price": "0",
-        "cashback_type": null,
-        "cashback_mode": null,
-        "cashback_min_qty": null,
-        "cashback_max_qty": null,
-        "cashback_message": null,
-        "life_style": null
-      }
-    ],
-    "_source_category_id": 349,
-    "_source_parent_category_id": 311,
-    "_source_page": 2,
-    "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=2"
-  },
-  {
     "id": 41819,
     "brand_id": 703,
     "category_id": 349,
@@ -30289,7 +30738,7 @@
         "use_sku_image_path": false,
         "id": 49404,
         "item_parent": null,
-        "price": "69.99",
+        "price": "39.99",
         "size": "0.25",
         "wighted": true,
         "barcode": "5998200468610",
@@ -30314,12 +30763,14 @@
         "nutrition": "",
         "note": "maximum 10",
         "note_color": "#AA0000",
-        "undiscounted_price": null,
+        "undiscounted_price": "69.99",
         "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
+        "show_discount": true,
+        "discount_label": "43% Off",
         "mix_match_promo": null,
-        "discount_labels": [],
+        "discount_labels": [
+          "43% Off"
+        ],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -30329,242 +30780,242 @@
           {
             "quantity_value": 0.25,
             "quantity_name": "0.25 KG",
-            "price": "17.50",
-            "undiscounted_price": null
+            "price": "10.00",
+            "undiscounted_price": "17.50"
           },
           {
             "quantity_value": 0.5,
             "quantity_name": "0.5 KG",
-            "price": "34.99",
-            "undiscounted_price": null
+            "price": "20.00",
+            "undiscounted_price": "34.99"
           },
           {
             "quantity_value": 0.75,
             "quantity_name": "0.75 KG",
-            "price": "52.49",
-            "undiscounted_price": null
+            "price": "29.99",
+            "undiscounted_price": "52.49"
           },
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "69.99",
-            "undiscounted_price": null
+            "price": "39.99",
+            "undiscounted_price": "69.99"
           },
           {
             "quantity_value": 1.25,
             "quantity_name": "1.25 KG",
-            "price": "87.49",
-            "undiscounted_price": null
+            "price": "49.99",
+            "undiscounted_price": "87.49"
           },
           {
             "quantity_value": 1.5,
             "quantity_name": "1.5 KG",
-            "price": "104.98",
-            "undiscounted_price": null
+            "price": "59.98",
+            "undiscounted_price": "104.98"
           },
           {
             "quantity_value": 1.75,
             "quantity_name": "1.75 KG",
-            "price": "122.48",
-            "undiscounted_price": null
+            "price": "69.98",
+            "undiscounted_price": "122.48"
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "139.98",
-            "undiscounted_price": null
+            "price": "79.98",
+            "undiscounted_price": "139.98"
           },
           {
             "quantity_value": 2.25,
             "quantity_name": "2.25 KG",
-            "price": "157.48",
-            "undiscounted_price": null
+            "price": "89.98",
+            "undiscounted_price": "157.48"
           },
           {
             "quantity_value": 2.5,
             "quantity_name": "2.5 KG",
-            "price": "174.97",
-            "undiscounted_price": null
+            "price": "99.98",
+            "undiscounted_price": "174.97"
           },
           {
             "quantity_value": 2.75,
             "quantity_name": "2.75 KG",
-            "price": "192.47",
-            "undiscounted_price": null
+            "price": "109.97",
+            "undiscounted_price": "192.47"
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "209.97",
-            "undiscounted_price": null
+            "price": "119.97",
+            "undiscounted_price": "209.97"
           },
           {
             "quantity_value": 3.25,
             "quantity_name": "3.25 KG",
-            "price": "227.47",
-            "undiscounted_price": null
+            "price": "129.97",
+            "undiscounted_price": "227.47"
           },
           {
             "quantity_value": 3.5,
             "quantity_name": "3.5 KG",
-            "price": "244.96",
-            "undiscounted_price": null
+            "price": "139.97",
+            "undiscounted_price": "244.96"
           },
           {
             "quantity_value": 3.75,
             "quantity_name": "3.75 KG",
-            "price": "262.46",
-            "undiscounted_price": null
+            "price": "149.96",
+            "undiscounted_price": "262.46"
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "279.96",
-            "undiscounted_price": null
+            "price": "159.96",
+            "undiscounted_price": "279.96"
           },
           {
             "quantity_value": 4.25,
             "quantity_name": "4.25 KG",
-            "price": "297.46",
-            "undiscounted_price": null
+            "price": "169.96",
+            "undiscounted_price": "297.46"
           },
           {
             "quantity_value": 4.5,
             "quantity_name": "4.5 KG",
-            "price": "314.95",
-            "undiscounted_price": null
+            "price": "179.96",
+            "undiscounted_price": "314.95"
           },
           {
             "quantity_value": 4.75,
             "quantity_name": "4.75 KG",
-            "price": "332.45",
-            "undiscounted_price": null
+            "price": "189.95",
+            "undiscounted_price": "332.45"
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "349.95",
-            "undiscounted_price": null
+            "price": "199.95",
+            "undiscounted_price": "349.95"
           },
           {
             "quantity_value": 5.25,
             "quantity_name": "5.25 KG",
-            "price": "367.45",
-            "undiscounted_price": null
+            "price": "209.95",
+            "undiscounted_price": "367.45"
           },
           {
             "quantity_value": 5.5,
             "quantity_name": "5.5 KG",
-            "price": "384.94",
-            "undiscounted_price": null
+            "price": "219.95",
+            "undiscounted_price": "384.94"
           },
           {
             "quantity_value": 5.75,
             "quantity_name": "5.75 KG",
-            "price": "402.44",
-            "undiscounted_price": null
+            "price": "229.94",
+            "undiscounted_price": "402.44"
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "419.94",
-            "undiscounted_price": null
+            "price": "239.94",
+            "undiscounted_price": "419.94"
           },
           {
             "quantity_value": 6.25,
             "quantity_name": "6.25 KG",
-            "price": "437.44",
-            "undiscounted_price": null
+            "price": "249.94",
+            "undiscounted_price": "437.44"
           },
           {
             "quantity_value": 6.5,
             "quantity_name": "6.5 KG",
-            "price": "454.93",
-            "undiscounted_price": null
+            "price": "259.94",
+            "undiscounted_price": "454.93"
           },
           {
             "quantity_value": 6.75,
             "quantity_name": "6.75 KG",
-            "price": "472.43",
-            "undiscounted_price": null
+            "price": "269.93",
+            "undiscounted_price": "472.43"
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "489.93",
-            "undiscounted_price": null
+            "price": "279.93",
+            "undiscounted_price": "489.93"
           },
           {
             "quantity_value": 7.25,
             "quantity_name": "7.25 KG",
-            "price": "507.43",
-            "undiscounted_price": null
+            "price": "289.93",
+            "undiscounted_price": "507.43"
           },
           {
             "quantity_value": 7.5,
             "quantity_name": "7.5 KG",
-            "price": "524.92",
-            "undiscounted_price": null
+            "price": "299.93",
+            "undiscounted_price": "524.92"
           },
           {
             "quantity_value": 7.75,
             "quantity_name": "7.75 KG",
-            "price": "542.42",
-            "undiscounted_price": null
+            "price": "309.92",
+            "undiscounted_price": "542.42"
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "559.92",
-            "undiscounted_price": null
+            "price": "319.92",
+            "undiscounted_price": "559.92"
           },
           {
             "quantity_value": 8.25,
             "quantity_name": "8.25 KG",
-            "price": "577.42",
-            "undiscounted_price": null
+            "price": "329.92",
+            "undiscounted_price": "577.42"
           },
           {
             "quantity_value": 8.5,
             "quantity_name": "8.5 KG",
-            "price": "594.91",
-            "undiscounted_price": null
+            "price": "339.92",
+            "undiscounted_price": "594.91"
           },
           {
             "quantity_value": 8.75,
             "quantity_name": "8.75 KG",
-            "price": "612.41",
-            "undiscounted_price": null
+            "price": "349.91",
+            "undiscounted_price": "612.41"
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "629.91",
-            "undiscounted_price": null
+            "price": "359.91",
+            "undiscounted_price": "629.91"
           },
           {
             "quantity_value": 9.25,
             "quantity_name": "9.25 KG",
-            "price": "647.41",
-            "undiscounted_price": null
+            "price": "369.91",
+            "undiscounted_price": "647.41"
           },
           {
             "quantity_value": 9.5,
             "quantity_name": "9.5 KG",
-            "price": "664.90",
-            "undiscounted_price": null
+            "price": "379.91",
+            "undiscounted_price": "664.90"
           },
           {
             "quantity_value": 9.75,
             "quantity_name": "9.75 KG",
-            "price": "682.40",
-            "undiscounted_price": null
+            "price": "389.90",
+            "undiscounted_price": "682.40"
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "699.90",
-            "undiscounted_price": null
+            "price": "399.90",
+            "undiscounted_price": "699.90"
           }
         ],
         "gift_note": {
@@ -32129,100 +32580,6 @@
     "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=2"
   },
   {
-    "id": 38127,
-    "brand_id": 654,
-    "category_id": 349,
-    "rank": 30046,
-    "filter_category_ids": [
-      576
-    ],
-    "custom_category_ids": [
-      567,
-      795
-    ],
-    "name": "Nadec Slice Cheese Low Fat 400g  ",
-    "filter": "nadec-ramadan,fefteen-banner-promo,19-week-10-sar-promo",
-    "selected": null,
-    "brand": {
-      "id": 654,
-      "name": "Nadec",
-      "imageURL": null
-    },
-    "category": {
-      "id": 349,
-      "type": "category",
-      "color": "#c9d8d1",
-      "name": "Cheese & Labneh",
-      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
-      "parent": 311
-    },
-    "varieties": [
-      {
-        "imageAr": false,
-        "imageEn": false,
-        "use_sku_image_path": false,
-        "id": 48221,
-        "item_parent": null,
-        "price": "13.5",
-        "size": "400",
-        "wighted": false,
-        "barcode": "6281057007390",
-        "sku": 100212634,
-        "sides_images": 0,
-        "image_updated_at": "1787574365",
-        "unit": "gm",
-        "variety_options": null,
-        "weighted_interval": "0.00",
-        "description": "Nadec Low Fat Slice Cheese, 400gm 20 Slices",
-        "availability": 1,
-        "max_quantity": 25,
-        "min_quantity": 1,
-        "imageURL": "https://images.todoorstep.com/product/100212634/Ar_small.jpg?t=1787574365",
-        "images": [
-          [
-            "https://images.todoorstep.com/product/100212634/Ar.jpg?t=1787574365",
-            "https://images.todoorstep.com/product/100212634/Ar_large.jpg?t=1787574365",
-            "https://images.todoorstep.com/product/100212634/Ar_small.jpg?t=1787574365"
-          ]
-        ],
-        "nutrition": "",
-        "note": "maximum 25",
-        "note_color": "#AA0000",
-        "undiscounted_price": "19.50",
-        "availability_desc": "Mostly unavailable",
-        "show_discount": true,
-        "discount_label": "31% Off",
-        "mix_match_promo": null,
-        "discount_labels": [
-          "31% Off"
-        ],
-        "discount_label_color": "#FF3B3B",
-        "is_favorite": false,
-        "member_price": false,
-        "express": true,
-        "bundles_included": false,
-        "weighted_options": [],
-        "gift_note": {
-          "enabled": false,
-          "label": null
-        },
-        "cashback_enabled": false,
-        "cashback_price": "0",
-        "cashback_type": null,
-        "cashback_mode": null,
-        "cashback_min_qty": null,
-        "cashback_max_qty": null,
-        "cashback_message": null,
-        "life_style": null
-      }
-    ],
-    "_source_category_id": 349,
-    "_source_parent_category_id": 311,
-    "_source_page": 2,
-    "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=2"
-  },
-  {
     "id": 44141,
     "brand_id": 3010,
     "category_id": 349,
@@ -32231,7 +32588,7 @@
       576
     ],
     "custom_category_ids": [],
-    "name": "Picon Cheese Triangles 4 x 120g",
+    "name": "Picon Cheese Triangles 4 x 120g - 32 Portions",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -32264,7 +32621,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Multipack of Picon cheese triangles.",
+        "description": "Picon Cheese Triangles 4 x 120g - 32 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -33621,7 +33978,7 @@
       576
     ],
     "custom_category_ids": [],
-    "name": "Kiri Cheese Portions 3 x 200g",
+    "name": "Kiri Cheese Portions 3 x 200g - 36 Portions",
     "filter": "kiri-ramadan",
     "selected": 0,
     "brand": {
@@ -33654,7 +34011,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Creamy and smooth Kiri cheese portions, perfect for snacks.",
+        "description": "Kiri Cheese Portions 3 x 200g - 36 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -33699,9 +34056,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 3,
+    "_source_page": 2,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=3"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=2"
   },
   {
     "id": 29523,
@@ -33793,9 +34150,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 3,
+    "_source_page": 2,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=3"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=2"
   },
   {
     "id": 144324,
@@ -34861,7 +35218,7 @@
       576
     ],
     "custom_category_ids": [],
-    "name": "Almarai Analogue Cheese Triangles Kids Pack 480 g",
+    "name": "Almarai Analogue Cheese Triangles Kids Pack 32 Portions",
     "filter": "fefteen-banner-promo",
     "selected": null,
     "brand": {
@@ -34894,7 +35251,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "Almarai Analogue Cheese Triangles Kids Pack 480 g",
+        "description": "Almarai Analogue Cheese Triangles Kids Pack 32 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -37400,7 +37757,7 @@
       576
     ],
     "custom_category_ids": [],
-    "name": "La Vache Quirit Triangle Cheese 480g",
+    "name": "La Vache Quirit Triangle Cheese 32 Portions",
     "filter": "",
     "selected": null,
     "brand": {
@@ -37433,7 +37790,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "La Vache Quirit Triangle Cheese offers creamy and smooth cheese triangles, perfect for snacks, sandwiches, or cheese platters. Convenient 480g pack.",
+        "description": "La Vache Quirit Triangle Cheese 32 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -37836,9 +38193,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 4,
+    "_source_page": 3,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=4"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=3"
   },
   {
     "id": 31299,
@@ -37928,9 +38285,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 4,
+    "_source_page": 3,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=4"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=3"
   },
   {
     "id": 38099,
@@ -39802,6 +40159,95 @@
     "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=4"
   },
   {
+    "id": 8550,
+    "brand_id": 715,
+    "category_id": 349,
+    "rank": 30118,
+    "filter_category_ids": [
+      576
+    ],
+    "custom_category_ids": [],
+    "name": "President Sliced Cheese Burger 400g",
+    "filter": "Slices",
+    "selected": null,
+    "brand": {
+      "id": 715,
+      "name": "President",
+      "imageURL": null
+    },
+    "category": {
+      "id": 349,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Cheese & Labneh",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 16096,
+        "item_parent": null,
+        "price": "23.99",
+        "size": "400",
+        "wighted": false,
+        "barcode": "6281024110210",
+        "sku": 2231495,
+        "sides_images": 0,
+        "image_updated_at": "1787572536",
+        "unit": "gm",
+        "variety_options": null,
+        "weighted_interval": "0.50",
+        "description": "President Sliced Cheese Burger 400g is an economical size, ideal for families and daily use.",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/2231495/Ar_small.jpg?t=1787572536",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/2231495/Ar.jpg?t=1787572536",
+            "https://images.todoorstep.com/product/2231495/Ar_large.jpg?t=1787572536",
+            "https://images.todoorstep.com/product/2231495/Ar_small.jpg?t=1787572536"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "1",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 349,
+    "_source_parent_category_id": 311,
+    "_source_page": 4,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=4"
+  },
+  {
     "id": 41818,
     "brand_id": 703,
     "category_id": 349,
@@ -40809,6 +41255,95 @@
         },
         "cashback_enabled": false,
         "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 349,
+    "_source_parent_category_id": 311,
+    "_source_page": 4,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=4"
+  },
+  {
+    "id": 8566,
+    "brand_id": 711,
+    "category_id": 349,
+    "rank": 30127,
+    "filter_category_ids": [
+      576
+    ],
+    "custom_category_ids": [],
+    "name": "Pride Shredded Mozzarella Cheese 900g",
+    "filter": "Mozzarella Cheese",
+    "selected": null,
+    "brand": {
+      "id": 711,
+      "name": "Pride",
+      "imageURL": null
+    },
+    "category": {
+      "id": 349,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Cheese & Labneh",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 26178,
+        "item_parent": null,
+        "price": "39.99",
+        "size": "900",
+        "wighted": false,
+        "barcode": "6281024012510",
+        "sku": 1539635,
+        "sides_images": 0,
+        "image_updated_at": "1787572410",
+        "unit": "gm",
+        "variety_options": null,
+        "weighted_interval": "0.50",
+        "description": "Shredded mozzarella cheese 900g soft and melty.",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/1539635/Ar_small.jpg?t=1787572410",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/1539635/Ar.jpg?t=1787572410",
+            "https://images.todoorstep.com/product/1539635/Ar_large.jpg?t=1787572410",
+            "https://images.todoorstep.com/product/1539635/Ar_small.jpg?t=1787572410"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "1",
         "cashback_type": null,
         "cashback_mode": null,
         "cashback_min_qty": null,
@@ -42994,7 +43529,7 @@
       576
     ],
     "custom_category_ids": [],
-    "name": "Nadec Analogue Cheese Triangles 16 pcs 4 + 1 × 120 g",
+    "name": "Nadec Analogue Cheese Triangles 40 Portions  4 + 1 × 120 g",
     "filter": "fefteen-banner-promo",
     "selected": null,
     "brand": {
@@ -43027,7 +43562,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "Nadec Analogue Cheese Triangles 16 pcs 4 + 1 × 120 g",
+        "description": "Nadec Analogue Cheese Triangles 40 Portions  4 + 1 × 120 g",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -43108,7 +43643,7 @@
         "use_sku_image_path": false,
         "id": 53345,
         "item_parent": null,
-        "price": "45.99",
+        "price": "24.99",
         "size": "0.25",
         "wighted": true,
         "barcode": "6281174038420",
@@ -43133,12 +43668,14 @@
         "nutrition": "",
         "note": "maximum 10",
         "note_color": "#AA0000",
-        "undiscounted_price": null,
+        "undiscounted_price": "45.99",
         "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
+        "show_discount": true,
+        "discount_label": "46% Off",
         "mix_match_promo": null,
-        "discount_labels": [],
+        "discount_labels": [
+          "46% Off"
+        ],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -43148,242 +43685,242 @@
           {
             "quantity_value": 0.25,
             "quantity_name": "0.25 KG",
-            "price": "11.50",
-            "undiscounted_price": null
+            "price": "6.25",
+            "undiscounted_price": "11.50"
           },
           {
             "quantity_value": 0.5,
             "quantity_name": "0.5 KG",
-            "price": "23.00",
-            "undiscounted_price": null
+            "price": "12.49",
+            "undiscounted_price": "23.00"
           },
           {
             "quantity_value": 0.75,
             "quantity_name": "0.75 KG",
-            "price": "34.49",
-            "undiscounted_price": null
+            "price": "18.74",
+            "undiscounted_price": "34.49"
           },
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "45.99",
-            "undiscounted_price": null
+            "price": "24.99",
+            "undiscounted_price": "45.99"
           },
           {
             "quantity_value": 1.25,
             "quantity_name": "1.25 KG",
-            "price": "57.49",
-            "undiscounted_price": null
+            "price": "31.24",
+            "undiscounted_price": "57.49"
           },
           {
             "quantity_value": 1.5,
             "quantity_name": "1.5 KG",
-            "price": "68.98",
-            "undiscounted_price": null
+            "price": "37.48",
+            "undiscounted_price": "68.98"
           },
           {
             "quantity_value": 1.75,
             "quantity_name": "1.75 KG",
-            "price": "80.48",
-            "undiscounted_price": null
+            "price": "43.73",
+            "undiscounted_price": "80.48"
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "91.98",
-            "undiscounted_price": null
+            "price": "49.98",
+            "undiscounted_price": "91.98"
           },
           {
             "quantity_value": 2.25,
             "quantity_name": "2.25 KG",
-            "price": "103.48",
-            "undiscounted_price": null
+            "price": "56.23",
+            "undiscounted_price": "103.48"
           },
           {
             "quantity_value": 2.5,
             "quantity_name": "2.5 KG",
-            "price": "114.98",
-            "undiscounted_price": null
+            "price": "62.47",
+            "undiscounted_price": "114.98"
           },
           {
             "quantity_value": 2.75,
             "quantity_name": "2.75 KG",
-            "price": "126.47",
-            "undiscounted_price": null
+            "price": "68.72",
+            "undiscounted_price": "126.47"
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "137.97",
-            "undiscounted_price": null
+            "price": "74.97",
+            "undiscounted_price": "137.97"
           },
           {
             "quantity_value": 3.25,
             "quantity_name": "3.25 KG",
-            "price": "149.47",
-            "undiscounted_price": null
+            "price": "81.22",
+            "undiscounted_price": "149.47"
           },
           {
             "quantity_value": 3.5,
             "quantity_name": "3.5 KG",
-            "price": "160.97",
-            "undiscounted_price": null
+            "price": "87.46",
+            "undiscounted_price": "160.97"
           },
           {
             "quantity_value": 3.75,
             "quantity_name": "3.75 KG",
-            "price": "172.46",
-            "undiscounted_price": null
+            "price": "93.71",
+            "undiscounted_price": "172.46"
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "183.96",
-            "undiscounted_price": null
+            "price": "99.96",
+            "undiscounted_price": "183.96"
           },
           {
             "quantity_value": 4.25,
             "quantity_name": "4.25 KG",
-            "price": "195.46",
-            "undiscounted_price": null
+            "price": "106.21",
+            "undiscounted_price": "195.46"
           },
           {
             "quantity_value": 4.5,
             "quantity_name": "4.5 KG",
-            "price": "206.96",
-            "undiscounted_price": null
+            "price": "112.45",
+            "undiscounted_price": "206.96"
           },
           {
             "quantity_value": 4.75,
             "quantity_name": "4.75 KG",
-            "price": "218.45",
-            "undiscounted_price": null
+            "price": "118.70",
+            "undiscounted_price": "218.45"
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "229.95",
-            "undiscounted_price": null
+            "price": "124.95",
+            "undiscounted_price": "229.95"
           },
           {
             "quantity_value": 5.25,
             "quantity_name": "5.25 KG",
-            "price": "241.45",
-            "undiscounted_price": null
+            "price": "131.20",
+            "undiscounted_price": "241.45"
           },
           {
             "quantity_value": 5.5,
             "quantity_name": "5.5 KG",
-            "price": "252.95",
-            "undiscounted_price": null
+            "price": "137.44",
+            "undiscounted_price": "252.95"
           },
           {
             "quantity_value": 5.75,
             "quantity_name": "5.75 KG",
-            "price": "264.44",
-            "undiscounted_price": null
+            "price": "143.69",
+            "undiscounted_price": "264.44"
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "275.94",
-            "undiscounted_price": null
+            "price": "149.94",
+            "undiscounted_price": "275.94"
           },
           {
             "quantity_value": 6.25,
             "quantity_name": "6.25 KG",
-            "price": "287.44",
-            "undiscounted_price": null
+            "price": "156.19",
+            "undiscounted_price": "287.44"
           },
           {
             "quantity_value": 6.5,
             "quantity_name": "6.5 KG",
-            "price": "298.94",
-            "undiscounted_price": null
+            "price": "162.44",
+            "undiscounted_price": "298.94"
           },
           {
             "quantity_value": 6.75,
             "quantity_name": "6.75 KG",
-            "price": "310.43",
-            "undiscounted_price": null
+            "price": "168.68",
+            "undiscounted_price": "310.43"
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "321.93",
-            "undiscounted_price": null
+            "price": "174.93",
+            "undiscounted_price": "321.93"
           },
           {
             "quantity_value": 7.25,
             "quantity_name": "7.25 KG",
-            "price": "333.43",
-            "undiscounted_price": null
+            "price": "181.18",
+            "undiscounted_price": "333.43"
           },
           {
             "quantity_value": 7.5,
             "quantity_name": "7.5 KG",
-            "price": "344.93",
-            "undiscounted_price": null
+            "price": "187.42",
+            "undiscounted_price": "344.93"
           },
           {
             "quantity_value": 7.75,
             "quantity_name": "7.75 KG",
-            "price": "356.42",
-            "undiscounted_price": null
+            "price": "193.67",
+            "undiscounted_price": "356.42"
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "367.92",
-            "undiscounted_price": null
+            "price": "199.92",
+            "undiscounted_price": "367.92"
           },
           {
             "quantity_value": 8.25,
             "quantity_name": "8.25 KG",
-            "price": "379.42",
-            "undiscounted_price": null
+            "price": "206.17",
+            "undiscounted_price": "379.42"
           },
           {
             "quantity_value": 8.5,
             "quantity_name": "8.5 KG",
-            "price": "390.92",
-            "undiscounted_price": null
+            "price": "212.41",
+            "undiscounted_price": "390.92"
           },
           {
             "quantity_value": 8.75,
             "quantity_name": "8.75 KG",
-            "price": "402.41",
-            "undiscounted_price": null
+            "price": "218.66",
+            "undiscounted_price": "402.41"
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "413.91",
-            "undiscounted_price": null
+            "price": "224.91",
+            "undiscounted_price": "413.91"
           },
           {
             "quantity_value": 9.25,
             "quantity_name": "9.25 KG",
-            "price": "425.41",
-            "undiscounted_price": null
+            "price": "231.16",
+            "undiscounted_price": "425.41"
           },
           {
             "quantity_value": 9.5,
             "quantity_name": "9.5 KG",
-            "price": "436.91",
-            "undiscounted_price": null
+            "price": "237.40",
+            "undiscounted_price": "436.91"
           },
           {
             "quantity_value": 9.75,
             "quantity_name": "9.75 KG",
-            "price": "448.40",
-            "undiscounted_price": null
+            "price": "243.65",
+            "undiscounted_price": "448.40"
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "459.90",
-            "undiscounted_price": null
+            "price": "249.90",
+            "undiscounted_price": "459.90"
           }
         ],
         "gift_note": {
@@ -53729,6 +54266,97 @@
     "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=7"
   },
   {
+    "id": 41884,
+    "brand_id": 715,
+    "category_id": 349,
+    "rank": 30222,
+    "filter_category_ids": [
+      576
+    ],
+    "custom_category_ids": null,
+    "name": "President Cheese Triangle 120 gm",
+    "filter": "ten-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 715,
+      "name": "President",
+      "imageURL": null
+    },
+    "category": {
+      "id": 349,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Cheese & Labneh",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 26145,
+        "item_parent": null,
+        "price": "4.5",
+        "size": "120",
+        "wighted": false,
+        "barcode": "6281024114660",
+        "sku": 3376225,
+        "sides_images": 0,
+        "image_updated_at": "1787573045",
+        "unit": "gm",
+        "variety_options": null,
+        "weighted_interval": "0.50",
+        "description": "President Cheese Triangle 120 gm",
+        "availability": 1,
+        "max_quantity": 10,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/3376225/Ar_small.jpg?t=1787573045",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/3376225/Ar.jpg?t=1787573045",
+            "https://images.todoorstep.com/product/3376225/Ar_large.jpg?t=1787573045",
+            "https://images.todoorstep.com/product/3376225/Ar_small.jpg?t=1787573045"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 10",
+        "note_color": "#AA0000",
+        "undiscounted_price": "5.99",
+        "availability_desc": "Mostly unavailable",
+        "show_discount": true,
+        "discount_label": "2 for 8.99 SR",
+        "mix_match_promo": null,
+        "discount_labels": [
+          "2 for 8.99 SR"
+        ],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": true,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 349,
+    "_source_parent_category_id": 311,
+    "_source_page": 7,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=7"
+  },
+  {
     "id": 14779,
     "brand_id": 718,
     "category_id": 349,
@@ -54883,9 +55511,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 7,
+    "_source_page": 8,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=7"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=8"
   },
   {
     "id": 30311,
@@ -56818,7 +57446,7 @@
       576
     ],
     "custom_category_ids": [],
-    "name": "President Alvita Cheese 32pcs 480g",
+    "name": "President Alvita Cheese 32 Portions",
     "filter": "Triangles,fefteen-banner-promo",
     "selected": null,
     "brand": {
@@ -56851,7 +57479,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "President Alvita Cheese Triangles 32pcs 480g are rich and creamy, perfect for breakfast or a quick snack.",
+        "description": "President Alvita Cheese 32 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -58298,9 +58926,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=8"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=9"
   },
   {
     "id": 8522,
@@ -61461,9 +62089,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=9"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=10"
   },
   {
     "id": 8557,
@@ -61565,7 +62193,7 @@
     "custom_category_ids": [
       1150
     ],
-    "name": "Almarai Triangle Cheese 16 Portions Pack 240 G ",
+    "name": "Almarai Triangle Cheese 16 Portions ",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -61598,7 +62226,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "<ul><li>Perfect for making sandwiches, wraps, and more</li><li>100% vegetarian to suit your preferences</li><li>Full of goodness that is suitable for daily consumption</li><li>Great source of protein to boost your health</li><li>Offers creamy delectable flavour to enhance your dishes</li></ul>",
+        "description": "Almarai Triangle Cheese 16 Portions ",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -62824,6 +63452,95 @@
     "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=10"
   },
   {
+    "id": 11585,
+    "brand_id": 711,
+    "category_id": 349,
+    "rank": 30338,
+    "filter_category_ids": [
+      576
+    ],
+    "custom_category_ids": [],
+    "name": "Pride Cheese Slices Burger Melt 200G",
+    "filter": "Slices,ten-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 711,
+      "name": "Pride",
+      "imageURL": null
+    },
+    "category": {
+      "id": 349,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Cheese & Labneh",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 19860,
+        "item_parent": null,
+        "price": "8.99",
+        "size": "200",
+        "wighted": false,
+        "barcode": "6281024010800",
+        "sku": 330665,
+        "sides_images": 0,
+        "image_updated_at": "1787572121",
+        "unit": "gm",
+        "variety_options": null,
+        "weighted_interval": "0.50",
+        "description": "Pride Cheese Slices Burger Melt 200G",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/330665/Ar_small.jpg?t=1787572121",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/330665/Ar.jpg?t=1787572121",
+            "https://images.todoorstep.com/product/330665/Ar_large.jpg?t=1787572121",
+            "https://images.todoorstep.com/product/330665/Ar_small.jpg?t=1787572121"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "1",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 349,
+    "_source_parent_category_id": 311,
+    "_source_page": 10,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=10"
+  },
+  {
     "id": 143256,
     "brand_id": 612,
     "category_id": 349,
@@ -63374,7 +64091,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Lavache Qrt Cheese Triangle Leaf 360G",
+    "name": "Lavache Qrt Light Cheese Triangle Leaf 24 Portions",
     "filter": "Triangles",
     "selected": null,
     "brand": {
@@ -63407,7 +64124,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "LAVACHE QRT CHS TRNGL LF 360G",
+        "description": "Lavache Qrt Light Cheese Triangle Leaf 24 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -63886,7 +64603,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Lavache Qrt Cheese Triangle Leaf 120G",
+    "name": "Lavache Qrt Cheese Triangle Leaf 8 Portions",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -63919,7 +64636,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "LAVACHE QRT CHS TRNGL LF120G",
+        "description": "Lavache Qrt Cheese Triangle Leaf 8 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -64248,7 +64965,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Nadec Triangle Cheese Pack 120g  ",
+    "name": "Nadec Triangle Cheese Pack 8 Portions",
     "filter": "Triangle Cheese,ten-banner-promo,19-week-10-sar-promo",
     "selected": null,
     "brand": {
@@ -64281,7 +64998,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "Nadec Analogue Triangle Cheese, 120gm 8 Pcs",
+        "description": "Nadec Triangle Cheese Pack 8 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -64337,7 +65054,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Lavache Qrt Cheese Triangle 16S 240G",
+    "name": "Lavache Qrt Cheese Triangle 16 Portions",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -64370,7 +65087,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "LAVACHE QRT CHS TRNGL 16S 240G",
+        "description": "Lavache Qrt Cheese Triangle 16 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -64504,9 +65221,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 10,
+    "_source_page": 11,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=10"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=11"
   },
   {
     "id": 41877,
@@ -64598,9 +65315,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 10,
+    "_source_page": 11,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=10"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=11"
   },
   {
     "id": 25933,
@@ -64611,7 +65328,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Regal Picon Cheese Triangles 16pcs 240g",
+    "name": "Regal Picon Cheese Triangles 16 Portions",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -64644,7 +65361,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Soft and creamy cheese triangles, perfect for spreading and snacking.",
+        "description": "Regal Picon Cheese Triangles 16 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -65392,7 +66109,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Picon Cheese Triangles 8s 120g",
+    "name": "Picon Cheese Triangles 8 Portions",
     "filter": "Triangles,ten-banner-promo",
     "selected": null,
     "brand": {
@@ -65425,7 +66142,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Pack of 8 Picon cheese triangles.",
+        "description": "Picon Cheese Triangles 8 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -66271,7 +66988,7 @@
     "custom_category_ids": [
       1150
     ],
-    "name": "Almarai Triangle Cheese 8 Portions Pack 120 G ",
+    "name": "Almarai Triangle Cheese 8 Portions ",
     "filter": "Triangles,ten-banner-promo",
     "selected": null,
     "brand": {
@@ -66304,7 +67021,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "<ul><li>Perfect for making sandwiches, wraps, and more</li><li>100% vegetarian to suit your preferences</li><li>Full of goodness that is suitable for daily consumption</li><li>Great source of protein to boost your health</li><li>Offers creamy delectable flavour to enhance your dishes</li></ul>",
+        "description": "Almarai Triangle Cheese 8 Portions ",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -67748,7 +68465,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "La Vache Qui Rit, The Laughing Cow Analogue Cheese Triangles 24 pcs 360 g",
+    "name": "La Vache Qui Rit, The Laughing Cow Analogue Cheese Triangles 24 Portions",
     "filter": "fefteen-banner-promo",
     "selected": null,
     "brand": {
@@ -67781,7 +68498,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "La Vache Qui Rit, The Laughing Cow Analogue Cheese Triangles 24 pcs 360 g",
+        "description": "La Vache Qui Rit, The Laughing Cow Analogue Cheese Triangles 24 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -68425,9 +69142,98 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 11,
+    "_source_page": 12,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=11"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=12"
+  },
+  {
+    "id": 14148,
+    "brand_id": 715,
+    "category_id": 349,
+    "rank": 30393,
+    "filter_category_ids": [
+      576
+    ],
+    "custom_category_ids": null,
+    "name": "President Extra Light Processed Cheese 10 Slices 200g",
+    "filter": "Slices,fefteen-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 715,
+      "name": "President",
+      "imageURL": null
+    },
+    "category": {
+      "id": 349,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Cheese & Labneh",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 23051,
+        "item_parent": null,
+        "price": "16.99",
+        "size": "200",
+        "wighted": false,
+        "barcode": "6281024110690",
+        "sku": 2462675,
+        "sides_images": 0,
+        "image_updated_at": "1787572659",
+        "unit": "gm",
+        "variety_options": null,
+        "weighted_interval": "0.50",
+        "description": "President Extra Light Processed Cheese 10 Slices 200g is a low-fat option with the same creamy, delicious taste.",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/2462675/Ar_small.jpg?t=1787572659",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/2462675/Ar.jpg?t=1787572659",
+            "https://images.todoorstep.com/product/2462675/Ar_large.jpg?t=1787572659",
+            "https://images.todoorstep.com/product/2462675/Ar_small.jpg?t=1787572659"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 25",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 349,
+    "_source_parent_category_id": 311,
+    "_source_page": 12,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=12"
   },
   {
     "id": 8542,
@@ -68514,9 +69320,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 11,
+    "_source_page": 12,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=11"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=12"
   },
   {
     "id": 35633,
@@ -69458,7 +70264,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Lavache Qrt Cheese Triangle 32S 480G",
+    "name": "Lavache Qrt Cheese Triangle 32 Portions",
     "filter": null,
     "selected": null,
     "brand": {
@@ -69491,7 +70297,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "LAVACHE QRT CHS TRNGL 32S 480G",
+        "description": "Lavache Qrt Cheese Triangle 32 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -70155,7 +70961,7 @@
     "custom_category_ids": [
       1150
     ],
-    "name": "Almarai Cheese Triangle Kid 360g  ",
+    "name": "Almarai Cheese Triangle Kids 24 Portions",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -70188,7 +70994,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "ALMARAI CHS TRNGL KID 360G",
+        "description": "Almarai Cheese Triangle Kids 24 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -72414,9 +73220,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 12,
+    "_source_page": 13,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=12"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=13"
   },
   {
     "id": 144782,
@@ -72507,9 +73313,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 12,
+    "_source_page": 13,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=12"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=13"
   },
   {
     "id": 135375,
@@ -72600,9 +73406,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 12,
+    "_source_page": 13,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=12"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=13"
   },
   {
     "id": 155886,
@@ -72975,7 +73781,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Picon Cheese Triangle 360g",
+    "name": "Picon Cheese Triangle 24 Portions",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -73008,7 +73814,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Creamy cheese triangles pack.",
+        "description": "Picon Cheese Triangle 24 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -73424,7 +74230,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Triangles Cheese 16 Portions 240g",
+    "name": "Puck Triangles Cheese 16 Portions ",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -73457,7 +74263,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "<ul><li>Tastes superb between toasted wheat breads for great sandwiches</li><li>Has a soft and easy-to-spread texture</li><li>Suitable for vegetarians</li><li>Ideal choice for adding flavour to soups and gravies</li><li>Rich source of vitamin A, proteins and calcium</li></ul>",
+        "description": "Puck Triangles Cheese 16 Portions ",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -73843,7 +74649,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Almarai Cheese Triangles Kids PP 32s 2x480 g  ",
+    "name": "Almarai Cheese Triangles Kids  64 Portions",
     "filter": null,
     "selected": null,
     "brand": {
@@ -73876,7 +74682,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "ALMARAI CHEESE TRIANGLES KIDS PP 32S 2X480G",
+        "description": "Almarai Cheese Triangles Kids  64 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -73932,7 +74738,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Regal Picon Analogue Cheese Triangles 32 pcs 480 g",
+    "name": "Regal Picon Analogue Cheese Triangles 32 Portins",
     "filter": "fefteen-banner-promo",
     "selected": null,
     "brand": {
@@ -73965,7 +74771,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Regal Picon Analogue Cheese Triangles 32 pcs 480 g",
+        "description": "Regal Picon Analogue Cheese Triangles 32 Portins",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -75492,7 +76298,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Picon Cheese Triangles Family 720g",
+    "name": "Picon Cheese Triangles Family 48 Portions",
     "filter": "Triangle Cheese",
     "selected": null,
     "brand": {
@@ -75525,7 +76331,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Family pack of Picon cheese triangles.",
+        "description": "Picon Cheese Triangles Family 48 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -75839,9 +76645,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 13,
+    "_source_page": 14,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=13"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=14"
   },
   {
     "id": 33738,
@@ -76049,9 +76855,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 13,
+    "_source_page": 14,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=13"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=14"
   },
   {
     "id": 147898,
@@ -76062,7 +76868,7 @@
       576
     ],
     "custom_category_ids": [],
-    "name": "Lactima Triangle Cream Cheese 120g",
+    "name": "Lactima Triangle Cream Cheese 8 Portions",
     "filter": "",
     "selected": null,
     "brand": {
@@ -76095,7 +76901,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Triangle cream cheese with a smooth and spreadable texture, a practical choice for breakfast or light meals, enhancing the taste of bread and cakes.",
+        "description": "Lactima Triangle Cream Cheese 8 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -76138,9 +76944,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 13,
+    "_source_page": 14,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=13"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=14"
   },
   {
     "id": 32971,
@@ -77441,7 +78247,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Nadec Triangle Cheese Pack 240g  ",
+    "name": "Nadec Triangle Cheese Pack 16 Portions",
     "filter": "ten-banner-promo",
     "selected": null,
     "brand": {
@@ -77474,7 +78280,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.00",
-        "description": "Nadec Analogue Triangle Cheese, 240gm 16 Pcs",
+        "description": "Nadec Triangle Cheese Pack 16 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 1,
@@ -79687,9 +80493,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 14,
+    "_source_page": 15,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=14"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=15"
   },
   {
     "id": 41881,
@@ -79700,7 +80506,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Pride Cheese Triangles 448g",
+    "name": "Pride Cheese Triangles 32 Portions",
     "filter": "fefteen-banner-promo",
     "selected": null,
     "brand": {
@@ -79733,7 +80539,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Pride Cheese Triangles 448g are tasty cheese triangles perfect for sandwiches and light snacks.",
+        "description": "Pride Cheese Triangles 32 Portions",
         "availability": 1,
         "max_quantity": 25,
         "min_quantity": 0,
@@ -79778,9 +80584,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 14,
+    "_source_page": 15,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=14"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=15"
   },
   {
     "id": 42150,
@@ -79867,9 +80673,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 14,
+    "_source_page": 15,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=14"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=15"
   },
   {
     "id": 44113,
@@ -83297,9 +84103,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 15,
+    "_source_page": 16,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=15"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=16"
   },
   {
     "id": 145980,
@@ -83386,9 +84192,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 15,
+    "_source_page": 16,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=15"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=16"
   },
   {
     "id": 147298,
@@ -83475,9 +84281,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 15,
+    "_source_page": 16,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=15"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=16"
   },
   {
     "id": 147905,
@@ -86432,7 +87238,7 @@
       576
     ],
     "custom_category_ids": null,
-    "name": "Puck Cheese Triangles 480g",
+    "name": "Puck Cheese Triangles 32 Portions",
     "filter": null,
     "selected": null,
     "brand": {
@@ -86465,7 +87271,7 @@
         "unit": "gm",
         "variety_options": null,
         "weighted_interval": "0.50",
-        "description": "Puck Cheese Triangles 480g",
+        "description": "Puck Cheese Triangles 32 Portions",
         "availability": 1,
         "max_quantity": 8,
         "min_quantity": 0,
@@ -87042,9 +87848,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 16,
+    "_source_page": 17,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=16"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=17"
   },
   {
     "id": 166272,
@@ -87131,9 +87937,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 16,
+    "_source_page": 17,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=16"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=17"
   },
   {
     "id": 166274,
@@ -87220,9 +88026,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 16,
+    "_source_page": 17,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=16"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=17"
   },
   {
     "id": 166277,
@@ -90030,9 +90836,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 17,
+    "_source_page": 18,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=17"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=18"
   },
   {
     "id": 156788,
@@ -90119,9 +90925,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 17,
+    "_source_page": 18,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=17"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=18"
   },
   {
     "id": 21665,
@@ -90401,9 +91207,9 @@
     ],
     "_source_category_id": 349,
     "_source_parent_category_id": 311,
-    "_source_page": 17,
+    "_source_page": 18,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=17"
+    "_source_url": "https://panda.sa/en/plp?category_id=349&parent_category_id=311&page=18"
   },
   {
     "id": 145796,
@@ -91913,6 +92719,97 @@
         ],
         "nutrition": "",
         "note": "بحد أقصى 10",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 1,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=1"
+  },
+  {
+    "id": 142846,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 350008,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": [
+      862
+    ],
+    "name": "السعودية حليب كامل الدسم 200 مل",
+    "filter": "",
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 138421,
+        "item_parent": 2394235,
+        "price": "40.00",
+        "size": "200",
+        "wighted": false,
+        "barcode": "6281039108030",
+        "sku": 161450070,
+        "sides_images": 0,
+        "image_updated_at": "1770039997",
+        "unit": "مل",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "السعودية حليب ك.د24*200مل",
+        "availability": 1,
+        "max_quantity": 25,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/161450070/Ar_small.jpg?t=1770039997",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/161450070/Ar.jpg?t=1770039997",
+            "https://images.todoorstep.com/product/161450070/Ar_large.jpg?t=1770039997",
+            "https://images.todoorstep.com/product/161450070/Ar_small.jpg?t=1770039997"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 25",
         "note_color": "#AA0000",
         "undiscounted_price": null,
         "availability_desc": "غالباً غير متوفر",
@@ -93816,9 +94713,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 1,
+    "_source_page": 2,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=1"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=2"
   },
   {
     "id": 18866,
@@ -96615,9 +97512,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 2,
+    "_source_page": 3,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=2"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=3"
   },
   {
     "id": 42089,
@@ -98018,100 +98915,6 @@
         "cashback_min_qty": null,
         "cashback_max_qty": null,
         "cashback_message": null,
-        "life_style": null
-      }
-    ],
-    "_source_category_id": 469,
-    "_source_parent_category_id": 468,
-    "_source_page": 3,
-    "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=3"
-  },
-  {
-    "id": 40064,
-    "brand_id": 1118,
-    "category_id": 469,
-    "rank": 350086,
-    "filter_category_ids": [
-      730
-    ],
-    "custom_category_ids": [
-      791,
-      795,
-      816,
-      961
-    ],
-    "name": "ألبرو مشروب جوز الهند باريستا 1 لتر",
-    "filter": null,
-    "selected": null,
-    "brand": {
-      "id": 1118,
-      "name": "البرو",
-      "imageURL": null
-    },
-    "category": {
-      "id": 469,
-      "type": "category",
-      "color": "#E1E0E5",
-      "name": "حليب طويل الأجل و مشتقاته",
-      "imageURL": null,
-      "parent": 468
-    },
-    "varieties": [
-      {
-        "imageAr": false,
-        "imageEn": false,
-        "use_sku_image_path": false,
-        "id": 50158,
-        "item_parent": null,
-        "price": "24.99",
-        "size": "1",
-        "wighted": false,
-        "barcode": "5411188119750",
-        "sku": 100225138,
-        "sides_images": 0,
-        "image_updated_at": "1780483945",
-        "unit": "لتر",
-        "variety_options": null,
-        "weighted_interval": "0.50",
-        "description": "مشروب جوز الهند النباتي للمحترفين.",
-        "availability": 1,
-        "max_quantity": 10,
-        "min_quantity": 1,
-        "imageURL": "https://images.todoorstep.com/product/100225138/Ar_small.jpg?t=1780483945",
-        "images": [
-          [
-            "https://images.todoorstep.com/product/100225138/Ar.jpg?t=1780483945",
-            "https://images.todoorstep.com/product/100225138/Ar_large.jpg?t=1780483945",
-            "https://images.todoorstep.com/product/100225138/Ar_small.jpg?t=1780483945"
-          ]
-        ],
-        "nutrition": "",
-        "note": "بحد أقصى 10",
-        "note_color": "#AA0000",
-        "undiscounted_price": null,
-        "availability_desc": "غالباً غير متوفر",
-        "show_discount": false,
-        "discount_label": "",
-        "mix_match_promo": null,
-        "discount_labels": [],
-        "discount_label_color": "#FF3B3B",
-        "is_favorite": false,
-        "member_price": false,
-        "express": true,
-        "bundles_included": false,
-        "weighted_options": [],
-        "gift_note": {
-          "enabled": false,
-          "label": null
-        },
-        "cashback_enabled": true,
-        "cashback_price": "2.00",
-        "cashback_type": "F",
-        "cashback_mode": "PerQuantity",
-        "cashback_min_qty": 1,
-        "cashback_max_qty": 50,
-        "cashback_message": "كاشباك 2.00 ر.س. لكل قطعة - الحد الأقصى 50",
         "life_style": null
       }
     ],
@@ -102965,6 +103768,95 @@
     "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=5"
   },
   {
+    "id": 44409,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 350151,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": null,
+    "name": "السعودية حليب قليل الدسم طويل الأجل 1 لتر",
+    "filter": null,
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 23126,
+        "item_parent": 660665,
+        "price": "6.00",
+        "size": "1",
+        "wighted": false,
+        "barcode": "6281039121010",
+        "sku": 660665,
+        "sides_images": 0,
+        "image_updated_at": "1772969873",
+        "unit": "لتر",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "قليل الدسم للحفاظ على وزن صحي - غني بفيتامينات أ ود للتغذية - الكالسيوم يساعد في بناء عظام صحية - عبوة تترا بغطاء يتيح سهولة الاستهلاك.",
+        "availability": 1,
+        "max_quantity": 10,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/660665/Ar_small.jpg?t=1772969873",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/660665/Ar.jpg?t=1772969873",
+            "https://images.todoorstep.com/product/660665/Ar_large.jpg?t=1772969873",
+            "https://images.todoorstep.com/product/660665/Ar_small.jpg?t=1772969873"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 10",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 5,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=5"
+  },
+  {
     "id": 13210,
     "brand_id": 865,
     "category_id": 469,
@@ -105011,9 +105903,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 5,
+    "_source_page": 6,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=5"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=6"
   },
   {
     "id": 42498,
@@ -107857,9 +108749,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 6,
+    "_source_page": 7,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=6"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=7"
   },
   {
     "id": 42501,
@@ -110645,9 +111537,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 7,
+    "_source_page": 8,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=7"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=8"
   },
   {
     "id": 12429,
@@ -111168,6 +112060,95 @@
         "discount_labels": [
           "20% أقل"
         ],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 8,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=8"
+  },
+  {
+    "id": 25368,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 350281,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": null,
+    "name": "السعودية حليب قليل الدسم عبوة متعددة 4×1 لتر",
+    "filter": null,
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 35462,
+        "item_parent": 660665,
+        "price": "19.99",
+        "size": "1",
+        "wighted": false,
+        "barcode": "6281039121030",
+        "sku": 660661,
+        "sides_images": 0,
+        "image_updated_at": "1770039986",
+        "unit": "لتر",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "السعودية حليب ق الدسم 4*1 ل",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/660661/Ar_small.jpg?t=1770039986",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/660661/Ar.jpg?t=1770039986",
+            "https://images.todoorstep.com/product/660661/Ar_large.jpg?t=1770039986",
+            "https://images.todoorstep.com/product/660661/Ar_small.jpg?t=1770039986"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -112658,6 +113639,97 @@
     "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=8"
   },
   {
+    "id": 44411,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 350328,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": [],
+    "name": "السعودية حليب قليل الدسم عبوة متعددة 12×1 لتر",
+    "filter": null,
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 25937,
+        "item_parent": 660665,
+        "price": "63.99",
+        "size": "1",
+        "wighted": false,
+        "barcode": "6281039121020",
+        "sku": 660660,
+        "sides_images": 0,
+        "image_updated_at": "1744675200",
+        "unit": "لتر",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "السعودية حليب ق الدسم 12*1 ل",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 1,
+        "imageURL": "https://images.todoorstep.com/product/660660/Ar_small.jpg?t=1744675200",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/660660/Ar.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/660660/Ar_large.jpg?t=1744675200",
+            "https://images.todoorstep.com/product/660660/Ar_small.jpg?t=1744675200"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": "72.00",
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": true,
+        "discount_label": "11% أقل",
+        "mix_match_promo": null,
+        "discount_labels": [
+          "11% أقل"
+        ],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": false,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 8,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=8"
+  },
+  {
     "id": 42086,
     "brand_id": 720,
     "category_id": 469,
@@ -113189,9 +114261,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=8"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
   },
   {
     "id": 10117,
@@ -113278,9 +114350,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=8"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
   },
   {
     "id": 43438,
@@ -113367,9 +114439,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 8,
+    "_source_page": 9,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=8"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
   },
   {
     "id": 42502,
@@ -115703,6 +116775,95 @@
     "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
   },
   {
+    "id": 148981,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 350339,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": null,
+    "name": "السعودية حليب فراولة 125 مل",
+    "filter": "",
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 144556,
+        "item_parent": 106450069,
+        "price": "1.25",
+        "size": "125",
+        "wighted": false,
+        "barcode": "6281039172310",
+        "sku": 106450069,
+        "sides_images": 0,
+        "image_updated_at": "1780485524",
+        "unit": "مل",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "السعودية حليب فراولة 125 مل",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 0,
+        "imageURL": "https://images.todoorstep.com/product/106450069/Ar_small.jpg?t=1780485524",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/106450069/Ar.jpg?t=1780485524",
+            "https://images.todoorstep.com/product/106450069/Ar_large.jpg?t=1780485524",
+            "https://images.todoorstep.com/product/106450069/Ar_small.jpg?t=1780485524"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 9,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
+  },
+  {
     "id": 148983,
     "brand_id": 720,
     "category_id": 469,
@@ -115787,9 +116948,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
   },
   {
     "id": 152547,
@@ -115876,9 +117037,100 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
+  },
+  {
+    "id": 153969,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 350339,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": [
+      1135
+    ],
+    "name": "السعودية مشروب اللوز 6×1 لتر",
+    "filter": "",
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 149532,
+        "item_parent": 173400424,
+        "price": "69.99",
+        "size": "1",
+        "wighted": false,
+        "barcode": "6281039121430",
+        "sku": 173400441,
+        "sides_images": 0,
+        "image_updated_at": "1777884687",
+        "unit": "لتر",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "السعودية مشروب اللوز 6×1 لتر",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 0,
+        "imageURL": "https://images.todoorstep.com/product/173400441/Ar_small.jpg?t=1777884687",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/173400441/Ar.jpg?t=1777884687",
+            "https://images.todoorstep.com/product/173400441/Ar_large.jpg?t=1777884687",
+            "https://images.todoorstep.com/product/173400441/Ar_small.jpg?t=1777884687"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 10,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
   },
   {
     "id": 163780,
@@ -115965,9 +117217,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
   },
   {
     "id": 163781,
@@ -116054,9 +117306,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 9,
+    "_source_page": 10,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=9"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
   },
   {
     "id": 163782,
@@ -116923,6 +118175,95 @@
             "https://images.todoorstep.com/product/212001814/Ar.jpg?t=1775139153",
             "https://images.todoorstep.com/product/212001814/Ar_large.jpg?t=1775139153",
             "https://images.todoorstep.com/product/212001814/Ar_small.jpg?t=1775139153"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 10,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
+  },
+  {
+    "id": 166408,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 350339,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": null,
+    "name": "السعودية حليب خالي من اللاكتوز كامل الدسم 1 لتر",
+    "filter": null,
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 161769,
+        "item_parent": 194450973,
+        "price": "9.00",
+        "size": "1",
+        "wighted": false,
+        "barcode": "6281039112310",
+        "sku": 194450973,
+        "sides_images": 0,
+        "image_updated_at": "",
+        "unit": "لتر",
+        "variety_options": null,
+        "weighted_interval": "0.50",
+        "description": "السعودية حليب خالي من اللاكتوز كامل الدسم 1 لتر",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 0,
+        "imageURL": "https://images.todoorstep.com/product/194450973/Ar_small.jpg?t=",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/194450973/Ar.jpg?t=",
+            "https://images.todoorstep.com/product/194450973/Ar_large.jpg?t=",
+            "https://images.todoorstep.com/product/194450973/Ar_small.jpg?t="
           ]
         ],
         "nutrition": "",
@@ -118297,9 +119638,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 10,
+    "_source_page": 11,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=11"
   },
   {
     "id": 166445,
@@ -118386,9 +119727,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 10,
+    "_source_page": 11,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=11"
   },
   {
     "id": 166446,
@@ -118475,9 +119816,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 10,
+    "_source_page": 11,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=11"
   },
   {
     "id": 168698,
@@ -118564,9 +119905,9 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 10,
+    "_source_page": 11,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=11"
   },
   {
     "id": 135366,
@@ -118653,8 +119994,101 @@
     ],
     "_source_category_id": 469,
     "_source_parent_category_id": 468,
-    "_source_page": 10,
+    "_source_page": 11,
     "_source_locale": "ar",
-    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=10"
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=11"
+  },
+  {
+    "id": 148982,
+    "brand_id": 720,
+    "category_id": 469,
+    "rank": 1180022,
+    "filter_category_ids": [
+      730
+    ],
+    "custom_category_ids": [
+      1135
+    ],
+    "name": "السعودية حليب فراولة 24×125 مل",
+    "filter": "",
+    "selected": null,
+    "brand": {
+      "id": 720,
+      "name": "السعودية",
+      "imageURL": null
+    },
+    "category": {
+      "id": 469,
+      "type": "category",
+      "color": "#E1E0E5",
+      "name": "حليب طويل الأجل و مشتقاته",
+      "imageURL": null,
+      "parent": 468
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 144557,
+        "item_parent": 106450069,
+        "price": "20.99",
+        "size": "125",
+        "wighted": false,
+        "barcode": "6281039172330",
+        "sku": 106450085,
+        "sides_images": 0,
+        "image_updated_at": "1780485477",
+        "unit": "مل",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "السعودية حليب فراولة 24×125 مل – حليب فراولة لذيذ للأطفال مع نكهة طبيعية.",
+        "availability": 1,
+        "max_quantity": 8,
+        "min_quantity": 0,
+        "imageURL": "https://images.todoorstep.com/product/106450085/Ar_small.jpg?t=1780485477",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/106450085/Ar.jpg?t=1780485477",
+            "https://images.todoorstep.com/product/106450085/Ar_large.jpg?t=1780485477",
+            "https://images.todoorstep.com/product/106450085/Ar_small.jpg?t=1780485477"
+          ]
+        ],
+        "nutrition": "",
+        "note": "بحد أقصى 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": "29.99",
+        "availability_desc": "غالباً غير متوفر",
+        "show_discount": true,
+        "discount_label": "30% أقل",
+        "mix_match_promo": null,
+        "discount_labels": [
+          "30% أقل"
+        ],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "1",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 469,
+    "_source_parent_category_id": 468,
+    "_source_page": 11,
+    "_source_locale": "ar",
+    "_source_url": "https://panda.sa/ar/plp?category_id=469&parent_category_id=468&page=11"
   }
 ]

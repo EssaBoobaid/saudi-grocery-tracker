@@ -91,15 +91,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/084/452/product/628110051195.jpg",
         "raw_product_id": "45272"
       },
-      "panda": {
-        "price": 13.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100224135/Ar_small.jpg?t=1780483757",
-        "raw_product_id": "100224135"
-      },
       "tamimi": {
         "price": 14.95,
         "original_price": null,
@@ -108,6 +99,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260712/b42b4d8e-1402-447f-a770-5c256279b57b-4102831.webp",
         "raw_product_id": "268385"
+      },
+      "panda": {
+        "price": 13.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100224135/Ar_small.jpg?t=1780483757",
+        "raw_product_id": "100224135"
       }
     }
   },
@@ -147,15 +147,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/084/448/product/628110051156.jpg",
         "raw_product_id": "45270"
       },
-      "panda": {
-        "price": 13.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100224139/Ar_small.jpg?t=1780483921",
-        "raw_product_id": "100224139"
-      },
       "tamimi": {
         "price": 14.95,
         "original_price": null,
@@ -164,6 +155,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260712/283a82b2-6246-49ac-845d-178abbb09a88-4102821.webp",
         "raw_product_id": "268384"
+      },
+      "panda": {
+        "price": 13.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100224139/Ar_small.jpg?t=1780483921",
+        "raw_product_id": "100224139"
       }
     }
   },
@@ -483,15 +483,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/083/655/product/628103491048.jpg",
         "raw_product_id": "44927"
       },
-      "tamimi": {
-        "price": 12.5,
-        "original_price": 14.95,
-        "discount_amount": 2.45,
-        "discount_percentage": 16.39,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201101/369744_1-20201101-002756.png",
-        "raw_product_id": "218303"
-      },
       "panda": {
         "price": 14.99,
         "original_price": null,
@@ -500,6 +491,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/100214426/Ar_small.jpg?t=1787574424",
         "raw_product_id": "100214426"
+      },
+      "tamimi": {
+        "price": 12.5,
+        "original_price": 14.95,
+        "discount_amount": 2.45,
+        "discount_percentage": 16.39,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201101/369744_1-20201101-002756.png",
+        "raw_product_id": "218303"
       }
     }
   },
@@ -595,15 +595,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/080/759/product/628101204682.jpg",
         "raw_product_id": "43959"
       },
-      "tamimi": {
-        "price": 17.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240812/3862321-20240812-063749.webp",
-        "raw_product_id": "236624"
-      },
       "panda": {
         "price": 14.99,
         "original_price": 18.99,
@@ -612,6 +603,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/100193679/Ar_small.jpg?t=1787574175",
         "raw_product_id": "100193679"
+      },
+      "tamimi": {
+        "price": 17.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240812/3862321-20240812-063749.webp",
+        "raw_product_id": "236624"
       }
     }
   },
@@ -627,8 +627,8 @@
     "barcode": "0793888013711",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/080/757/product/793888013711.jpg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -657,8 +657,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/3521301/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "3521301"
+        "image_url": "https://images.todoorstep.com/product/145150202/Ar_small.jpg?t=1766673670",
+        "raw_product_id": "145150202"
       },
       "tamimi": {
         "price": 33.99,
@@ -784,6 +784,62 @@
     }
   },
   {
+    "product_name_ar": "اكوافينا مياه شرب ١٢*٥٠٠مل",
+    "product_name_en": "Aquafina Bottled Drinking Water 12*500ml",
+    "brand": "Aquafina",
+    "category": "beverages",
+    "size": 500.0,
+    "unit": "ml",
+    "quantity": 12,
+    "total_size": 6000.0,
+    "barcode": "012000101564",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/851/product/12000101564.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 8.5,
+      "min_price": 8.0,
+      "max_price": 9.0,
+      "price_diff": 1.0
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 9.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/851/product/12000101564.jpg",
+        "raw_product_id": "43388"
+      },
+      "panda": {
+        "price": 8.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100134770/Ar_small.jpg?t=1780480978",
+        "raw_product_id": "100134770"
+      },
+      "tamimi": {
+        "price": 8.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260804/c3903dc8-3a48-4d21-8831-5df58a9984c3-3393161.webp",
+        "raw_product_id": "269275"
+      }
+    }
+  },
+  {
     "product_name_ar": "ليبتون شاي مثلج مانجو تانجو بدون سكر ٣٢٠مل",
     "product_name_en": "Lipton Mango Tango Ice Tea Zero Sugar 320ml",
     "brand": "Lipton",
@@ -819,15 +875,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/846/product/98000010679_1.png",
         "raw_product_id": "43387"
       },
-      "panda": {
-        "price": 2.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/199252301/Ar_small.jpg?t=1758718299",
-        "raw_product_id": "199252301"
-      },
       "tamimi": {
         "price": 2.5,
         "original_price": null,
@@ -836,6 +883,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260906/b6e74880-38ed-4923-b9bb-0ff22c23b924-4222741.webp",
         "raw_product_id": "267831"
+      },
+      "panda": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/199252301/Ar_small.jpg?t=1758718299",
+        "raw_product_id": "199252301"
       }
     }
   },
@@ -931,23 +987,23 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/825/product/12000054099_1.png",
         "raw_product_id": "43383"
       },
-      "panda": {
-        "price": 14.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100198069/Ar_small.jpg?t=1780482824",
-        "raw_product_id": "100198069"
-      },
       "tamimi": {
         "price": 9.99,
         "original_price": 11.0,
         "discount_amount": 1.01,
         "discount_percentage": 9.18,
         "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/3999181-20250417-160804.webp",
-        "raw_product_id": "255655"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/3670842-20250417-161732.webp",
+        "raw_product_id": "261111"
+      },
+      "panda": {
+        "price": 14.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100128420/Ar_small.jpg?t=1781590079",
+        "raw_product_id": "100128420"
       }
     }
   },
@@ -987,15 +1043,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/815/product/12000804861_1.png",
         "raw_product_id": "43380"
       },
-      "panda": {
-        "price": 72.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100128169/Ar_small.jpg?t=1780480743",
-        "raw_product_id": "100128169"
-      },
       "tamimi": {
         "price": 55.95,
         "original_price": null,
@@ -1004,6 +1051,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/3638381-20250417-160126.webp",
         "raw_product_id": "237409"
+      },
+      "panda": {
+        "price": 72.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100128169/Ar_small.jpg?t=1780480743",
+        "raw_product_id": "100128169"
       }
     }
   },
@@ -1043,15 +1099,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/778/product/12000002311_%281%29.png",
         "raw_product_id": "43370"
       },
-      "panda": {
-        "price": 6.75,
-        "original_price": 7.0,
-        "discount_amount": 0.25,
-        "discount_percentage": 3.57,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/178700451/Ar_small.jpg?t=1758718646",
-        "raw_product_id": "178700451"
-      },
       "tamimi": {
         "price": 6.5,
         "original_price": 7.0,
@@ -1060,6 +1107,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260325/2644292f-26a8-4c6e-9971-35fbd071697e-4016091.webp",
         "raw_product_id": "258659"
+      },
+      "panda": {
+        "price": 6.75,
+        "original_price": 7.0,
+        "discount_amount": 0.25,
+        "discount_percentage": 3.57,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/178700451/Ar_small.jpg?t=1758718646",
+        "raw_product_id": "178700451"
       }
     }
   },
@@ -1379,15 +1435,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/478/product/628103490044.jpg",
         "raw_product_id": "41656"
       },
-      "panda": {
-        "price": 1.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/167550119/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "167550119"
-      },
       "tamimi": {
         "price": 2.0,
         "original_price": null,
@@ -1396,6 +1443,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/175863_1-20231019-131122.png",
         "raw_product_id": "222146"
+      },
+      "panda": {
+        "price": 1.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/167550119/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "167550119"
       }
     }
   },
@@ -1435,15 +1491,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/474/product/628110126063.jpg",
         "raw_product_id": "41653"
       },
-      "panda": {
-        "price": 1.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/193651933/Ar_small.jpg?t=1769681585",
-        "raw_product_id": "193651933"
-      },
       "tamimi": {
         "price": 2.0,
         "original_price": null,
@@ -1452,6 +1499,15 @@
         "has_discount": false,
         "image_url": null,
         "raw_product_id": "263763"
+      },
+      "panda": {
+        "price": 1.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/193651933/Ar_small.jpg?t=1769681585",
+        "raw_product_id": "193651933"
       }
     }
   },
@@ -1659,15 +1715,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/894/product/12000022869_1.png",
         "raw_product_id": "41637"
       },
-      "tamimi": {
-        "price": 4.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250306/2552741-20250306-080712.webp",
-        "raw_product_id": "259735"
-      },
       "panda": {
         "price": 3.33,
         "original_price": 4.0,
@@ -1676,6 +1723,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/170650217/Ar_small.jpg?t=1758718533",
         "raw_product_id": "170650217"
+      },
+      "tamimi": {
+        "price": 4.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250306/2552741-20250306-080712.webp",
+        "raw_product_id": "259735"
       }
     }
   },
@@ -1691,8 +1747,8 @@
     "barcode": "0628102616440",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/448/product/628102616440.jpg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -1700,7 +1756,7 @@
       "tamimi"
     ],
     "price_metrics": {
-      "avg_price": 2.33,
+      "avg_price": 2.42,
       "min_price": 2.25,
       "max_price": 2.5,
       "price_diff": 0.25
@@ -1715,6 +1771,15 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/448/product/628102616440.jpg",
         "raw_product_id": "41636"
       },
+      "tamimi": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/104028_1-20231019-125952.png",
+        "raw_product_id": "250548"
+      },
       "panda": {
         "price": 2.5,
         "original_price": null,
@@ -1723,15 +1788,6 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/714755/Ar_small.jpg?t=1784107230",
         "raw_product_id": "714755"
-      },
-      "tamimi": {
-        "price": 2.25,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240818/1038361-20240818-055952.webp",
-        "raw_product_id": "257823"
       }
     }
   },
@@ -1827,15 +1883,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/075/171/product/628100001020_%281%29.jpeg",
         "raw_product_id": "41549"
       },
-      "panda": {
-        "price": 3.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/183450484/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "183450484"
-      },
       "tamimi": {
         "price": 2.65,
         "original_price": 3.5,
@@ -1844,6 +1891,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260909/3b3fbc24-b591-47f9-8422-780966c6ad30-4237441.webp",
         "raw_product_id": "264213"
+      },
+      "panda": {
+        "price": 3.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/183450484/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "183450484"
       }
     }
   },
@@ -1939,6 +1995,15 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/522/product/900249028599.jpg",
         "raw_product_id": "41481"
       },
+      "panda": {
+        "price": 43.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/217202341/Ar_small.jpg?t=",
+        "raw_product_id": "217202341"
+      },
       "tamimi": {
         "price": 43.95,
         "original_price": null,
@@ -1947,15 +2012,6 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260702/beaba62e-9ec4-4cf6-b39d-eed5ab1cef08-4339352.webp",
         "raw_product_id": "268128"
-      },
-      "panda": {
-        "price": 43.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/183501472/Ar_small.jpg?t=",
-        "raw_product_id": "183501472"
       }
     }
   },
@@ -1995,15 +2051,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/071/003/product/628105800144.jpeg",
         "raw_product_id": "41430"
       },
-      "panda": {
-        "price": 29.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/184001437/Ar_small.jpg?t=",
-        "raw_product_id": "184001437"
-      },
       "tamimi": {
         "price": 29.95,
         "original_price": null,
@@ -2012,6 +2059,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260211/b121378f-d61d-4910-b916-12b72da3cb9c-4039931.webp",
         "raw_product_id": "265508"
+      },
+      "panda": {
+        "price": 29.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/184001437/Ar_small.jpg?t=",
+        "raw_product_id": "184001437"
       }
     }
   },
@@ -2051,15 +2107,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/952/product/628103491572.jpg",
         "raw_product_id": "41400"
       },
-      "panda": {
-        "price": 2.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/199351675/Ar_small.jpg?t=",
-        "raw_product_id": "199351675"
-      },
       "tamimi": {
         "price": 2.5,
         "original_price": null,
@@ -2068,6 +2115,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260120/6980b811-3a06-47c5-bd2c-26bc986f9918-4229611.webp",
         "raw_product_id": "264630"
+      },
+      "panda": {
+        "price": 2.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/199351675/Ar_small.jpg?t=",
+        "raw_product_id": "199351675"
       }
     }
   },
@@ -2275,15 +2331,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/918/product/628703410107.jpeg",
         "raw_product_id": "41380"
       },
-      "panda": {
-        "price": 2.5,
-        "original_price": 3.25,
-        "discount_amount": 0.75,
-        "discount_percentage": 23.08,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/180100489/Ar_small.jpg?t=",
-        "raw_product_id": "180100489"
-      },
       "tamimi": {
         "price": 2.05,
         "original_price": 2.75,
@@ -2292,6 +2339,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/4c5c853a-0aab-4148-926c-735383770e62-4034011.webp",
         "raw_product_id": "264324"
+      },
+      "panda": {
+        "price": 2.5,
+        "original_price": 3.25,
+        "discount_amount": 0.75,
+        "discount_percentage": 23.08,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/180100489/Ar_small.jpg?t=",
+        "raw_product_id": "180100489"
       }
     }
   },
@@ -2307,8 +2363,8 @@
     "barcode": "0628703410109",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/914/product/628703410109.jpeg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -2337,8 +2393,8 @@
         "discount_amount": 0.75,
         "discount_percentage": 23.08,
         "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/155850122/Ar_small.jpg?t=1761129412",
-        "raw_product_id": "155850122"
+        "image_url": "https://images.todoorstep.com/product/180100500/Ar_small.jpg?t=",
+        "raw_product_id": "180100500"
       },
       "tamimi": {
         "price": 2.05,
@@ -2499,15 +2555,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/847/product/628101203468.jpg",
         "raw_product_id": "41347"
       },
-      "panda": {
-        "price": 1.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/199001481/Ar_small.jpg?t=",
-        "raw_product_id": "199001481"
-      },
       "tamimi": {
         "price": 1.5,
         "original_price": null,
@@ -2516,6 +2563,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260726/b936b94a-634f-48f5-b5ba-a266a8ec7a0d-4325811.webp",
         "raw_product_id": "269174"
+      },
+      "panda": {
+        "price": 1.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/199001481/Ar_small.jpg?t=",
+        "raw_product_id": "199001481"
       }
     }
   },
@@ -2570,8 +2626,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/189900917/Ar_small.jpg?t=",
-        "raw_product_id": "189900917"
+        "image_url": "https://images.todoorstep.com/product/173500370/Ar_small.jpg?t=",
+        "raw_product_id": "173500370"
       }
     }
   },
@@ -2673,8 +2729,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260201/5f89fb25-a0e4-4c70-aa7e-c79a8463951f-4030711.webp",
-        "raw_product_id": "264853"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20231108/163725_1-20231019-122935-20231108-085104.png",
+        "raw_product_id": "2862"
       },
       "panda": {
         "price": 10.99,
@@ -2682,8 +2738,232 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/3089605/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "3089605"
+        "image_url": "https://images.todoorstep.com/product/193600861/Ar_small.jpg?t=",
+        "raw_product_id": "193600861"
+      }
+    }
+  },
+  {
+    "product_name_ar": "نوفا مياه فوارة منكهة بالليمون و النعناع ٦*٢٥٠مل",
+    "product_name_en": "Nova Lemon & Mint Flavoured Sparkling Water 6*250ml",
+    "brand": "Nova",
+    "category": "beverages",
+    "size": 250.0,
+    "unit": "ml",
+    "quantity": 6,
+    "total_size": 1500.0,
+    "barcode": "0628103515449",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/602/product/628103515449.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 26.98,
+      "min_price": 25.99,
+      "max_price": 27.99,
+      "price_diff": 2.0
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 27.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/602/product/628103515449.jpg",
+        "raw_product_id": "41279"
+      },
+      "panda": {
+        "price": 25.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/198452685/Ar_small.jpg?t=",
+        "raw_product_id": "198452685"
+      },
+      "tamimi": {
+        "price": 26.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260714/83a19bc2-52b2-4c76-b146-7deaa8991795-4201132.webp",
+        "raw_product_id": "264388"
+      }
+    }
+  },
+  {
+    "product_name_ar": "نوفا مياه فوارة منكهة بالفراولة ٢٥٠مل",
+    "product_name_en": "Nova Strawberry Flavoured Sparkling Water 250ml",
+    "brand": "Nova",
+    "category": "beverages",
+    "size": 250.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 250.0,
+    "barcode": "0628103536040",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/600/product/628103536040.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 4.64,
+      "min_price": 3.99,
+      "max_price": 4.99,
+      "price_diff": 1.0
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 4.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/600/product/628103536040.jpg",
+        "raw_product_id": "41278"
+      },
+      "tamimi": {
+        "price": 4.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/ac913962-968d-4255-852f-6d48eeacba89-4201151.webp",
+        "raw_product_id": "264386"
+      },
+      "panda": {
+        "price": 3.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/198452651/Ar_small.jpg?t=",
+        "raw_product_id": "198452651"
+      }
+    }
+  },
+  {
+    "product_name_ar": "نوفا مياه فوارة منكهة بالفراولة ٦*٢٥٠مل",
+    "product_name_en": "Nova Strawberry Flavoured Sparkling Water 6*250ml",
+    "brand": "Nova",
+    "category": "beverages",
+    "size": 250.0,
+    "unit": "ml",
+    "quantity": 6,
+    "total_size": 1500.0,
+    "barcode": "0628103537039",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/598/product/628103537039.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 26.98,
+      "min_price": 25.99,
+      "max_price": 27.99,
+      "price_diff": 2.0
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 27.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/598/product/628103537039.jpg",
+        "raw_product_id": "41277"
+      },
+      "tamimi": {
+        "price": 26.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/c7397682-6888-4dce-9338-7e506d92c1f2-4201152.webp",
+        "raw_product_id": "264389"
+      },
+      "panda": {
+        "price": 25.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/198452677/Ar_small.jpg?t=",
+        "raw_product_id": "198452677"
+      }
+    }
+  },
+  {
+    "product_name_ar": "نوفا مياه فوارة منكهة بالليمون و النعناع ٢٥٠مل",
+    "product_name_en": "Nova Lemon & Mint Flavoured Sparkling Water 250ml",
+    "brand": "Nova",
+    "category": "beverages",
+    "size": 250.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 250.0,
+    "barcode": "0628103511943",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/596/product/628103511943.jpg",
+    "canonical_source": "bindawood",
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 4.81,
+      "min_price": 4.5,
+      "max_price": 4.99,
+      "price_diff": 0.49
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 4.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/596/product/628103511943.jpg",
+        "raw_product_id": "41276"
+      },
+      "panda": {
+        "price": 4.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/198452642/Ar_small.jpg?t=",
+        "raw_product_id": "198452642"
+      },
+      "tamimi": {
+        "price": 4.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/def87aa3-16b0-4482-853f-9f8b794c3cf6-4201131.webp",
+        "raw_product_id": "264384"
       }
     }
   },
@@ -2723,15 +3003,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/336/product/544900034346.png",
         "raw_product_id": "40784"
       },
-      "panda": {
-        "price": 6.5,
-        "original_price": 9.0,
-        "discount_amount": 2.5,
-        "discount_percentage": 27.78,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/206951792/Ar_small.jpg?t=1783236518",
-        "raw_product_id": "206951792"
-      },
       "tamimi": {
         "price": 7.5,
         "original_price": null,
@@ -2740,6 +3011,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260720/14e0c276-0e78-4ac7-836c-81b75fce1851-4276801.webp",
         "raw_product_id": "268916"
+      },
+      "panda": {
+        "price": 6.5,
+        "original_price": 9.0,
+        "discount_amount": 2.5,
+        "discount_percentage": 27.78,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/206951792/Ar_small.jpg?t=1783236518",
+        "raw_product_id": "206951792"
       }
     }
   },
@@ -2779,15 +3059,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/335/product/544900033394.png",
         "raw_product_id": "40783"
       },
-      "tamimi": {
-        "price": 3.25,
-        "original_price": 4.25,
-        "discount_amount": 1.0,
-        "discount_percentage": 23.53,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/24aea89e-d3a2-4f8d-9aaf-32d4d2a55df5-4173741.webp",
-        "raw_product_id": "265368"
-      },
       "panda": {
         "price": 4.5,
         "original_price": null,
@@ -2796,6 +3067,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/193601012/Ar_small.jpg?t=1783236560",
         "raw_product_id": "193601012"
+      },
+      "tamimi": {
+        "price": 3.25,
+        "original_price": 4.25,
+        "discount_amount": 1.0,
+        "discount_percentage": 23.53,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/24aea89e-d3a2-4f8d-9aaf-32d4d2a55df5-4173741.webp",
+        "raw_product_id": "265368"
       }
     }
   },
@@ -2835,15 +3115,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/334/product/506101394568.jpg",
         "raw_product_id": "40782"
       },
-      "panda": {
-        "price": 10.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/208101804/Ar_small.jpg?t=1783236529",
-        "raw_product_id": "208101804"
-      },
       "tamimi": {
         "price": 9.95,
         "original_price": null,
@@ -2852,6 +3123,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260205/c31dccaa-3335-495b-9507-ec8c6f6bbc06-4302741.webp",
         "raw_product_id": "265100"
+      },
+      "panda": {
+        "price": 10.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/208101804/Ar_small.jpg?t=1783236529",
+        "raw_product_id": "208101804"
       }
     }
   },
@@ -2947,15 +3227,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/074/383/product/5449000133328_1.jpg",
         "raw_product_id": "40778"
       },
-      "tamimi": {
-        "price": 3.25,
-        "original_price": 4.25,
-        "discount_amount": 1.0,
-        "discount_percentage": 23.53,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260618/6c033541-35fa-41b3-abc4-5a2d29d19b84-4003311.webp",
-        "raw_product_id": "260735"
-      },
       "panda": {
         "price": 4.5,
         "original_price": null,
@@ -2964,6 +3235,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/170050107/Ar_small.jpg?t=1783236699",
         "raw_product_id": "170050107"
+      },
+      "tamimi": {
+        "price": 3.25,
+        "original_price": 4.25,
+        "discount_amount": 1.0,
+        "discount_percentage": 23.53,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260618/6c033541-35fa-41b3-abc4-5a2d29d19b84-4003311.webp",
+        "raw_product_id": "260735"
       }
     }
   },
@@ -2979,8 +3259,8 @@
     "barcode": "0012000022586",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/077/026/product/012000022586_1.png",
     "canonical_source": "bindawood",
-    "match_tier": "gs1_prefix_match",
-    "confidence_score": 0.94,
+    "match_tier": "exact_barcode",
+    "confidence_score": 1.0,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -3003,6 +3283,15 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/077/026/product/012000022586_1.png",
         "raw_product_id": "40773"
       },
+      "panda": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100128377/Ar_small.jpg?t=1780480755",
+        "raw_product_id": "100128377"
+      },
       "tamimi": {
         "price": 2.5,
         "original_price": null,
@@ -3011,15 +3300,6 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/1ec29b85-a78f-47e2-863f-dc479f9a8f4d-3670871.webp",
         "raw_product_id": "267955"
-      },
-      "panda": {
-        "price": 2.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/213202263/Ar_small.jpg?t=",
-        "raw_product_id": "213202263"
       }
     }
   },
@@ -3115,15 +3395,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/208/product/628101203467.jpg",
         "raw_product_id": "40731"
       },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260726/0731843a-d226-47cd-8ec3-3957433e4c47-4325801.webp",
-        "raw_product_id": "269173"
-      },
       "panda": {
         "price": 2.0,
         "original_price": null,
@@ -3132,6 +3403,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/199001472/Ar_small.jpg?t=",
         "raw_product_id": "199001472"
+      },
+      "tamimi": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260726/0731843a-d226-47cd-8ec3-3957433e4c47-4325801.webp",
+        "raw_product_id": "269173"
       }
     }
   },
@@ -3171,15 +3451,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/176/product/628103491027.jpeg",
         "raw_product_id": "40708"
       },
-      "panda": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100211151/Ar_small.jpg?t=1787574386",
-        "raw_product_id": "100211151"
-      },
       "tamimi": {
         "price": 2.0,
         "original_price": null,
@@ -3188,6 +3459,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/640/20240212/369748_1-20240212-201726.png",
         "raw_product_id": "254453"
+      },
+      "panda": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100211151/Ar_small.jpg?t=1787574386",
+        "raw_product_id": "100211151"
       }
     }
   },
@@ -3283,15 +3563,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/075/product/520127725023.jpeg",
         "raw_product_id": "40639"
       },
-      "tamimi": {
-        "price": 41.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20210824/277810_1-20210824-100248.png",
-        "raw_product_id": "231737"
-      },
       "panda": {
         "price": 40.99,
         "original_price": null,
@@ -3300,6 +3571,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/166800067/Ar_small.jpg?t=1744675200",
         "raw_product_id": "166800067"
+      },
+      "tamimi": {
+        "price": 41.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20210824/277810_1-20210824-100248.png",
+        "raw_product_id": "231737"
       }
     }
   },
@@ -3339,15 +3619,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/004/product/628110126062.jpeg",
         "raw_product_id": "40590"
       },
-      "tamimi": {
-        "price": 14.5,
-        "original_price": 19.95,
-        "discount_amount": 5.45,
-        "discount_percentage": 27.32,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/2446701-20250417-160349.webp",
-        "raw_product_id": "261476"
-      },
       "panda": {
         "price": 13.99,
         "original_price": 16.99,
@@ -3356,6 +3627,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/193651941/Ar_small.jpg?t=1782112637",
         "raw_product_id": "193651941"
+      },
+      "tamimi": {
+        "price": 14.5,
+        "original_price": 19.95,
+        "discount_amount": 5.45,
+        "discount_percentage": 27.32,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250417/2446701-20250417-160349.webp",
+        "raw_product_id": "261476"
       }
     }
   },
@@ -3395,15 +3675,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/069/000/product/628105701572.jpeg",
         "raw_product_id": "40588"
       },
-      "tamimi": {
-        "price": 17.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250326/4124792-20250326-160304.webp",
-        "raw_product_id": "261426"
-      },
       "panda": {
         "price": 19.5,
         "original_price": null,
@@ -3412,6 +3683,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/185000428/Ar_small.jpg?t=1787576372",
         "raw_product_id": "185000428"
+      },
+      "tamimi": {
+        "price": 17.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250326/4124792-20250326-160304.webp",
+        "raw_product_id": "261426"
       }
     }
   },
@@ -3451,15 +3731,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/901/product/762220236049.jpeg",
         "raw_product_id": "40027"
       },
-      "panda": {
-        "price": 59.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/208151836/Ar_small.jpg?t=1787577310",
-        "raw_product_id": "208151836"
-      },
       "tamimi": {
         "price": 64.95,
         "original_price": null,
@@ -3468,6 +3739,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260701/4cb4da31-7a5d-4fde-8b3d-22b7e0859aa8-4245931.webp",
         "raw_product_id": "267841"
+      },
+      "panda": {
+        "price": 59.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/208151836/Ar_small.jpg?t=1787577310",
+        "raw_product_id": "208151836"
       }
     }
   },
@@ -3507,15 +3787,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/837/product/628103491648.jpeg",
         "raw_product_id": "39996"
       },
-      "tamimi": {
-        "price": 18.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260104/344858ab-7e41-465c-9dfc-f38d3e8b2bd8-4246051.webp",
-        "raw_product_id": "264026"
-      },
       "panda": {
         "price": 18.99,
         "original_price": null,
@@ -3524,6 +3795,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/208501795/Ar_small.jpg?t=1787577332",
         "raw_product_id": "208501795"
+      },
+      "tamimi": {
+        "price": 18.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260104/344858ab-7e41-465c-9dfc-f38d3e8b2bd8-4246051.webp",
+        "raw_product_id": "264026"
       }
     }
   },
@@ -3563,15 +3843,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/831/product/628800400315.jpeg",
         "raw_product_id": "39994"
       },
-      "tamimi": {
-        "price": 1.4,
-        "original_price": 2.0,
-        "discount_amount": 0.6,
-        "discount_percentage": 30.0,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260115/0886903f-af65-45e6-b6ce-3dac61b40f14-4261861.webp",
-        "raw_product_id": "264524"
-      },
       "panda": {
         "price": 2.0,
         "original_price": null,
@@ -3580,6 +3851,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/188201217/Ar_small.jpg?t=1756283269",
         "raw_product_id": "188201217"
+      },
+      "tamimi": {
+        "price": 1.4,
+        "original_price": 2.0,
+        "discount_amount": 0.6,
+        "discount_percentage": 30.0,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260115/0886903f-af65-45e6-b6ce-3dac61b40f14-4261861.webp",
+        "raw_product_id": "264524"
       }
     }
   },
@@ -3625,8 +3905,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/158000123/Ar_small.jpg?t=1761129412",
-        "raw_product_id": "158000123"
+        "image_url": "https://images.todoorstep.com/product/158000094/Ar_small.jpg?t=1761129398",
+        "raw_product_id": "158000094"
       },
       "tamimi": {
         "price": 12.25,
@@ -3787,15 +4067,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/067/354/product/628703410178.jpeg",
         "raw_product_id": "39699"
       },
-      "tamimi": {
-        "price": 12.25,
-        "original_price": 16.5,
-        "discount_amount": 4.25,
-        "discount_percentage": 25.76,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260114/4874705d-7251-4b71-af65-1503fa89fa0c-4182221.webp",
-        "raw_product_id": "264157"
-      },
       "panda": {
         "price": 16.5,
         "original_price": null,
@@ -3804,6 +4075,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/191602020/Ar_small.jpg?t=",
         "raw_product_id": "191602020"
+      },
+      "tamimi": {
+        "price": 12.25,
+        "original_price": 16.5,
+        "discount_amount": 4.25,
+        "discount_percentage": 25.76,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260114/4874705d-7251-4b71-af65-1503fa89fa0c-4182221.webp",
+        "raw_product_id": "264157"
       }
     }
   },
@@ -3931,8 +4211,8 @@
     "barcode": "0600124010007",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/947/product/600124010007.jpg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -3961,8 +4241,8 @@
         "discount_amount": 3.49,
         "discount_percentage": 21.83,
         "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/3057295/Ar_small.jpg?t=1787572860",
-        "raw_product_id": "3057295"
+        "image_url": "https://images.todoorstep.com/product/326875/Ar_small.jpg?t=1787572102",
+        "raw_product_id": "326875"
       },
       "tamimi": {
         "price": 14.95,
@@ -4011,15 +4291,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/823/product/600124010005.jpg",
         "raw_product_id": "35792"
       },
-      "tamimi": {
-        "price": 14.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260716/d35bc7d3-e075-4fb7-884b-caf9696ce6e3-3928891.webp",
-        "raw_product_id": "264046"
-      },
       "panda": {
         "price": 12.5,
         "original_price": 15.99,
@@ -4028,6 +4299,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/3057335/Ar_small.jpg?t=1787572858",
         "raw_product_id": "3057335"
+      },
+      "tamimi": {
+        "price": 14.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260716/d35bc7d3-e075-4fb7-884b-caf9696ce6e3-3928891.webp",
+        "raw_product_id": "264046"
       }
     }
   },
@@ -4123,15 +4403,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/059/534/product/628103490017.jpg",
         "raw_product_id": "35751"
       },
-      "panda": {
-        "price": 2.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/2858045/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "2858045"
-      },
       "tamimi": {
         "price": 2.5,
         "original_price": null,
@@ -4140,6 +4411,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201101/369745_1-20201101-024638.png",
         "raw_product_id": "218305"
+      },
+      "panda": {
+        "price": 2.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/2858045/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "2858045"
       }
     }
   },
@@ -4256,6 +4536,118 @@
     }
   },
   {
+    "product_name_ar": "بيبسي مشروب غازي دايت ٦*٢٤٥مل",
+    "product_name_en": "Pepsi Diet Carbonated Soft Drink 6*245ml",
+    "brand": "Pepsi",
+    "category": "beverages",
+    "size": 245.0,
+    "unit": "ml",
+    "quantity": 6,
+    "total_size": 1470.0,
+    "barcode": "012000065989",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/982/product/12000065989_1.png",
+    "canonical_source": "bindawood",
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 10.66,
+      "min_price": 9.99,
+      "max_price": 11.5,
+      "price_diff": 1.51
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 9.99,
+        "original_price": 12.0,
+        "discount_amount": 2.01,
+        "discount_percentage": 16.75,
+        "has_discount": true,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/076/982/product/12000065989_1.png",
+        "raw_product_id": "33972"
+      },
+      "panda": {
+        "price": 11.5,
+        "original_price": 11.99,
+        "discount_amount": 0.49,
+        "discount_percentage": 4.09,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/197651480/Ar_small.jpg?t=1758795300",
+        "raw_product_id": "197651480"
+      },
+      "tamimi": {
+        "price": 10.5,
+        "original_price": 12.0,
+        "discount_amount": 1.5,
+        "discount_percentage": 12.5,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250306/2610532-20250306-080854.webp",
+        "raw_product_id": "237062"
+      }
+    }
+  },
+  {
+    "product_name_ar": "بيبسي مشروب غازي دايت ٢٤٥مل",
+    "product_name_en": "Pepsi Diet Carbonated Soft Drink 245ml",
+    "brand": "Pepsi",
+    "category": "beverages",
+    "size": 245.0,
+    "unit": "ml",
+    "quantity": 1,
+    "total_size": 245.0,
+    "barcode": "012000060632",
+    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/077/130/product/12000060632_1.png",
+    "canonical_source": "bindawood",
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
+    "matched_stores_count": 3,
+    "matched_stores": [
+      "bindawood",
+      "panda",
+      "tamimi"
+    ],
+    "price_metrics": {
+      "avg_price": 2.0,
+      "min_price": 2.0,
+      "max_price": 2.0,
+      "price_diff": 0.0
+    },
+    "stores_data": {
+      "bindawood": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/077/130/product/12000060632_1.png",
+        "raw_product_id": "33971"
+      },
+      "tamimi": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20220223/261053_1-20220223-140225.png",
+        "raw_product_id": "237061"
+      },
+      "panda": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/197651439/Ar_small.jpg?t=",
+        "raw_product_id": "197651439"
+      }
+    }
+  },
+  {
     "product_name_ar": "نوفا مياه شرب ٤٨*٢٠٠مل",
     "product_name_en": "Nova Drinking Water 48*200ml",
     "brand": "Nova",
@@ -4291,15 +4683,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/592/product/628103542621.jpeg",
         "raw_product_id": "33555"
       },
-      "panda": {
-        "price": 26.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/146700085/Ar_small.jpg?t=1751804682",
-        "raw_product_id": "146700085"
-      },
       "tamimi": {
         "price": 24.5,
         "original_price": null,
@@ -4308,6 +4691,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240714/4005341-20240714-162335.webp",
         "raw_product_id": "261605"
+      },
+      "panda": {
+        "price": 26.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/146700085/Ar_small.jpg?t=1751804682",
+        "raw_product_id": "146700085"
       }
     }
   },
@@ -4347,15 +4739,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/591/product/800227002828.jpeg",
         "raw_product_id": "33554"
       },
-      "panda": {
-        "price": 55.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100252602/Ar_small.jpg?t=1780484892",
-        "raw_product_id": "100252602"
-      },
       "tamimi": {
         "price": 39.25,
         "original_price": 43.5,
@@ -4364,6 +4747,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240711/3575211-20240711-080204.webp",
         "raw_product_id": "256648"
+      },
+      "panda": {
+        "price": 55.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/100252602/Ar_small.jpg?t=1780484892",
+        "raw_product_id": "100252602"
       }
     }
   },
@@ -4403,15 +4795,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/586/product/520127725010.jpeg",
         "raw_product_id": "33549"
       },
-      "panda": {
-        "price": 29.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/166750354/Ar_small.jpg?t=1766673706",
-        "raw_product_id": "166750354"
-      },
       "tamimi": {
         "price": 30.95,
         "original_price": null,
@@ -4420,6 +4803,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/153639_1-20231019-121756.png",
         "raw_product_id": "224523"
+      },
+      "panda": {
+        "price": 29.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/166750354/Ar_small.jpg?t=1766673706",
+        "raw_product_id": "166750354"
       }
     }
   },
@@ -4459,15 +4851,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/565/product/628103491449.jpeg",
         "raw_product_id": "33532"
       },
-      "tamimi": {
-        "price": 14.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20241203/4043071-20241203-161436.webp",
-        "raw_product_id": "260049"
-      },
       "panda": {
         "price": 15.0,
         "original_price": null,
@@ -4476,6 +4859,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/100140095/Ar_small.jpg?t=1780481117",
         "raw_product_id": "100140095"
+      },
+      "tamimi": {
+        "price": 14.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20241203/4043071-20241203-161436.webp",
+        "raw_product_id": "260049"
       }
     }
   },
@@ -4571,15 +4963,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/458/product/628103491285.jpeg",
         "raw_product_id": "33440"
       },
-      "tamimi": {
-        "price": 30.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/190619_1-20201031-214414.png",
-        "raw_product_id": "2978"
-      },
       "panda": {
         "price": 27.5,
         "original_price": 29.5,
@@ -4588,6 +4971,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/661651/Ar_small.jpg?t=1744675200",
         "raw_product_id": "661651"
+      },
+      "tamimi": {
+        "price": 30.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/190619_1-20201031-214414.png",
+        "raw_product_id": "2978"
       }
     }
   },
@@ -4627,15 +5019,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/443/product/900844200642.jpeg",
         "raw_product_id": "33427"
       },
-      "tamimi": {
-        "price": 35.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20251218/0064731b-c287-4dfc-aed5-df524570d8d1-3999531.webp",
-        "raw_product_id": "263933"
-      },
       "panda": {
         "price": 35.99,
         "original_price": null,
@@ -4644,6 +5027,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/189250969/Ar_small.jpg?t=1766673593",
         "raw_product_id": "189250969"
+      },
+      "tamimi": {
+        "price": 35.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20251218/0064731b-c287-4dfc-aed5-df524570d8d1-3999531.webp",
+        "raw_product_id": "263933"
       }
     }
   },
@@ -4739,15 +5131,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/074/371/product/5449000043924_1.jpg",
         "raw_product_id": "33422"
       },
-      "panda": {
-        "price": 13.99,
-        "original_price": 17.99,
-        "discount_amount": 4.0,
-        "discount_percentage": 22.23,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/3719235/Ar_small.jpg?t=1783237193",
-        "raw_product_id": "3719235"
-      },
       "tamimi": {
         "price": 13.99,
         "original_price": 18.75,
@@ -4756,6 +5139,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260618/16b4e289-9991-473e-8e44-4c2d76a68527-4007481.webp",
         "raw_product_id": "259065"
+      },
+      "panda": {
+        "price": 13.99,
+        "original_price": 17.99,
+        "discount_amount": 4.0,
+        "discount_percentage": 22.23,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/3719235/Ar_small.jpg?t=1783237193",
+        "raw_product_id": "3719235"
       }
     }
   },
@@ -4795,15 +5187,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/288/product/628110122145.jpeg",
         "raw_product_id": "33338"
       },
-      "tamimi": {
-        "price": 14.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250604/c386e34f-144b-42e5-b64c-a39ee30772e4-2725653.webp",
-        "raw_product_id": "262202"
-      },
       "panda": {
         "price": 15.5,
         "original_price": null,
@@ -4812,6 +5195,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/100212593/Ar_small.jpg?t=1780483493",
         "raw_product_id": "100212593"
+      },
+      "tamimi": {
+        "price": 14.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250604/c386e34f-144b-42e5-b64c-a39ee30772e4-2725653.webp",
+        "raw_product_id": "262202"
       }
     }
   },
@@ -4851,15 +5243,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/706/product/628100001000.jpeg",
         "raw_product_id": "32963"
       },
-      "panda": {
-        "price": 3.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/183450476/Ar_small.jpg?t=1787576286",
-        "raw_product_id": "183450476"
-      },
       "tamimi": {
         "price": 2.65,
         "original_price": 3.5,
@@ -4868,6 +5251,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260909/7fc7e3e3-0d21-4586-9d9c-d238a00bc4c1-4185001.webp",
         "raw_product_id": "262336"
+      },
+      "panda": {
+        "price": 3.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/183450476/Ar_small.jpg?t=1787576286",
+        "raw_product_id": "183450476"
       }
     }
   },
@@ -4963,15 +5355,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/704/product/628100001002.jpeg",
         "raw_product_id": "32961"
       },
-      "tamimi": {
-        "price": 2.65,
-        "original_price": 3.5,
-        "discount_amount": 0.85,
-        "discount_percentage": 24.29,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260909/44f14f3f-9348-4d11-a6f3-58650fa379ab-4185021.webp",
-        "raw_product_id": "262337"
-      },
       "panda": {
         "price": 3.5,
         "original_price": null,
@@ -4980,6 +5363,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/183450505/Ar_small.jpg?t=1744675200",
         "raw_product_id": "183450505"
+      },
+      "tamimi": {
+        "price": 2.65,
+        "original_price": 3.5,
+        "discount_amount": 0.85,
+        "discount_percentage": 24.29,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260909/44f14f3f-9348-4d11-a6f3-58650fa379ab-4185021.webp",
+        "raw_product_id": "262337"
       }
     }
   },
@@ -5019,15 +5411,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/701/product/628557200235.jpeg",
         "raw_product_id": "32958"
       },
-      "panda": {
-        "price": 2.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/178050398/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "178050398"
-      },
       "tamimi": {
         "price": 2.5,
         "original_price": null,
@@ -5036,6 +5419,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20241022/4020891-20241022-120032.webp",
         "raw_product_id": "259309"
+      },
+      "panda": {
+        "price": 2.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/178050398/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "178050398"
       }
     }
   },
@@ -5187,15 +5579,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/629/product/900844200045.jpeg",
         "raw_product_id": "32894"
       },
-      "tamimi": {
-        "price": 8.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20251218/0064731b-c287-4dfc-aed5-df524570d8d1-3999531.webp",
-        "raw_product_id": "263928"
-      },
       "panda": {
         "price": 8.99,
         "original_price": null,
@@ -5204,6 +5587,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/177700601/Ar_small.jpg?t=1783236674",
         "raw_product_id": "177700601"
+      },
+      "tamimi": {
+        "price": 8.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20251218/0064731b-c287-4dfc-aed5-df524570d8d1-3999531.webp",
+        "raw_product_id": "263928"
       }
     }
   },
@@ -5275,8 +5667,8 @@
     "barcode": "069183571032",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/501/product/69183571032.jpeg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -5299,15 +5691,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/501/product/69183571032.jpeg",
         "raw_product_id": "32796"
       },
-      "panda": {
-        "price": 5.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/405435/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "405435"
-      },
       "tamimi": {
         "price": 5.5,
         "original_price": null,
@@ -5316,6 +5699,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240714/3984261-20240714-161522.webp",
         "raw_product_id": "256913"
+      },
+      "panda": {
+        "price": 5.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/168600632/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "168600632"
       }
     }
   },
@@ -5411,15 +5803,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/077/039/product/012000055782_1.jpg",
         "raw_product_id": "32782"
       },
-      "panda": {
-        "price": 5.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100214042/Ar_small.jpg?t=1780483448",
-        "raw_product_id": "100214042"
-      },
       "tamimi": {
         "price": 4.5,
         "original_price": 5.0,
@@ -5428,62 +5811,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250709/c99bf7bc-fe81-4805-b81d-d9c7ce339510-3703772.webp",
         "raw_product_id": "224383"
-      }
-    }
-  },
-  {
-    "product_name_ar": "هولستن شراب الشعير بنكهة الجوافة الوردية و الأناناس ٣٣٠مل",
-    "product_name_en": "Holsten Malt Beverage Pink Guava & Pineapple Flavour 330ml",
-    "brand": "Holsten",
-    "category": "beverages",
-    "size": 330.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 330.0,
-    "barcode": "079388801381",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/241/product/79388801381.jpeg",
-    "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 6.17,
-      "min_price": 6.0,
-      "max_price": 6.5,
-      "price_diff": 0.5
-    },
-    "stores_data": {
-      "bindawood": {
-        "price": 6.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/241/product/79388801381.jpeg",
-        "raw_product_id": "32611"
-      },
-      "tamimi": {
-        "price": 6.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20230110/393007_1-20230110-140114.png",
-        "raw_product_id": "246571"
       },
       "panda": {
-        "price": 6.5,
+        "price": 5.99,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/3521305/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "3521305"
+        "image_url": "https://images.todoorstep.com/product/100214042/Ar_small.jpg?t=1780483448",
+        "raw_product_id": "100214042"
       }
     }
   },
@@ -5523,15 +5859,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/051/111/product/628103491284.jpeg",
         "raw_product_id": "32489"
       },
-      "tamimi": {
-        "price": 5.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/190619_1-20201031-214414.png",
-        "raw_product_id": "2977"
-      },
       "panda": {
         "price": 4.99,
         "original_price": null,
@@ -5540,6 +5867,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/195201143/Ar_small.jpg?t=",
         "raw_product_id": "195201143"
+      },
+      "tamimi": {
+        "price": 5.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20201031/190619_1-20201031-214414.png",
+        "raw_product_id": "2977"
       }
     }
   },
@@ -5747,15 +6083,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/278/product/628703410114.jpg",
         "raw_product_id": "32098"
       },
-      "tamimi": {
-        "price": 65.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240828/4033982-20240828-120812.webp",
-        "raw_product_id": "258313"
-      },
       "panda": {
         "price": 47.99,
         "original_price": 64.99,
@@ -5764,6 +6091,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/181750686/Ar_small.jpg?t=1761129423",
         "raw_product_id": "181750686"
+      },
+      "tamimi": {
+        "price": 65.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240828/4033982-20240828-120812.webp",
+        "raw_product_id": "258313"
       }
     }
   },
@@ -5803,15 +6139,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/276/product/628703410016.jpg",
         "raw_product_id": "32096"
       },
-      "panda": {
-        "price": 47.99,
-        "original_price": 64.99,
-        "discount_amount": 17.0,
-        "discount_percentage": 26.16,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/156050223/Ar_small.jpg?t=1761129403",
-        "raw_product_id": "156050223"
-      },
       "tamimi": {
         "price": 65.95,
         "original_price": null,
@@ -5820,6 +6147,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20231225/399813_1-20231225-145258.png",
         "raw_product_id": "253240"
+      },
+      "panda": {
+        "price": 47.99,
+        "original_price": 64.99,
+        "discount_amount": 17.0,
+        "discount_percentage": 26.16,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/156050223/Ar_small.jpg?t=1761129403",
+        "raw_product_id": "156050223"
       }
     }
   },
@@ -5859,15 +6195,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/274/product/628703410015.jpg",
         "raw_product_id": "32094"
       },
-      "panda": {
-        "price": 47.99,
-        "original_price": 64.99,
-        "discount_amount": 17.0,
-        "discount_percentage": 26.16,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/156050207/Ar_small.jpg?t=1761129398",
-        "raw_product_id": "156050207"
-      },
       "tamimi": {
         "price": 65.95,
         "original_price": null,
@@ -5876,6 +6203,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20231225/399814_1-20231225-145223.png",
         "raw_product_id": "253241"
+      },
+      "panda": {
+        "price": 47.99,
+        "original_price": 64.99,
+        "discount_amount": 17.0,
+        "discount_percentage": 26.16,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/156050207/Ar_small.jpg?t=1761129398",
+        "raw_product_id": "156050207"
       }
     }
   },
@@ -5891,8 +6227,8 @@
     "barcode": "0628103400108",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/764/product/628103400108.jpeg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -5915,15 +6251,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/052/764/product/628103400108.jpeg",
         "raw_product_id": "31827"
       },
-      "panda": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/1148695/Ar_small.jpg?t=1782908517",
-        "raw_product_id": "1148695"
-      },
       "tamimi": {
         "price": 2.0,
         "original_price": null,
@@ -5932,62 +6259,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20220130/238677_2-20220130-220146.png",
         "raw_product_id": "236356"
-      }
-    }
-  },
-  {
-    "product_name_ar": "كابري سَن فروت كراش عصير برتقال بدون سكر مضاف ٢٠٠مل",
-    "product_name_en": "Capri-Sun Fruit Crush Orange Juice No Added Sugar 200ml",
-    "brand": "Capri-Sun",
-    "category": "beverages",
-    "size": 200.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 200.0,
-    "barcode": "0628110126052",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/049/042/product/628110126052.jpg",
-    "canonical_source": "bindawood",
-    "match_tier": "gs1_prefix_match",
-    "confidence_score": 0.94,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 1.92,
-      "min_price": 1.75,
-      "max_price": 2.0,
-      "price_diff": 0.25
-    },
-    "stores_data": {
-      "bindawood": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/049/042/product/628110126052.jpg",
-        "raw_product_id": "31472"
-      },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240723/2446672-20240723-061134.webp",
-        "raw_product_id": "255899"
       },
       "panda": {
-        "price": 1.75,
+        "price": 2.0,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/3630865/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "3630865"
+        "image_url": "https://images.todoorstep.com/product/1574955/Ar_small.jpg?t=1744675200",
+        "raw_product_id": "1574955"
       }
     }
   },
@@ -6083,15 +6363,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/068/820/product/8445291047136_1.jpg",
         "raw_product_id": "31300"
       },
-      "tamimi": {
-        "price": 5.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260218/19ee476e-a4a3-4de4-9b32-62997409237f-4037951.webp",
-        "raw_product_id": "258319"
-      },
       "panda": {
         "price": 5.99,
         "original_price": null,
@@ -6100,6 +6371,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/181800647/Ar_small.jpg?t=1772536656",
         "raw_product_id": "181800647"
+      },
+      "tamimi": {
+        "price": 5.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260218/19ee476e-a4a3-4de4-9b32-62997409237f-4037951.webp",
+        "raw_product_id": "258319"
       }
     }
   },
@@ -6139,15 +6419,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/047/067/product/628105829133.png",
         "raw_product_id": "30211"
       },
-      "panda": {
-        "price": 4.99,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/184001349/Ar_small.jpg?t=",
-        "raw_product_id": "184001349"
-      },
       "tamimi": {
         "price": 5.0,
         "original_price": null,
@@ -6156,6 +6427,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260211/b121378f-d61d-4910-b916-12b72da3cb9c-4039931.webp",
         "raw_product_id": "265507"
+      },
+      "panda": {
+        "price": 4.99,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/184001349/Ar_small.jpg?t=",
+        "raw_product_id": "184001349"
       }
     }
   },
@@ -6307,15 +6587,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/072/482/product/5449000323132.png",
         "raw_product_id": "29886"
       },
-      "tamimi": {
-        "price": 3.25,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/3e17a10d-9621-485d-bc60-1701458d263f-4135041.webp",
-        "raw_product_id": "260580"
-      },
       "panda": {
         "price": 3.5,
         "original_price": null,
@@ -6324,6 +6595,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/178800419/Ar_small.jpg?t=1787576099",
         "raw_product_id": "178800419"
+      },
+      "tamimi": {
+        "price": 3.25,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/3e17a10d-9621-485d-bc60-1701458d263f-4135041.webp",
+        "raw_product_id": "260580"
       }
     }
   },
@@ -6419,15 +6699,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/072/476/product/544900021895.png",
         "raw_product_id": "29883"
       },
-      "tamimi": {
-        "price": 18.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/3d798f74-83f5-4d6a-b9d2-1866c2aa75a4-4135021.webp",
-        "raw_product_id": "260583"
-      },
       "panda": {
         "price": 20.5,
         "original_price": null,
@@ -6436,6 +6707,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/164050080/Ar_small.jpg?t=1783236721",
         "raw_product_id": "164050080"
+      },
+      "tamimi": {
+        "price": 18.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260426/3d798f74-83f5-4d6a-b9d2-1866c2aa75a4-4135021.webp",
+        "raw_product_id": "260583"
       }
     }
   },
@@ -6587,15 +6867,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/070/796/product/9002490270599_1.jpg",
         "raw_product_id": "29783"
       },
-      "tamimi": {
-        "price": 259.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260201/88b9188f-4386-4f34-826b-bc2664815a40-4030713.webp",
-        "raw_product_id": "264852"
-      },
       "panda": {
         "price": 259.5,
         "original_price": null,
@@ -6604,6 +6875,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/3355280/Ar_small.jpg?t=1744675200",
         "raw_product_id": "3355280"
+      },
+      "tamimi": {
+        "price": 259.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260201/88b9188f-4386-4f34-826b-bc2664815a40-4030713.webp",
+        "raw_product_id": "264852"
       }
     }
   },
@@ -6658,8 +6938,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/181800612/Ar_small.jpg?t=1772536656",
-        "raw_product_id": "181800612"
+        "image_url": "https://images.todoorstep.com/product/181800583/Ar_small.jpg?t=1772536682",
+        "raw_product_id": "181800583"
       }
     }
   },
@@ -6699,15 +6979,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/068/818/product/8445291046979_1.jpg",
         "raw_product_id": "29277"
       },
-      "tamimi": {
-        "price": 5.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260218/6ed2127c-b1a6-4f30-b11c-7568d9644f99-4037961.webp",
-        "raw_product_id": "258316"
-      },
       "panda": {
         "price": 5.99,
         "original_price": null,
@@ -6716,6 +6987,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/181800567/Ar_small.jpg?t=1772536678",
         "raw_product_id": "181800567"
+      },
+      "tamimi": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260218/6ed2127c-b1a6-4f30-b11c-7568d9644f99-4037961.webp",
+        "raw_product_id": "258316"
       }
     }
   },
@@ -6755,15 +7035,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/055/133/product/628703410123.jpeg",
         "raw_product_id": "29017"
       },
-      "panda": {
-        "price": 2.5,
-        "original_price": 3.25,
-        "discount_amount": 0.75,
-        "discount_percentage": 23.08,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/180100462/Ar_small.jpg?t=1761129414",
-        "raw_product_id": "180100462"
-      },
       "tamimi": {
         "price": 2.05,
         "original_price": 2.75,
@@ -6772,6 +7043,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240828/4033991-20240828-120246.webp",
         "raw_product_id": "258320"
+      },
+      "panda": {
+        "price": 2.5,
+        "original_price": 3.25,
+        "discount_amount": 0.75,
+        "discount_percentage": 23.08,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/180100462/Ar_small.jpg?t=1761129414",
+        "raw_product_id": "180100462"
       }
     }
   },
@@ -6811,15 +7091,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/055/131/product/628703410113.jpeg",
         "raw_product_id": "29016"
       },
-      "tamimi": {
-        "price": 2.05,
-        "original_price": 2.75,
-        "discount_amount": 0.7,
-        "discount_percentage": 25.45,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240828/4033981-20240828-120803.webp",
-        "raw_product_id": "258321"
-      },
       "panda": {
         "price": 2.5,
         "original_price": 3.25,
@@ -6828,6 +7099,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/180100518/Ar_small.jpg?t=1761129425",
         "raw_product_id": "180100518"
+      },
+      "tamimi": {
+        "price": 2.05,
+        "original_price": 2.75,
+        "discount_amount": 0.7,
+        "discount_percentage": 25.45,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20240828/4033981-20240828-120803.webp",
+        "raw_product_id": "258321"
       }
     }
   },
@@ -6923,15 +7203,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/043/262/product/871200005534.jpg",
         "raw_product_id": "28424"
       },
-      "panda": {
-        "price": 5.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/171700212/Ar_small.jpg?t=1781600825",
-        "raw_product_id": "171700212"
-      },
       "tamimi": {
         "price": 5.0,
         "original_price": null,
@@ -6940,6 +7211,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250909/d0889e12-f6ab-4ea2-9083-b8824c67ec1f-4056671.webp",
         "raw_product_id": "262792"
+      },
+      "panda": {
+        "price": 5.5,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/171700212/Ar_small.jpg?t=1781600825",
+        "raw_product_id": "171700212"
       }
     }
   },
@@ -7035,15 +7315,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/050/869/product/6281034913533_%281%29.png",
         "raw_product_id": "28399"
       },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/5ce38807-7ef3-450d-ad06-984553339947-3991301.webp",
-        "raw_product_id": "264310"
-      },
       "panda": {
         "price": 1.99,
         "original_price": null,
@@ -7052,6 +7323,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/167300056/Ar_small.jpg?t=1744675200",
         "raw_product_id": "167300056"
+      },
+      "tamimi": {
+        "price": 2.0,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20260113/5ce38807-7ef3-450d-ad06-984553339947-3991301.webp",
+        "raw_product_id": "264310"
       }
     }
   },
@@ -7147,15 +7427,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/042/147/product/627100227196.jpg",
         "raw_product_id": "27933"
       },
-      "tamimi": {
-        "price": 9.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240811/1781871-20240811-130551.webp",
-        "raw_product_id": "248788"
-      },
       "panda": {
         "price": 8.5,
         "original_price": null,
@@ -7164,6 +7435,15 @@
         "has_discount": false,
         "image_url": "https://images.todoorstep.com/product/100141313/Ar_small.jpg?t=1787573866",
         "raw_product_id": "100141313"
+      },
+      "tamimi": {
+        "price": 9.95,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240811/1781871-20240811-130551.webp",
+        "raw_product_id": "248788"
       }
     }
   },
@@ -7371,15 +7651,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/041/711/product/628703410011.jpg",
         "raw_product_id": "27735"
       },
-      "panda": {
-        "price": 2.5,
-        "original_price": 3.25,
-        "discount_amount": 0.75,
-        "discount_percentage": 23.08,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/155850131/Ar_small.jpg?t=1761129408",
-        "raw_product_id": "155850131"
-      },
       "tamimi": {
         "price": 2.05,
         "original_price": 2.75,
@@ -7388,6 +7659,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/originals/20231225/399814_2-20231225-145207.png",
         "raw_product_id": "253249"
+      },
+      "panda": {
+        "price": 2.5,
+        "original_price": 3.25,
+        "discount_amount": 0.75,
+        "discount_percentage": 23.08,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/155850131/Ar_small.jpg?t=1761129408",
+        "raw_product_id": "155850131"
       }
     }
   },
@@ -7403,8 +7683,8 @@
     "barcode": "0628557200204",
     "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/041/217/product/628557200204.jpg",
     "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
+    "match_tier": "gs1_prefix_match",
+    "confidence_score": 0.94,
     "matched_stores_count": 3,
     "matched_stores": [
       "bindawood",
@@ -7442,8 +7722,8 @@
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/178000577/Ar_small.jpg?t=1772715118",
-        "raw_product_id": "178000577"
+        "image_url": "https://images.todoorstep.com/product/178000614/Ar_small.jpg?t=1772715120",
+        "raw_product_id": "178000614"
       }
     }
   },
@@ -7595,15 +7875,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/066/249/product/627100222218.jpg",
         "raw_product_id": "27321"
       },
-      "panda": {
-        "price": 28.99,
-        "original_price": 36.99,
-        "discount_amount": 8.0,
-        "discount_percentage": 21.63,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/100141314/Ar_small.jpg?t=1787573863",
-        "raw_product_id": "100141314"
-      },
       "tamimi": {
         "price": 29.99,
         "original_price": 37.95,
@@ -7612,6 +7883,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240811/2142753-20240811-130018.webp",
         "raw_product_id": "248808"
+      },
+      "panda": {
+        "price": 28.99,
+        "original_price": 36.99,
+        "discount_amount": 8.0,
+        "discount_percentage": 21.63,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/100141314/Ar_small.jpg?t=1787573863",
+        "raw_product_id": "100141314"
       }
     }
   },
@@ -7651,15 +7931,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/066/317/product/628101204699.jpg",
         "raw_product_id": "27299"
       },
-      "tamimi": {
-        "price": 15.75,
-        "original_price": 17.95,
-        "discount_amount": 2.2,
-        "discount_percentage": 12.26,
-        "has_discount": true,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250216/2271771-20250216-120450.webp",
-        "raw_product_id": "210780"
-      },
       "panda": {
         "price": 14.99,
         "original_price": 18.99,
@@ -7668,6 +7939,15 @@
         "has_discount": true,
         "image_url": "https://images.todoorstep.com/product/108250052/Ar_small.jpg?t=1787574890",
         "raw_product_id": "108250052"
+      },
+      "tamimi": {
+        "price": 15.75,
+        "original_price": 17.95,
+        "discount_amount": 2.2,
+        "discount_percentage": 12.26,
+        "has_discount": true,
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/1/images/640/20250216/2271771-20250216-120450.webp",
+        "raw_product_id": "210780"
       }
     }
   },
@@ -7692,10 +7972,10 @@
       "tamimi"
     ],
     "price_metrics": {
-      "avg_price": 7.22,
+      "avg_price": 7.55,
       "min_price": 6.75,
-      "max_price": 7.95,
-      "price_diff": 1.2
+      "max_price": 8.95,
+      "price_diff": 2.2
     },
     "stores_data": {
       "bindawood": {
@@ -7708,13 +7988,13 @@
         "raw_product_id": "27168"
       },
       "tamimi": {
-        "price": 7.95,
+        "price": 8.95,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20250728/f7e073bd-6b5b-4fe4-884b-2394c288f3cb-1110892.webp",
-        "raw_product_id": "2655"
+        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20220927/388251_1-20220927-060314.png",
+        "raw_product_id": "244353"
       },
       "panda": {
         "price": 6.75,
@@ -7875,15 +8155,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/044/894/product/628102612090.jpg",
         "raw_product_id": "26125"
       },
-      "panda": {
-        "price": 1.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/1115615/Ar_small.jpg?t=1787572333",
-        "raw_product_id": "1115615"
-      },
       "tamimi": {
         "price": 1.75,
         "original_price": null,
@@ -7892,6 +8163,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240812/1757812-20240812-063454.webp",
         "raw_product_id": "2756"
+      },
+      "panda": {
+        "price": 1.75,
+        "original_price": null,
+        "discount_amount": null,
+        "discount_percentage": null,
+        "has_discount": false,
+        "image_url": "https://images.todoorstep.com/product/1115615/Ar_small.jpg?t=1787572333",
+        "raw_product_id": "1115615"
       }
     }
   },
@@ -7931,15 +8211,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/044/890/product/628102612084.jpg",
         "raw_product_id": "26103"
       },
-      "panda": {
-        "price": 1.75,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/1115605/Ar_small.jpg?t=1780485780",
-        "raw_product_id": "1115605"
-      },
       "tamimi": {
         "price": 1.75,
         "original_price": null,
@@ -7948,62 +8219,15 @@
         "has_discount": false,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/175780_1-20231019-132706.png",
         "raw_product_id": "2753"
-      }
-    }
-  },
-  {
-    "product_name_ar": "الربيع شراب البرتقال ٢٥٠مل",
-    "product_name_en": "Al Rabie Orange Drink 250ml",
-    "brand": "Al Rabie",
-    "category": "beverages",
-    "size": 250.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 250.0,
-    "barcode": "0628102616400",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/038/005/product/628102616400.jpg",
-    "canonical_source": "bindawood",
-    "match_tier": "gs1_prefix_match",
-    "confidence_score": 0.94,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 2.25,
-      "min_price": 2.0,
-      "max_price": 2.5,
-      "price_diff": 0.5
-    },
-    "stores_data": {
-      "bindawood": {
-        "price": 2.25,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/038/005/product/628102616400.jpg",
-        "raw_product_id": "26098"
       },
       "panda": {
-        "price": 2.5,
+        "price": 1.75,
         "original_price": null,
         "discount_amount": null,
         "discount_percentage": null,
         "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/700785/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "700785"
-      },
-      "tamimi": {
-        "price": 2.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231204/103849_1-20231204-120343.png",
-        "raw_product_id": "2688"
+        "image_url": "https://images.todoorstep.com/product/1115605/Ar_small.jpg?t=1780485780",
+        "raw_product_id": "1115605"
       }
     }
   },
@@ -8064,118 +8288,6 @@
     }
   },
   {
-    "product_name_ar": "فولفيك مياه معدنية طبيعية ٠.٥لتر",
-    "product_name_en": "Volvic Mineral Water 0.5L",
-    "brand": "Volvic",
-    "category": "beverages",
-    "size": 500.0,
-    "unit": "ml",
-    "quantity": 1,
-    "total_size": 500.0,
-    "barcode": "0305764025313",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/037/967/product/305764025313.jpg",
-    "canonical_source": "bindawood",
-    "match_tier": "gs1_prefix_match",
-    "confidence_score": 0.94,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 8.57,
-      "min_price": 7.5,
-      "max_price": 9.25,
-      "price_diff": 1.75
-    },
-    "stores_data": {
-      "bindawood": {
-        "price": 7.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/037/967/product/305764025313.jpg",
-        "raw_product_id": "26073"
-      },
-      "tamimi": {
-        "price": 8.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/320/20231019/110501_2-20231019-120953.png",
-        "raw_product_id": "2636"
-      },
-      "panda": {
-        "price": 9.25,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/405545/Ar_small.jpg?t=1744675200",
-        "raw_product_id": "405545"
-      }
-    }
-  },
-  {
-    "product_name_ar": "سن كولا شراب بطعم الكولا بدون غازات ١٨*٢٥٠مل",
-    "product_name_en": "Suncola Non-Carbonated Cola Drink 18*250ml",
-    "brand": "Suncola",
-    "category": "beverages",
-    "size": 250.0,
-    "unit": "ml",
-    "quantity": 18,
-    "total_size": 4500.0,
-    "barcode": "0628101204554",
-    "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/037/842/product/628101204554.jpg",
-    "canonical_source": "bindawood",
-    "match_tier": "exact_barcode",
-    "confidence_score": 1.0,
-    "matched_stores_count": 3,
-    "matched_stores": [
-      "bindawood",
-      "panda",
-      "tamimi"
-    ],
-    "price_metrics": {
-      "avg_price": 36.15,
-      "min_price": 35.5,
-      "max_price": 36.95,
-      "price_diff": 1.45
-    },
-    "stores_data": {
-      "bindawood": {
-        "price": 36.95,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/037/842/product/628101204554.jpg",
-        "raw_product_id": "25981"
-      },
-      "panda": {
-        "price": 35.5,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://images.todoorstep.com/product/100204956/Ar_small.jpg?t=1787574335",
-        "raw_product_id": "100204956"
-      },
-      "tamimi": {
-        "price": 36.0,
-        "original_price": null,
-        "discount_amount": null,
-        "discount_percentage": null,
-        "has_discount": false,
-        "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20240811/1036783-20240811-135456.webp",
-        "raw_product_id": "234127"
-      }
-    }
-  },
-  {
     "product_name_ar": "اروى مياه شرب ٤٨*٢٠٠مل",
     "product_name_en": "Arwa Drinking Water 48*200ml",
     "brand": "Arwa",
@@ -8211,15 +8323,6 @@
         "image_url": "https://s3.eu-west-1.amazonaws.com/aym-bindawood-production/spree/images/attachments/000/037/657/product/544900027682.jpg",
         "raw_product_id": "25852"
       },
-      "panda": {
-        "price": 15.5,
-        "original_price": 26.99,
-        "discount_amount": 11.49,
-        "discount_percentage": 42.57,
-        "has_discount": true,
-        "image_url": "https://images.todoorstep.com/product/100155620/Ar_small.jpg?t=1780481653",
-        "raw_product_id": "100155620"
-      },
       "tamimi": {
         "price": 14.99,
         "original_price": 21.95,
@@ -8228,6 +8331,15 @@
         "has_discount": true,
         "image_url": "https://storage.googleapis.com/tm-zopsmart-uploads/2/images/originals/20260716/56129993-05a6-4f23-ac5c-2ee24a3f6ed9-3376601.webp",
         "raw_product_id": "238409"
+      },
+      "panda": {
+        "price": 15.5,
+        "original_price": 26.99,
+        "discount_amount": 11.49,
+        "discount_percentage": 42.57,
+        "has_discount": true,
+        "image_url": "https://images.todoorstep.com/product/100155620/Ar_small.jpg?t=1780481653",
+        "raw_product_id": "100155620"
       }
     }
   },

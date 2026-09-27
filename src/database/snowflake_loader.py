@@ -18,6 +18,7 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 load_dotenv(BASE_DIR / ".env")
 
 GOLD_DIR = BASE_DIR / "data" / "gold"
+REFERENCE_DIR = BASE_DIR / "data" / "reference"
 
 GOLD_FILES = [
     GOLD_DIR / "matched_dairy_and_eggs.json",
@@ -177,6 +178,67 @@ def init_database_objects(
     print("✓ Schema & Tables verified.\n")
 
 
+def sync_branch_coordinates(cursor) -> int:
+    """Sync reference coordinates by branch key without replacing branch metadata."""
+    import math
+
+    rows = []
+    keys = set()
+    for filename in ("bindawood_branches.json", "panda_branches.json", "tamimi_branches.json"):
+        branches = json.loads((REFERENCE_DIR / filename).read_text(encoding="utf-8"))
+        for branch in branches:
+            key = f"{branch['brand'].replace(' ', '_')}_{branch['id']}"
+            latitude = float(branch["LATITUDE"])
+            longitude = float(branch["LONGITUDE"])
+            if key in keys or not (
+                math.isfinite(latitude) and -90 <= latitude <= 90
+                and math.isfinite(longitude) and -180 <= longitude <= 180
+            ):
+                raise ValueError(f"Invalid or duplicate branch coordinates: {key}")
+            keys.add(key)
+            rows.append((key, latitude, longitude))
+
+    table = "GROCERY_TRACKER_DB.ANALYTICS.DIM_BRANCHES"
+    cursor.execute("""
+        CREATE OR REPLACE TEMPORARY TABLE GROCERY_TRACKER_DB.ANALYTICS.TMP_BRANCH_COORDINATES (
+            BRANCH_KEY VARCHAR(150), LATITUDE FLOAT, LONGITUDE FLOAT
+        )
+    """)
+    cursor.executemany(
+        "INSERT INTO GROCERY_TRACKER_DB.ANALYTICS.TMP_BRANCH_COORDINATES VALUES (%s, %s, %s)",
+        rows,
+    )
+    cursor.execute(f"""
+        SELECT s.BRANCH_KEY, COUNT(t.BRANCH_KEY)
+        FROM GROCERY_TRACKER_DB.ANALYTICS.TMP_BRANCH_COORDINATES s
+        LEFT JOIN {table} t ON t.BRANCH_KEY = s.BRANCH_KEY
+        GROUP BY s.BRANCH_KEY HAVING COUNT(t.BRANCH_KEY) <> 1
+    """)
+    invalid = cursor.fetchall()
+    if invalid:
+        raise ValueError(f"Branches missing or duplicated in Snowflake: {invalid}")
+
+    cursor.execute(f"ALTER TABLE {table} ADD COLUMN IF NOT EXISTS LATITUDE FLOAT")
+    cursor.execute(f"ALTER TABLE {table} ADD COLUMN IF NOT EXISTS LONGITUDE FLOAT")
+    cursor.execute(f"""
+        MERGE INTO {table} t
+        USING GROCERY_TRACKER_DB.ANALYTICS.TMP_BRANCH_COORDINATES s
+        ON t.BRANCH_KEY = s.BRANCH_KEY
+        WHEN MATCHED THEN UPDATE SET t.LATITUDE = s.LATITUDE, t.LONGITUDE = s.LONGITUDE
+    """)
+    cursor.execute(f"""
+        SELECT COUNT(*) FROM {table} t
+        JOIN GROCERY_TRACKER_DB.ANALYTICS.TMP_BRANCH_COORDINATES s
+          ON t.BRANCH_KEY = s.BRANCH_KEY
+        WHERE t.LATITUDE = s.LATITUDE AND t.LONGITUDE = s.LONGITUDE
+    """)
+    verified = cursor.fetchone()[0]
+    if verified != len(rows):
+        raise RuntimeError(f"Coordinate verification failed: {verified}/{len(rows)}")
+    print(f"[*] Verified coordinates for {verified} Snowflake branches.")
+    return verified
+
+
 def main() -> None:
 
     print(f"[*] Snowflake User: {SNOWFLAKE_CONFIG['user']}")
@@ -208,6 +270,7 @@ def main() -> None:
     print("✓ Connected successfully!\n")
 
     init_database_objects(cursor)
+    sync_branch_coordinates(cursor)
 
     # ============================================================
     # Load current Gold

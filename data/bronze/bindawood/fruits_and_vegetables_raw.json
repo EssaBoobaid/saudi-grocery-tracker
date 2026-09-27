@@ -30348,7 +30348,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": false,
+        "in_stock": true,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -71107,8 +71107,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 67,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 68,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "36992",
     "_highlightResult": {
@@ -71982,7 +71982,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": false,
+        "in_stock": true,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -88252,7 +88252,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": false,
+        "in_stock": true,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -142829,8 +142829,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 68,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 66,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "24623",
     "_highlightResult": {
@@ -143740,8 +143740,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 55,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 51,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "24622",
     "_highlightResult": {
@@ -144651,8 +144651,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 73,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 66,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "24621",
     "_highlightResult": {
@@ -172271,7 +172271,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": false,
+        "in_stock": true,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -173517,7 +173517,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": true,
+        "in_stock": false,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -177923,8 +177923,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 107,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 104,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "15471",
     "_highlightResult": {
@@ -184687,8 +184687,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 111,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 112,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "15458",
     "_highlightResult": {
@@ -186528,7 +186528,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": false,
+        "in_stock": true,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -199176,7 +199176,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": true,
+        "in_stock": false,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -199346,7 +199346,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": true,
+        "in_stock": false,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -199416,7 +199416,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": true,
+        "in_stock": false,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -200698,8 +200698,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 59,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 58,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "15436",
     "_highlightResult": {
@@ -202504,8 +202504,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 51,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 48,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "15434",
     "_highlightResult": {
@@ -215673,6 +215673,16 @@
         "cashback_tag": null,
         "cashback_tag_ar": null
       },
+      "199_": {
+        "price": null,
+        "original_price": null,
+        "on_sale": false,
+        "available": true,
+        "in_stock": false,
+        "savings_tag": null,
+        "cashback_tag": null,
+        "cashback_tag_ar": null
+      },
       "155_": {
         "price": "14.95",
         "original_price": null,
@@ -225979,8 +225989,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 45,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 42,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "11483",
     "_highlightResult": {
@@ -236409,7 +236419,7 @@
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
     "purchases_last_7_days": 58,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "11270",
     "_highlightResult": {
@@ -237316,8 +237326,8 @@
     "moq_limit": 0,
     "user_moq_limit_per_day": 0,
     "has_campaign_per_person_limit": false,
-    "purchases_last_7_days": 46,
-    "purchases_last_7_days_updated_at": 1789234319,
+    "purchases_last_7_days": 45,
+    "purchases_last_7_days_updated_at": 1789294901,
     "variants": [],
     "objectID": "11268",
     "_highlightResult": {
@@ -245144,7 +245154,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": true,
+        "in_stock": false,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -247833,7 +247843,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": false,
+        "in_stock": true,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null
@@ -253644,7 +253654,7 @@
         "original_price": null,
         "on_sale": false,
         "available": true,
-        "in_stock": true,
+        "in_stock": false,
         "savings_tag": null,
         "cashback_tag": null,
         "cashback_tag_ar": null

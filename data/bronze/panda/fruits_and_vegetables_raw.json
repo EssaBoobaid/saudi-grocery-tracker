@@ -423,7 +423,7 @@
         "use_sku_image_path": false,
         "id": 18705,
         "item_parent": null,
-        "price": "5.99",
+        "price": "3.33",
         "size": "0.5",
         "wighted": true,
         "barcode": "2553510000000",
@@ -448,12 +448,14 @@
         "nutrition": "",
         "note": "maximum 10",
         "note_color": "#AA0000",
-        "undiscounted_price": null,
+        "undiscounted_price": "5.99",
         "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
+        "show_discount": true,
+        "discount_label": "44% Off",
         "mix_match_promo": null,
-        "discount_labels": [],
+        "discount_labels": [
+          "44% Off"
+        ],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -463,122 +465,122 @@
           {
             "quantity_value": 0.5,
             "quantity_name": "0.5 KG",
-            "price": "3.00",
-            "undiscounted_price": null
+            "price": "1.67",
+            "undiscounted_price": "3.00"
           },
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "5.99",
-            "undiscounted_price": null
+            "price": "3.33",
+            "undiscounted_price": "5.99"
           },
           {
             "quantity_value": 1.5,
             "quantity_name": "1.5 KG",
-            "price": "8.98",
-            "undiscounted_price": null
+            "price": "5.00",
+            "undiscounted_price": "8.98"
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "11.98",
-            "undiscounted_price": null
+            "price": "6.66",
+            "undiscounted_price": "11.98"
           },
           {
             "quantity_value": 2.5,
             "quantity_name": "2.5 KG",
-            "price": "14.98",
-            "undiscounted_price": null
+            "price": "8.32",
+            "undiscounted_price": "14.98"
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "17.97",
-            "undiscounted_price": null
+            "price": "9.99",
+            "undiscounted_price": "17.97"
           },
           {
             "quantity_value": 3.5,
             "quantity_name": "3.5 KG",
-            "price": "20.96",
-            "undiscounted_price": null
+            "price": "11.66",
+            "undiscounted_price": "20.96"
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "23.96",
-            "undiscounted_price": null
+            "price": "13.32",
+            "undiscounted_price": "23.96"
           },
           {
             "quantity_value": 4.5,
             "quantity_name": "4.5 KG",
-            "price": "26.96",
-            "undiscounted_price": null
+            "price": "14.98",
+            "undiscounted_price": "26.96"
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "29.95",
-            "undiscounted_price": null
+            "price": "16.65",
+            "undiscounted_price": "29.95"
           },
           {
             "quantity_value": 5.5,
             "quantity_name": "5.5 KG",
-            "price": "32.95",
-            "undiscounted_price": null
+            "price": "18.32",
+            "undiscounted_price": "32.95"
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "35.94",
-            "undiscounted_price": null
+            "price": "19.98",
+            "undiscounted_price": "35.94"
           },
           {
             "quantity_value": 6.5,
             "quantity_name": "6.5 KG",
-            "price": "38.94",
-            "undiscounted_price": null
+            "price": "21.64",
+            "undiscounted_price": "38.94"
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "41.93",
-            "undiscounted_price": null
+            "price": "23.31",
+            "undiscounted_price": "41.93"
           },
           {
             "quantity_value": 7.5,
             "quantity_name": "7.5 KG",
-            "price": "44.93",
-            "undiscounted_price": null
+            "price": "24.98",
+            "undiscounted_price": "44.93"
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "47.92",
-            "undiscounted_price": null
+            "price": "26.64",
+            "undiscounted_price": "47.92"
           },
           {
             "quantity_value": 8.5,
             "quantity_name": "8.5 KG",
-            "price": "50.91",
-            "undiscounted_price": null
+            "price": "28.30",
+            "undiscounted_price": "50.91"
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "53.91",
-            "undiscounted_price": null
+            "price": "29.97",
+            "undiscounted_price": "53.91"
           },
           {
             "quantity_value": 9.5,
             "quantity_name": "9.5 KG",
-            "price": "56.91",
-            "undiscounted_price": null
+            "price": "31.64",
+            "undiscounted_price": "56.91"
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "59.90",
-            "undiscounted_price": null
+            "price": "33.30",
+            "undiscounted_price": "59.90"
           }
         ],
         "gift_note": {
@@ -1699,7 +1701,7 @@
         "use_sku_image_path": false,
         "id": 18742,
         "item_parent": null,
-        "price": "11.99",
+        "price": "5",
         "size": "0.25",
         "wighted": true,
         "barcode": "2552640000000",
@@ -1724,12 +1726,14 @@
         "nutrition": "",
         "note": "maximum 10",
         "note_color": "#AA0000",
-        "undiscounted_price": null,
+        "undiscounted_price": "11.99",
         "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
+        "show_discount": true,
+        "discount_label": "58% Off",
         "mix_match_promo": null,
-        "discount_labels": [],
+        "discount_labels": [
+          "58% Off"
+        ],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -1739,242 +1743,242 @@
           {
             "quantity_value": 0.25,
             "quantity_name": "0.25 KG",
-            "price": "3.00",
-            "undiscounted_price": null
+            "price": "1.25",
+            "undiscounted_price": "3.00"
           },
           {
             "quantity_value": 0.5,
             "quantity_name": "0.5 KG",
-            "price": "6.00",
-            "undiscounted_price": null
+            "price": "2.50",
+            "undiscounted_price": "6.00"
           },
           {
             "quantity_value": 0.75,
             "quantity_name": "0.75 KG",
-            "price": "8.99",
-            "undiscounted_price": null
+            "price": "3.75",
+            "undiscounted_price": "8.99"
           },
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "11.99",
-            "undiscounted_price": null
+            "price": "5.00",
+            "undiscounted_price": "11.99"
           },
           {
             "quantity_value": 1.25,
             "quantity_name": "1.25 KG",
-            "price": "14.99",
-            "undiscounted_price": null
+            "price": "6.25",
+            "undiscounted_price": "14.99"
           },
           {
             "quantity_value": 1.5,
             "quantity_name": "1.5 KG",
-            "price": "17.98",
-            "undiscounted_price": null
+            "price": "7.50",
+            "undiscounted_price": "17.98"
           },
           {
             "quantity_value": 1.75,
             "quantity_name": "1.75 KG",
-            "price": "20.98",
-            "undiscounted_price": null
+            "price": "8.75",
+            "undiscounted_price": "20.98"
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "23.98",
-            "undiscounted_price": null
+            "price": "10.00",
+            "undiscounted_price": "23.98"
           },
           {
             "quantity_value": 2.25,
             "quantity_name": "2.25 KG",
-            "price": "26.98",
-            "undiscounted_price": null
+            "price": "11.25",
+            "undiscounted_price": "26.98"
           },
           {
             "quantity_value": 2.5,
             "quantity_name": "2.5 KG",
-            "price": "29.98",
-            "undiscounted_price": null
+            "price": "12.50",
+            "undiscounted_price": "29.98"
           },
           {
             "quantity_value": 2.75,
             "quantity_name": "2.75 KG",
-            "price": "32.97",
-            "undiscounted_price": null
+            "price": "13.75",
+            "undiscounted_price": "32.97"
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "35.97",
-            "undiscounted_price": null
+            "price": "15.00",
+            "undiscounted_price": "35.97"
           },
           {
             "quantity_value": 3.25,
             "quantity_name": "3.25 KG",
-            "price": "38.97",
-            "undiscounted_price": null
+            "price": "16.25",
+            "undiscounted_price": "38.97"
           },
           {
             "quantity_value": 3.5,
             "quantity_name": "3.5 KG",
-            "price": "41.97",
-            "undiscounted_price": null
+            "price": "17.50",
+            "undiscounted_price": "41.97"
           },
           {
             "quantity_value": 3.75,
             "quantity_name": "3.75 KG",
-            "price": "44.96",
-            "undiscounted_price": null
+            "price": "18.75",
+            "undiscounted_price": "44.96"
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "47.96",
-            "undiscounted_price": null
+            "price": "20.00",
+            "undiscounted_price": "47.96"
           },
           {
             "quantity_value": 4.25,
             "quantity_name": "4.25 KG",
-            "price": "50.96",
-            "undiscounted_price": null
+            "price": "21.25",
+            "undiscounted_price": "50.96"
           },
           {
             "quantity_value": 4.5,
             "quantity_name": "4.5 KG",
-            "price": "53.95",
-            "undiscounted_price": null
+            "price": "22.50",
+            "undiscounted_price": "53.95"
           },
           {
             "quantity_value": 4.75,
             "quantity_name": "4.75 KG",
-            "price": "56.95",
-            "undiscounted_price": null
+            "price": "23.75",
+            "undiscounted_price": "56.95"
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "59.95",
-            "undiscounted_price": null
+            "price": "25.00",
+            "undiscounted_price": "59.95"
           },
           {
             "quantity_value": 5.25,
             "quantity_name": "5.25 KG",
-            "price": "62.95",
-            "undiscounted_price": null
+            "price": "26.25",
+            "undiscounted_price": "62.95"
           },
           {
             "quantity_value": 5.5,
             "quantity_name": "5.5 KG",
-            "price": "65.95",
-            "undiscounted_price": null
+            "price": "27.50",
+            "undiscounted_price": "65.95"
           },
           {
             "quantity_value": 5.75,
             "quantity_name": "5.75 KG",
-            "price": "68.94",
-            "undiscounted_price": null
+            "price": "28.75",
+            "undiscounted_price": "68.94"
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "71.94",
-            "undiscounted_price": null
+            "price": "30.00",
+            "undiscounted_price": "71.94"
           },
           {
             "quantity_value": 6.25,
             "quantity_name": "6.25 KG",
-            "price": "74.94",
-            "undiscounted_price": null
+            "price": "31.25",
+            "undiscounted_price": "74.94"
           },
           {
             "quantity_value": 6.5,
             "quantity_name": "6.5 KG",
-            "price": "77.94",
-            "undiscounted_price": null
+            "price": "32.50",
+            "undiscounted_price": "77.94"
           },
           {
             "quantity_value": 6.75,
             "quantity_name": "6.75 KG",
-            "price": "80.93",
-            "undiscounted_price": null
+            "price": "33.75",
+            "undiscounted_price": "80.93"
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "83.93",
-            "undiscounted_price": null
+            "price": "35.00",
+            "undiscounted_price": "83.93"
           },
           {
             "quantity_value": 7.25,
             "quantity_name": "7.25 KG",
-            "price": "86.93",
-            "undiscounted_price": null
+            "price": "36.25",
+            "undiscounted_price": "86.93"
           },
           {
             "quantity_value": 7.5,
             "quantity_name": "7.5 KG",
-            "price": "89.92",
-            "undiscounted_price": null
+            "price": "37.50",
+            "undiscounted_price": "89.92"
           },
           {
             "quantity_value": 7.75,
             "quantity_name": "7.75 KG",
-            "price": "92.92",
-            "undiscounted_price": null
+            "price": "38.75",
+            "undiscounted_price": "92.92"
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "95.92",
-            "undiscounted_price": null
+            "price": "40.00",
+            "undiscounted_price": "95.92"
           },
           {
             "quantity_value": 8.25,
             "quantity_name": "8.25 KG",
-            "price": "98.92",
-            "undiscounted_price": null
+            "price": "41.25",
+            "undiscounted_price": "98.92"
           },
           {
             "quantity_value": 8.5,
             "quantity_name": "8.5 KG",
-            "price": "101.92",
-            "undiscounted_price": null
+            "price": "42.50",
+            "undiscounted_price": "101.92"
           },
           {
             "quantity_value": 8.75,
             "quantity_name": "8.75 KG",
-            "price": "104.91",
-            "undiscounted_price": null
+            "price": "43.75",
+            "undiscounted_price": "104.91"
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "107.91",
-            "undiscounted_price": null
+            "price": "45.00",
+            "undiscounted_price": "107.91"
           },
           {
             "quantity_value": 9.25,
             "quantity_name": "9.25 KG",
-            "price": "110.91",
-            "undiscounted_price": null
+            "price": "46.25",
+            "undiscounted_price": "110.91"
           },
           {
             "quantity_value": 9.5,
             "quantity_name": "9.5 KG",
-            "price": "113.91",
-            "undiscounted_price": null
+            "price": "47.50",
+            "undiscounted_price": "113.91"
           },
           {
             "quantity_value": 9.75,
             "quantity_name": "9.75 KG",
-            "price": "116.90",
-            "undiscounted_price": null
+            "price": "48.75",
+            "undiscounted_price": "116.90"
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "119.90",
-            "undiscounted_price": null
+            "price": "50.00",
+            "undiscounted_price": "119.90"
           }
         ],
         "gift_note": {
@@ -2876,7 +2880,7 @@
         "use_sku_image_path": false,
         "id": 18702,
         "item_parent": null,
-        "price": "15.99",
+        "price": "13.99",
         "size": "0.5",
         "wighted": true,
         "barcode": "2553720000000",
@@ -2916,121 +2920,121 @@
           {
             "quantity_value": 0.5,
             "quantity_name": "0.5 KG",
-            "price": "8.00",
+            "price": "7.00",
             "undiscounted_price": null
           },
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "15.99",
+            "price": "13.99",
             "undiscounted_price": null
           },
           {
             "quantity_value": 1.5,
             "quantity_name": "1.5 KG",
-            "price": "23.98",
+            "price": "20.98",
             "undiscounted_price": null
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "31.98",
+            "price": "27.98",
             "undiscounted_price": null
           },
           {
             "quantity_value": 2.5,
             "quantity_name": "2.5 KG",
-            "price": "39.98",
+            "price": "34.98",
             "undiscounted_price": null
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "47.97",
+            "price": "41.97",
             "undiscounted_price": null
           },
           {
             "quantity_value": 3.5,
             "quantity_name": "3.5 KG",
-            "price": "55.97",
+            "price": "48.97",
             "undiscounted_price": null
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "63.96",
+            "price": "55.96",
             "undiscounted_price": null
           },
           {
             "quantity_value": 4.5,
             "quantity_name": "4.5 KG",
-            "price": "71.95",
+            "price": "62.95",
             "undiscounted_price": null
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "79.95",
+            "price": "69.95",
             "undiscounted_price": null
           },
           {
             "quantity_value": 5.5,
             "quantity_name": "5.5 KG",
-            "price": "87.95",
+            "price": "76.95",
             "undiscounted_price": null
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "95.94",
+            "price": "83.94",
             "undiscounted_price": null
           },
           {
             "quantity_value": 6.5,
             "quantity_name": "6.5 KG",
-            "price": "103.94",
+            "price": "90.94",
             "undiscounted_price": null
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "111.93",
+            "price": "97.93",
             "undiscounted_price": null
           },
           {
             "quantity_value": 7.5,
             "quantity_name": "7.5 KG",
-            "price": "119.92",
+            "price": "104.92",
             "undiscounted_price": null
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "127.92",
+            "price": "111.92",
             "undiscounted_price": null
           },
           {
             "quantity_value": 8.5,
             "quantity_name": "8.5 KG",
-            "price": "135.91",
+            "price": "118.92",
             "undiscounted_price": null
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "143.91",
+            "price": "125.91",
             "undiscounted_price": null
           },
           {
             "quantity_value": 9.5,
             "quantity_name": "9.5 KG",
-            "price": "151.91",
+            "price": "132.91",
             "undiscounted_price": null
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "159.90",
+            "price": "139.90",
             "undiscounted_price": null
           }
         ],
@@ -3808,7 +3812,7 @@
         "use_sku_image_path": false,
         "id": 18703,
         "item_parent": null,
-        "price": "7.99",
+        "price": "3.33",
         "size": "0.5",
         "wighted": true,
         "barcode": "2551190000000",
@@ -3833,12 +3837,14 @@
         "nutrition": "",
         "note": "maximum 10",
         "note_color": "#AA0000",
-        "undiscounted_price": null,
+        "undiscounted_price": "7.99",
         "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
+        "show_discount": true,
+        "discount_label": "58% Off",
         "mix_match_promo": null,
-        "discount_labels": [],
+        "discount_labels": [
+          "58% Off"
+        ],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -3848,122 +3854,122 @@
           {
             "quantity_value": 0.5,
             "quantity_name": "0.5 KG",
-            "price": "4.00",
-            "undiscounted_price": null
+            "price": "1.67",
+            "undiscounted_price": "4.00"
           },
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "7.99",
-            "undiscounted_price": null
+            "price": "3.33",
+            "undiscounted_price": "7.99"
           },
           {
             "quantity_value": 1.5,
             "quantity_name": "1.5 KG",
-            "price": "11.98",
-            "undiscounted_price": null
+            "price": "5.00",
+            "undiscounted_price": "11.98"
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "15.98",
-            "undiscounted_price": null
+            "price": "6.66",
+            "undiscounted_price": "15.98"
           },
           {
             "quantity_value": 2.5,
             "quantity_name": "2.5 KG",
-            "price": "19.98",
-            "undiscounted_price": null
+            "price": "8.32",
+            "undiscounted_price": "19.98"
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "23.97",
-            "undiscounted_price": null
+            "price": "9.99",
+            "undiscounted_price": "23.97"
           },
           {
             "quantity_value": 3.5,
             "quantity_name": "3.5 KG",
-            "price": "27.96",
-            "undiscounted_price": null
+            "price": "11.66",
+            "undiscounted_price": "27.96"
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "31.96",
-            "undiscounted_price": null
+            "price": "13.32",
+            "undiscounted_price": "31.96"
           },
           {
             "quantity_value": 4.5,
             "quantity_name": "4.5 KG",
-            "price": "35.95",
-            "undiscounted_price": null
+            "price": "14.98",
+            "undiscounted_price": "35.95"
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "39.95",
-            "undiscounted_price": null
+            "price": "16.65",
+            "undiscounted_price": "39.95"
           },
           {
             "quantity_value": 5.5,
             "quantity_name": "5.5 KG",
-            "price": "43.95",
-            "undiscounted_price": null
+            "price": "18.32",
+            "undiscounted_price": "43.95"
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "47.94",
-            "undiscounted_price": null
+            "price": "19.98",
+            "undiscounted_price": "47.94"
           },
           {
             "quantity_value": 6.5,
             "quantity_name": "6.5 KG",
-            "price": "51.94",
-            "undiscounted_price": null
+            "price": "21.64",
+            "undiscounted_price": "51.94"
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "55.93",
-            "undiscounted_price": null
+            "price": "23.31",
+            "undiscounted_price": "55.93"
           },
           {
             "quantity_value": 7.5,
             "quantity_name": "7.5 KG",
-            "price": "59.93",
-            "undiscounted_price": null
+            "price": "24.98",
+            "undiscounted_price": "59.93"
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "63.92",
-            "undiscounted_price": null
+            "price": "26.64",
+            "undiscounted_price": "63.92"
           },
           {
             "quantity_value": 8.5,
             "quantity_name": "8.5 KG",
-            "price": "67.92",
-            "undiscounted_price": null
+            "price": "28.30",
+            "undiscounted_price": "67.92"
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "71.91",
-            "undiscounted_price": null
+            "price": "29.97",
+            "undiscounted_price": "71.91"
           },
           {
             "quantity_value": 9.5,
             "quantity_name": "9.5 KG",
-            "price": "75.91",
-            "undiscounted_price": null
+            "price": "31.64",
+            "undiscounted_price": "75.91"
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "79.90",
-            "undiscounted_price": null
+            "price": "33.30",
+            "undiscounted_price": "79.90"
           }
         ],
         "gift_note": {
@@ -8336,7 +8342,7 @@
         "use_sku_image_path": false,
         "id": 33091,
         "item_parent": null,
-        "price": "2.99",
+        "price": "3.99",
         "size": "250",
         "wighted": false,
         "barcode": "2510120000000",
@@ -10191,7 +10197,7 @@
         "use_sku_image_path": false,
         "id": 18751,
         "item_parent": null,
-        "price": "4.50",
+        "price": "3.33",
         "size": "3",
         "wighted": true,
         "barcode": "2552030000000",
@@ -10216,12 +10222,14 @@
         "nutrition": "",
         "note": "maximum 10",
         "note_color": "#AA0000",
-        "undiscounted_price": null,
+        "undiscounted_price": "4.50",
         "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
+        "show_discount": true,
+        "discount_label": "26% Off",
         "mix_match_promo": null,
-        "discount_labels": [],
+        "discount_labels": [
+          "26% Off"
+        ],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -10231,50 +10239,50 @@
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "13.50",
-            "undiscounted_price": null
+            "price": "9.99",
+            "undiscounted_price": "13.50"
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "18.00",
-            "undiscounted_price": null
+            "price": "13.32",
+            "undiscounted_price": "18.00"
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "22.50",
-            "undiscounted_price": null
+            "price": "16.65",
+            "undiscounted_price": "22.50"
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "27.00",
-            "undiscounted_price": null
+            "price": "19.98",
+            "undiscounted_price": "27.00"
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "31.50",
-            "undiscounted_price": null
+            "price": "23.31",
+            "undiscounted_price": "31.50"
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "36.00",
-            "undiscounted_price": null
+            "price": "26.64",
+            "undiscounted_price": "36.00"
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "40.50",
-            "undiscounted_price": null
+            "price": "29.97",
+            "undiscounted_price": "40.50"
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "45.00",
-            "undiscounted_price": null
+            "price": "33.30",
+            "undiscounted_price": "45.00"
           }
         ],
         "gift_note": {
@@ -11117,7 +11125,7 @@
         "use_sku_image_path": false,
         "id": 18718,
         "item_parent": null,
-        "price": "3.50",
+        "price": "2",
         "size": "1",
         "wighted": true,
         "barcode": "2550600000000",
@@ -11142,12 +11150,14 @@
         "nutrition": "",
         "note": "maximum 10",
         "note_color": "#AA0000",
-        "undiscounted_price": null,
+        "undiscounted_price": "3.50",
         "availability_desc": "Mostly unavailable",
-        "show_discount": false,
-        "discount_label": "",
+        "show_discount": true,
+        "discount_label": "43% Off",
         "mix_match_promo": null,
-        "discount_labels": [],
+        "discount_labels": [
+          "43% Off"
+        ],
         "discount_label_color": "#FF3B3B",
         "is_favorite": false,
         "member_price": false,
@@ -11157,62 +11167,62 @@
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "3.50",
-            "undiscounted_price": null
+            "price": "2.00",
+            "undiscounted_price": "3.50"
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "7.00",
-            "undiscounted_price": null
+            "price": "4.00",
+            "undiscounted_price": "7.00"
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "10.50",
-            "undiscounted_price": null
+            "price": "6.00",
+            "undiscounted_price": "10.50"
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "14.00",
-            "undiscounted_price": null
+            "price": "8.00",
+            "undiscounted_price": "14.00"
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "17.50",
-            "undiscounted_price": null
+            "price": "10.00",
+            "undiscounted_price": "17.50"
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "21.00",
-            "undiscounted_price": null
+            "price": "12.00",
+            "undiscounted_price": "21.00"
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "24.50",
-            "undiscounted_price": null
+            "price": "14.00",
+            "undiscounted_price": "24.50"
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "28.00",
-            "undiscounted_price": null
+            "price": "16.00",
+            "undiscounted_price": "28.00"
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "31.50",
-            "undiscounted_price": null
+            "price": "18.00",
+            "undiscounted_price": "31.50"
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "35.00",
-            "undiscounted_price": null
+            "price": "20.00",
+            "undiscounted_price": "35.00"
           }
         ],
         "gift_note": {
@@ -11304,134 +11314,6 @@
         "express": true,
         "bundles_included": false,
         "weighted_options": [],
-        "gift_note": {
-          "enabled": false,
-          "label": null
-        },
-        "cashback_enabled": false,
-        "cashback_price": "0",
-        "cashback_type": null,
-        "cashback_mode": null,
-        "cashback_min_qty": null,
-        "cashback_max_qty": null,
-        "cashback_message": null,
-        "life_style": null
-      }
-    ],
-    "_source_category_id": 352,
-    "_source_parent_category_id": 311,
-    "_source_page": 3,
-    "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=352&parent_category_id=311&page=3"
-  },
-  {
-    "id": 10702,
-    "brand_id": 561,
-    "category_id": 352,
-    "rank": 10084,
-    "filter_category_ids": [
-      583
-    ],
-    "custom_category_ids": [],
-    "name": "Grapefruit ",
-    "filter": "Fresh Fruits,ten-banner-promo",
-    "selected": null,
-    "brand": {
-      "id": 561,
-      "name": "",
-      "imageURL": null
-    },
-    "category": {
-      "id": 352,
-      "type": "category",
-      "color": "#c9d8d1",
-      "name": "Fruits & Vegetables",
-      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
-      "parent": 311
-    },
-    "varieties": [
-      {
-        "imageAr": false,
-        "imageEn": false,
-        "use_sku_image_path": false,
-        "id": 18738,
-        "item_parent": null,
-        "price": "3.33",
-        "size": "1.5",
-        "wighted": true,
-        "barcode": "2551390000000",
-        "sku": 454530,
-        "sides_images": 0,
-        "image_updated_at": "1744675200",
-        "unit": "KG",
-        "variety_options": null,
-        "weighted_interval": "1.50",
-        "description": "Grapefruit ",
-        "availability": 1,
-        "max_quantity": 10,
-        "min_quantity": 0,
-        "imageURL": "https://images.todoorstep.com/product/454530/Ar_small.jpg?t=1744675200",
-        "images": [
-          [
-            "https://images.todoorstep.com/product/454530/Ar.jpg?t=1744675200",
-            "https://images.todoorstep.com/product/454530/Ar_large.jpg?t=1744675200",
-            "https://images.todoorstep.com/product/454530/Ar_small.jpg?t=1744675200"
-          ]
-        ],
-        "nutrition": "",
-        "note": "maximum 10",
-        "note_color": "#AA0000",
-        "undiscounted_price": "6.99",
-        "availability_desc": "Mostly unavailable",
-        "show_discount": true,
-        "discount_label": "52% Off",
-        "mix_match_promo": null,
-        "discount_labels": [
-          "52% Off"
-        ],
-        "discount_label_color": "#FF3B3B",
-        "is_favorite": false,
-        "member_price": false,
-        "express": true,
-        "bundles_included": false,
-        "weighted_options": [
-          {
-            "quantity_value": 1.5,
-            "quantity_name": "1.5 KG",
-            "price": "5.00",
-            "undiscounted_price": "10.48"
-          },
-          {
-            "quantity_value": 3,
-            "quantity_name": "3 KG",
-            "price": "9.99",
-            "undiscounted_price": "20.97"
-          },
-          {
-            "quantity_value": 4.5,
-            "quantity_name": "4.5 KG",
-            "price": "14.98",
-            "undiscounted_price": "31.46"
-          },
-          {
-            "quantity_value": 6,
-            "quantity_name": "6 KG",
-            "price": "19.98",
-            "undiscounted_price": "41.94"
-          },
-          {
-            "quantity_value": 7.5,
-            "quantity_name": "7.5 KG",
-            "price": "24.98",
-            "undiscounted_price": "52.43"
-          },
-          {
-            "quantity_value": 9,
-            "quantity_name": "9 KG",
-            "price": "29.97",
-            "undiscounted_price": "62.91"
-          }
-        ],
         "gift_note": {
           "enabled": false,
           "label": null
@@ -12739,7 +12621,7 @@
         "use_sku_image_path": false,
         "id": 33279,
         "item_parent": null,
-        "price": "11.99",
+        "price": "13.99",
         "size": "0.5",
         "wighted": true,
         "barcode": "2571570000000",
@@ -12779,121 +12661,121 @@
           {
             "quantity_value": 0.5,
             "quantity_name": "0.5 KG",
-            "price": "6.00",
+            "price": "7.00",
             "undiscounted_price": null
           },
           {
             "quantity_value": 1,
             "quantity_name": "1 KG",
-            "price": "11.99",
+            "price": "13.99",
             "undiscounted_price": null
           },
           {
             "quantity_value": 1.5,
             "quantity_name": "1.5 KG",
-            "price": "17.98",
+            "price": "20.98",
             "undiscounted_price": null
           },
           {
             "quantity_value": 2,
             "quantity_name": "2 KG",
-            "price": "23.98",
+            "price": "27.98",
             "undiscounted_price": null
           },
           {
             "quantity_value": 2.5,
             "quantity_name": "2.5 KG",
-            "price": "29.98",
+            "price": "34.98",
             "undiscounted_price": null
           },
           {
             "quantity_value": 3,
             "quantity_name": "3 KG",
-            "price": "35.97",
+            "price": "41.97",
             "undiscounted_price": null
           },
           {
             "quantity_value": 3.5,
             "quantity_name": "3.5 KG",
-            "price": "41.97",
+            "price": "48.97",
             "undiscounted_price": null
           },
           {
             "quantity_value": 4,
             "quantity_name": "4 KG",
-            "price": "47.96",
+            "price": "55.96",
             "undiscounted_price": null
           },
           {
             "quantity_value": 4.5,
             "quantity_name": "4.5 KG",
-            "price": "53.95",
+            "price": "62.95",
             "undiscounted_price": null
           },
           {
             "quantity_value": 5,
             "quantity_name": "5 KG",
-            "price": "59.95",
+            "price": "69.95",
             "undiscounted_price": null
           },
           {
             "quantity_value": 5.5,
             "quantity_name": "5.5 KG",
-            "price": "65.95",
+            "price": "76.95",
             "undiscounted_price": null
           },
           {
             "quantity_value": 6,
             "quantity_name": "6 KG",
-            "price": "71.94",
+            "price": "83.94",
             "undiscounted_price": null
           },
           {
             "quantity_value": 6.5,
             "quantity_name": "6.5 KG",
-            "price": "77.94",
+            "price": "90.94",
             "undiscounted_price": null
           },
           {
             "quantity_value": 7,
             "quantity_name": "7 KG",
-            "price": "83.93",
+            "price": "97.93",
             "undiscounted_price": null
           },
           {
             "quantity_value": 7.5,
             "quantity_name": "7.5 KG",
-            "price": "89.92",
+            "price": "104.92",
             "undiscounted_price": null
           },
           {
             "quantity_value": 8,
             "quantity_name": "8 KG",
-            "price": "95.92",
+            "price": "111.92",
             "undiscounted_price": null
           },
           {
             "quantity_value": 8.5,
             "quantity_name": "8.5 KG",
-            "price": "101.92",
+            "price": "118.92",
             "undiscounted_price": null
           },
           {
             "quantity_value": 9,
             "quantity_name": "9 KG",
-            "price": "107.91",
+            "price": "125.91",
             "undiscounted_price": null
           },
           {
             "quantity_value": 9.5,
             "quantity_name": "9.5 KG",
-            "price": "113.91",
+            "price": "132.91",
             "undiscounted_price": null
           },
           {
             "quantity_value": 10,
             "quantity_name": "10 KG",
-            "price": "119.90",
+            "price": "139.90",
             "undiscounted_price": null
           }
         ],
@@ -16164,9 +16046,9 @@
     ],
     "_source_category_id": 352,
     "_source_parent_category_id": 311,
-    "_source_page": 4,
+    "_source_page": 3,
     "_source_locale": "en",
-    "_source_url": "https://panda.sa/en/plp?category_id=352&parent_category_id=311&page=4"
+    "_source_url": "https://panda.sa/en/plp?category_id=352&parent_category_id=311&page=3"
   },
   {
     "id": 161637,
@@ -19344,6 +19226,96 @@
         ],
         "nutrition": "",
         "note": "maximum 8",
+        "note_color": "#AA0000",
+        "undiscounted_price": null,
+        "availability_desc": "Mostly unavailable",
+        "show_discount": false,
+        "discount_label": "",
+        "mix_match_promo": null,
+        "discount_labels": [],
+        "discount_label_color": "#FF3B3B",
+        "is_favorite": false,
+        "member_price": false,
+        "express": true,
+        "bundles_included": false,
+        "weighted_options": [],
+        "gift_note": {
+          "enabled": false,
+          "label": null
+        },
+        "cashback_enabled": false,
+        "cashback_price": "0",
+        "cashback_type": null,
+        "cashback_mode": null,
+        "cashback_min_qty": null,
+        "cashback_max_qty": null,
+        "cashback_message": null,
+        "life_style": null
+      }
+    ],
+    "_source_category_id": 352,
+    "_source_parent_category_id": 311,
+    "_source_page": 4,
+    "_source_locale": "en",
+    "_source_url": "https://panda.sa/en/plp?category_id=352&parent_category_id=311&page=4"
+  },
+  {
+    "id": 29640,
+    "brand_id": 561,
+    "category_id": 352,
+    "rank": 10299,
+    "filter_category_ids": [
+      584,
+      583
+    ],
+    "custom_category_ids": null,
+    "name": "Imported Strawberry 250g",
+    "filter": "fefteen-banner-promo",
+    "selected": null,
+    "brand": {
+      "id": 561,
+      "name": "",
+      "imageURL": null
+    },
+    "category": {
+      "id": 352,
+      "type": "category",
+      "color": "#c9d8d1",
+      "name": "Fruits & Vegetables",
+      "imageURL": "https://todoorstep.s3.amazonaws.com/app-assets/categoryicons/Drinks",
+      "parent": 311
+    },
+    "varieties": [
+      {
+        "imageAr": false,
+        "imageEn": false,
+        "use_sku_image_path": false,
+        "id": 39734,
+        "item_parent": null,
+        "price": "18.99",
+        "size": "250",
+        "wighted": false,
+        "barcode": "6223001752060",
+        "sku": 100121317,
+        "sides_images": 0,
+        "image_updated_at": "1780480586",
+        "unit": "gm",
+        "variety_options": null,
+        "weighted_interval": "0.00",
+        "description": "Imported Strawberry 250g",
+        "availability": 1,
+        "max_quantity": 10,
+        "min_quantity": 0,
+        "imageURL": "https://images.todoorstep.com/product/100121317/Ar_small.jpg?t=1780480586",
+        "images": [
+          [
+            "https://images.todoorstep.com/product/100121317/Ar.jpg?t=1780480586",
+            "https://images.todoorstep.com/product/100121317/Ar_large.jpg?t=1780480586",
+            "https://images.todoorstep.com/product/100121317/Ar_small.jpg?t=1780480586"
+          ]
+        ],
+        "nutrition": "",
+        "note": "maximum 10",
         "note_color": "#AA0000",
         "undiscounted_price": null,
         "availability_desc": "Mostly unavailable",
