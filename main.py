@@ -62,9 +62,9 @@ def run_gold():
     match_gastat_produce()
 
 
-# 4. DATABASE (PostgreSQL Storage)
+# 4. DATABASE (Snowflake Storage)
 def run_database():
-    from src.database.db_loader import main as load_to_db
+    from src.database.snowflake_loader import main as load_to_db
     load_to_db()
 
 
@@ -77,7 +77,7 @@ def main():
     execute_stage("1. BRONZE (Extraction)", run_bronze)
     execute_stage("2. SILVER (Cleaning & Normalization)", run_silver)
     execute_stage("3. GOLD (Clustering & Matching)", run_gold)
-    execute_stage("4. DATABASE (PostgreSQL Storage)", run_database)
+    execute_stage("4. DATABASE (Snowflake Storage)", run_database)
 
     total_time = round(time.time() - pipeline_start, 2)
     print("\n" + "#" * 70)
